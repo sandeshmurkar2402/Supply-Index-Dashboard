@@ -685,7 +685,8 @@ function achievedNote(achieved, target) {
   return `<strong>${fmtNum(achieved)}</strong>${att === null ? '' : ` <span class="pct">(${fmtPct(att, 0)})</span>`}`;
 }
 function groupSupplyCard(line, name, m) {
-  let rows = supplyRow('Session-date target', fmtNum(m.sessionTarget))
+  let rows = supplyRow('Sessions', fmtNum(m.sessions))
+    + supplyRow('Session-date target', fmtNum(m.sessionTarget))
     + supplyRow('Phasing target (purchase date)', fmtNum(m.phasingTarget));
 
   let secondary = '';
@@ -794,12 +795,14 @@ function renderRange(root, from, to) {
   html += `<div class="section-title">Supply — Business Lines</div>`;
   html += `<div class="grid-3">`;
   html += groupSupplyCard('online', 'Group Online', {
+    sessions: sum(days, d => d.groupOnline.sessions),
     sessionTarget: sum(days, d => d.groupOnline.sessionTarget),
     sessionAchieved: sumIfAny(days, d => d.groupOnline.sessionAchieved),
     phasingTarget: sum(days, d => d.groupOnline.phasingTarget),
     phasingAchieved: sumIfAny(days, d => d.groupOnline.phasingAchieved),
   });
   html += groupSupplyCard('offline', 'Group Offline', {
+    sessions: sum(days, d => d.offline.sessions),
     sessionTarget: sum(days, d => d.offline.sessionTarget),
     sessionAchieved: sumIfAny(days, d => d.offline.sessionAchieved),
     phasingTarget: sum(days, d => d.offline.phasingTarget),
@@ -957,19 +960,30 @@ function renderBusinessLineDetail(days, todayISO, periodEndISO) {
   } else {
     const line = BL_CONFIG[BL_TAB];
     const lineColor = COLORS[line.colorKey];
-    const dayDetails = days.map(d => leaderDayDetail(d, todayISO));
-    const phasingDayDetails = days.map(d => phasingLeaderDayDetail(d));
+    const isOnline = BL_TAB === 'online';
 
-    html += tableCard(`Paid Group Sessions — Summary`,
-      ['Leader', 'Target', 'Missed', 'Achieved'],
-      mergeLeaderSummary(days, todayISO).map(l =>
-        [l.name, fmtNum(l.target), l.hasElapsed ? fmtNum(l.missed) : '—', l.hasElapsed ? fmtNum(l.achieved) : '—']));
+    // The sheet's leader-wise breakdown (session-date targets/missed AND phasing
+    // targets) lives in the Budget Phasing sheet's Group Online section — Offline's
+    // numbers come from a separate sheet with no leader-level column at all, so
+    // there's no real per-leader offline data to show here.
+    let dayDetails = null, phasingDayDetails = null;
+    if (isOnline) {
+      dayDetails = days.map(d => leaderDayDetail(d, todayISO));
+      phasingDayDetails = days.map(d => phasingLeaderDayDetail(d));
+
+      html += tableCard(`Paid Group Sessions — Summary`,
+        ['Leader', 'Target', 'Missed', 'Achieved'],
+        mergeLeaderSummary(days, todayISO).map(l =>
+          [l.name, fmtNum(l.target), l.hasElapsed ? fmtNum(l.missed) : '—', l.hasElapsed ? fmtNum(l.achieved) : '—']));
+    } else {
+      html += `<p class="card-hint" style="margin:0 0 12px;">Leader-wise targets aren&rsquo;t tracked separately for offline sessions in the source sheet.</p>`;
+    }
 
     html += `<div class="grid-2" style="margin-top:14px;">`;
     html += chartInWrap(`${line.label} — Sessions, Target &amp; Achieved (Session Date)`, () =>
-      renderBarChart(cats, sessionSeries(days, line.get, lineColor), { dayDetails }));
+      renderBarChart(cats, sessionSeries(days, line.get, lineColor), dayDetails ? { dayDetails } : {}));
     html += chartInWrap(`${line.label} — Phasing Target &amp; Achieved (Purchase Date)`, () =>
-      renderBarChart(cats, targetAchievedSeries(days, d => line.get(d).phasingTarget, d => line.get(d).phasingAchieved, lineColor), { dayDetails: phasingDayDetails }));
+      renderBarChart(cats, targetAchievedSeries(days, d => line.get(d).phasingTarget, d => line.get(d).phasingAchieved, lineColor), phasingDayDetails ? { dayDetails: phasingDayDetails } : {}));
     html += `</div>`;
 
     html += dayByDayLineTable(BL_TAB, days);
