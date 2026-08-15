@@ -3,3 +3,5 @@ credentials.json
 *.pyc
 __pycache__/
 .DS_Store
+server.log
+_chrome_profile/

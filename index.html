@@ -175,10 +175,13 @@
     border: none; background: transparent; color: var(--text-2); font-size: 0.8rem; font-weight: 600;
     padding: 7px 14px; border-radius: 7px; cursor: pointer; white-space: nowrap;
   }
-  .tab-btn.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px var(--border); }
+  .tab-btn.active { background: var(--blue); color: #fff; box-shadow: none; }
   .tab-btn:hover:not(.active) { color: var(--text); }
 
   .range-label { font-size: 0.78rem; color: var(--muted); margin-left: 4px; }
+
+  .bl-tabs { margin-bottom: 14px; }
+  .bl-tabs .tab-btn { font-size: 0.76rem; padding: 6px 12px; }
 
   .custom-range-box {
     display: none; align-items: center; gap: 8px; flex-wrap: wrap;
@@ -222,14 +225,20 @@
 
   /* ── Business-line card ─────────────────────────────── */
   .bl-card::before {
-    content: ''; display: block; width: 30px; height: 3px; border-radius: 2px; margin-bottom: 10px;
+    content: ''; display: block; width: 34px; height: 4px; border-radius: 2px; margin-bottom: 10px;
   }
+  .bl-card[data-line="online"]  { background: color-mix(in srgb, var(--blue) 7%, var(--surface)); border-color: color-mix(in srgb, var(--blue) 28%, var(--border-strong)); }
+  .bl-card[data-line="offline"] { background: color-mix(in srgb, var(--orange) 7%, var(--surface)); border-color: color-mix(in srgb, var(--orange) 28%, var(--border-strong)); }
+  .bl-card[data-line="1on1"]    { background: color-mix(in srgb, var(--aqua) 8%, var(--surface)); border-color: color-mix(in srgb, var(--aqua) 28%, var(--border-strong)); }
   .bl-card[data-line="online"]::before  { background: var(--blue); }
   .bl-card[data-line="offline"]::before { background: var(--orange); }
   .bl-card[data-line="1on1"]::before    { background: var(--aqua); }
 
   .bl-label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; margin-bottom: 2px; }
   .bl-name  { font-size: 0.98rem; font-weight: 700; margin-bottom: 12px; }
+  .bl-card[data-line="online"]  .bl-name { color: color-mix(in srgb, var(--blue) 65%, var(--text)); }
+  .bl-card[data-line="offline"] .bl-name { color: color-mix(in srgb, var(--orange) 65%, var(--text)); }
+  .bl-card[data-line="1on1"]    .bl-name { color: color-mix(in srgb, var(--aqua) 65%, var(--text)); }
 
   .meter-row { margin-bottom: 12px; }
   .meter-row:last-child { margin-bottom: 0; }
@@ -239,6 +248,22 @@
   .meter-track { height: 7px; border-radius: 4px; overflow: hidden; position: relative; }
   .meter-fill  { height: 100%; border-radius: 4px; transition: width .3s; }
   .meter-na { font-size: 0.72rem; color: var(--muted); font-style: italic; }
+
+  /* ── Supply card (stat rows, no progress bars — this dashboard leads with availability, not attainment) ── */
+  .supply-list { display: flex; flex-direction: column; }
+  .supply-row {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+    padding: 6px 0; border-bottom: 1px solid var(--border);
+  }
+  .supply-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .supply-row:first-child { padding-top: 0; }
+  .supply-row .s-label { font-size: 0.76rem; color: var(--text-2); }
+  .supply-row .s-value { font-size: 0.92rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .supply-row.secondary { padding-top: 8px; margin-top: 2px; border-top: 1px dashed var(--border-strong); border-bottom: none; align-items: flex-start; }
+  .supply-row.secondary + .supply-row.secondary { border-top: none; margin-top: 0; padding-top: 4px; }
+  .supply-row.secondary .s-label { color: var(--muted); font-size: 0.7rem; white-space: nowrap; flex-shrink: 0; }
+  .supply-row.secondary .s-value { font-size: 0.76rem; font-weight: 600; color: var(--text-2); text-align: right; }
+  .supply-row.secondary .s-value .pct { color: var(--muted); font-weight: 500; }
 
   /* ── Stat tile ──────────────────────────────────────── */
   .stat-tile {
@@ -296,11 +321,17 @@
     padding: 8px 10px; border-radius: 7px; font-size: 0.72rem; z-index: 500; opacity: 0;
     transition: opacity .1s; max-width: 220px; box-shadow: 0 4px 14px rgba(0,0,0,.25);
   }
+  #chart-tooltip.has-leaders { max-width: 280px; }
   #chart-tooltip.show { opacity: 1; }
   #chart-tooltip .tt-title { font-weight: 700; margin-bottom: 4px; }
   #chart-tooltip .tt-row { display: flex; align-items: center; gap: 6px; justify-content: space-between; gap: 12px; }
   #chart-tooltip .tt-key { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }
   #chart-tooltip .tt-val { font-weight: 700; }
+  #chart-tooltip .tt-leaders { margin-top: 7px; padding-top: 7px; border-top: 1px solid color-mix(in srgb, var(--page) 25%, transparent); }
+  #chart-tooltip .tt-leaders-hdr { font-size: 0.62rem; text-transform: uppercase; letter-spacing: .05em; opacity: .65; margin-bottom: 4px; }
+  #chart-tooltip .tt-leader-row { display: flex; justify-content: space-between; gap: 12px; padding: 1.5px 0; }
+  #chart-tooltip .tt-leader-name { opacity: .9; }
+  #chart-tooltip .tt-leader-val { font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
   /* ── Loading / error ────────────────────────────────── */
   @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
@@ -396,8 +427,6 @@
   <div class="tabs" id="tab-bar">
     <button class="tab-btn" data-tab="today">Today</button>
     <button class="tab-btn" data-tab="yesterday">Yesterday</button>
-    <button class="tab-btn" data-tab="week">This Week</button>
-    <button class="tab-btn" data-tab="month">This Month</button>
     <button class="tab-btn" data-tab="custom">Custom Range</button>
   </div>
   <span class="range-label" id="range-label"></span>
@@ -454,12 +483,25 @@ let DAY_MAP = new Map();  // date -> day object
 let DATES = [];           // sorted list of ISO dates present
 let CURRENT_TAB = 'today';
 let CUSTOM_FROM = null, CUSTOM_TO = null;
+let BL_TAB = 'online';
+function setBLTab(line) {
+  BL_TAB = line;
+  render();
+}
 
 /* ════════════════════════ THEME ════════════════════════ */
+function refreshColors() {
+  Object.assign(COLORS, {
+    online: getVar('--blue'), offline: getVar('--orange'), oneOnOne: getVar('--aqua'),
+    target: getVar('--deemph-fill'), targetLine: getVar('--deemph'),
+    good: getVar('--good'), critical: getVar('--critical'),
+  });
+}
 function initTheme() {
   const saved = localStorage.getItem(THEME_KEY);
   if (saved) document.documentElement.setAttribute('data-theme', saved);
   updateThemeIcon();
+  refreshColors();
 }
 function toggleTheme() {
   const cur = document.documentElement.getAttribute('data-theme');
@@ -469,11 +511,7 @@ function toggleTheme() {
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem(THEME_KEY, next);
   updateThemeIcon();
-  Object.assign(COLORS, {
-    online: getVar('--blue'), offline: getVar('--orange'), oneOnOne: getVar('--aqua'),
-    target: getVar('--deemph-fill'), targetLine: getVar('--deemph'),
-    good: getVar('--good'), critical: getVar('--critical'),
-  });
+  refreshColors();
   if (DATA) render();
 }
 function updateThemeIcon() {
@@ -517,19 +555,6 @@ function isoToday() {
 function addDays(iso, n) {
   const d = new Date(iso + 'T00:00:00');
   d.setDate(d.getDate() + n);
-  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-}
-function startOfWeek(iso) { // Monday
-  const d = new Date(iso + 'T00:00:00');
-  const day = (d.getDay() + 6) % 7; // 0 = Monday
-  d.setDate(d.getDate() - day);
-  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-}
-function startOfMonth(iso) {
-  return iso.slice(0, 7) + '-01';
-}
-function endOfMonth(iso) {
-  const d = new Date(iso.slice(0,4)*1, iso.slice(5,7)*1, 0);
   return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
 }
 
@@ -609,20 +634,13 @@ function render() {
   } else if (CURRENT_TAB === 'yesterday') {
     document.getElementById('range-label').textContent = '';
     renderSingleDay(dash, addDays(today, -1));
-  } else if (CURRENT_TAB === 'week') {
-    const from = startOfWeek(today), to = addDays(from, 6);
-    document.getElementById('range-label').textContent = `${fmtDateShort(from)} – ${fmtDateShort(to)}`;
-    renderRange(dash, from, to);
-  } else if (CURRENT_TAB === 'month') {
-    const from = startOfMonth(today), to = endOfMonth(today);
-    document.getElementById('range-label').textContent = new Date(today+'T00:00:00').toLocaleDateString(undefined,{month:'long',year:'numeric'});
-    renderRange(dash, from, to);
   } else if (CURRENT_TAB === 'custom') {
     if (!CUSTOM_FROM || !CUSTOM_TO) {
-      const from = addDays(today, -6);
-      document.getElementById('range-from').value = from;
-      document.getElementById('range-to').value = today;
-      CUSTOM_FROM = from; CUSTOM_TO = today;
+      // Default to the upcoming week — this view is for planning ahead, not looking back.
+      const to = addDays(today, 6);
+      document.getElementById('range-from').value = today;
+      document.getElementById('range-to').value = to;
+      CUSTOM_FROM = today; CUSTOM_TO = to;
     }
     document.getElementById('range-label').textContent = `${fmtDateShort(CUSTOM_FROM)} – ${fmtDateShort(CUSTOM_TO)}`;
     renderRange(dash, CUSTOM_FROM, CUSTOM_TO);
@@ -636,80 +654,71 @@ function renderSingleDay(root, iso) {
     root.innerHTML = `<div class="empty-note" style="margin-top:24px;">No data available for ${fmtDateLong(iso)}.</div>`;
     return;
   }
-
-  const go = day.groupOnline, off = day.offline, oo = day.oneOnOne;
+  const todayISO = resolveTodayISO();
 
   let html = '';
   html += `<div class="day-heading">${fmtDateLong(iso)}</div>`;
 
-  html += `<div class="section-title">Business Lines — Session Date vs Phasing (Purchase Date)</div>`;
+  html += `<div class="section-title">Supply — Business Lines</div>`;
   html += `<div class="grid-3">`;
-  html += blCard('online', 'Group Online', go);
-  html += blCard('offline', 'Group Offline', off);
-  html += blCard('1on1', '1:1 Sessions', { sessionTarget: null, sessionAchieved: null, phasingTarget: oo.phasingTarget, phasingAchieved: oo.phasingAchieved }, true);
+  html += groupSupplyCard('online', 'Group Online', day.groupOnline);
+  html += groupSupplyCard('offline', 'Group Offline', day.offline);
+  html += oneOnOneSupplyCard(day);
   html += `</div>`;
 
-  html += `<div class="section-title">1:1 Supply — Today</div>`;
-  html += `<div class="grid-4">`;
-  html += statTile('Leaders with slots', fmtNum(day.oneOnOneSlots.leadersWithSlots));
-  html += statTile('Leaders available today', fmtNum(day.oneOnOneSlots.leadersAvailableToday));
-  html += statTile('Slots filled today', fmtNum(day.slotsFilledToday),
-    day.slotsFilledToday === null ? 'Not final until day ends' : fmtPct(day.pctSlotsFilledToday) + ' of available');
-  html += statTile('1:1 page views', fmtNum(day.pageViews.total1on1),
-    day.pageViews.total1on1 === null ? 'Not final until day ends' : `${fmtPct(day.pageViews.pctSlotsAvailable)} to slots page`);
-  html += `</div>`;
-
-  html += `<div class="grid-2" style="margin-top:14px;">`;
-  html += chartCard('slots-lookahead', '1:1 Slots Available — Today through T+7', () =>
-    renderBarChart(['Today','T+1','T+2','T+3','T+4','T+5','T+6','T+7'],
-      [{ name: 'Slots available', color: COLORS.oneOnOne,
-         data: [day.oneOnOneSlots.today, day.oneOnOneSlots.t1, day.oneOnOneSlots.t2, day.oneOnOneSlots.t3,
-                day.oneOnOneSlots.t4, day.oneOnOneSlots.t5, day.oneOnOneSlots.t6, day.oneOnOneSlots.t7] }])
-  );
-  html += tableCard('Category — Leaders & Slots Available (Today)',
-    ['Category', 'Leaders', 'Slots'],
-    day.categoryBreakdown.map(c => [c.category, fmtNum(c.leaders), fmtNum(c.slots)]));
-  html += `</div>`;
-
-  html += `<div class="grid-2" style="margin-top:14px;">`;
-  html += tableCard('Top Selling Leaders — Slots Available (Today)',
-    ['Leader', 'Slots'],
-    day.topLeaderSlots.map(l => [l.name, fmtNum(l.slots)]));
-  html += tableCard('Paid Group Sessions — Leader Performance',
-    ['Leader', 'Target', 'Missed', 'Achieved'],
-    mergeLeaderPerf([day]).map(l => [l.name, fmtNum(l.target), fmtNum(l.missed), fmtNum(l.achieved)]));
-  html += `</div>`;
+  html += renderBusinessLineDetail([day], todayISO, iso);
 
   root.innerHTML = html;
   mountCharts(root);
 }
-
-function blCard(line, name, m, hidePhasingLabel) {
-  const sessAtt = attainment(m.sessionAchieved, m.sessionTarget);
-  const phAtt = attainment(m.phasingAchieved, m.phasingTarget);
-  let body = `<div class="bl-card card" data-line="${line}"><div class="bl-label">Business line</div><div class="bl-name">${name}</div>`;
-  if (m.sessionTarget !== null) {
-    body += meterRow('Session-date target vs achieved', m.sessionAchieved, m.sessionTarget, sessAtt, line);
-  }
-  body += meterRow('Purchase-date phasing target vs achieved', m.phasingAchieved, m.phasingTarget, phAtt, line);
-  body += `</div>`;
-  return body;
+function sortDesc(arr, key) {
+  return [...arr].sort((a, b) => (b[key] || 0) - (a[key] || 0));
 }
-function meterRow(caption, achieved, target, att, line) {
-  const color = `var(--${line === 'online' ? 'blue' : line === 'offline' ? 'orange' : 'aqua'})`;
-  if (achieved === null || achieved === undefined) {
-    return `<div class="meter-row"><div class="meter-labels"><span class="meter-caption">${caption}</span></div>
-      <div class="meter-na">Not final yet (in progress for today) — target: ${fmtNum(target)}</div></div>`;
-  }
-  const pct = att === null ? 0 : Math.min(100, Math.max(0, att));
-  return `<div class="meter-row">
-    <div class="meter-labels">
-      <span class="meter-caption">${caption}</span>
-      <span class="meter-value">${fmtNum(achieved)} / ${fmtNum(target)} <span style="color:var(--muted); font-weight:500;">(${att===null?'—':fmtPct(att,0)})</span></span>
-    </div>
-    <div class="meter-track" style="background:var(--deemph-fill)">
-      <div class="meter-fill" style="width:${pct}%; background:${color}"></div>
-    </div>
+
+/* Supply cards — lead with what's available/targeted; achieved shows only when the sheet has it (elapsed days). */
+function supplyRow(label, value) {
+  return `<div class="supply-row"><span class="s-label">${label}</span><span class="s-value">${value}</span></div>`;
+}
+function achievedNote(achieved, target) {
+  if (achieved === null || achieved === undefined) return null;
+  const att = attainment(achieved, target);
+  return `<strong>${fmtNum(achieved)}</strong>${att === null ? '' : ` <span class="pct">(${fmtPct(att, 0)})</span>`}`;
+}
+function groupSupplyCard(line, name, m) {
+  let rows = supplyRow('Session-date target', fmtNum(m.sessionTarget))
+    + supplyRow('Phasing target (purchase date)', fmtNum(m.phasingTarget));
+
+  let secondary = '';
+  const sessNote = achievedNote(m.sessionAchieved, m.sessionTarget);
+  if (sessNote) secondary += secondaryRow('Session-date-wise registrations', sessNote);
+  const phNote = achievedNote(m.phasingAchieved, m.phasingTarget);
+  if (phNote) secondary += secondaryRow('Purchase-date-wise registrations', phNote);
+
+  return `<div class="bl-card card" data-line="${line}">
+    <div class="bl-label">Business line</div><div class="bl-name">${name}</div>
+    <div class="supply-list">${rows}</div>${secondary}
+  </div>`;
+}
+function secondaryRow(label, valueHtml) {
+  return `<div class="supply-row secondary"><span class="s-label">${label}</span><span class="s-value">${valueHtml}</span></div>`;
+}
+function oneOnOneSupplyCard(day) {
+  const s = day.oneOnOneSlots;
+  const weekVals = [s.today, s.t1, s.t2, s.t3, s.t4, s.t5, s.t6, s.t7];
+  const weekSlots = weekVals.some(v => v !== null && v !== undefined)
+    ? weekVals.reduce((a, v) => a + (v || 0), 0) : null;
+  const rows = supplyRow('Phasing target (purchase date)', fmtNum(day.oneOnOne.phasingTarget))
+    + supplyRow('Leaders available (with any slot)', fmtNum(s.leadersWithSlots))
+    + supplyRow('Slots available (Today&ndash;T+7)', fmtNum(weekSlots))
+    + supplyRow("Leaders available with today's slot", fmtNum(s.leadersAvailableToday))
+    + supplyRow("Today's slots available", fmtNum(s.today));
+
+  const phNote = achievedNote(day.oneOnOne.phasingAchieved, day.oneOnOne.phasingTarget);
+  const secondary = phNote ? secondaryRow('Purchase-date-wise registrations', phNote) : '';
+
+  return `<div class="bl-card card" data-line="1on1">
+    <div class="bl-label">Business line</div><div class="bl-name">1:1 Sessions</div>
+    <div class="supply-list">${rows}</div>${secondary}
   </div>`;
 }
 function statTile(label, value, deltaText, deltaKind) {
@@ -721,114 +730,288 @@ function statTile(label, value, deltaText, deltaKind) {
   return `<div class="stat-tile"><div class="stat-label">${label}</div><div class="stat-value">${value}</div>${delta}</div>`;
 }
 
-function mergeLeaderPerf(days) {
+/* Leader target list is the supply signal (scheduled for the day/period); missed/achieved
+   only get computed from days strictly before "today", since the sheet itself leaves them
+   blank for today/future (they haven't happened yet). */
+function mergeLeaderSummary(days, todayISO) {
   const map = new Map();
+  const get = name => {
+    if (!map.has(name)) map.set(name, { name, target: 0, targetElapsed: 0, missed: 0, hasElapsed: false });
+    return map.get(name);
+  };
   days.forEach(day => {
+    const elapsed = day.date < todayISO;
     (day.groupLeaderTargets || []).forEach(l => {
-      const e = map.get(l.name) || { name: l.name, target: 0, missed: 0 };
+      const e = get(l.name);
       e.target += l.value;
-      map.set(l.name, e);
+      if (elapsed) { e.targetElapsed += l.value; e.hasElapsed = true; }
     });
-    (day.groupMissedTargets || []).forEach(l => {
-      const e = map.get(l.name) || { name: l.name, target: 0, missed: 0 };
-      e.missed += l.missed;
-      map.set(l.name, e);
-    });
+    if (elapsed) {
+      (day.groupMissedTargets || []).forEach(l => {
+        const e = get(l.name);
+        e.missed += l.missed;
+        e.hasElapsed = true;
+      });
+    }
   });
   return Array.from(map.values())
-    .map(e => ({ ...e, achieved: e.target - e.missed }))
+    .map(e => ({ ...e, achieved: e.hasElapsed ? e.targetElapsed - e.missed : null }))
     .sort((a, b) => b.target - a.target);
 }
 
 /* ════════════════════════ RANGE (WEEK / MONTH / CUSTOM) VIEW ════════════════════════ */
+const sum = (arr, fn) => arr.reduce((s, d) => { const v = fn(d); return v === null || v === undefined ? s : s + v; }, 0);
+const anyPresent = (arr, fn) => arr.some(d => { const v = fn(d); return v !== null && v !== undefined; });
+const sumIfAny = (arr, fn) => anyPresent(arr, fn) ? sum(arr, fn) : null;
+
+/* 1:1 leader/slot/category columns are a daily snapshot the sheet only fills in through
+   "today" — pick the most recent day (in range, else today itself) that actually has them. */
+function findSlotsAnchor(days, todayISO) {
+  const known = days.filter(d => d.oneOnOneSlots.today !== null);
+  if (known.length) return known[known.length - 1];
+  const t = DAY_MAP.get(todayISO);
+  return (t && t.oneOnOneSlots.today !== null) ? t : null;
+}
+
 function renderRange(root, from, to) {
   const days = DATES.filter(d => d >= from && d <= to).map(d => DAY_MAP.get(d));
   if (!days.length) {
     root.innerHTML = `<div class="empty-note" style="margin-top:24px;">No data available for ${fmtDateShort(from)} – ${fmtDateShort(to)}.</div>`;
     return;
   }
+  const todayISO = resolveTodayISO();
 
-  const sum = (arr, fn) => arr.reduce((s, d) => { const v = fn(d); return v === null || v === undefined ? s : s + v; }, 0);
-  const goTarget = sum(days, d => d.groupOnline.sessionTarget), goAch = sum(days, d => d.groupOnline.sessionAchieved);
-  const offTarget = sum(days, d => d.offline.sessionTarget), offAch = sum(days, d => d.offline.sessionAchieved);
-  const ooTarget = sum(days, d => d.oneOnOne.phasingTarget), ooAch = sum(days, d => d.oneOnOne.phasingAchieved);
+  // 1:1 leader/slot/category data is a daily snapshot — the sheet only ever has it for
+  // dates up to "today"; forward supply lives in that day's own T+1..T+7 columns, not in
+  // each future row (which is blank until its day actually arrives). So anchor the 1:1
+  // slot-detail blocks on the most recent day that actually has this data, not on
+  // whichever day happens to be last in the picked range.
+  const slotsAnchor = findSlotsAnchor(days, todayISO);
 
   let html = '';
-  html += `<div class="section-title">Totals for period</div>`;
+  html += `<div class="day-heading">${fmtDateShort(from)} &ndash; ${fmtDateShort(to)}<span class="sub">${days.length} day${days.length===1?'':'s'}</span></div>`;
+
+  html += `<div class="section-title">Supply — Business Lines</div>`;
   html += `<div class="grid-3">`;
-  html += rangeSummaryCard('online', 'Group Online', goAch, goTarget, 'Session-date achieved vs target');
-  html += rangeSummaryCard('offline', 'Group Offline', offAch, offTarget, 'Session-date achieved vs target');
-  html += rangeSummaryCard('1on1', '1:1 Sessions', ooAch, ooTarget, 'Purchase-date phasing achieved vs target');
+  html += groupSupplyCard('online', 'Group Online', {
+    sessionTarget: sum(days, d => d.groupOnline.sessionTarget),
+    sessionAchieved: sumIfAny(days, d => d.groupOnline.sessionAchieved),
+    phasingTarget: sum(days, d => d.groupOnline.phasingTarget),
+    phasingAchieved: sumIfAny(days, d => d.groupOnline.phasingAchieved),
+  });
+  html += groupSupplyCard('offline', 'Group Offline', {
+    sessionTarget: sum(days, d => d.offline.sessionTarget),
+    sessionAchieved: sumIfAny(days, d => d.offline.sessionAchieved),
+    phasingTarget: sum(days, d => d.offline.phasingTarget),
+    phasingAchieved: sumIfAny(days, d => d.offline.phasingAchieved),
+  });
+  html += oneOnOneSupplyCardRange(days, slotsAnchor);
   html += `</div>`;
 
-  const cats = days.map(d => fmtDateShort(d.date));
-
-  html += `<div class="section-title">Daily Trend — Group Online</div>`;
-  html += `<div class="chart-card">` + chartInner('go-trend', () => renderBarChart(cats, [
-    { name: 'Target', color: COLORS.target, data: days.map(d => d.groupOnline.sessionTarget) },
-    { name: 'Achieved', color: COLORS.online, data: days.map(d => d.groupOnline.sessionAchieved) },
-  ])) + `</div>`;
-
-  html += `<div class="section-title">Daily Trend — Group Offline</div>`;
-  html += `<div class="chart-card">` + chartInner('off-trend', () => renderBarChart(cats, [
-    { name: 'Target', color: COLORS.target, data: days.map(d => d.offline.sessionTarget) },
-    { name: 'Achieved', color: COLORS.offline, data: days.map(d => d.offline.sessionAchieved) },
-  ])) + `</div>`;
-
-  html += `<div class="section-title">Daily Trend — 1:1 Phasing (Purchase Date)</div>`;
-  html += `<div class="chart-card">` + chartInner('oo-trend', () => renderLineChart(cats, [
-    { name: 'Target', color: COLORS.targetLine, data: days.map(d => d.oneOnOne.phasingTarget) },
-    { name: 'Achieved', color: COLORS.oneOnOne, data: days.map(d => d.oneOnOne.phasingAchieved) },
-  ])) + `</div>`;
-
-  html += `<div class="section-title">Daily Trend — 1:1 Same-day Slot Fill Rate</div>`;
-  html += `<div class="chart-card">` + chartInner('fill-trend', () => renderBarChart(cats, [
-    { name: 'Today slots available', color: COLORS.oneOnOne, data: days.map(d => d.oneOnOneSlots.today) },
-  ])) + `</div>`;
-
-  const latest = days[days.length - 1];
-  html += `<div class="grid-2" style="margin-top:14px;">`;
-  html += tableCard(`Category — Leaders &amp; Slots (as of ${fmtDateShort(latest.date)})`,
-    ['Category', 'Leaders', 'Slots'],
-    latest.categoryBreakdown.map(c => [c.category, fmtNum(c.leaders), fmtNum(c.slots)]));
-  html += tableCard('Paid Group Sessions — Leader Performance (period total)',
-    ['Leader', 'Target', 'Missed', 'Achieved'],
-    mergeLeaderPerf(days).map(l => [l.name, fmtNum(l.target), fmtNum(l.missed), fmtNum(l.achieved)]));
-  html += `</div>`;
-
-  html += `<div class="section-title">Day-by-Day Breakdown</div>`;
-  html += dayByDayTable(days);
+  html += renderBusinessLineDetail(days, todayISO, to);
 
   root.innerHTML = html;
   mountCharts(root);
 }
 
-function rangeSummaryCard(line, name, achieved, target, caption) {
-  const att = attainment(achieved, target);
-  const color = `var(--${line === 'online' ? 'blue' : line === 'offline' ? 'orange' : 'aqua'})`;
-  const pct = att === null ? 0 : Math.min(100, Math.max(0, att));
-  const kind = att === null ? 'neutral' : att >= 100 ? 'good' : att >= 80 ? 'neutral' : 'bad';
-  const badgeText = att === null ? 'No target' : fmtPct(att, 0) + ' of target';
-  return `<div class="bl-card card" data-line="${line}">
-    <div class="bl-label">Business line</div>
-    <div class="bl-name">${name}</div>
-    <div class="stat-value" style="margin-bottom:8px;">${fmtNum(achieved)}<span style="font-size:.95rem; color:var(--muted); font-weight:500;"> / ${fmtNum(target)}</span></div>
-    <div class="meter-track" style="background:var(--deemph-fill); margin-bottom:8px;"><div class="meter-fill" style="width:${pct}%; background:${color}"></div></div>
-    <div class="stat-delta"><span class="badge ${kind}">${badgeText}</span><span style="color:var(--muted)">${caption}</span></div>
+/* Only surfaces an "Achieved" series when the sheet actually has it for at least one day
+   in range — the target/plan series always carries the primary accent color since supply
+   is the headline here, not attainment. */
+function targetAchievedSeries(days, targetFn, achievedFn, accentColor, secondaryColor) {
+  const series = [{ name: 'Target', color: accentColor, data: days.map(targetFn) }];
+  if (anyPresent(days, achievedFn)) {
+    series.push({ name: 'Achieved', color: secondaryColor || COLORS.target, data: days.map(achievedFn) });
+  }
+  return series;
+}
+
+function oneOnOneSupplyCardRange(days, anchor) {
+  const phTarget = sum(days, d => d.oneOnOne.phasingTarget);
+  let rows = supplyRow('Phasing target (period)', fmtNum(phTarget));
+
+  if (anchor) {
+    const totalSlots = sum(days, d => d.oneOnOneSlots.today);
+    const contributingDays = days.filter(d => d.oneOnOneSlots.today !== null).length;
+    const avgSlots = contributingDays ? Math.round(totalSlots / contributingDays) : null;
+    rows += supplyRow(`Leaders available (as of ${fmtDateShort(anchor.date)})`, fmtNum(anchor.oneOnOneSlots.leadersWithSlots))
+      + supplyRow('Slots available (period total)', fmtNum(totalSlots))
+      + supplyRow('Avg slots available / day tracked', avgSlots === null ? '—' : fmtNum(avgSlots))
+      + supplyRow(`Leaders with today's slot (as of ${fmtDateShort(anchor.date)})`, fmtNum(anchor.oneOnOneSlots.leadersAvailableToday));
+  } else {
+    rows += supplyRow('Slot-level detail', 'Not available for this period');
+  }
+
+  const phNote = achievedNote(sumIfAny(days, d => d.oneOnOne.phasingAchieved), phTarget);
+  const secondary = phNote ? secondaryRow('Purchase-date-wise registrations', phNote) : '';
+
+  return `<div class="bl-card card" data-line="1on1">
+    <div class="bl-label">Business line</div><div class="bl-name">1:1 Sessions</div>
+    <div class="supply-list">${rows}</div>${secondary}
   </div>`;
 }
 
-function dayByDayTable(days) {
-  const rows = days.map(d => [
-    fmtDateShort(d.date) + ' · ' + d.dayName.slice(0,3),
-    fmtNum(d.groupOnline.sessionTarget), fmtNum(d.groupOnline.sessionAchieved),
-    fmtNum(d.offline.sessionTarget), fmtNum(d.offline.sessionAchieved),
-    fmtNum(d.oneOnOne.phasingTarget), fmtNum(d.oneOnOne.phasingAchieved),
-    fmtNum(d.oneOnOneSlots.today), fmtPct(d.pctSlotsFilledToday),
-  ]);
-  return tableCard(null,
-    ['Day', 'GO Target', 'GO Achieved', 'Off Target', 'Off Achieved', '1:1 Target', '1:1 Achieved', '1:1 Slots Today', '% Filled'],
-    rows, true);
+function chartInWrap(title, renderFn) {
+  return `<div class="chart-card"><div class="card-head"><span class="card-title">${title}</span></div>${chartInner('c', renderFn)}</div>`;
+}
+
+/* ════════════════════════ BUSINESS LINE DETAIL (sub-tabs) ════════════════════════ */
+const BL_CONFIG = {
+  online:  { label: 'Group Online',  colorKey: 'online',   get: d => d.groupOnline },
+  offline: { label: 'Group Offline', colorKey: 'offline',  get: d => d.offline },
+  '1on1':  { label: '1:1 Sessions',  colorKey: 'oneOnOne', get: d => d.oneOnOne },
+};
+
+/* Same leader list used in the Summary table, scoped to one day — capped so the
+   chart tooltip stays readable. Missed/achieved only shows for elapsed days,
+   same rule as everywhere else. */
+function leaderDayDetail(day, todayISO) {
+  const elapsed = day.date < todayISO;
+  const leaders = mergeLeaderSummary([day], todayISO).sort((a, b) => b.target - a.target);
+  return { kind: 'session', leaders, elapsed };
+}
+function phasingLeaderDayDetail(day) {
+  const leaders = [...(day.groupLeaderPhasingTargets || [])].sort((a, b) => b.value - a.value);
+  return { kind: 'phasing', leaders };
+}
+
+/* Today..T+7 shaded from strong (most immediate) to faint (furthest out), mixed against
+   the current theme's surface so it stays correct in light and dark without a separate ramp. */
+function buildSlotsAheadSeries(days) {
+  const keys = ['today', 't1', 't2', 't3', 't4', 't5', 't6', 't7'];
+  const labels = ['Today', 'T+1', 'T+2', 'T+3', 'T+4', 'T+5', 'T+6', 'T+7'];
+  const pcts = [100, 88, 76, 65, 55, 46, 38, 30];
+  return keys.map((k, i) => ({
+    name: labels[i],
+    color: `color-mix(in srgb, ${COLORS.oneOnOne} ${pcts[i]}%, var(--surface))`,
+    data: days.map(d => d.oneOnOneSlots[k]),
+  }));
+}
+
+function sessionSeries(days, get, accentColor) {
+  const series = [
+    { name: 'Sessions', color: COLORS.targetLine, data: days.map(d => get(d).sessions) },
+    { name: 'Target', color: accentColor, data: days.map(d => get(d).sessionTarget) },
+  ];
+  if (anyPresent(days, d => get(d).sessionAchieved)) {
+    series.push({ name: 'Achieved', color: COLORS.target, data: days.map(d => get(d).sessionAchieved) });
+  }
+  return series;
+}
+
+function renderBusinessLineDetail(days, todayISO, periodEndISO) {
+  let html = `<div class="section-title">Business Line Detail</div>`;
+  html += `<div class="tabs bl-tabs">`;
+  ['online', 'offline', '1on1'].forEach(k => {
+    html += `<button class="tab-btn ${BL_TAB === k ? 'active' : ''}" onclick="setBLTab('${k}')">${BL_CONFIG[k].label}</button>`;
+  });
+  html += `</div>`;
+
+  const cats = days.map(d => fmtDateShort(d.date));
+  if (BL_TAB === '1on1') {
+    // 1:1 leader/slot/category columns are a daily snapshot the sheet only fills in
+    // through "today" — anchor these blocks on the most recent day that has them,
+    // rather than whichever day happens to be last in the picked period.
+    const slotsAnchor = findSlotsAnchor(days, todayISO);
+
+    if (slotsAnchor) {
+      const anchorNote = slotsAnchor.date === periodEndISO ? '' :
+        `<p class="card-hint" style="margin:-4px 0 12px;">1:1 slot-level data is only tracked through ${fmtDateShort(slotsAnchor.date)} — showing its Today&ndash;T+7 forecast, the furthest ahead the sheet currently covers.</p>`;
+      html += anchorNote;
+      html += chartCard('slots-lookahead', `1:1 Slots Available — Today through T+7 (as of ${fmtDateShort(slotsAnchor.date)})`, () =>
+        renderBarChart(['Today','T+1','T+2','T+3','T+4','T+5','T+6','T+7'],
+          [{ name: 'Slots available', color: COLORS.oneOnOne,
+             data: [slotsAnchor.oneOnOneSlots.today, slotsAnchor.oneOnOneSlots.t1, slotsAnchor.oneOnOneSlots.t2, slotsAnchor.oneOnOneSlots.t3,
+                    slotsAnchor.oneOnOneSlots.t4, slotsAnchor.oneOnOneSlots.t5, slotsAnchor.oneOnOneSlots.t6, slotsAnchor.oneOnOneSlots.t7] }])
+      );
+
+      html += `<div class="grid-2">`;
+      html += tableCard(`Category — Leaders &amp; Slots Available &middot; 1:1 (as of ${fmtDateShort(slotsAnchor.date)})`,
+        ['Category', 'Leaders', 'Slots'],
+        sortDesc(slotsAnchor.categoryBreakdown, 'slots').map(c => [c.category, fmtNum(c.leaders), fmtNum(c.slots)]));
+
+      html += tableCard(`Top Selling Leaders — Slots Available &middot; 1:1 (as of ${fmtDateShort(slotsAnchor.date)})`,
+        ['Leader', 'Slots'],
+        sortDesc(slotsAnchor.topLeaderSlots, 'slots').map(l => [l.name, fmtNum(l.slots)]));
+      html += `</div>`;
+
+      if (days.length === 1) {
+        html += `<div class="grid-4" style="margin-top:14px;">`;
+        html += statTile('Slots filled today', fmtNum(slotsAnchor.slotsFilledToday),
+          slotsAnchor.slotsFilledToday === null ? 'Not final until day ends' : fmtPct(slotsAnchor.pctSlotsFilledToday) + ' of available');
+        html += statTile('1:1 page views', fmtNum(slotsAnchor.pageViews.total1on1),
+          slotsAnchor.pageViews.total1on1 === null ? 'Not final until day ends' : `${fmtPct(slotsAnchor.pageViews.pctSlotsAvailable)} to slots page`);
+        html += `</div>`;
+      }
+    }
+
+    html += `<div style="margin-top:14px;">`;
+    html += chartInWrap('1:1 — Phasing Target &amp; Achieved (Purchase Date)', () =>
+      renderLineChart(cats, targetAchievedSeries(days, d => d.oneOnOne.phasingTarget, d => d.oneOnOne.phasingAchieved, COLORS.oneOnOne, COLORS.targetLine)));
+    html += `</div>`;
+    html += `<div style="margin-top:14px;">`;
+    html += chartInWrap('1:1 — Slots Available (Daily) — Today through T+7', () =>
+      renderStackedBarChart(cats, buildSlotsAheadSeries(days)));
+    html += `</div>`;
+
+    html += dayByDayLineTable('1on1', days);
+  } else {
+    const line = BL_CONFIG[BL_TAB];
+    const lineColor = COLORS[line.colorKey];
+    const dayDetails = days.map(d => leaderDayDetail(d, todayISO));
+    const phasingDayDetails = days.map(d => phasingLeaderDayDetail(d));
+
+    html += tableCard(`Paid Group Sessions — Summary`,
+      ['Leader', 'Target', 'Missed', 'Achieved'],
+      mergeLeaderSummary(days, todayISO).map(l =>
+        [l.name, fmtNum(l.target), l.hasElapsed ? fmtNum(l.missed) : '—', l.hasElapsed ? fmtNum(l.achieved) : '—']));
+
+    html += `<div class="grid-2" style="margin-top:14px;">`;
+    html += chartInWrap(`${line.label} — Sessions, Target &amp; Achieved (Session Date)`, () =>
+      renderBarChart(cats, sessionSeries(days, line.get, lineColor), { dayDetails }));
+    html += chartInWrap(`${line.label} — Phasing Target &amp; Achieved (Purchase Date)`, () =>
+      renderBarChart(cats, targetAchievedSeries(days, d => line.get(d).phasingTarget, d => line.get(d).phasingAchieved, lineColor), { dayDetails: phasingDayDetails }));
+    html += `</div>`;
+
+    html += dayByDayLineTable(BL_TAB, days);
+  }
+  return html;
+}
+
+function dayByDayLineTable(lineKey, days) {
+  let headers, rows;
+  if (lineKey === '1on1') {
+    headers = ['Day', 'Phasing Target', 'Phasing Achieved', 'Phasing %', '1:1 Slots Today', '% Filled'];
+    rows = days.map(d => {
+      const att = attainment(d.oneOnOne.phasingAchieved, d.oneOnOne.phasingTarget);
+      return [
+        fmtDateShort(d.date) + ' · ' + d.dayName.slice(0, 3),
+        fmtNum(d.oneOnOne.phasingTarget),
+        fmtNum(d.oneOnOne.phasingAchieved),
+        att === null ? '—' : fmtPct(att, 0),
+        fmtNum(d.oneOnOneSlots.today),
+        fmtPct(d.pctSlotsFilledToday),
+      ];
+    });
+  } else {
+    const get = lineKey === 'online' ? (d => d.groupOnline) : (d => d.offline);
+    headers = ['Day', 'Sessions', 'Session Target', 'Session Achieved', 'Session %', 'Phasing Target', 'Phasing Achieved', 'Phasing %'];
+    rows = days.map(d => {
+      const m = get(d);
+      const sessAtt = attainment(m.sessionAchieved, m.sessionTarget);
+      const phAtt = attainment(m.phasingAchieved, m.phasingTarget);
+      return [
+        fmtDateShort(d.date) + ' · ' + d.dayName.slice(0, 3),
+        fmtNum(m.sessions),
+        fmtNum(m.sessionTarget),
+        fmtNum(m.sessionAchieved),
+        sessAtt === null ? '—' : fmtPct(sessAtt, 0),
+        fmtNum(m.phasingTarget),
+        fmtNum(m.phasingAchieved),
+        phAtt === null ? '—' : fmtPct(phAtt, 0),
+      ];
+    });
+  }
+  return `<div class="section-title">Day-by-Day Breakdown</div>` + tableCard(null, headers, rows, true);
 }
 
 /* ════════════════════════ TABLE / CHART CARD SHELLS ════════════════════════ */
@@ -876,7 +1059,7 @@ function niceMax(v) {
   return step * mag;
 }
 
-function renderBarChart(categories, series) {
+function renderBarChart(categories, series, opts = {}) {
   const chartId = 'c' + (CHART_SEQ++);
   const innerW = CHART_W - PAD.l - PAD.r, innerH = CHART_H - PAD.t - PAD.b;
   const maxVal = niceMax(Math.max(1, ...series.flatMap(s => s.data.map(v => v || 0))));
@@ -900,7 +1083,7 @@ function renderBarChart(categories, series) {
       const y = PAD.t + innerH - h;
       const rx = 3;
       bars += `<path data-hit="${hitboxes.length}" class="bar-rect" d="${roundedTopRect(x, y, barW, h, rx)}" fill="${s.color}"></path>`;
-      hitboxes.push({ cat, series: s.name, value: v, color: s.color });
+      hitboxes.push({ cat, series: s.name, value: v, color: s.color, dayDetail: opts.dayDetails ? opts.dayDetails[ci] : null });
     });
     if (ci % barLabelEvery === 0 || ci === n - 1) {
       bars += `<text x="${groupX + groupW/2}" y="${CHART_H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${cat}</text>`;
@@ -909,6 +1092,60 @@ function renderBarChart(categories, series) {
 
   const legend = sN > 1 ? `<div class="chart-legend">${series.map(s =>
     `<span class="legend-item"><span class="legend-swatch" style="background:${s.color}"></span>${s.name}</span>`).join('')}</div>` : '';
+
+  const tableToggle = miniTable(categories, series);
+
+  return `${legend}
+    <div class="chart-svg-wrap" data-chart-id="${chartId}" data-hits='${JSON.stringify(hitboxes).replace(/'/g,"&#39;")}'>
+      <svg viewBox="0 0 ${CHART_W} ${CHART_H}" preserveAspectRatio="xMidYMid meet">
+        ${gridSvg}
+        <line x1="${PAD.l}" y1="${PAD.t+innerH}" x2="${CHART_W-PAD.r}" y2="${PAD.t+innerH}" stroke="var(--baseline)" stroke-width="1" />
+        ${bars}
+      </svg>
+    </div>
+    ${tableToggle}`;
+}
+
+function renderStackedBarChart(categories, series) {
+  const chartId = 'c' + (CHART_SEQ++);
+  const innerW = CHART_W - PAD.l - PAD.r, innerH = CHART_H - PAD.t - PAD.b;
+  const totals = categories.map((_, ci) => series.reduce((s, ser) => s + (ser.data[ci] || 0), 0));
+  const maxVal = niceMax(Math.max(1, ...totals));
+  const n = categories.length;
+  const groupW = innerW / n;
+  const barW = Math.min(28, groupW - 8);
+  const gapPx = 2;
+
+  const gridSvg = gridTicksSvg(maxVal, innerW, innerH);
+
+  let bars = '';
+  let hitboxes = [];
+  const barLabelEvery = Math.max(1, Math.ceil(n / (innerW / 42)));
+  categories.forEach((cat, ci) => {
+    const x = PAD.l + ci * groupW + (groupW - barW) / 2;
+    const segs = series
+      .map(s => ({ name: s.name, color: s.color, value: s.data[ci] }))
+      .filter(s => s.value !== null && s.value !== undefined && s.value > 0);
+    let cum = 0;
+    segs.forEach((seg, si) => {
+      const isTop = si === segs.length - 1;
+      const isBottom = si === 0;
+      const yTop = PAD.t + innerH - ((cum + seg.value) / maxVal) * innerH;
+      const yBottom = PAD.t + innerH - (cum / maxVal) * innerH;
+      const drawTop = yTop + (isBottom ? 0 : gapPx / 2);
+      const drawBottom = yBottom - (isTop ? 0 : gapPx / 2);
+      const h = Math.max(0, drawBottom - drawTop);
+      hitboxes.push({ cat, series: seg.name, value: seg.value, color: seg.color });
+      bars += `<path data-hit="${hitboxes.length - 1}" class="bar-rect" d="${roundedTopRect(x, drawTop, barW, h, isTop ? 3 : 0)}" fill="${seg.color}"></path>`;
+      cum += seg.value;
+    });
+    if (ci % barLabelEvery === 0 || ci === n - 1) {
+      bars += `<text x="${x + barW / 2}" y="${CHART_H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${cat}</text>`;
+    }
+  });
+
+  const legend = `<div class="chart-legend">${series.map(s =>
+    `<span class="legend-item"><span class="legend-swatch" style="background:${s.color}"></span>${s.name}</span>`).join('')}</div>`;
 
   const tableToggle = miniTable(categories, series);
 
@@ -1031,13 +1268,46 @@ function bindChartEvents(wrap) {
     tooltip.querySelector('.tt-title').textContent = info.cat;
     tooltip.querySelector('.tt-label').textContent = info.series;
     tooltip.querySelector('.tt-val').textContent = info.value === null || info.value === undefined ? '—' : fmtNum(info.value);
+
+    const dd = info.dayDetail;
+    const hasLeaders = dd && dd.leaders && dd.leaders.length > 0;
+    tooltip.classList.toggle('has-leaders', !!hasLeaders);
+    if (hasLeaders) {
+      const wrap = document.createElement('div');
+      wrap.className = 'tt-leaders';
+      const hdr = document.createElement('div');
+      hdr.className = 'tt-leaders-hdr';
+      hdr.textContent = dd.kind === 'phasing' ? 'Leaders — phasing target'
+        : dd.elapsed ? 'Leaders — target / missed' : 'Leaders — target';
+      wrap.appendChild(hdr);
+      dd.leaders.forEach(l => {
+        const row = document.createElement('div');
+        row.className = 'tt-leader-row';
+        const name = document.createElement('span');
+        name.className = 'tt-leader-name';
+        name.textContent = l.name;
+        const val = document.createElement('span');
+        val.className = 'tt-leader-val';
+        val.textContent = dd.kind === 'phasing' ? fmtNum(l.value)
+          : dd.elapsed ? `${fmtNum(l.target)} / ${l.hasElapsed ? fmtNum(l.missed) : '—'}` : fmtNum(l.target);
+        row.appendChild(name);
+        row.appendChild(val);
+        wrap.appendChild(row);
+      });
+      tooltip.appendChild(wrap);
+    }
+
     tooltip.classList.add('show');
     positionTip(e);
   }
   function positionTip(e) {
-    const x = e.clientX + 14, y = e.clientY + 14;
-    tooltip.style.left = Math.min(x, window.innerWidth - 240) + 'px';
-    tooltip.style.top = Math.min(y, window.innerHeight - 80) + 'px';
+    const width = tooltip.classList.contains('has-leaders') ? 300 : 240;
+    const height = tooltip.getBoundingClientRect().height || 60;
+    let y = e.clientY + 14;
+    if (y + height > window.innerHeight - 10) y = Math.max(10, e.clientY - height - 14);
+    const x = Math.min(e.clientX + 14, window.innerWidth - width);
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
   }
   function hideTip() { tooltip.classList.remove('show'); }
 }

@@ -73,19 +73,20 @@ def parse_pct(raw):
 
 
 def parse_name_number_lines(raw, sep=" - "):
-    """'Name - 10\\nOther Name - 5' -> [{'name':'Name','value':10}, ...]"""
+    """Entries are 'Name - Number', either one per line or several per line joined
+    by ', ' (e.g. 'Name - 10\\nOther - 5' or 'Name - 10, Other - 5\\nThird - 2')."""
     if not raw:
         return []
     out = []
-    for line in str(raw).split("\n"):
-        line = line.strip().rstrip(",").strip()
-        if not line:
+    for tok in str(raw).replace("\n", ", ").split(", "):
+        tok = tok.strip().rstrip(",").strip()
+        if not tok:
             continue
-        idx = line.rfind(sep)
+        idx = tok.rfind(sep)
         if idx == -1:
             continue
-        name = line[:idx].strip()
-        val = parse_int(line[idx + len(sep):])
+        name = tok[:idx].strip()
+        val = parse_int(tok[idx + len(sep):])
         if name and val is not None:
             out.append({"name": name, "value": val})
     return out
@@ -189,28 +190,29 @@ def main():
                 "phasingTarget": parse_int(cell(row, 13)),
                 "phasingAchieved": parse_int(cell(row, 14)),
             },
-            "groupLeaderTargets": parse_name_number_lines(cell(row, 15)),
-            "groupMissedTargets": parse_missed_lines(cell(row, 16)),
+            "groupLeaderPhasingTargets": parse_name_number_lines(cell(row, 15)),
+            "groupLeaderTargets": parse_name_number_lines(cell(row, 16)),
+            "groupMissedTargets": parse_missed_lines(cell(row, 17)),
             "oneOnOneSlots": {
-                "leadersWithSlots": parse_int(cell(row, 17)),
-                "leadersAvailableToday": parse_int(cell(row, 18)),
-                "today": parse_int(cell(row, 19)),
-                "t1": parse_int(cell(row, 20)),
-                "t2": parse_int(cell(row, 21)),
-                "t3": parse_int(cell(row, 22)),
-                "t4": parse_int(cell(row, 23)),
-                "t5": parse_int(cell(row, 24)),
-                "t6": parse_int(cell(row, 25)),
-                "t7": parse_int(cell(row, 26)),
+                "leadersWithSlots": parse_int(cell(row, 18)),
+                "leadersAvailableToday": parse_int(cell(row, 19)),
+                "today": parse_int(cell(row, 20)),
+                "t1": parse_int(cell(row, 21)),
+                "t2": parse_int(cell(row, 22)),
+                "t3": parse_int(cell(row, 23)),
+                "t4": parse_int(cell(row, 24)),
+                "t5": parse_int(cell(row, 25)),
+                "t6": parse_int(cell(row, 26)),
+                "t7": parse_int(cell(row, 27)),
             },
-            "categoryBreakdown": parse_category_lines(cell(row, 27)),
-            "topLeaderSlots": parse_slots_lines(cell(row, 28)),
-            "slotsFilledToday": parse_int(cell(row, 29)),
-            "pctSlotsFilledToday": parse_pct(cell(row, 30)),
+            "categoryBreakdown": parse_category_lines(cell(row, 28)),
+            "topLeaderSlots": parse_slots_lines(cell(row, 29)),
+            "slotsFilledToday": parse_int(cell(row, 30)),
+            "pctSlotsFilledToday": parse_pct(cell(row, 31)),
             "pageViews": {
-                "total1on1": parse_int(cell(row, 31)),
-                "slotsAvailable": parse_int(cell(row, 32)),
-                "pctSlotsAvailable": parse_pct(cell(row, 33)),
+                "total1on1": parse_int(cell(row, 32)),
+                "slotsAvailable": parse_int(cell(row, 33)),
+                "pctSlotsAvailable": parse_pct(cell(row, 34)),
             },
         })
 
