@@ -1,0 +1,6466 @@
+{
+  "lastUpdated": "2026-08-15T15:53:13Z",
+  "sheetName": "Supply_Index_Dashboard",
+  "days": [
+    {
+      "date": "2026-08-01",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 41,
+        "sessionAchieved": 28,
+        "phasingTarget": 142,
+        "phasingAchieved": 87
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 18,
+        "phasingAchieved": 10
+      },
+      "oneOnOne": {
+        "phasingTarget": 20,
+        "phasingAchieved": 29
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Parul Khanna",
+          "value": 10
+        },
+        {
+          "name": "Shalini Chugh",
+          "value": 10
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Disha Sharma",
+          "value": 5
+        },
+        {
+          "name": "Neha Kumra",
+          "value": 11
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Shalini Chugh",
+          "missed": 5
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 5
+        },
+        {
+          "name": "Neha Kumra",
+          "missed": 8
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 114,
+        "leadersAvailableToday": 35,
+        "today": 146,
+        "t1": 132,
+        "t2": 482,
+        "t3": 483,
+        "t4": 485,
+        "t5": 488,
+        "t6": 475,
+        "t7": 81
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 5
+        },
+        {
+          "category": "Astrology",
+          "leaders": 6,
+          "slots": 22
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 1,
+          "slots": 5
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 6,
+          "slots": 21
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "NA",
+          "leaders": 3,
+          "slots": 16
+        },
+        {
+          "category": "Numerology",
+          "leaders": 1,
+          "slots": 2
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 1,
+          "slots": 5
+        },
+        {
+          "category": "Others",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 4,
+          "slots": 11
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "Shadow Work",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 7,
+          "slots": 22
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Disha Sharma",
+          "slots": 6
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 5
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 4
+        },
+        {
+          "name": "Naina Goyal",
+          "slots": 2
+        },
+        {
+          "name": "Parul Khanna",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 3
+        }
+      ],
+      "slotsFilledToday": 8,
+      "pctSlotsFilledToday": 5.48,
+      "pageViews": {
+        "total1on1": 2291,
+        "slotsAvailable": 1818,
+        "pctSlotsAvailable": 79.0
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 3,
+        "sessionTarget": 26,
+        "sessionAchieved": 27,
+        "phasingTarget": 150,
+        "phasingAchieved": 99
+      },
+      "offline": {
+        "sessions": 1,
+        "sessionTarget": 50,
+        "sessionAchieved": 16,
+        "phasingTarget": 18,
+        "phasingAchieved": 1
+      },
+      "oneOnOne": {
+        "phasingTarget": 20,
+        "phasingAchieved": 33
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Bijay J. Anand",
+          "value": 50
+        },
+        {
+          "name": "Nayana Cariappa",
+          "value": 10
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 10
+        },
+        {
+          "name": "Preety",
+          "value": 6
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Bijay J. Anand",
+          "missed": 34
+        },
+        {
+          "name": "Nayana Cariappa",
+          "missed": 5
+        },
+        {
+          "name": "Rishi Nanda",
+          "missed": 7
+        },
+        {
+          "name": "Preety",
+          "missed": 3
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 114,
+        "leadersAvailableToday": 30,
+        "today": 126,
+        "t1": 478,
+        "t2": 482,
+        "t3": 485,
+        "t4": 488,
+        "t5": 475,
+        "t6": 81,
+        "t7": 49
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Astrology",
+          "leaders": 5,
+          "slots": 18
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 1,
+          "slots": 3
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 6,
+          "slots": 19
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 2,
+          "slots": 5
+        },
+        {
+          "category": "NA",
+          "leaders": 4,
+          "slots": 18
+        },
+        {
+          "category": "Numerology",
+          "leaders": 1,
+          "slots": 2
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 1,
+          "slots": 5
+        },
+        {
+          "category": "Others",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 3,
+          "slots": 10
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "Shadow Work",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 3,
+          "slots": 13
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Disha Sharma",
+          "slots": 6
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 4
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 4
+        },
+        {
+          "name": "Parul Khanna",
+          "slots": 3
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 2
+        }
+      ],
+      "slotsFilledToday": 5,
+      "pctSlotsFilledToday": 3.97,
+      "pageViews": {
+        "total1on1": 2141,
+        "slotsAvailable": 1601,
+        "pctSlotsAvailable": 75.0
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 9,
+        "sessionTarget": 75,
+        "sessionAchieved": 35,
+        "phasingTarget": 162,
+        "phasingAchieved": 169
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 11,
+        "phasingAchieved": 1
+      },
+      "oneOnOne": {
+        "phasingTarget": 20,
+        "phasingAchieved": 20
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Rhea Mathew",
+          "value": 18
+        },
+        {
+          "name": "Arpana Khanna",
+          "value": 18
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "value": 10
+        },
+        {
+          "name": "Akanksha Walia",
+          "value": 10
+        },
+        {
+          "name": "Navneeth Vallabh",
+          "value": 8
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Ashwini Kamath",
+          "value": 4
+        },
+        {
+          "name": "Vanita Keswani",
+          "value": 1
+        },
+        {
+          "name": "Purvi Bhave",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Rhea Mathew",
+          "missed": 15
+        },
+        {
+          "name": "Arpana Khanna",
+          "missed": 3
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "missed": 10
+        },
+        {
+          "name": "Akanksha Walia",
+          "missed": 6
+        },
+        {
+          "name": "Navneeth Vallabh",
+          "missed": 3
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 4
+        },
+        {
+          "name": "Ashwini Kamath",
+          "missed": 1
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 114,
+        "leadersAvailableToday": 108,
+        "today": 471,
+        "t1": 482,
+        "t2": 485,
+        "t3": 488,
+        "t4": 475,
+        "t5": 81,
+        "t6": 49,
+        "t7": 2
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 4,
+          "slots": 13
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 5
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Astrology",
+          "leaders": 11,
+          "slots": 40
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 34
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 6,
+          "slots": 23
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "NA",
+          "leaders": 28,
+          "slots": 118
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 15
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 9
+        },
+        {
+          "category": "Others",
+          "leaders": 16,
+          "slots": 64
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 5,
+          "slots": 17
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 15
+        },
+        {
+          "category": "Shadow Work",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 16,
+          "slots": 63
+        },
+        {
+          "category": "Theta Healing",
+          "leaders": 1,
+          "slots": 4
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 8
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 4
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 4
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 5
+        },
+        {
+          "name": "Parul Khanna",
+          "slots": 7
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 3
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 2
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 4,
+      "pctSlotsFilledToday": 0.85,
+      "pageViews": {
+        "total1on1": 1640,
+        "slotsAvailable": 974,
+        "pctSlotsAvailable": 59.0
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 51,
+        "sessionAchieved": 45,
+        "phasingTarget": 322,
+        "phasingAchieved": 194
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 6,
+        "phasingAchieved": 7
+      },
+      "oneOnOne": {
+        "phasingTarget": 20,
+        "phasingAchieved": 30
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Amrita Shah",
+          "value": 25
+        },
+        {
+          "name": "Rashika Kaul",
+          "value": 15
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Divyaa",
+          "value": 5
+        },
+        {
+          "name": "Manika Aggarwal",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Amrita Shah",
+          "missed": 7
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 4
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 112,
+        "leadersAvailableToday": 110,
+        "today": 475,
+        "t1": 486,
+        "t2": 490,
+        "t3": 478,
+        "t4": 108,
+        "t5": 53,
+        "t6": 2,
+        "t7": 2
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 18
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 5
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Astrology",
+          "leaders": 10,
+          "slots": 38
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 34
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 6,
+          "slots": 22
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 3,
+          "slots": 9
+        },
+        {
+          "category": "NA",
+          "leaders": 28,
+          "slots": 119
+        },
+        {
+          "category": "Numerology",
+          "leaders": 3,
+          "slots": 13
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 3,
+          "slots": 15
+        },
+        {
+          "category": "Others",
+          "leaders": 16,
+          "slots": 63
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 5,
+          "slots": 13
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 15
+        },
+        {
+          "category": "Shadow Work",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 17,
+          "slots": 63
+        },
+        {
+          "category": "Theta Healing",
+          "leaders": 1,
+          "slots": 4
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 8
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 4
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 4
+        },
+        {
+          "name": "Maana H Tamhankar",
+          "slots": 1
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 5
+        },
+        {
+          "name": "Parul Khanna",
+          "slots": 8
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 1
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 5
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 1
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 6,
+      "pctSlotsFilledToday": 1.26,
+      "pageViews": {
+        "total1on1": 1645,
+        "slotsAvailable": 1133,
+        "pctSlotsAvailable": 69.0
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 9,
+        "sessionTarget": 74,
+        "sessionAchieved": 28,
+        "phasingTarget": 359,
+        "phasingAchieved": 252
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 7,
+        "phasingAchieved": 6
+      },
+      "oneOnOne": {
+        "phasingTarget": 20,
+        "phasingAchieved": 30
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Sonika Vickraman",
+          "value": 20
+        },
+        {
+          "name": "Abhirammi",
+          "value": 10
+        },
+        {
+          "name": "Krishnna",
+          "value": 8
+        },
+        {
+          "name": "Barkha Mahesh",
+          "value": 8
+        },
+        {
+          "name": "Krupa Shah",
+          "value": 5
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Amritaa Shankar",
+          "value": 2
+        },
+        {
+          "name": "Shilpa Goel",
+          "value": 1
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "value": 15
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Sonika Vickraman",
+          "missed": 14
+        },
+        {
+          "name": "Abhirammi",
+          "missed": 4
+        },
+        {
+          "name": "Krishnna",
+          "missed": 3
+        },
+        {
+          "name": "Barkha Mahesh",
+          "missed": 6
+        },
+        {
+          "name": "Krupa Shah",
+          "missed": 2
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 3
+        },
+        {
+          "name": "Amritaa Shankar",
+          "missed": 1
+        },
+        {
+          "name": "Shilpa Goel",
+          "missed": 1
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "missed": 12
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 110,
+        "leadersAvailableToday": 108,
+        "today": 464,
+        "t1": 476,
+        "t2": 466,
+        "t3": 104,
+        "t4": 53,
+        "t5": 2,
+        "t6": 2,
+        "t7": 3
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 18
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 5
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Astrology",
+          "leaders": 10,
+          "slots": 39
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 34
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 6,
+          "slots": 24
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 2,
+          "slots": 5
+        },
+        {
+          "category": "NA",
+          "leaders": 28,
+          "slots": 120
+        },
+        {
+          "category": "Numerology",
+          "leaders": 3,
+          "slots": 13
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 9
+        },
+        {
+          "category": "Others",
+          "leaders": 16,
+          "slots": 64
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 4,
+          "slots": 10
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 15
+        },
+        {
+          "category": "Shadow Work",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 18,
+          "slots": 65
+        },
+        {
+          "category": "Theta Healing",
+          "leaders": 1,
+          "slots": 4
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 8
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 4
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 4
+        },
+        {
+          "name": "Maana H Tamhankar",
+          "slots": 1
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 5
+        },
+        {
+          "name": "Naina Goyal",
+          "slots": 1
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 1
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 3
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 5
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 7,
+      "pctSlotsFilledToday": 1.51,
+      "pageViews": {
+        "total1on1": 1865,
+        "slotsAvailable": 1127,
+        "pctSlotsAvailable": 60.0
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 1058,
+        "sessionAchieved": 605,
+        "phasingTarget": 348,
+        "phasingAchieved": 319
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 7,
+        "phasingAchieved": 9
+      },
+      "oneOnOne": {
+        "phasingTarget": 20,
+        "phasingAchieved": 30
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "value": 1000
+        },
+        {
+          "name": "Premmayi Gurumaa",
+          "value": 20
+        },
+        {
+          "name": "Harpreet B Sharma",
+          "value": 10
+        },
+        {
+          "name": "Alpa Kapadia Teli",
+          "value": 9
+        },
+        {
+          "name": "Tamanna Gulati",
+          "value": 9
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Divyaa",
+          "value": 5
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "missed": 411
+        },
+        {
+          "name": "Premmayi Gurumaa",
+          "missed": 19
+        },
+        {
+          "name": "Harpreet B Sharma",
+          "missed": 9
+        },
+        {
+          "name": "Alpa Kapadia Teli",
+          "missed": 6
+        },
+        {
+          "name": "Tamanna Gulati",
+          "missed": 5
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 3
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 107,
+        "leadersAvailableToday": 105,
+        "today": 449,
+        "t1": 451,
+        "t2": 102,
+        "t3": 53,
+        "t4": 2,
+        "t5": 2,
+        "t6": 7,
+        "t7": 6
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 4,
+          "slots": 14
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Astrology",
+          "leaders": 11,
+          "slots": 42
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 34
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 6,
+          "slots": 21
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 2,
+          "slots": 5
+        },
+        {
+          "category": "NA",
+          "leaders": 28,
+          "slots": 118
+        },
+        {
+          "category": "Numerology",
+          "leaders": 3,
+          "slots": 13
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 9
+        },
+        {
+          "category": "Others",
+          "leaders": 16,
+          "slots": 63
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 4,
+          "slots": 10
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 15
+        },
+        {
+          "category": "Shadow Work",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 15,
+          "slots": 55
+        },
+        {
+          "category": "Theta Healing",
+          "leaders": 1,
+          "slots": 4
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 8
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 4
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 4
+        },
+        {
+          "name": "Maana H Tamhankar",
+          "slots": 2
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 5
+        },
+        {
+          "name": "Naina Goyal",
+          "slots": 1
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 4
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 3
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 5,
+      "pctSlotsFilledToday": 1.11,
+      "pageViews": {
+        "total1on1": 1218,
+        "slotsAvailable": 911,
+        "pctSlotsAvailable": 75.0
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 302,
+        "sessionAchieved": 449,
+        "phasingTarget": 197,
+        "phasingAchieved": 232
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 11,
+        "phasingAchieved": 7
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 31
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Nattasha Kapoor",
+          "value": 15
+        },
+        {
+          "name": "Jyoti Soni",
+          "value": 10
+        },
+        {
+          "name": "Pranjal Katoch",
+          "value": 10
+        },
+        {
+          "name": "Dr Kinnari I Gupta",
+          "value": 10
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Bansari Nagda",
+          "value": 1
+        },
+        {
+          "name": "Deepa Shetty",
+          "value": 1
+        },
+        {
+          "name": "Dr. Tamanna C",
+          "value": 250
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 13
+        },
+        {
+          "name": "Jyoti Soni",
+          "missed": 5
+        },
+        {
+          "name": "Pranjal Katoch",
+          "missed": 3
+        },
+        {
+          "name": "Dr Kinnari I Gupta",
+          "missed": 5
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
+        },
+        {
+          "name": "Deepa Shetty",
+          "missed": 1
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 104,
+        "leadersAvailableToday": 101,
+        "today": 425,
+        "t1": 100,
+        "t2": 53,
+        "t3": 2,
+        "t4": 2,
+        "t5": 7,
+        "t6": 6,
+        "t7": 7
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 18
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 5
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 3
+        },
+        {
+          "category": "Astrology",
+          "leaders": 11,
+          "slots": 39
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 34
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 6,
+          "slots": 23
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 26,
+          "slots": 108
+        },
+        {
+          "category": "Numerology",
+          "leaders": 3,
+          "slots": 13
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 9
+        },
+        {
+          "category": "Others",
+          "leaders": 13,
+          "slots": 51
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 3,
+          "slots": 7
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 15
+        },
+        {
+          "category": "Shadow Work",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 14,
+          "slots": 56
+        },
+        {
+          "category": "Theta Healing",
+          "leaders": 1,
+          "slots": 4
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 8
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 4
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 2
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 3
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 5
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 6
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 3
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 10,
+      "pctSlotsFilledToday": 2.35,
+      "pageViews": {
+        "total1on1": 1315,
+        "slotsAvailable": 759,
+        "pctSlotsAvailable": 58.0
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 27,
+        "sessionAchieved": 48,
+        "phasingTarget": 154,
+        "phasingAchieved": 109
+      },
+      "offline": {
+        "sessions": 1,
+        "sessionTarget": 20,
+        "sessionAchieved": 9,
+        "phasingTarget": 11,
+        "phasingAchieved": 5
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 21
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Arjun Aiyar",
+          "value": 20
+        },
+        {
+          "name": "Dimple Desai",
+          "value": 10
+        },
+        {
+          "name": "Poonam Dhandania",
+          "value": 10
+        },
+        {
+          "name": "Gunjan Adya",
+          "value": 10
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Disha Sharma",
+          "value": 5
+        },
+        {
+          "name": "Rashmi Shahbazker",
+          "value": 2
+        },
+        {
+          "name": "Mansi Mahajan",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Arjun Aiyar",
+          "missed": 11
+        },
+        {
+          "name": "Dimple Desai",
+          "missed": 9
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 2
+        },
+        {
+          "name": "Disha Sharma",
+          "missed": 1
+        },
+        {
+          "name": "Rashmi Shahbazker",
+          "missed": 2
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 112,
+        "leadersAvailableToday": 29,
+        "today": 169,
+        "t1": 132,
+        "t2": 459,
+        "t3": 501,
+        "t4": 493,
+        "t5": 501,
+        "t6": 487,
+        "t7": 932
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 3,
+          "slots": 11
+        },
+        {
+          "category": "Astrology",
+          "leaders": 3,
+          "slots": 15
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 1,
+          "slots": 12
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 9,
+          "slots": 41
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 3
+        },
+        {
+          "category": "NA",
+          "leaders": 1,
+          "slots": 3
+        },
+        {
+          "category": "Numerology",
+          "leaders": 3,
+          "slots": 13
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 26
+        },
+        {
+          "category": "Others",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 3,
+          "slots": 17
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 3
+        },
+        {
+          "name": "Naina Goyal",
+          "slots": 1
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 2
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 5
+        }
+      ],
+      "slotsFilledToday": 10,
+      "pctSlotsFilledToday": 5.92,
+      "pageViews": {
+        "total1on1": 1418,
+        "slotsAvailable": 1196,
+        "pctSlotsAvailable": 84.0
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 168,
+        "sessionAchieved": 77,
+        "phasingTarget": 206,
+        "phasingAchieved": 117
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 8,
+        "phasingAchieved": 8
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 13
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Swapnil Gawde",
+          "value": 100
+        },
+        {
+          "name": "Nithya Ji",
+          "value": 30
+        },
+        {
+          "name": "Dr.Jiggnna Desai",
+          "value": 10
+        },
+        {
+          "name": "Nishi Shah",
+          "value": 1
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "value": 25
+        },
+        {
+          "name": "Mansi Kothari",
+          "value": 1
+        },
+        {
+          "name": "Ruchika Uppal",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Swapnil Gawde",
+          "missed": 56
+        },
+        {
+          "name": "Nithya Ji",
+          "missed": 12
+        },
+        {
+          "name": "Dr.Jiggnna Desai",
+          "missed": 7
+        },
+        {
+          "name": "Nishi Shah",
+          "missed": 1
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 21
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 112,
+        "leadersAvailableToday": 22,
+        "today": 126,
+        "t1": 455,
+        "t2": 491,
+        "t3": 486,
+        "t4": 494,
+        "t5": 480,
+        "t6": 918,
+        "t7": 0
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Astrology",
+          "leaders": 2,
+          "slots": 10
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 1,
+          "slots": 12
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Numerology",
+          "leaders": 3,
+          "slots": 13
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 25
+        },
+        {
+          "category": "Others",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 5,
+          "slots": 22
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Manisha Sajnani",
+          "slots": 3
+        },
+        {
+          "name": "Naina Goyal",
+          "slots": 1
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 5
+        }
+      ],
+      "slotsFilledToday": 7,
+      "pctSlotsFilledToday": 5.56,
+      "pageViews": {
+        "total1on1": 1741,
+        "slotsAvailable": 1652,
+        "pctSlotsAvailable": 95.0
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 57,
+        "sessionAchieved": 22,
+        "phasingTarget": 193,
+        "phasingAchieved": 151
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 12,
+        "phasingAchieved": 16
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 24
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Shreya Singh",
+          "value": 10
+        },
+        {
+          "name": "Meheck Mukherjee",
+          "value": 9
+        },
+        {
+          "name": "Prasiddhi Khare Mishra",
+          "value": 6
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Bhupali Deore",
+          "value": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "value": 12
+        },
+        {
+          "name": "Sujata Dutta",
+          "value": 10
+        },
+        {
+          "name": "Ashima Sood Patil",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Shreya Singh",
+          "missed": 4
+        },
+        {
+          "name": "Meheck Mukherjee",
+          "missed": 5
+        },
+        {
+          "name": "Prasiddhi Khare Mishra",
+          "missed": 4
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 3
+        },
+        {
+          "name": "Bhupali Deore",
+          "missed": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "missed": 4
+        },
+        {
+          "name": "Sujata Dutta",
+          "missed": 10
+        },
+        {
+          "name": "Ashima Sood Patil",
+          "missed": 1
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 112,
+        "leadersAvailableToday": 106,
+        "today": 454,
+        "t1": 490,
+        "t2": 485,
+        "t3": 494,
+        "t4": 479,
+        "t5": 918,
+        "t6": 0,
+        "t7": 2
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 16
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Astrology",
+          "leaders": 11,
+          "slots": 47
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 31
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 4,
+          "slots": 22
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 24,
+          "slots": 103
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Others",
+          "leaders": 16,
+          "slots": 64
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 6
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 3,
+          "slots": 11
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 18,
+          "slots": 74
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 4
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 6
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 2
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 4
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 5
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 1
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 7,
+      "pctSlotsFilledToday": 1.54,
+      "pageViews": {
+        "total1on1": 1482,
+        "slotsAvailable": 1363,
+        "pctSlotsAvailable": 92.0
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 9,
+        "sessionTarget": 62,
+        "sessionAchieved": 28,
+        "phasingTarget": 283,
+        "phasingAchieved": 150
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 13,
+        "phasingAchieved": 9
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 38
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Vidhya K",
+          "value": 15
+        },
+        {
+          "name": "Mahima Mor",
+          "value": 15
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Divyaa",
+          "value": 5
+        },
+        {
+          "name": "Lovina Gidwani",
+          "value": 2
+        },
+        {
+          "name": "Bhairavi Mehta",
+          "value": 1
+        },
+        {
+          "name": "Damini Grover",
+          "value": 1
+        },
+        {
+          "name": "Dr. Ruchi Gulati",
+          "value": 10
+        },
+        {
+          "name": "Gunjan Nautiyall",
+          "value": 8
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Vidhya K",
+          "missed": 8
+        },
+        {
+          "name": "Mahima Mor",
+          "missed": 10
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 2
+        },
+        {
+          "name": "Lovina Gidwani",
+          "missed": 1
+        },
+        {
+          "name": "Bhairavi Mehta",
+          "missed": 1
+        },
+        {
+          "name": "Dr. Ruchi Gulati",
+          "missed": 7
+        },
+        {
+          "name": "Gunjan Nautiyall",
+          "missed": 8
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 112,
+        "leadersAvailableToday": 109,
+        "today": 476,
+        "t1": 477,
+        "t2": 486,
+        "t3": 485,
+        "t4": 924,
+        "t5": 6,
+        "t6": 2,
+        "t7": 4
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 16
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 3
+        },
+        {
+          "category": "Astrology",
+          "leaders": 11,
+          "slots": 45
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 31
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 4,
+          "slots": 29
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 25,
+          "slots": 107
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 3,
+          "slots": 15
+        },
+        {
+          "category": "Others",
+          "leaders": 16,
+          "slots": 64
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 6
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 15
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 18,
+          "slots": 75
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 3
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 6
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 3
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 3
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 5
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 7
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 3
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 2
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 7,
+      "pctSlotsFilledToday": 1.47,
+      "pageViews": {
+        "total1on1": 967,
+        "slotsAvailable": 881,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 57,
+        "sessionAchieved": 24,
+        "phasingTarget": 296,
+        "phasingAchieved": 161
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 13,
+        "phasingAchieved": 12
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 32
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Amrita Shah",
+          "value": 10
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Chaittali",
+          "value": 1
+        },
+        {
+          "name": "Anupama Chatterjee",
+          "value": 7
+        },
+        {
+          "name": "Seemaa Dhingra",
+          "value": 9
+        },
+        {
+          "name": "Rashi Gaur",
+          "value": 12
+        },
+        {
+          "name": "Jyotismita Das",
+          "value": 12
+        },
+        {
+          "name": "Preethi Balan",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Amrita Shah",
+          "missed": 5
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 4
+        },
+        {
+          "name": "Anupama Chatterjee",
+          "missed": 7
+        },
+        {
+          "name": "Seemaa Dhingra",
+          "missed": 3
+        },
+        {
+          "name": "Rashi Gaur",
+          "missed": 3
+        },
+        {
+          "name": "Jyotismita Das",
+          "missed": 10
+        },
+        {
+          "name": "Preethi Balan",
+          "missed": 1
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 111,
+        "leadersAvailableToday": 106,
+        "today": 454,
+        "t1": 471,
+        "t2": 477,
+        "t3": 487,
+        "t4": 473,
+        "t5": 2,
+        "t6": 4,
+        "t7": 4
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 17
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 3
+        },
+        {
+          "category": "Astrology",
+          "leaders": 10,
+          "slots": 45
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 30
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 4,
+          "slots": 21
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 25,
+          "slots": 106
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "Others",
+          "leaders": 16,
+          "slots": 63
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 1,
+          "slots": 6
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 5,
+          "slots": 15
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 17,
+          "slots": 70
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 4
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 6
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 3
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 3
+        },
+        {
+          "name": "Manisha Sajnani",
+          "slots": 3
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 5
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 3
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 3
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 11,
+      "pctSlotsFilledToday": 2.42,
+      "pageViews": {
+        "total1on1": 1287,
+        "slotsAvailable": 1145,
+        "pctSlotsAvailable": 89.0
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 1031,
+        "sessionAchieved": 455,
+        "phasingTarget": 301,
+        "phasingAchieved": 234
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 13,
+        "phasingAchieved": 10
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 26
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Neera Sareen",
+          "value": 9
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Ashwini Bhave",
+          "value": 2
+        },
+        {
+          "name": "Abhaya Balaji",
+          "value": 2
+        },
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 1000
+        },
+        {
+          "name": "Renu Kaushik",
+          "value": 7
+        },
+        {
+          "name": "Arpita Thakkar",
+          "value": 6
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Neera Sareen",
+          "missed": 1
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 4
+        },
+        {
+          "name": "Ashwini Bhave",
+          "missed": 1
+        },
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "missed": 566
+        },
+        {
+          "name": "Renu Kaushik",
+          "missed": 6
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 106,
+        "leadersAvailableToday": 102,
+        "today": 431,
+        "t1": 438,
+        "t2": 441,
+        "t3": 425,
+        "t4": 2,
+        "t5": 4,
+        "t6": 4,
+        "t7": 4
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 16
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 2
+        },
+        {
+          "category": "Astrology",
+          "leaders": 11,
+          "slots": 47
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 31
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 3,
+          "slots": 14
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 25,
+          "slots": 107
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 12
+        },
+        {
+          "category": "Others",
+          "leaders": 15,
+          "slots": 60
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 4,
+          "slots": 11
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 16,
+          "slots": 61
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 4
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 5
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 3
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 2
+        },
+        {
+          "name": "Naina Goyal",
+          "slots": 1
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 5
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 3
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 2
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 10,
+      "pctSlotsFilledToday": 2.32,
+      "pageViews": {
+        "total1on1": 1608,
+        "slotsAvailable": 1163,
+        "pctSlotsAvailable": 72.0
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 6,
+        "sessionTarget": 231,
+        "sessionAchieved": 90,
+        "phasingTarget": 153,
+        "phasingAchieved": 112
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 17,
+        "phasingAchieved": 11
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": 21
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Dr. Suchitra",
+          "value": 2
+        },
+        {
+          "name": "Krishnna",
+          "value": 1
+        },
+        {
+          "name": "Kajal Thakkar",
+          "value": 12
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "value": 200
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "value": 11
+        }
+      ],
+      "groupMissedTargets": [
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 1
+        },
+        {
+          "name": "Dr. Suchitra",
+          "missed": 2
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "missed": 128
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 10
+        }
+      ],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 104,
+        "leadersAvailableToday": 98,
+        "today": 409,
+        "t1": 430,
+        "t2": 416,
+        "t3": 3,
+        "t4": 3,
+        "t5": 5,
+        "t6": 7,
+        "t7": 5
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 15
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 3
+        },
+        {
+          "category": "Astrology",
+          "leaders": 12,
+          "slots": 53
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 31
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 3,
+          "slots": 15
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 23,
+          "slots": 100
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 7
+        },
+        {
+          "category": "Others",
+          "leaders": 15,
+          "slots": 60
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 3,
+          "slots": 10
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 13,
+          "slots": 48
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 3
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 5
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 3
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 3
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 3
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 2
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 3
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": 6,
+      "pctSlotsFilledToday": 1.47,
+      "pageViews": {
+        "total1on1": 1132,
+        "slotsAvailable": 977,
+        "pctSlotsAvailable": 86.0
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 50,
+        "sessionAchieved": 42,
+        "phasingTarget": 133,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Susitha Pappiah",
+          "value": 25
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Disha Sharma",
+          "value": 5
+        },
+        {
+          "name": "Sidanta Goggate",
+          "value": 7
+        },
+        {
+          "name": "Aditi Grover",
+          "value": 5
+        },
+        {
+          "name": "Taniyaa Gupta",
+          "value": 1
+        },
+        {
+          "name": "Vanita Keswani",
+          "value": 2
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": 118,
+        "leadersAvailableToday": 90,
+        "today": 406,
+        "t1": 401,
+        "t2": 444,
+        "t3": 456,
+        "t4": 454,
+        "t5": 460,
+        "t6": 456,
+        "t7": 288
+      },
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 4,
+          "slots": 11
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Astrology",
+          "leaders": 7,
+          "slots": 42
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 8,
+          "slots": 31
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 8
+        },
+        {
+          "category": "Hypnotherapy",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 4,
+          "slots": 16
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "NA",
+          "leaders": 23,
+          "slots": 98
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 20
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 2,
+          "slots": 12
+        },
+        {
+          "category": "Others",
+          "leaders": 15,
+          "slots": 59
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 4,
+          "slots": 18
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 14,
+          "slots": 61
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 4
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 9
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 4
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 4
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        }
+      ],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 80,
+        "sessionAchieved": 20,
+        "phasingTarget": 219,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Devi Nidhi Saraswat",
+          "value": 40
+        },
+        {
+          "name": "Alipta Sabharwal",
+          "value": 10
+        },
+        {
+          "name": "Dr. Vineet Aggarwal",
+          "value": 20
+        },
+        {
+          "name": "Punita Kadam",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 9,
+        "sessionTarget": 107,
+        "sessionAchieved": 16,
+        "phasingTarget": 226,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Dushyant",
+          "value": 25
+        },
+        {
+          "name": "Arpana Khanna",
+          "value": 18
+        },
+        {
+          "name": "Rhea Mathew",
+          "value": 15
+        },
+        {
+          "name": "Sukhmani Bajwa",
+          "value": 12
+        },
+        {
+          "name": "Ivy Roy",
+          "value": 10
+        },
+        {
+          "name": "Neha Ranglani",
+          "value": 10
+        },
+        {
+          "name": "Siddhi Shah",
+          "value": 10
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Setu Gokani",
+          "value": 2
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 797,
+        "sessionAchieved": 249,
+        "phasingTarget": 206,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 25,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "value": 700
+        },
+        {
+          "name": "Krishna Jangid",
+          "value": 30
+        },
+        {
+          "name": "Divyaa",
+          "value": 18
+        },
+        {
+          "name": "Shaan",
+          "value": 2
+        },
+        {
+          "name": "Supriya Chhabra",
+          "value": 2
+        },
+        {
+          "name": "Denzil Oconnell",
+          "value": 10
+        },
+        {
+          "name": "Manka Malik",
+          "value": 30
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 69,
+        "sessionAchieved": 2,
+        "phasingTarget": 131,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 30,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Dr. Nehaa Jain",
+          "value": 7
+        },
+        {
+          "name": "Rishita Makhija",
+          "value": 1
+        },
+        {
+          "name": "Shalini Chugh",
+          "value": 10
+        },
+        {
+          "name": "Amrita Shah",
+          "value": 25
+        },
+        {
+          "name": "Violet Tara",
+          "value": 11
+        },
+        {
+          "name": "Pranjal Katoch",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 149,
+        "sessionAchieved": 2,
+        "phasingTarget": 133,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 30,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Shweta Singh Kirti",
+          "value": 100
+        },
+        {
+          "name": "Seemaa Dhingra",
+          "value": 10
+        },
+        {
+          "name": "Ridhhimaa Tandon",
+          "value": 10
+        },
+        {
+          "name": "Gunjan Adya",
+          "value": 10
+        },
+        {
+          "name": "Divyaa",
+          "value": 5
+        },
+        {
+          "name": "Bansari Nagda",
+          "value": 8
+        },
+        {
+          "name": "Neha Kumra",
+          "value": 1
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 84,
+        "sessionAchieved": 0,
+        "phasingTarget": 183,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 30,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Hiral Pawar",
+          "value": 22
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "value": 15
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Bhairavi Mehta",
+          "value": 1
+        },
+        {
+          "name": "Meher Gehi",
+          "value": 8
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "value": 11
+        },
+        {
+          "name": "Dr. Jiggnna Desai",
+          "value": 10
+        },
+        {
+          "name": "Kabir",
+          "value": 12
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 95,
+        "sessionAchieved": 107,
+        "phasingTarget": 171,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 2,
+        "sessionTarget": 310,
+        "sessionAchieved": 104,
+        "phasingTarget": 32,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "value": 250
+        },
+        {
+          "name": "Immersive Sound Experience",
+          "value": 60
+        },
+        {
+          "name": "Hanuman Dass",
+          "value": 30
+        },
+        {
+          "name": "Smita Venkatesh",
+          "value": 25
+        },
+        {
+          "name": "Mariko Hiyama",
+          "value": 20
+        },
+        {
+          "name": "Disha Sharma",
+          "value": 5
+        },
+        {
+          "name": "Jaya Mandhian",
+          "value": 1
+        },
+        {
+          "name": "Ellaeenah Niloufer",
+          "value": 7
+        },
+        {
+          "name": "Sweta Gusain",
+          "value": 2
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 221,
+        "sessionAchieved": 7,
+        "phasingTarget": 199,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 1,
+        "sessionTarget": 25,
+        "sessionAchieved": 0,
+        "phasingTarget": 16,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Nithya Ji",
+          "value": 50
+        },
+        {
+          "name": "Nayana Cariappa",
+          "value": 10
+        },
+        {
+          "name": "Poonam Dhandania",
+          "value": 10
+        },
+        {
+          "name": "Nishi Shah",
+          "value": 1
+        },
+        {
+          "name": "Hiral Pawar",
+          "value": 25
+        },
+        {
+          "name": "Guru Maa MeeMaa",
+          "value": 150
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 73,
+        "sessionAchieved": 1,
+        "phasingTarget": 202,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 16,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Arpana Khanna",
+          "value": 18
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "value": 12
+        },
+        {
+          "name": "Lovish Kandoi",
+          "value": 12
+        },
+        {
+          "name": "Meher Gehi",
+          "value": 10
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Preety",
+          "value": 1
+        },
+        {
+          "name": "Dr. Ddevika",
+          "value": 15
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 8,
+        "sessionTarget": 287,
+        "sessionAchieved": 4,
+        "phasingTarget": 195,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 16,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Janhvi V Singh",
+          "value": 200
+        },
+        {
+          "name": "Rashika Kaul",
+          "value": 10
+        },
+        {
+          "name": "Divyaa",
+          "value": 5
+        },
+        {
+          "name": "Peyush Bhatia",
+          "value": 7
+        },
+        {
+          "name": "Kajal Thakkar",
+          "value": 1
+        },
+        {
+          "name": "Mrridula Bali",
+          "value": 50
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Dr. Devanshi",
+          "value": 9
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 6,
+        "sessionTarget": 58,
+        "sessionAchieved": 2,
+        "phasingTarget": 199,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 19,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Sonika Vickraman",
+          "value": 15
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Swati Ahluwalia",
+          "value": 1
+        },
+        {
+          "name": "Ved Prakash",
+          "value": 20
+        },
+        {
+          "name": "Denzil Oconnell",
+          "value": 8
+        },
+        {
+          "name": "Devina Fogla",
+          "value": 9
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 75,
+        "sessionAchieved": 2,
+        "phasingTarget": 187,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Dr. Mitali Jaiswal",
+          "value": 10
+        },
+        {
+          "name": "Divyaa",
+          "value": 5
+        },
+        {
+          "name": "Shruti Seth",
+          "value": 20
+        },
+        {
+          "name": "Ruchika Uppal",
+          "value": 10
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Dr. Neha Racca",
+          "value": 10
+        },
+        {
+          "name": "Kainaz Motivala",
+          "value": 15
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 6,
+        "sessionTarget": 754,
+        "sessionAchieved": 12,
+        "phasingTarget": 196,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 700
+        },
+        {
+          "name": "Jyotismita Das",
+          "value": 11
+        },
+        {
+          "name": "Shweta Chatterjee",
+          "value": 10
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "value": 5
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "value": 18
+        },
+        {
+          "name": "Arjun Aiyar",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 49,
+        "sessionAchieved": 1,
+        "phasingTarget": 82,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 1,
+        "sessionTarget": 125,
+        "sessionAchieved": 0,
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Immersive Kirtan",
+          "value": 125
+        },
+        {
+          "name": "Susitha Pappiah",
+          "value": 20
+        },
+        {
+          "name": "Disha Sharma",
+          "value": 5
+        },
+        {
+          "name": "Supriya Chhabra",
+          "value": 1
+        },
+        {
+          "name": "Debanjan Medhi",
+          "value": 5
+        },
+        {
+          "name": "Ambika Ganesh",
+          "value": 10
+        },
+        {
+          "name": "Sayalee Jadhav",
+          "value": 7
+        },
+        {
+          "name": "Suraj Raghav Ram",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 270,
+        "sessionAchieved": 6,
+        "phasingTarget": 83,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 2,
+        "sessionTarget": 100,
+        "sessionAchieved": 1,
+        "phasingTarget": 10,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Munisha Khatwani",
+          "value": 150
+        },
+        {
+          "name": "Dr. Sweta Adatia",
+          "value": 50
+        },
+        {
+          "name": "Smita Jayakar",
+          "value": 50
+        },
+        {
+          "name": "Swapnil Gawde",
+          "value": 50
+        },
+        {
+          "name": "Ivy Roy",
+          "value": 10
+        },
+        {
+          "name": "Nithya Shanti",
+          "value": 60
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 70,
+        "sessionAchieved": 1,
+        "phasingTarget": 36,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": 22,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Manka Malik",
+          "value": 25
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "value": 20
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "value": 10
+        },
+        {
+          "name": "Siddhi Shah",
+          "value": 10
+        },
+        {
+          "name": "Aditi Grover",
+          "value": 5
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 2,
+        "sessionTarget": 12,
+        "sessionAchieved": 0,
+        "phasingTarget": 64,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Simran Jadhwani",
+          "value": 1
+        },
+        {
+          "name": "Manika Aggarwal",
+          "value": 11
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 1,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 158,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Abhirammi",
+          "value": 0
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 6,
+        "sessionTarget": 105,
+        "sessionAchieved": 0,
+        "phasingTarget": 192,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Neera Sareen",
+          "value": 10
+        },
+        {
+          "name": "Tamanna Gulati",
+          "value": 9
+        },
+        {
+          "name": "Seemaa Dhingra",
+          "value": 10
+        },
+        {
+          "name": "Sujata Dutta",
+          "value": 1
+        },
+        {
+          "name": "Shweta Singh Kirti",
+          "value": 75
+        },
+        {
+          "name": "Krupa Shah",
+          "value": 0
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 29,
+        "sessionAchieved": 0,
+        "phasingTarget": 211,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Bansari Nagda",
+          "value": 0
+        },
+        {
+          "name": "Dr. Kinnari I. Gupta",
+          "value": 10
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "value": 18
+        },
+        {
+          "name": "Vedantika Puri",
+          "value": 1
+        },
+        {
+          "name": "Barkha Mahesh",
+          "value": 0
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 17,
+        "sessionAchieved": 0,
+        "phasingTarget": 208,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Supriya Chhabra",
+          "value": 1
+        },
+        {
+          "name": "Prateek Bajaj",
+          "value": 0
+        },
+        {
+          "name": "Rashmi Shahbazker",
+          "value": 1
+        },
+        {
+          "name": "Parul Khanna",
+          "value": 15
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 3,
+        "sessionTarget": 511,
+        "sessionAchieved": 0,
+        "phasingTarget": 183,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Ruchika Uppal",
+          "value": 10
+        },
+        {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
+          "name": "Kavyal Sedanni",
+          "value": 500
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 2,
+        "sessionTarget": 11,
+        "sessionAchieved": 1,
+        "phasingTarget": 88,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Navneeth Vallabh",
+          "value": 1
+        },
+        {
+          "name": "Ashwini Kamath",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 23,
+        "sessionAchieved": 0,
+        "phasingTarget": 112,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Amrita Shah",
+          "value": 20
+        },
+        {
+          "name": "Neha Kumra",
+          "value": 1
+        },
+        {
+          "name": "Vanita Keswani",
+          "value": 1
+        },
+        {
+          "name": "Bhupali Deore",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 6,
+        "sessionTarget": 34,
+        "sessionAchieved": 0,
+        "phasingTarget": 193,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Sonika Vickraman",
+          "value": 12
+        },
+        {
+          "name": "Anupama Chatterjee",
+          "value": 10
+        },
+        {
+          "name": "Jyotismita Das",
+          "value": 11
+        },
+        {
+          "name": "Shilpa Goel",
+          "value": 1
+        },
+        {
+          "name": "Jyoti Soni",
+          "value": 0
+        },
+        {
+          "name": "Amritaa Shankar",
+          "value": 0
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 7,
+        "sessionTarget": 180,
+        "sessionAchieved": 0,
+        "phasingTarget": 189,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Shaan",
+          "value": 1
+        },
+        {
+          "name": "Mahima Mor",
+          "value": 0
+        },
+        {
+          "name": "Sanyaas In The City",
+          "value": 1
+        },
+        {
+          "name": "Arpita Thakkar",
+          "value": 10
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "value": 150
+        },
+        {
+          "name": "Divyaa",
+          "value": 18
+        },
+        {
+          "name": "Dr. Neha Racca",
+          "value": 0
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 834,
+        "sessionAchieved": 4,
+        "phasingTarget": 161,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Shalini Chugh",
+          "value": 10
+        },
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 800
+        },
+        {
+          "name": "Kajal Thakkar",
+          "value": 12
+        },
+        {
+          "name": "Aditi Grover",
+          "value": 11
+        },
+        {
+          "name": "Deepa Shetty",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 31,
+        "sessionAchieved": 0,
+        "phasingTarget": 25,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Susitha Pappiah",
+          "value": 20
+        },
+        {
+          "name": "Poonam Dhandania",
+          "value": 0
+        },
+        {
+          "name": "Mohini Srishati",
+          "value": 10
+        },
+        {
+          "name": "Krishnna",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 3,
+        "sessionTarget": 28,
+        "sessionAchieved": 0,
+        "phasingTarget": 23,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Alipta Sabharwal",
+          "value": 10
+        },
+        {
+          "name": "Ivy Roy",
+          "value": 10
+        },
+        {
+          "name": "Loveena Bahl",
+          "value": 8
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 2,
+        "sessionTarget": 10,
+        "sessionAchieved": 0,
+        "phasingTarget": 19,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Ashwini Bhave",
+          "value": 0
+        },
+        {
+          "name": "Shweta Chatterjee",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 27,
+        "sessionAchieved": 1,
+        "phasingTarget": 16,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Setu Gokani",
+          "value": 1
+        },
+        {
+          "name": "Preethi Balan",
+          "value": 1
+        },
+        {
+          "name": "Rashika Kaul",
+          "value": 15
+        },
+        {
+          "name": "Amrita Shah",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 4,
+        "sessionTarget": 18,
+        "sessionAchieved": 0,
+        "phasingTarget": 54,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Chaittali",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 8
+        },
+        {
+          "name": "Pranjal Katoch",
+          "value": 8
+        },
+        {
+          "name": "Krupa Shah",
+          "value": 1
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 3,
+        "sessionTarget": 8,
+        "sessionAchieved": 0,
+        "phasingTarget": 60,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Bansari Nagda",
+          "value": 0
+        },
+        {
+          "name": "Ridhhimaa Tandon",
+          "value": 0
+        },
+        {
+          "name": "Swati Ahluwalia",
+          "value": 8
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 2,
+        "sessionTarget": 11,
+        "sessionAchieved": 0,
+        "phasingTarget": 65,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Ambika Ganesh",
+          "value": 1
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 3,
+        "sessionTarget": 10,
+        "sessionAchieved": 1,
+        "phasingTarget": 87,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Ruchika Uppal",
+          "value": 2
+        },
+        {
+          "name": "Supriya Chhabra",
+          "value": 1
+        },
+        {
+          "name": "Prateek Bajaj",
+          "value": 7
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 2,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 129,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Dr. Neha Racca",
+          "value": 0
+        },
+        {
+          "name": "Preety",
+          "value": 0
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 1,
+        "sessionTarget": 8,
+        "sessionAchieved": 0,
+        "phasingTarget": 174,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Dushyant",
+          "value": 8
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 3,
+        "sessionTarget": 82,
+        "sessionAchieved": 0,
+        "phasingTarget": 207,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Amrita Shah",
+          "value": 20
+        },
+        {
+          "name": "Kajal Thakkar",
+          "value": 12
+        },
+        {
+          "name": "Shweta Singh Kirti",
+          "value": 50
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 33,
+        "sessionAchieved": 0,
+        "phasingTarget": 269,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Sonika Vickraman",
+          "value": 12
+        },
+        {
+          "name": "Jyotismita Das",
+          "value": 0
+        },
+        {
+          "name": "Rooppreet Caur",
+          "value": 10
+        },
+        {
+          "name": "Krishnna",
+          "value": 1
+        },
+        {
+          "name": "Dr. Ddevika",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 532,
+        "sessionAchieved": 0,
+        "phasingTarget": 263,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Susitha Pappiah",
+          "value": 20
+        },
+        {
+          "name": "Dr. Mitali Jaiswal",
+          "value": 1
+        },
+        {
+          "name": "Dr. Jiggnna Desai",
+          "value": 10
+        },
+        {
+          "name": "Dr. Devanshi",
+          "value": 1
+        },
+        {
+          "name": "Kavyal Sedanni",
+          "value": 500
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 1,
+        "sessionTarget": 600,
+        "sessionAchieved": 1,
+        "phasingTarget": 151,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 600
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "dayName": "Saturday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 5,
+        "sessionTarget": 56,
+        "sessionAchieved": 5,
+        "phasingTarget": 64,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 1,
+        "sessionTarget": 0,
+        "sessionAchieved": 5,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Aditi Grover",
+          "value": 1
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "value": 10
+        },
+        {
+          "name": "Hiral Pawar",
+          "value": 20
+        },
+        {
+          "name": "Dr. Vineet Aggarwal",
+          "value": 15
+        },
+        {
+          "name": "Kavyal Sedanni",
+          "value": 0
+        },
+        {
+          "name": "Shweta Chatterjee",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "dayName": "Sunday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 1,
+        "sessionTarget": 150,
+        "sessionAchieved": 0,
+        "phasingTarget": 47,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 2,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Susitha Pappiah",
+          "value": 0
+        },
+        {
+          "name": "Guru Maa MeeMaa",
+          "value": 150
+        },
+        {
+          "name": "Mahima Mor",
+          "value": 0
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "dayName": "Monday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 2,
+        "sessionTarget": 60,
+        "sessionAchieved": 0,
+        "phasingTarget": 34,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Shreya Singh",
+          "value": 10
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "value": 50
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "dayName": "Tuesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 1,
+        "sessionTarget": 10,
+        "sessionAchieved": 1,
+        "phasingTarget": 16,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Rashika Kaul",
+          "value": 10
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "dayName": "Wednesday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 1,
+        "sessionTarget": 75,
+        "sessionAchieved": 0,
+        "phasingTarget": 13,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [
+        {
+          "name": "Munisha Khatwani",
+          "value": 75
+        }
+      ],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "dayName": "Thursday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "dayName": "Friday",
+      "month": "Aug-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    }
+  ]
+}

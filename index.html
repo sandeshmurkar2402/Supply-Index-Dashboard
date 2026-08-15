@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Supply Index Dashboard</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    color-scheme: light;
+    --surface:        #fcfcfb;
+    --surface-2:      #f4f3ef;
+    --page:           #f9f9f7;
+    --border:         rgba(11,11,11,0.10);
+    --border-strong:  #e1e0d9;
+    --text:           #0b0b0b;
+    --text-2:         #52514e;
+    --muted:          #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+
+    --blue:   #2a78d6;
+    --orange: #eb6834;
+    --aqua:   #1baf7a;
+    --yellow: #eda100;
+    --violet: #4a3aa7;
+
+    --good:     #0ca30c;
+    --warning:  #fab219;
+    --serious:  #ec835a;
+    --critical: #d03b3b;
+
+    --deemph: #c3c2b7;
+    --deemph-fill: #e1e0d9;
+
+    --radius: 12px;
+    --radius-sm: 8px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface:        #1a1a19;
+      --surface-2:      #212120;
+      --page:           #0d0d0d;
+      --border:         rgba(255,255,255,0.10);
+      --border-strong:  #2c2c2a;
+      --text:           #ffffff;
+      --text-2:         #c3c2b7;
+      --muted:          #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+
+      --blue:   #3987e5;
+      --orange: #d95926;
+      --aqua:   #199e70;
+      --yellow: #c98500;
+      --violet: #9085e9;
+
+      --good:     #0ca30c;
+      --warning:  #fab219;
+      --serious:  #ec835a;
+      --critical: #e66767;
+
+      --deemph: #46453f;
+      --deemph-fill: #2c2c2a;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface:        #1a1a19;
+    --surface-2:      #212120;
+    --page:           #0d0d0d;
+    --border:         rgba(255,255,255,0.10);
+    --border-strong:  #2c2c2a;
+    --text:           #ffffff;
+    --text-2:         #c3c2b7;
+    --muted:          #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+
+    --blue:   #3987e5;
+    --orange: #d95926;
+    --aqua:   #199e70;
+    --yellow: #c98500;
+    --violet: #9085e9;
+
+    --good:     #0ca30c;
+    --warning:  #fab219;
+    --serious:  #ec835a;
+    --critical: #e66767;
+
+    --deemph: #46453f;
+    --deemph-fill: #2c2c2a;
+  }
+
+  html, body { height: 100%; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  a { color: var(--blue); }
+
+  /* ── Header ─────────────────────────────────────────── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border-strong);
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .brand { display: flex; flex-direction: column; gap: 2px; }
+  .brand-title { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
+  .brand-title span { color: var(--blue); }
+  .brand-sub { font-size: 0.7rem; color: var(--muted); }
+
+  .header-right { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+  .icon-btn {
+    background: transparent; border: 1px solid var(--border-strong); color: var(--text-2);
+    width: 32px; height: 32px; border-radius: var(--radius-sm); cursor: pointer;
+    font-size: 0.95rem; display: flex; align-items: center; justify-content: center;
+    transition: border-color .15s, color .15s; flex-shrink: 0;
+  }
+  .icon-btn:hover { border-color: var(--blue); color: var(--blue); }
+
+  .refresh-btn {
+    background: var(--blue); color: #fff; border: none; padding: 7px 14px;
+    border-radius: var(--radius-sm); font-size: 0.78rem; font-weight: 600; cursor: pointer;
+    display: flex; align-items: center; gap: 7px; white-space: nowrap;
+    transition: opacity .15s, transform .1s;
+  }
+  .refresh-btn:hover { opacity: .88; }
+  .refresh-btn:active { transform: scale(0.97); }
+  .refresh-btn:disabled { opacity: .5; cursor: not-allowed; }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .spinner { width: 12px; height: 12px; border: 2px solid rgba(255,255,255,.35); border-top-color: #fff;
+    border-radius: 50%; animation: spin .7s linear infinite; flex-shrink: 0; }
+
+  .last-updated { font-size: 0.68rem; color: var(--muted); white-space: nowrap; }
+  .token-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--border-strong); flex-shrink: 0; }
+  .token-dot.active { background: var(--good); box-shadow: 0 0 6px rgba(12,163,12,.5); }
+
+  /* ── Toast ──────────────────────────────────────────── */
+  .toast {
+    position: fixed; bottom: 22px; right: 22px; padding: 10px 16px; border-radius: var(--radius-sm);
+    font-size: 0.8rem; font-weight: 600; z-index: 999; opacity: 0; transform: translateY(8px);
+    transition: opacity .25s, transform .25s; pointer-events: none; max-width: 360px;
+    border: 1px solid var(--border-strong); background: var(--surface); color: var(--text);
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+  .toast.success { border-color: var(--good); }
+  .toast.error   { border-color: var(--critical); }
+  .toast.info    { border-color: var(--blue); }
+
+  /* ── Filter row ─────────────────────────────────────── */
+  .filter-row {
+    max-width: 1360px; margin: 0 auto; padding: 16px 20px 0;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .tabs { display: flex; gap: 4px; background: var(--surface-2); padding: 4px; border-radius: 10px; }
+  .tab-btn {
+    border: none; background: transparent; color: var(--text-2); font-size: 0.8rem; font-weight: 600;
+    padding: 7px 14px; border-radius: 7px; cursor: pointer; white-space: nowrap;
+  }
+  .tab-btn.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px var(--border); }
+  .tab-btn:hover:not(.active) { color: var(--text); }
+
+  .range-label { font-size: 0.78rem; color: var(--muted); margin-left: 4px; }
+
+  .custom-range-box {
+    display: none; align-items: center; gap: 8px; flex-wrap: wrap;
+    background: var(--surface-2); padding: 6px 10px; border-radius: 8px;
+  }
+  .custom-range-box.show { display: flex; }
+  .custom-range-box input[type=date] {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
+    color: var(--text); padding: 5px 8px; font-size: 0.78rem; font-family: inherit;
+  }
+  .apply-btn {
+    background: var(--blue); color: #fff; border: none; padding: 6px 12px; border-radius: 6px;
+    font-size: 0.78rem; font-weight: 600; cursor: pointer;
+  }
+
+  /* ── Layout ─────────────────────────────────────────── */
+  main { max-width: 1360px; margin: 0 auto; padding: 16px 20px 56px; }
+
+  .section-title {
+    font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--muted); margin: 28px 0 10px;
+  }
+  .section-title:first-child { margin-top: 6px; }
+
+  .day-heading { font-size: 1.15rem; font-weight: 700; margin-top: 4px; }
+  .day-heading .sub { font-size: 0.78rem; color: var(--muted); font-weight: 500; margin-left: 8px; }
+
+  /* ── Grid ───────────────────────────────────────────── */
+  .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+  .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 14px; }
+
+  /* ── Card ───────────────────────────────────────────── */
+  .card {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius);
+    padding: 16px 18px;
+  }
+  .card-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 10px; gap: 8px; }
+  .card-title { font-size: 0.82rem; font-weight: 700; }
+  .card-hint { font-size: 0.68rem; color: var(--muted); }
+
+  /* ── Business-line card ─────────────────────────────── */
+  .bl-card::before {
+    content: ''; display: block; width: 30px; height: 3px; border-radius: 2px; margin-bottom: 10px;
+  }
+  .bl-card[data-line="online"]::before  { background: var(--blue); }
+  .bl-card[data-line="offline"]::before { background: var(--orange); }
+  .bl-card[data-line="1on1"]::before    { background: var(--aqua); }
+
+  .bl-label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; margin-bottom: 2px; }
+  .bl-name  { font-size: 0.98rem; font-weight: 700; margin-bottom: 12px; }
+
+  .meter-row { margin-bottom: 12px; }
+  .meter-row:last-child { margin-bottom: 0; }
+  .meter-labels { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
+  .meter-caption { font-size: 0.72rem; color: var(--text-2); }
+  .meter-value { font-size: 0.78rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .meter-track { height: 7px; border-radius: 4px; overflow: hidden; position: relative; }
+  .meter-fill  { height: 100%; border-radius: 4px; transition: width .3s; }
+  .meter-na { font-size: 0.72rem; color: var(--muted); font-style: italic; }
+
+  /* ── Stat tile ──────────────────────────────────────── */
+  .stat-tile {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .stat-label { font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; margin-bottom: 6px; }
+  .stat-value { font-size: 1.55rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+  .stat-delta { margin-top: 8px; font-size: 0.72rem; display: flex; align-items: center; gap: 5px; }
+  .stat-delta .badge { font-weight: 700; padding: 1px 6px; border-radius: 4px; }
+  .badge.good { color: var(--good); background: color-mix(in srgb, var(--good) 14%, transparent); }
+  .badge.bad  { color: var(--critical); background: color-mix(in srgb, var(--critical) 14%, transparent); }
+  .badge.neutral { color: var(--muted); background: var(--surface-2); }
+
+  /* ── Table ──────────────────────────────────────────── */
+  .table-wrap { max-height: 320px; overflow-y: auto; border-radius: var(--radius-sm); border: 1px solid var(--border-strong); }
+  table.data-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+  table.data-table thead th {
+    position: sticky; top: 0; background: var(--surface-2); color: var(--muted);
+    font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+    padding: 8px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--border-strong);
+  }
+  table.data-table thead th:first-child { text-align: left; }
+  table.data-table tbody td {
+    padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--border);
+    font-variant-numeric: tabular-nums; color: var(--text-2);
+  }
+  table.data-table tbody td:first-child { text-align: left; color: var(--text); font-weight: 500; }
+  table.data-table tbody tr:last-child td { border-bottom: none; }
+  table.data-table tbody tr:hover td { background: var(--surface-2); }
+  .empty-note { padding: 18px; text-align: center; color: var(--muted); font-size: 0.8rem; }
+
+  /* ── Chart ──────────────────────────────────────────── */
+  .chart-card { background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius); padding: 16px 18px; }
+  .chart-legend { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 4px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.74rem; color: var(--text-2); }
+  .legend-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+  .legend-swatch.line { width: 12px; height: 2px; border-radius: 1px; }
+
+  .chart-svg-wrap { position: relative; }
+  .chart-svg-wrap svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .bar-rect { cursor: pointer; transition: opacity .1s; }
+  .bar-rect:hover { opacity: .78; }
+  .dot-marker { cursor: pointer; }
+
+  .view-table-toggle {
+    margin-top: 8px; font-size: 0.7rem; color: var(--blue); background: none; border: none; cursor: pointer;
+    font-weight: 600; padding: 0;
+  }
+  .mini-table-wrap { display: none; margin-top: 10px; }
+  .mini-table-wrap.show { display: block; }
+
+  #chart-tooltip {
+    position: fixed; pointer-events: none; background: var(--text); color: var(--page);
+    padding: 8px 10px; border-radius: 7px; font-size: 0.72rem; z-index: 500; opacity: 0;
+    transition: opacity .1s; max-width: 220px; box-shadow: 0 4px 14px rgba(0,0,0,.25);
+  }
+  #chart-tooltip.show { opacity: 1; }
+  #chart-tooltip .tt-title { font-weight: 700; margin-bottom: 4px; }
+  #chart-tooltip .tt-row { display: flex; align-items: center; gap: 6px; justify-content: space-between; gap: 12px; }
+  #chart-tooltip .tt-key { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }
+  #chart-tooltip .tt-val { font-weight: 700; }
+
+  /* ── Loading / error ────────────────────────────────── */
+  @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+  .skeleton { background: linear-gradient(90deg, var(--surface) 25%, var(--surface-2) 50%, var(--surface) 75%);
+    background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: var(--radius); }
+  .skel-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 14px; margin-bottom: 20px; }
+  .skel-tile { height: 100px; }
+  .skel-block { height: 220px; margin-bottom: 20px; }
+
+  .error-box {
+    background: color-mix(in srgb, var(--critical) 8%, var(--surface)); border: 1px solid color-mix(in srgb, var(--critical) 35%, transparent);
+    border-radius: var(--radius); padding: 30px; text-align: center; margin-top: 30px;
+  }
+  .error-box h3 { color: var(--critical); margin-bottom: 6px; font-size: 1rem; }
+  .error-box p { color: var(--muted); font-size: 0.8rem; }
+
+  .hidden { display: none !important; }
+
+  /* ── Modal ──────────────────────────────────────────── */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,.55); backdrop-filter: blur(3px);
+    z-index: 300; display: flex; align-items: center; justify-content: center; padding: 20px;
+  }
+  .modal { background: var(--surface); border: 1px solid var(--border-strong); border-radius: 14px;
+    width: 100%; max-width: 480px; padding: 26px; }
+  .modal-title { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+  .modal-desc { font-size: 0.78rem; color: var(--text-2); margin-bottom: 16px; line-height: 1.6; }
+  .steps { background: var(--surface-2); border: 1px solid var(--border-strong); border-radius: 8px;
+    padding: 12px 16px; margin-bottom: 16px; font-size: 0.75rem; color: var(--text-2); line-height: 1.85; }
+  .steps ol { padding-left: 16px; }
+  .steps code { background: var(--surface); border: 1px solid var(--border-strong); padding: 1px 5px; border-radius: 3px; font-size: 0.72rem; }
+  .modal-status { font-size: 0.75rem; padding: 8px 12px; border-radius: 6px; margin-bottom: 14px; }
+  .modal-status.has-token { background: color-mix(in srgb, var(--good) 12%, transparent); color: var(--good); border: 1px solid color-mix(in srgb, var(--good) 35%, transparent); }
+  .modal-status.no-token  { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border-strong); }
+  .modal-label { font-size: 0.68rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+  .modal-input { width: 100%; background: var(--surface-2); border: 1px solid var(--border-strong); border-radius: 8px;
+    color: var(--text); font-size: 0.82rem; padding: 9px 11px; font-family: monospace; margin-bottom: 16px; }
+  .modal-input:focus { outline: none; border-color: var(--blue); }
+  .modal-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; }
+  .modal-btn { padding: 7px 16px; border-radius: 8px; font-size: 0.78rem; font-weight: 600; cursor: pointer; border: none; }
+  .modal-btn.primary { background: var(--blue); color: #fff; }
+  .modal-btn.danger  { background: color-mix(in srgb, var(--critical) 14%, transparent); color: var(--critical); border: 1px solid color-mix(in srgb, var(--critical) 35%, transparent); }
+  .modal-btn.cancel  { background: var(--surface-2); color: var(--text-2); border: 1px solid var(--border-strong); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-title">Supply Index <span>Dashboard</span></div>
+    <div class="brand-sub" id="last-updated-text">Loading…</div>
+  </div>
+  <div class="header-right">
+    <div class="token-dot" id="token-dot" title="GitHub token status"></div>
+    <button class="icon-btn" id="theme-toggle" title="Toggle light / dark">&#9789;</button>
+    <button class="icon-btn" onclick="openSettings()" title="Configure live refresh">&#9881;</button>
+    <button class="refresh-btn" id="refresh-btn" onclick="onRefreshClick()">
+      <span id="refresh-icon">&#8635;</span>
+      <span id="refresh-label">Refresh</span>
+    </button>
+  </div>
+</header>
+
+<div class="modal-overlay hidden" id="modal-overlay" onclick="handleOverlayClick(event)">
+  <div class="modal">
+    <div class="modal-title">Configure Live Refresh</div>
+    <div class="modal-desc">
+      The Refresh button triggers a GitHub Actions run that pulls the latest data from the
+      Google Sheet directly, instead of waiting for the scheduled sync. It needs a GitHub token to do that.
+    </div>
+    <div class="steps">
+      <strong style="color:var(--text)">Create a fine-grained PAT at GitHub:</strong>
+      <ol>
+        <li>Go to <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens?type=beta</a></li>
+        <li>Click <strong>Generate new token</strong></li>
+        <li>Repository access &rarr; <code>Only select repositories</code> &rarr; this repo</li>
+        <li>Permissions &rarr; Repository &rarr; <code>Actions</code> &rarr; <strong>Read and write</strong></li>
+        <li>Generate &amp; copy the token, paste below</li>
+      </ol>
+    </div>
+    <div class="modal-status no-token" id="modal-status">No token saved — live refresh runs on the scheduled sync only</div>
+    <div class="modal-label">GitHub Fine-grained PAT</div>
+    <input type="password" class="modal-input" id="token-input" placeholder="github_pat_xxxxxxxxxxxx..." autocomplete="off" />
+    <div class="modal-actions">
+      <button class="modal-btn danger" onclick="clearSavedToken()">Clear token</button>
+      <button class="modal-btn cancel" onclick="closeSettings()">Cancel</button>
+      <button class="modal-btn primary" onclick="saveToken()">Save &amp; enable</button>
+    </div>
+  </div>
+</div>
+
+<div class="filter-row">
+  <div class="tabs" id="tab-bar">
+    <button class="tab-btn" data-tab="today">Today</button>
+    <button class="tab-btn" data-tab="yesterday">Yesterday</button>
+    <button class="tab-btn" data-tab="week">This Week</button>
+    <button class="tab-btn" data-tab="month">This Month</button>
+    <button class="tab-btn" data-tab="custom">Custom Range</button>
+  </div>
+  <span class="range-label" id="range-label"></span>
+  <div class="custom-range-box" id="custom-range-box">
+    <input type="date" id="range-from" />
+    <span style="color:var(--muted); font-size:.75rem;">to</span>
+    <input type="date" id="range-to" />
+    <button class="apply-btn" onclick="applyCustomRange()">Apply</button>
+  </div>
+</div>
+
+<main>
+  <div id="loading">
+    <div class="skel-row">
+      <div class="skeleton skel-tile"></div>
+      <div class="skeleton skel-tile"></div>
+      <div class="skeleton skel-tile"></div>
+    </div>
+    <div class="skeleton skel-block"></div>
+    <div class="skeleton skel-block"></div>
+  </div>
+
+  <div id="dashboard" class="hidden"></div>
+
+  <div id="error-box" class="error-box hidden">
+    <h3>Could not load data</h3>
+    <p id="error-msg">Make sure data/supply_index.json exists and the page is served over HTTP.</p>
+  </div>
+</main>
+
+<div class="toast" id="toast"></div>
+<div id="chart-tooltip"></div>
+
+<script>
+/* ════════════════════════ CONFIG ════════════════════════ */
+const GH_REPO   = 'sandeshmurkar2402/Supply-Index-Dashboard';
+const TOKEN_KEY = 'sid_gha_dispatch_token';
+const THEME_KEY = 'sid_theme';
+const WORKFLOW  = 'update-data.yml';
+
+const COLORS = {
+  online:  getVar('--blue'),
+  offline: getVar('--orange'),
+  oneOnOne: getVar('--aqua'),
+  target:  getVar('--deemph-fill'),
+  targetLine: getVar('--deemph'),
+  good: getVar('--good'),
+  critical: getVar('--critical'),
+};
+function getVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+let DATA = null;          // full payload from JSON
+let DAY_MAP = new Map();  // date -> day object
+let DATES = [];           // sorted list of ISO dates present
+let CURRENT_TAB = 'today';
+let CUSTOM_FROM = null, CUSTOM_TO = null;
+
+/* ════════════════════════ THEME ════════════════════════ */
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  updateThemeIcon();
+}
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const curDark = cur ? cur === 'dark' : sysDark;
+  const next = curDark ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem(THEME_KEY, next);
+  updateThemeIcon();
+  Object.assign(COLORS, {
+    online: getVar('--blue'), offline: getVar('--orange'), oneOnOne: getVar('--aqua'),
+    target: getVar('--deemph-fill'), targetLine: getVar('--deemph'),
+    good: getVar('--good'), critical: getVar('--critical'),
+  });
+  if (DATA) render();
+}
+function updateThemeIcon() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const dark = cur ? cur === 'dark' : sysDark;
+  document.getElementById('theme-toggle').innerHTML = dark ? '&#9728;' : '&#9789;';
+}
+document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+
+/* ════════════════════════ FORMATTERS ════════════════════════ */
+function fmtNum(v) {
+  if (v === null || v === undefined || v === '') return '—';
+  const n = Number(v);
+  if (isNaN(n)) return String(v);
+  return n.toLocaleString('en-IN');
+}
+function fmtPct(v, digits = 1) {
+  if (v === null || v === undefined || v === '') return '—';
+  const n = Number(v);
+  if (isNaN(n)) return '—';
+  return n.toFixed(digits) + '%';
+}
+function attainment(achieved, target) {
+  if (achieved === null || achieved === undefined || target === null || target === undefined || target === 0) return null;
+  return (achieved / target) * 100;
+}
+function fmtDateLong(iso) {
+  if (!iso) return '';
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+}
+function fmtDateShort(iso) {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
+}
+function isoToday() {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function addDays(iso, n) {
+  const d = new Date(iso + 'T00:00:00');
+  d.setDate(d.getDate() + n);
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function startOfWeek(iso) { // Monday
+  const d = new Date(iso + 'T00:00:00');
+  const day = (d.getDay() + 6) % 7; // 0 = Monday
+  d.setDate(d.getDate() - day);
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function startOfMonth(iso) {
+  return iso.slice(0, 7) + '-01';
+}
+function endOfMonth(iso) {
+  const d = new Date(iso.slice(0,4)*1, iso.slice(5,7)*1, 0);
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+
+/* ════════════════════════ DATA LOAD ════════════════════════ */
+async function loadData(showSkeleton = true) {
+  if (showSkeleton) {
+    document.getElementById('loading').classList.remove('hidden');
+    document.getElementById('dashboard').classList.add('hidden');
+    document.getElementById('error-box').classList.add('hidden');
+  }
+  try {
+    const res = await fetch('./data/supply_index.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    const json = await res.json();
+    applyData(json);
+    render();
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('error-box').classList.add('hidden');
+    document.getElementById('dashboard').classList.remove('hidden');
+  } catch (err) {
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('error-msg').textContent = err.message;
+    document.getElementById('error-box').classList.remove('hidden');
+    document.getElementById('last-updated-text').textContent = 'Failed to load';
+    console.error(err);
+  }
+}
+
+function applyData(json) {
+  DATA = json;
+  DAY_MAP = new Map();
+  (json.days || []).forEach(d => DAY_MAP.set(d.date, d));
+  DATES = Array.from(DAY_MAP.keys()).sort();
+  document.getElementById('last-updated-text').textContent =
+    json.lastUpdated ? `Data as of: ${new Date(json.lastUpdated).toLocaleString()}` : '';
+  const [minD, maxD] = [DATES[0], DATES[DATES.length - 1]];
+  const fromEl = document.getElementById('range-from');
+  const toEl = document.getElementById('range-to');
+  if (minD && maxD) { fromEl.min = minD; fromEl.max = maxD; toEl.min = minD; toEl.max = maxD; }
+}
+
+function resolveTodayISO() {
+  const t = isoToday();
+  if (DAY_MAP.has(t)) return t;
+  // fall back to nearest available date <= today, else first available
+  const past = DATES.filter(d => d <= t);
+  if (past.length) return past[past.length - 1];
+  return DATES[0] || t;
+}
+
+/* ════════════════════════ TABS ════════════════════════ */
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => setTab(btn.dataset.tab));
+});
+function setTab(tab) {
+  CURRENT_TAB = tab;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  document.getElementById('custom-range-box').classList.toggle('show', tab === 'custom');
+  if (DATA) render();
+}
+function applyCustomRange() {
+  const from = document.getElementById('range-from').value;
+  const to = document.getElementById('range-to').value;
+  if (!from || !to || from > to) { showToast('Pick a valid from/to date range', 'error'); return; }
+  CUSTOM_FROM = from; CUSTOM_TO = to;
+  render();
+}
+
+/* ════════════════════════ RENDER DISPATCH ════════════════════════ */
+function render() {
+  const today = resolveTodayISO();
+  const dash = document.getElementById('dashboard');
+
+  if (CURRENT_TAB === 'today') {
+    document.getElementById('range-label').textContent = '';
+    renderSingleDay(dash, today);
+  } else if (CURRENT_TAB === 'yesterday') {
+    document.getElementById('range-label').textContent = '';
+    renderSingleDay(dash, addDays(today, -1));
+  } else if (CURRENT_TAB === 'week') {
+    const from = startOfWeek(today), to = addDays(from, 6);
+    document.getElementById('range-label').textContent = `${fmtDateShort(from)} – ${fmtDateShort(to)}`;
+    renderRange(dash, from, to);
+  } else if (CURRENT_TAB === 'month') {
+    const from = startOfMonth(today), to = endOfMonth(today);
+    document.getElementById('range-label').textContent = new Date(today+'T00:00:00').toLocaleDateString(undefined,{month:'long',year:'numeric'});
+    renderRange(dash, from, to);
+  } else if (CURRENT_TAB === 'custom') {
+    if (!CUSTOM_FROM || !CUSTOM_TO) {
+      const from = addDays(today, -6);
+      document.getElementById('range-from').value = from;
+      document.getElementById('range-to').value = today;
+      CUSTOM_FROM = from; CUSTOM_TO = today;
+    }
+    document.getElementById('range-label').textContent = `${fmtDateShort(CUSTOM_FROM)} – ${fmtDateShort(CUSTOM_TO)}`;
+    renderRange(dash, CUSTOM_FROM, CUSTOM_TO);
+  }
+}
+
+/* ════════════════════════ SINGLE-DAY VIEW ════════════════════════ */
+function renderSingleDay(root, iso) {
+  const day = DAY_MAP.get(iso);
+  if (!day) {
+    root.innerHTML = `<div class="empty-note" style="margin-top:24px;">No data available for ${fmtDateLong(iso)}.</div>`;
+    return;
+  }
+
+  const go = day.groupOnline, off = day.offline, oo = day.oneOnOne;
+
+  let html = '';
+  html += `<div class="day-heading">${fmtDateLong(iso)}</div>`;
+
+  html += `<div class="section-title">Business Lines — Session Date vs Phasing (Purchase Date)</div>`;
+  html += `<div class="grid-3">`;
+  html += blCard('online', 'Group Online', go);
+  html += blCard('offline', 'Group Offline', off);
+  html += blCard('1on1', '1:1 Sessions', { sessionTarget: null, sessionAchieved: null, phasingTarget: oo.phasingTarget, phasingAchieved: oo.phasingAchieved }, true);
+  html += `</div>`;
+
+  html += `<div class="section-title">1:1 Supply — Today</div>`;
+  html += `<div class="grid-4">`;
+  html += statTile('Leaders with slots', fmtNum(day.oneOnOneSlots.leadersWithSlots));
+  html += statTile('Leaders available today', fmtNum(day.oneOnOneSlots.leadersAvailableToday));
+  html += statTile('Slots filled today', fmtNum(day.slotsFilledToday),
+    day.slotsFilledToday === null ? 'Not final until day ends' : fmtPct(day.pctSlotsFilledToday) + ' of available');
+  html += statTile('1:1 page views', fmtNum(day.pageViews.total1on1),
+    day.pageViews.total1on1 === null ? 'Not final until day ends' : `${fmtPct(day.pageViews.pctSlotsAvailable)} to slots page`);
+  html += `</div>`;
+
+  html += `<div class="grid-2" style="margin-top:14px;">`;
+  html += chartCard('slots-lookahead', '1:1 Slots Available — Today through T+7', () =>
+    renderBarChart(['Today','T+1','T+2','T+3','T+4','T+5','T+6','T+7'],
+      [{ name: 'Slots available', color: COLORS.oneOnOne,
+         data: [day.oneOnOneSlots.today, day.oneOnOneSlots.t1, day.oneOnOneSlots.t2, day.oneOnOneSlots.t3,
+                day.oneOnOneSlots.t4, day.oneOnOneSlots.t5, day.oneOnOneSlots.t6, day.oneOnOneSlots.t7] }])
+  );
+  html += tableCard('Category — Leaders & Slots Available (Today)',
+    ['Category', 'Leaders', 'Slots'],
+    day.categoryBreakdown.map(c => [c.category, fmtNum(c.leaders), fmtNum(c.slots)]));
+  html += `</div>`;
+
+  html += `<div class="grid-2" style="margin-top:14px;">`;
+  html += tableCard('Top Selling Leaders — Slots Available (Today)',
+    ['Leader', 'Slots'],
+    day.topLeaderSlots.map(l => [l.name, fmtNum(l.slots)]));
+  html += tableCard('Paid Group Sessions — Leader Performance',
+    ['Leader', 'Target', 'Missed', 'Achieved'],
+    mergeLeaderPerf([day]).map(l => [l.name, fmtNum(l.target), fmtNum(l.missed), fmtNum(l.achieved)]));
+  html += `</div>`;
+
+  root.innerHTML = html;
+  mountCharts(root);
+}
+
+function blCard(line, name, m, hidePhasingLabel) {
+  const sessAtt = attainment(m.sessionAchieved, m.sessionTarget);
+  const phAtt = attainment(m.phasingAchieved, m.phasingTarget);
+  let body = `<div class="bl-card card" data-line="${line}"><div class="bl-label">Business line</div><div class="bl-name">${name}</div>`;
+  if (m.sessionTarget !== null) {
+    body += meterRow('Session-date target vs achieved', m.sessionAchieved, m.sessionTarget, sessAtt, line);
+  }
+  body += meterRow('Purchase-date phasing target vs achieved', m.phasingAchieved, m.phasingTarget, phAtt, line);
+  body += `</div>`;
+  return body;
+}
+function meterRow(caption, achieved, target, att, line) {
+  const color = `var(--${line === 'online' ? 'blue' : line === 'offline' ? 'orange' : 'aqua'})`;
+  if (achieved === null || achieved === undefined) {
+    return `<div class="meter-row"><div class="meter-labels"><span class="meter-caption">${caption}</span></div>
+      <div class="meter-na">Not final yet (in progress for today) — target: ${fmtNum(target)}</div></div>`;
+  }
+  const pct = att === null ? 0 : Math.min(100, Math.max(0, att));
+  return `<div class="meter-row">
+    <div class="meter-labels">
+      <span class="meter-caption">${caption}</span>
+      <span class="meter-value">${fmtNum(achieved)} / ${fmtNum(target)} <span style="color:var(--muted); font-weight:500;">(${att===null?'—':fmtPct(att,0)})</span></span>
+    </div>
+    <div class="meter-track" style="background:var(--deemph-fill)">
+      <div class="meter-fill" style="width:${pct}%; background:${color}"></div>
+    </div>
+  </div>`;
+}
+function statTile(label, value, deltaText, deltaKind) {
+  let delta = '';
+  if (deltaText) {
+    const cls = deltaKind === 'good' ? 'good' : deltaKind === 'bad' ? 'bad' : 'neutral';
+    delta = `<div class="stat-delta"><span class="badge ${cls}">${deltaText}</span></div>`;
+  }
+  return `<div class="stat-tile"><div class="stat-label">${label}</div><div class="stat-value">${value}</div>${delta}</div>`;
+}
+
+function mergeLeaderPerf(days) {
+  const map = new Map();
+  days.forEach(day => {
+    (day.groupLeaderTargets || []).forEach(l => {
+      const e = map.get(l.name) || { name: l.name, target: 0, missed: 0 };
+      e.target += l.value;
+      map.set(l.name, e);
+    });
+    (day.groupMissedTargets || []).forEach(l => {
+      const e = map.get(l.name) || { name: l.name, target: 0, missed: 0 };
+      e.missed += l.missed;
+      map.set(l.name, e);
+    });
+  });
+  return Array.from(map.values())
+    .map(e => ({ ...e, achieved: e.target - e.missed }))
+    .sort((a, b) => b.target - a.target);
+}
+
+/* ════════════════════════ RANGE (WEEK / MONTH / CUSTOM) VIEW ════════════════════════ */
+function renderRange(root, from, to) {
+  const days = DATES.filter(d => d >= from && d <= to).map(d => DAY_MAP.get(d));
+  if (!days.length) {
+    root.innerHTML = `<div class="empty-note" style="margin-top:24px;">No data available for ${fmtDateShort(from)} – ${fmtDateShort(to)}.</div>`;
+    return;
+  }
+
+  const sum = (arr, fn) => arr.reduce((s, d) => { const v = fn(d); return v === null || v === undefined ? s : s + v; }, 0);
+  const goTarget = sum(days, d => d.groupOnline.sessionTarget), goAch = sum(days, d => d.groupOnline.sessionAchieved);
+  const offTarget = sum(days, d => d.offline.sessionTarget), offAch = sum(days, d => d.offline.sessionAchieved);
+  const ooTarget = sum(days, d => d.oneOnOne.phasingTarget), ooAch = sum(days, d => d.oneOnOne.phasingAchieved);
+
+  let html = '';
+  html += `<div class="section-title">Totals for period</div>`;
+  html += `<div class="grid-3">`;
+  html += rangeSummaryCard('online', 'Group Online', goAch, goTarget, 'Session-date achieved vs target');
+  html += rangeSummaryCard('offline', 'Group Offline', offAch, offTarget, 'Session-date achieved vs target');
+  html += rangeSummaryCard('1on1', '1:1 Sessions', ooAch, ooTarget, 'Purchase-date phasing achieved vs target');
+  html += `</div>`;
+
+  const cats = days.map(d => fmtDateShort(d.date));
+
+  html += `<div class="section-title">Daily Trend — Group Online</div>`;
+  html += `<div class="chart-card">` + chartInner('go-trend', () => renderBarChart(cats, [
+    { name: 'Target', color: COLORS.target, data: days.map(d => d.groupOnline.sessionTarget) },
+    { name: 'Achieved', color: COLORS.online, data: days.map(d => d.groupOnline.sessionAchieved) },
+  ])) + `</div>`;
+
+  html += `<div class="section-title">Daily Trend — Group Offline</div>`;
+  html += `<div class="chart-card">` + chartInner('off-trend', () => renderBarChart(cats, [
+    { name: 'Target', color: COLORS.target, data: days.map(d => d.offline.sessionTarget) },
+    { name: 'Achieved', color: COLORS.offline, data: days.map(d => d.offline.sessionAchieved) },
+  ])) + `</div>`;
+
+  html += `<div class="section-title">Daily Trend — 1:1 Phasing (Purchase Date)</div>`;
+  html += `<div class="chart-card">` + chartInner('oo-trend', () => renderLineChart(cats, [
+    { name: 'Target', color: COLORS.targetLine, data: days.map(d => d.oneOnOne.phasingTarget) },
+    { name: 'Achieved', color: COLORS.oneOnOne, data: days.map(d => d.oneOnOne.phasingAchieved) },
+  ])) + `</div>`;
+
+  html += `<div class="section-title">Daily Trend — 1:1 Same-day Slot Fill Rate</div>`;
+  html += `<div class="chart-card">` + chartInner('fill-trend', () => renderBarChart(cats, [
+    { name: 'Today slots available', color: COLORS.oneOnOne, data: days.map(d => d.oneOnOneSlots.today) },
+  ])) + `</div>`;
+
+  const latest = days[days.length - 1];
+  html += `<div class="grid-2" style="margin-top:14px;">`;
+  html += tableCard(`Category — Leaders &amp; Slots (as of ${fmtDateShort(latest.date)})`,
+    ['Category', 'Leaders', 'Slots'],
+    latest.categoryBreakdown.map(c => [c.category, fmtNum(c.leaders), fmtNum(c.slots)]));
+  html += tableCard('Paid Group Sessions — Leader Performance (period total)',
+    ['Leader', 'Target', 'Missed', 'Achieved'],
+    mergeLeaderPerf(days).map(l => [l.name, fmtNum(l.target), fmtNum(l.missed), fmtNum(l.achieved)]));
+  html += `</div>`;
+
+  html += `<div class="section-title">Day-by-Day Breakdown</div>`;
+  html += dayByDayTable(days);
+
+  root.innerHTML = html;
+  mountCharts(root);
+}
+
+function rangeSummaryCard(line, name, achieved, target, caption) {
+  const att = attainment(achieved, target);
+  const color = `var(--${line === 'online' ? 'blue' : line === 'offline' ? 'orange' : 'aqua'})`;
+  const pct = att === null ? 0 : Math.min(100, Math.max(0, att));
+  const kind = att === null ? 'neutral' : att >= 100 ? 'good' : att >= 80 ? 'neutral' : 'bad';
+  const badgeText = att === null ? 'No target' : fmtPct(att, 0) + ' of target';
+  return `<div class="bl-card card" data-line="${line}">
+    <div class="bl-label">Business line</div>
+    <div class="bl-name">${name}</div>
+    <div class="stat-value" style="margin-bottom:8px;">${fmtNum(achieved)}<span style="font-size:.95rem; color:var(--muted); font-weight:500;"> / ${fmtNum(target)}</span></div>
+    <div class="meter-track" style="background:var(--deemph-fill); margin-bottom:8px;"><div class="meter-fill" style="width:${pct}%; background:${color}"></div></div>
+    <div class="stat-delta"><span class="badge ${kind}">${badgeText}</span><span style="color:var(--muted)">${caption}</span></div>
+  </div>`;
+}
+
+function dayByDayTable(days) {
+  const rows = days.map(d => [
+    fmtDateShort(d.date) + ' · ' + d.dayName.slice(0,3),
+    fmtNum(d.groupOnline.sessionTarget), fmtNum(d.groupOnline.sessionAchieved),
+    fmtNum(d.offline.sessionTarget), fmtNum(d.offline.sessionAchieved),
+    fmtNum(d.oneOnOne.phasingTarget), fmtNum(d.oneOnOne.phasingAchieved),
+    fmtNum(d.oneOnOneSlots.today), fmtPct(d.pctSlotsFilledToday),
+  ]);
+  return tableCard(null,
+    ['Day', 'GO Target', 'GO Achieved', 'Off Target', 'Off Achieved', '1:1 Target', '1:1 Achieved', '1:1 Slots Today', '% Filled'],
+    rows, true);
+}
+
+/* ════════════════════════ TABLE / CHART CARD SHELLS ════════════════════════ */
+function tableCard(title, headers, rows, standalone) {
+  const head = `<tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr>`;
+  const body = rows.length
+    ? rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')
+    : `<tr><td colspan="${headers.length}" class="empty-note">No data</td></tr>`;
+  const table = `<div class="table-wrap"><table class="data-table"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+  if (standalone) return table;
+  return `<div class="card">${title ? `<div class="card-head"><span class="card-title">${title}</span></div>` : ''}${table}</div>`;
+}
+
+let CHART_SEQ = 0;
+const CHART_REGISTRY = {};
+function chartCard(key, title, renderFn) {
+  const id = 'chart-' + (CHART_SEQ++);
+  CHART_REGISTRY[id] = renderFn;
+  return `<div class="chart-card"><div class="card-head"><span class="card-title">${title}</span></div><div id="${id}"></div></div>`;
+}
+function chartInner(key, renderFn) {
+  const id = 'chart-' + (CHART_SEQ++);
+  CHART_REGISTRY[id] = renderFn;
+  return `<div id="${id}"></div>`;
+}
+function mountCharts(root) {
+  Object.keys(CHART_REGISTRY).forEach(id => {
+    const el = root.querySelector('#' + id);
+    if (el) el.innerHTML = CHART_REGISTRY[id]();
+  });
+  // re-bind after HTML injection
+  root.querySelectorAll('[data-chart-id]').forEach(wrap => bindChartEvents(wrap));
+  for (const k in CHART_REGISTRY) delete CHART_REGISTRY[k];
+}
+
+/* ════════════════════════ CHART ENGINE (SVG) ════════════════════════ */
+const CHART_W = 640, CHART_H = 220, PAD = { t: 10, r: 12, b: 26, l: 40 };
+
+function niceMax(v) {
+  if (v <= 0) return 10;
+  const mag = Math.pow(10, Math.floor(Math.log10(v)));
+  const norm = v / mag;
+  let step;
+  if (norm <= 1) step = 1; else if (norm <= 2) step = 2; else if (norm <= 5) step = 5; else step = 10;
+  return step * mag;
+}
+
+function renderBarChart(categories, series) {
+  const chartId = 'c' + (CHART_SEQ++);
+  const innerW = CHART_W - PAD.l - PAD.r, innerH = CHART_H - PAD.t - PAD.b;
+  const maxVal = niceMax(Math.max(1, ...series.flatMap(s => s.data.map(v => v || 0))));
+  const n = categories.length, sN = series.length;
+  const groupW = innerW / n;
+  const barGap = 2;
+  const barW = Math.min(24, (groupW - barGap * (sN + 1)) / sN);
+
+  const gridSvg = gridTicksSvg(maxVal, innerW, innerH);
+
+  let bars = '';
+  let hitboxes = [];
+  const barLabelEvery = Math.max(1, Math.ceil(n / (innerW / 42)));
+  categories.forEach((cat, ci) => {
+    const groupX = PAD.l + ci * groupW;
+    series.forEach((s, si) => {
+      const v = s.data[ci];
+      const vv = v || 0;
+      const h = (vv / maxVal) * innerH;
+      const x = groupX + barGap + si * (barW + barGap);
+      const y = PAD.t + innerH - h;
+      const rx = 3;
+      bars += `<path data-hit="${hitboxes.length}" class="bar-rect" d="${roundedTopRect(x, y, barW, h, rx)}" fill="${s.color}"></path>`;
+      hitboxes.push({ cat, series: s.name, value: v, color: s.color });
+    });
+    if (ci % barLabelEvery === 0 || ci === n - 1) {
+      bars += `<text x="${groupX + groupW/2}" y="${CHART_H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${cat}</text>`;
+    }
+  });
+
+  const legend = sN > 1 ? `<div class="chart-legend">${series.map(s =>
+    `<span class="legend-item"><span class="legend-swatch" style="background:${s.color}"></span>${s.name}</span>`).join('')}</div>` : '';
+
+  const tableToggle = miniTable(categories, series);
+
+  return `${legend}
+    <div class="chart-svg-wrap" data-chart-id="${chartId}" data-hits='${JSON.stringify(hitboxes).replace(/'/g,"&#39;")}'>
+      <svg viewBox="0 0 ${CHART_W} ${CHART_H}" preserveAspectRatio="xMidYMid meet">
+        ${gridSvg}
+        <line x1="${PAD.l}" y1="${PAD.t+innerH}" x2="${CHART_W-PAD.r}" y2="${PAD.t+innerH}" stroke="var(--baseline)" stroke-width="1" />
+        ${bars}
+      </svg>
+    </div>
+    ${tableToggle}`;
+}
+
+function renderLineChart(categories, series) {
+  const chartId = 'c' + (CHART_SEQ++);
+  const innerW = CHART_W - PAD.l - PAD.r, innerH = CHART_H - PAD.t - PAD.b;
+  const allVals = series.flatMap(s => s.data.filter(v => v !== null && v !== undefined));
+  const maxVal = niceMax(Math.max(1, ...allVals, 0));
+  const n = categories.length;
+  const stepX = n > 1 ? innerW / (n - 1) : 0;
+
+  const gridSvg = gridTicksSvg(maxVal, innerW, innerH);
+
+  let paths = '', dots = '', hitboxes = [];
+  series.forEach(s => {
+    let d = '';
+    s.data.forEach((v, i) => {
+      if (v === null || v === undefined) return;
+      const x = PAD.l + i * stepX;
+      const y = PAD.t + innerH - (v / maxVal) * innerH;
+      d += (d === '' ? 'M' : 'L') + x + ',' + y + ' ';
+    });
+    if (d) paths += `<path d="${d.trim()}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />`;
+    s.data.forEach((v, i) => {
+      if (v === null || v === undefined) return;
+      const x = PAD.l + i * stepX;
+      const y = PAD.t + innerH - (v / maxVal) * innerH;
+      dots += `<circle data-hit="${hitboxes.length}" class="dot-marker" cx="${x}" cy="${y}" r="4" fill="${s.color}" stroke="var(--surface)" stroke-width="2" />`;
+      hitboxes.push({ cat: categories[i], series: s.name, value: v, color: s.color });
+    });
+  });
+
+  let xLabels = '';
+  const labelEvery = Math.ceil(n / 8);
+  categories.forEach((cat, i) => {
+    if (i % labelEvery !== 0 && i !== n - 1) return;
+    const x = PAD.l + i * stepX;
+    xLabels += `<text x="${x}" y="${CHART_H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${cat}</text>`;
+  });
+
+  const legend = `<div class="chart-legend">${series.map(s =>
+    `<span class="legend-item"><span class="legend-swatch line" style="background:${s.color}"></span>${s.name}</span>`).join('')}</div>`;
+
+  const tableToggle = miniTable(categories, series);
+
+  return `${legend}
+    <div class="chart-svg-wrap" data-chart-id="${chartId}" data-hits='${JSON.stringify(hitboxes).replace(/'/g,"&#39;")}'>
+      <svg viewBox="0 0 ${CHART_W} ${CHART_H}" preserveAspectRatio="xMidYMid meet">
+        ${gridSvg}
+        <line x1="${PAD.l}" y1="${PAD.t+innerH}" x2="${CHART_W-PAD.r}" y2="${PAD.t+innerH}" stroke="var(--baseline)" stroke-width="1" />
+        ${paths}
+        ${dots}
+        ${xLabels}
+      </svg>
+    </div>
+    ${tableToggle}`;
+}
+
+function roundedTopRect(x, y, w, h, r) {
+  if (h <= 0) return `M${x},${y+h} L${x+w},${y+h} Z`;
+  r = Math.min(r, w / 2, h);
+  return `M${x},${y+h} L${x},${y+r} Q${x},${y} ${x+r},${y} L${x+w-r},${y} Q${x+w},${y} ${x+w},${y+r} L${x+w},${y+h} Z`;
+}
+
+function fmtCompact(v) {
+  if (v >= 1000) return (v/1000).toFixed(v % 1000 === 0 ? 0 : 1) + 'K';
+  if (v > 0 && v < 1) return v.toFixed(1);
+  return Math.round(v).toString();
+}
+
+function gridTicksSvg(maxVal, innerW, innerH) {
+  const ticks = 4;
+  let svg = '', lastLabel = null;
+  for (let i = 0; i <= ticks; i++) {
+    const val = (maxVal / ticks) * i;
+    const label = fmtCompact(val);
+    if (label === lastLabel) continue;
+    lastLabel = label;
+    const y = PAD.t + innerH - (val / maxVal) * innerH;
+    svg += `<line x1="${PAD.l}" y1="${y}" x2="${CHART_W - PAD.r}" y2="${y}" stroke="var(--grid)" stroke-width="1" />`;
+    svg += `<text x="${PAD.l - 6}" y="${y + 3}" text-anchor="end" font-size="9" fill="var(--muted)">${label}</text>`;
+  }
+  return svg;
+}
+
+let miniTableSeq = 0;
+function miniTable(categories, series) {
+  const id = 'mt-' + (miniTableSeq++);
+  const head = `<tr><th>Period</th>${series.map(s => `<th>${s.name}</th>`).join('')}</tr>`;
+  const body = categories.map((c, i) =>
+    `<tr><td>${c}</td>${series.map(s => `<td>${s.data[i]===null||s.data[i]===undefined?'—':fmtNum(s.data[i])}</td>`).join('')}</tr>`
+  ).join('');
+  return `<button class="view-table-toggle" onclick="document.getElementById('${id}').classList.toggle('show')">View as table</button>
+    <div class="mini-table-wrap" id="${id}"><div class="table-wrap"><table class="data-table"><thead>${head}</thead><tbody>${body}</tbody></table></div></div>`;
+}
+
+/* ── Hover / tooltip binding ────────────────────────────── */
+function bindChartEvents(wrap) {
+  const hits = JSON.parse(wrap.dataset.hits.replace(/&#39;/g, "'"));
+  const tooltip = document.getElementById('chart-tooltip');
+  wrap.querySelectorAll('[data-hit]').forEach(el => {
+    const info = hits[Number(el.dataset.hit)];
+    el.addEventListener('pointerenter', e => showTip(e, info));
+    el.addEventListener('pointermove', e => positionTip(e));
+    el.addEventListener('pointerleave', hideTip);
+  });
+  function showTip(e, info) {
+    tooltip.innerHTML = `<div class="tt-title"></div><div class="tt-row"><span class="tt-key" style="background:${info.color}"></span><span class="tt-label"></span><span class="tt-val"></span></div>`;
+    tooltip.querySelector('.tt-title').textContent = info.cat;
+    tooltip.querySelector('.tt-label').textContent = info.series;
+    tooltip.querySelector('.tt-val').textContent = info.value === null || info.value === undefined ? '—' : fmtNum(info.value);
+    tooltip.classList.add('show');
+    positionTip(e);
+  }
+  function positionTip(e) {
+    const x = e.clientX + 14, y = e.clientY + 14;
+    tooltip.style.left = Math.min(x, window.innerWidth - 240) + 'px';
+    tooltip.style.top = Math.min(y, window.innerHeight - 80) + 'px';
+  }
+  function hideTip() { tooltip.classList.remove('show'); }
+}
+
+/* ════════════════════════ TOAST ════════════════════════ */
+let toastTimer = null;
+function showToast(msg, type = 'info', ms = 3500) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = `toast ${type} show`;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.className = 'toast'; }, ms);
+}
+
+/* ════════════════════════ TOKEN / SETTINGS ════════════════════════ */
+function getToken()    { return localStorage.getItem(TOKEN_KEY) || ''; }
+function setToken(t)   { localStorage.setItem(TOKEN_KEY, t.trim()); }
+function removeToken() { localStorage.removeItem(TOKEN_KEY); }
+
+function updateTokenStatus() {
+  const hasToken = !!getToken();
+  const dot = document.getElementById('token-dot');
+  dot.className = `token-dot ${hasToken ? 'active' : ''}`;
+  dot.title = hasToken ? 'Live refresh enabled' : 'Live refresh — click the gear icon to set up';
+  const status = document.getElementById('modal-status');
+  if (status) {
+    status.className = `modal-status ${hasToken ? 'has-token' : 'no-token'}`;
+    status.textContent = hasToken ? 'Token saved — Refresh triggers a live pull from the sheet' : 'No token saved — live refresh runs on the scheduled sync only';
+  }
+}
+function openSettings() {
+  updateTokenStatus();
+  document.getElementById('token-input').value = '';
+  document.getElementById('modal-overlay').classList.remove('hidden');
+}
+function closeSettings() { document.getElementById('modal-overlay').classList.add('hidden'); }
+function handleOverlayClick(e) { if (e.target === document.getElementById('modal-overlay')) closeSettings(); }
+function saveToken() {
+  const val = document.getElementById('token-input').value.trim();
+  if (!val) { showToast('Please paste a token first', 'error'); return; }
+  setToken(val);
+  updateTokenStatus();
+  closeSettings();
+  showToast('Token saved — Refresh will now trigger a live sheet pull', 'success', 4000);
+}
+function clearSavedToken() {
+  removeToken();
+  document.getElementById('token-input').value = '';
+  updateTokenStatus();
+  showToast('Token cleared', 'info');
+}
+
+/* ════════════════════════ REFRESH ════════════════════════ */
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+function setBtnLoading(loading, label = 'Refreshing…') {
+  const btn = document.getElementById('refresh-btn');
+  const icon = document.getElementById('refresh-icon');
+  const lbl = document.getElementById('refresh-label');
+  btn.disabled = loading;
+  lbl.textContent = loading ? label : 'Refresh';
+  if (loading) icon.outerHTML = '<span class="spinner" id="refresh-icon"></span>';
+  else document.getElementById('refresh-icon').outerHTML = '<span id="refresh-icon">&#8635;</span>';
+}
+
+async function triggerWorkflowAndWait(token) {
+  const headers = {
+    'Authorization': `Bearer ${token}`,
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'Content-Type': 'application/json',
+  };
+  const triggerTime = new Date();
+
+  const dispatchRes = await fetch(`https://api.github.com/repos/${GH_REPO}/actions/workflows/${WORKFLOW}/dispatches`,
+    { method: 'POST', headers, body: JSON.stringify({ ref: 'main' }) });
+
+  if (!dispatchRes.ok) {
+    if (dispatchRes.status === 401) throw new Error('Invalid token — check your GitHub PAT in Settings');
+    if (dispatchRes.status === 403) throw new Error('Token lacks Actions: write permission');
+    if (dispatchRes.status === 404) throw new Error('Workflow file not found in the repo');
+    throw new Error(`Dispatch failed: HTTP ${dispatchRes.status}`);
+  }
+
+  setBtnLoading(true, 'Queued…');
+  await sleep(4000);
+
+  const TIMEOUT = 3 * 60 * 1000, INTERVAL = 5000;
+  const deadline = Date.now() + TIMEOUT;
+
+  while (Date.now() < deadline) {
+    const runsRes = await fetch(`https://api.github.com/repos/${GH_REPO}/actions/runs?event=workflow_dispatch&per_page=10`, { headers });
+    if (!runsRes.ok) throw new Error(`Could not poll run status: HTTP ${runsRes.status}`);
+    const { workflow_runs } = await runsRes.json();
+    const ourRun = workflow_runs.find(r => new Date(r.created_at) >= triggerTime);
+    if (ourRun) {
+      if (ourRun.status === 'completed') {
+        if (ourRun.conclusion === 'success') return;
+        throw new Error(`Workflow ended with: ${ourRun.conclusion}`);
+      }
+      setBtnLoading(true, ourRun.status === 'queued' ? 'Queued…' : 'Running…');
+    }
+    await sleep(INTERVAL);
+  }
+  throw new Error('Timed out (3 min). Check GitHub Actions for run status.');
+}
+
+async function onRefreshClick() {
+  const token = getToken();
+  setBtnLoading(true, token ? 'Refreshing…' : 'Reloading…');
+  try {
+    if (token) {
+      await triggerWorkflowAndWait(token);
+      await loadData(false);
+      showToast('Dashboard updated with the latest sheet data!', 'success', 4000);
+    } else {
+      await loadData(false);
+      showToast('Reloaded latest synced data. Set a GitHub token in Settings for live pulls.', 'info', 5000);
+    }
+  } catch (err) {
+    showToast(err.message, 'error', 7000);
+    console.error('Refresh error:', err);
+  }
+  setBtnLoading(false);
+}
+
+/* ════════════════════════ INIT ════════════════════════ */
+initTheme();
+updateTokenStatus();
+setTab('today');
+loadData();
+</script>
+</body>
+</html>
