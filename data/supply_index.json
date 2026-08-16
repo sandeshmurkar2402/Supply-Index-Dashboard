@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T06:47:08Z",
+  "lastUpdated": "2026-08-16T07:35:07Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6006,7 +6006,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 80,
-        "sessionAchieved": 23,
+        "sessionAchieved": 25,
         "phasingTarget": 219,
         "phasingAchieved": null
       },
@@ -6353,7 +6353,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 107,
-        "sessionAchieved": 16,
+        "sessionAchieved": 17,
         "phasingTarget": 226,
         "phasingAchieved": null
       },
@@ -6626,7 +6626,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 797,
-        "sessionAchieved": 273,
+        "sessionAchieved": 282,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
@@ -6867,7 +6867,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 69,
-        "sessionAchieved": 2,
+        "sessionAchieved": 4,
         "phasingTarget": 131,
         "phasingAchieved": null
       },
@@ -7096,7 +7096,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 149,
-        "sessionAchieved": 4,
+        "sessionAchieved": 5,
         "phasingTarget": 133,
         "phasingAchieved": null
       },
@@ -7602,14 +7602,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 95,
-        "sessionAchieved": 109,
+        "sessionAchieved": 114,
         "phasingTarget": 171,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
-        "sessionAchieved": 106,
+        "sessionAchieved": 110,
         "phasingTarget": 32,
         "phasingAchieved": null
       },
