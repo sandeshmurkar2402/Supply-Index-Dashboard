@@ -279,7 +279,8 @@
   .badge.neutral { color: var(--muted); background: var(--surface-2); }
 
   /* ── Table ──────────────────────────────────────────── */
-  .table-wrap { max-height: 320px; overflow-y: auto; border-radius: var(--radius-sm); border: 1px solid var(--border-strong); }
+  .table-wrap { max-height: 320px; overflow-y: auto; overflow-x: auto; border-radius: var(--radius-sm); border: 1px solid var(--border-strong); }
+  .table-wrap.tall { max-height: 540px; }
   table.data-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
   table.data-table thead th {
     position: sticky; top: 0; background: var(--surface-2); color: var(--muted);
@@ -287,14 +288,37 @@
     padding: 8px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--border-strong);
   }
   table.data-table thead th:first-child { text-align: left; }
+  table.data-table thead th.ta-left { text-align: left; }
   table.data-table tbody td {
     padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--border);
-    font-variant-numeric: tabular-nums; color: var(--text-2);
+    font-variant-numeric: tabular-nums; color: var(--text-2); white-space: nowrap;
   }
   table.data-table tbody td:first-child { text-align: left; color: var(--text); font-weight: 500; }
+  table.data-table tbody td.ta-left { text-align: left; }
   table.data-table tbody tr:last-child td { border-bottom: none; }
+  table.data-table.zebra tbody tr:nth-child(odd) td  { background: color-mix(in srgb, var(--blue) 10%, transparent); }
+  table.data-table.zebra tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--violet) 12%, transparent); }
   table.data-table tbody tr:hover td { background: var(--surface-2); }
   .empty-note { padding: 18px; text-align: center; color: var(--muted); font-size: 0.8rem; }
+
+  /* ── Calendar tab: filters & day chips ───────────────── */
+  .cal-filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin-bottom: 12px; }
+  .filter-field { display: flex; flex-direction: column; gap: 4px; flex: 0 1 170px; }
+  .filter-label { font-size: 0.66rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .filter-field select {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
+    color: var(--text); padding: 6px 8px; font-size: 0.78rem; font-family: inherit; width: 100%; min-width: 140px; max-width: 220px;
+  }
+  .filter-field input[type=date] {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
+    color: var(--text); padding: 5px 8px; font-size: 0.78rem; font-family: inherit; width: 100%;
+  }
+  .day-chips { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
+  .day-chip {
+    background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text-2);
+    padding: 5px 11px; border-radius: 6px; font-size: 0.74rem; font-weight: 600; cursor: pointer;
+  }
+  .day-chip.active { background: var(--blue); border-color: var(--blue); color: #fff; }
 
   /* ── Chart ──────────────────────────────────────────── */
   .chart-card { background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius); padding: 16px 18px; }
@@ -305,6 +329,7 @@
 
   .chart-svg-wrap { position: relative; }
   .chart-svg-wrap svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .hbar-scroll .chart-svg-wrap { max-height: 560px; overflow-y: auto; }
   .bar-rect { cursor: pointer; transition: opacity .1s; }
   .bar-rect:hover { opacity: .78; }
   .dot-marker { cursor: pointer; }
@@ -428,6 +453,7 @@
     <button class="tab-btn" data-tab="today">Today</button>
     <button class="tab-btn" data-tab="yesterday">Yesterday</button>
     <button class="tab-btn" data-tab="custom">Custom Range</button>
+    <button class="tab-btn" data-tab="calendar">Group Sessions Calendar</button>
   </div>
   <span class="range-label" id="range-label"></span>
   <div class="custom-range-box" id="custom-range-box">
@@ -475,15 +501,65 @@ const COLORS = {
   targetLine: getVar('--deemph'),
   good: getVar('--good'),
   critical: getVar('--critical'),
+  yellow: getVar('--yellow'),
+  violet: getVar('--violet'),
 };
 function getVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
 
 let DATA = null;          // full payload from JSON
 let DAY_MAP = new Map();  // date -> day object
 let DATES = [];           // sorted list of ISO dates present
+let SESSIONS = [];        // flat list of session_level_summ_Dashboard rows
 let CURRENT_TAB = 'today';
 let CUSTOM_FROM = null, CUSTOM_TO = null;
 let BL_TAB = 'online';
+const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+function dowShort(iso) { return DOW[new Date(iso + 'T00:00:00').getDay()]; }
+
+// Day-of-week filter shared by the Custom Range > Day-by-Day Breakdown table
+// and the Group Sessions Calendar tab (each tab keeps its own selection).
+let DBD_DAYS = new Set(DOW);
+function toggleDbdDay(d) {
+  if (DBD_DAYS.has(d)) { if (DBD_DAYS.size > 1) DBD_DAYS.delete(d); } else DBD_DAYS.add(d);
+  render();
+}
+
+let CAL_DAYS = new Set(DOW);
+let CAL_FILTERS = { month: '', leader: '', language: '', campaign: '', tagging: '', bucket: '', topic: '', dateFrom: '', dateTo: '' };
+let CAL_LEADER_MODE = 'absolute';
+let LEADER_METRIC = 'registrations';
+let DAYWISE_TARGET_MODE = 'registrations';
+let PHASING_FILTERS = { dateFrom: '', dateTo: '', leader: '', topic: '', campaign: '', tagging: '', language: '' };
+function toggleCalDay(d) {
+  if (CAL_DAYS.has(d)) { if (CAL_DAYS.size > 1) CAL_DAYS.delete(d); } else CAL_DAYS.add(d);
+  render();
+}
+function onCalFilterChange(key, value) {
+  CAL_FILTERS[key] = value;
+  render();
+}
+function setCalLeaderMode(mode) {
+  CAL_LEADER_MODE = mode;
+  render();
+}
+function setLeaderMetric(metric) {
+  LEADER_METRIC = metric;
+  render();
+}
+function setDaywiseTargetMode(mode) {
+  DAYWISE_TARGET_MODE = mode;
+  render();
+}
+function onPhasingFilterChange(key, value) {
+  PHASING_FILTERS[key] = value;
+  render();
+}
+function dayChipsHtml(selectedSet, onClickFnName) {
+  return `<div class="day-chips">${DOW.map(d =>
+    `<button class="day-chip ${selectedSet.has(d) ? 'active' : ''}" onclick="${onClickFnName}('${d}')">${d}</button>`
+  ).join('')}</div>`;
+}
+
 function setBLTab(line) {
   BL_TAB = line;
   render();
@@ -495,6 +571,7 @@ function refreshColors() {
     online: getVar('--blue'), offline: getVar('--orange'), oneOnOne: getVar('--aqua'),
     target: getVar('--deemph-fill'), targetLine: getVar('--deemph'),
     good: getVar('--good'), critical: getVar('--critical'),
+    yellow: getVar('--yellow'), violet: getVar('--violet'),
   });
 }
 function initTheme() {
@@ -548,6 +625,14 @@ function fmtDateShort(iso) {
   const d = new Date(iso + 'T00:00:00');
   return d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
 }
+function fmtDateFull(iso) {
+  if (!iso) return '';
+  const d = new Date(iso + 'T00:00:00');
+  const dd = String(d.getDate()).padStart(2, '0');
+  const mon = d.toLocaleDateString(undefined, { month: 'short' });
+  const yy = String(d.getFullYear()).slice(-2);
+  return `${dd}-${mon}-${yy}`;
+}
 function isoToday() {
   const d = new Date();
   return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
@@ -588,6 +673,7 @@ function applyData(json) {
   DAY_MAP = new Map();
   (json.days || []).forEach(d => DAY_MAP.set(d.date, d));
   DATES = Array.from(DAY_MAP.keys()).sort();
+  SESSIONS = json.sessions || [];
   document.getElementById('last-updated-text').textContent =
     json.lastUpdated ? `Data as of: ${new Date(json.lastUpdated).toLocaleString()}` : '';
   const [minD, maxD] = [DATES[0], DATES[DATES.length - 1]];
@@ -644,6 +730,9 @@ function render() {
     }
     document.getElementById('range-label').textContent = `${fmtDateShort(CUSTOM_FROM)} – ${fmtDateShort(CUSTOM_TO)}`;
     renderRange(dash, CUSTOM_FROM, CUSTOM_TO);
+  } else if (CURRENT_TAB === 'calendar') {
+    document.getElementById('range-label').textContent = '';
+    renderCalendarTab(dash);
   }
 }
 
@@ -991,7 +1080,11 @@ function renderBusinessLineDetail(days, todayISO, periodEndISO) {
   return html;
 }
 
-function dayByDayLineTable(lineKey, days) {
+function dayByDayLineTable(lineKey, allDays) {
+  // The day-of-week filter only makes sense once there's more than one day to narrow down.
+  const filterable = allDays.length > 1;
+  const days = filterable ? allDays.filter(d => DBD_DAYS.has(dowShort(d.date))) : allDays;
+
   let headers, rows;
   if (lineKey === '1on1') {
     headers = ['Day', 'Phasing Target', 'Phasing Achieved', 'Phasing %', '1:1 Slots Today', '% Filled'];
@@ -1025,16 +1118,329 @@ function dayByDayLineTable(lineKey, days) {
       ];
     });
   }
-  return `<div class="section-title">Day-by-Day Breakdown</div>` + tableCard(null, headers, rows, true);
+  let out = `<div class="section-title">Day-by-Day Breakdown</div>`;
+  if (filterable) out += dayChipsHtml(DBD_DAYS, 'toggleDbdDay');
+  out += tableCard(null, headers, rows, true);
+  return out;
+}
+
+/* ════════════════════════ GROUP SESSIONS CALENDAR ════════════════════════ */
+function uniqueSorted(arr) {
+  return Array.from(new Set(arr.filter(Boolean))).sort((a, b) => a.localeCompare(b));
+}
+function monthLabel(ym) {
+  const [y, m] = ym.split('-').map(Number);
+  return new Date(y, m - 1, 1).toLocaleDateString(undefined, { month: 'long', year: 'numeric' });
+}
+function selectFilterHtml(id, key, label, options, current, onChangeFn = 'onCalFilterChange') {
+  return `<div class="filter-field">
+    <span class="filter-label">${label}</span>
+    <select id="${id}" onchange="${onChangeFn}('${key}', this.value)">
+      <option value="">All</option>
+      ${options.map(o => `<option value="${o.value.replace(/"/g, '&quot;')}" ${o.value === current ? 'selected' : ''}>${o.label}</option>`).join('')}
+    </select>
+  </div>`;
+}
+
+function filteredSessions() {
+  return SESSIONS.filter(s => {
+    if (CAL_FILTERS.dateFrom && s.date < CAL_FILTERS.dateFrom) return false;
+    if (CAL_FILTERS.dateTo && s.date > CAL_FILTERS.dateTo) return false;
+    if (CAL_FILTERS.month && s.date.slice(0, 7) !== CAL_FILTERS.month) return false;
+    if (!CAL_DAYS.has(dowShort(s.date))) return false;
+    if (CAL_FILTERS.leader && s.leader !== CAL_FILTERS.leader) return false;
+    if (CAL_FILTERS.topic && s.topic !== CAL_FILTERS.topic) return false;
+    if (CAL_FILTERS.language && s.language !== CAL_FILTERS.language) return false;
+    if (CAL_FILTERS.campaign && s.campaign !== CAL_FILTERS.campaign) return false;
+    if (CAL_FILTERS.tagging && s.leaderTagging !== CAL_FILTERS.tagging) return false;
+    if (CAL_FILTERS.bucket && s.timeBucket !== CAL_FILTERS.bucket) return false;
+    return true;
+  });
+}
+
+function groupSessionsByDate(sessions) {
+  const map = new Map();
+  sessions.forEach(s => {
+    if (!map.has(s.date)) map.set(s.date, []);
+    map.get(s.date).push(s);
+  });
+  return map;
+}
+
+function dayLeaderDetails(byDate, dates, valueFn) {
+  return dates.map(d => {
+    const daySessions = byDate.get(d);
+    const byLeader = new Map();
+    daySessions.forEach(s => {
+      const e = byLeader.get(s.leader) || { name: s.leader, count: 0, target: 0 };
+      e.count += 1;
+      e.target += (valueFn(s) || 0);
+      byLeader.set(s.leader, e);
+    });
+    return { kind: 'calendar', leaders: Array.from(byLeader.values()).sort((a, b) => b.target - a.target) };
+  });
+}
+
+function aggregateByLeader(sessions) {
+  const map = new Map();
+  sessions.forEach(s => {
+    const e = map.get(s.leader) || { leader: s.leader, target: 0, revenueTarget: 0, count: 0 };
+    e.target += (s.target || 0);
+    e.revenueTarget += (s.revenueTarget || 0);
+    e.count += 1;
+    map.set(s.leader, e);
+  });
+  return Array.from(map.values()).sort((a, b) => b.target - a.target);
+}
+
+function calendarFiltersHtml() {
+  const months = uniqueSorted(SESSIONS.map(s => s.date.slice(0, 7)));
+  const leaders = uniqueSorted(SESSIONS.map(s => s.leader));
+  const topics = uniqueSorted(SESSIONS.map(s => s.topic));
+  const languages = uniqueSorted(SESSIONS.map(s => s.language));
+  const campaigns = uniqueSorted(SESSIONS.map(s => s.campaign));
+  const taggings = uniqueSorted(SESSIONS.map(s => s.leaderTagging));
+  const buckets = uniqueSorted(SESSIONS.map(s => s.timeBucket));
+
+  let html = `<div class="cal-filters">`;
+  html += `<div class="filter-field">
+    <span class="filter-label">Session Date From</span>
+    <input type="date" id="cal-date-from" value="${CAL_FILTERS.dateFrom || ''}" onchange="onCalFilterChange('dateFrom', this.value)" />
+  </div>`;
+  html += `<div class="filter-field">
+    <span class="filter-label">Session Date To</span>
+    <input type="date" id="cal-date-to" value="${CAL_FILTERS.dateTo || ''}" onchange="onCalFilterChange('dateTo', this.value)" />
+  </div>`;
+  html += selectFilterHtml('cal-month', 'month', 'Month', months.map(m => ({ value: m, label: monthLabel(m) })), CAL_FILTERS.month);
+  html += selectFilterHtml('cal-leader', 'leader', 'Leader', leaders.map(l => ({ value: l, label: l })), CAL_FILTERS.leader);
+  html += selectFilterHtml('cal-topic', 'topic', 'Topic', topics.map(t => ({ value: t, label: t })), CAL_FILTERS.topic);
+  html += selectFilterHtml('cal-language', 'language', 'Language', languages.map(l => ({ value: l, label: l })), CAL_FILTERS.language);
+  html += selectFilterHtml('cal-campaign', 'campaign', 'Campaign', campaigns.map(c => ({ value: c, label: c })), CAL_FILTERS.campaign);
+  html += selectFilterHtml('cal-tagging', 'tagging', 'Leader Tagging', taggings.map(t => ({ value: t, label: t })), CAL_FILTERS.tagging);
+  html += selectFilterHtml('cal-bucket', 'bucket', 'Session Time Bucket', buckets.map(b => ({ value: b, label: b })), CAL_FILTERS.bucket);
+  html += `</div>`;
+  html += dayChipsHtml(CAL_DAYS, 'toggleCalDay');
+  return html;
+}
+
+function calendarSessionsTable(sessions) {
+  const rows = [...sessions].sort((a, b) => a.date === b.date ? a.leader.localeCompare(b.leader) : a.date.localeCompare(b.date));
+  const headers = ['Date', 'Day', 'Time', 'Leader', 'Price', 'Revenue Target', 'Registrations Target', 'Registered', 'Registrations %', 'Campaign', 'Language', 'Leader Tagging', 'Time Bucket', 'Course Instance Id', 'Course Id', 'Topic'];
+  const body = rows.map(s => [
+    fmtDateFull(s.date), dowShort(s.date), s.time || '—',
+    s.leader || '—', fmtNum(s.price), fmtNum(s.revenueTarget), fmtNum(s.target), fmtNum(s.totalRegistrations),
+    s.pctVsTarget === null ? '—' : fmtPct(s.pctVsTarget, 0),
+    s.campaign || '—', s.language || '—', s.leaderTagging || '—', s.timeBucket || '—',
+    s.courseInstanceId || '—', s.courseId || '—', s.topic || '—',
+  ]);
+  return tableCard('Sessions', headers, body, false, true, true, [3, 9, 10, 11, 15]);
+}
+
+function renderCalendarTab(root) {
+  let html = `<div class="day-heading">Group Sessions Calendar</div>`;
+  html += `<div class="section-title">Filters</div>`;
+  html += calendarFiltersHtml();
+
+  const filtered = filteredSessions();
+  if (!filtered.length) {
+    html += `<div class="empty-note" style="margin-top:20px;">No sessions match the selected filters.</div>`;
+    root.innerHTML = html;
+    return;
+  }
+
+  const totalTarget = sum(filtered, s => s.target);
+  const totalRevenueTarget = sum(filtered, s => s.revenueTarget);
+  const totalReg = sumIfAny(filtered, s => s.totalRegistrations);
+  const overallPct = (totalTarget && totalReg !== null) ? (totalReg / totalTarget) * 100 : null;
+
+  html += `<div class="grid-4" style="margin-top:14px;">`;
+  html += statTile('Sessions', fmtNum(filtered.length));
+  html += statTile('Revenue Targets', fmtNum(totalRevenueTarget));
+  html += statTile('Registrations Target', fmtNum(totalTarget));
+  html += statTile('Total registrations', fmtNum(totalReg));
+  html += statTile('Registrations %', overallPct === null ? '—' : fmtPct(overallPct, 0));
+  html += `</div>`;
+
+  html += `<div class="section-title">Sessions</div>`;
+  html += calendarSessionsTable(filtered);
+
+  const byDate = groupSessionsByDate(filtered);
+  const dates = Array.from(byDate.keys()).sort();
+  const cats = dates.map(d => fmtDateShort(d));
+  const dayDetails = dayLeaderDetails(byDate, dates, s => s.target);
+
+  html += `<div class="section-title">Day-wise Sessions &amp; Targets</div>`;
+  html += `<div>`;
+  html += chartInWrap('Day-wise Sessions', () =>
+    renderBarChart(cats, [
+      { name: 'Sessions', color: COLORS.violet, data: dates.map(d => byDate.get(d).length) },
+    ], { dayDetails, rotateLabels: true }));
+  html += `</div>`;
+  html += `<div style="margin-top:14px;">`;
+  html += `<div class="day-chips" style="margin-bottom:8px;">
+    <button class="day-chip ${DAYWISE_TARGET_MODE === 'registrations' ? 'active' : ''}" onclick="setDaywiseTargetMode('registrations')">Registrations</button>
+    <button class="day-chip ${DAYWISE_TARGET_MODE === 'revenue' ? 'active' : ''}" onclick="setDaywiseTargetMode('revenue')">Revenue Targets</button>
+  </div>`;
+  if (DAYWISE_TARGET_MODE === 'revenue') {
+    const revenueDayDetails = dayLeaderDetails(byDate, dates, s => s.revenueTarget);
+    html += chartInWrap('Day-wise Revenue Targets', () =>
+      renderBarChart(cats, [
+        { name: 'Revenue Target', color: COLORS.yellow, data: dates.map(d => sum(byDate.get(d), s => s.revenueTarget)) },
+      ], { dayDetails: revenueDayDetails, rotateLabels: true }));
+  } else {
+    html += chartInWrap('Day-wise Targets', () =>
+      renderBarChart(cats, [
+        { name: 'Target', color: COLORS.oneOnOne, data: dates.map(d => sum(byDate.get(d), s => s.target)) },
+      ], { dayDetails, rotateLabels: true }));
+  }
+  html += `</div>`;
+
+  const leaderAgg = aggregateByLeader(filtered);
+  const totalLeaderTarget = sum(leaderAgg, l => l.target) || 1;
+  const totalLeaderRevenueTarget = sum(leaderAgg, l => l.revenueTarget) || 1;
+  const totalSessionsCount = filtered.length || 1;
+
+  html += `<div class="section-title">Leader Contribution to Overall Target</div>`;
+  html += `<div style="margin-top:6px;">`;
+  html += tableCard(null,
+    ['Leader', 'Sessions', 'Session Contribution %', 'Target', 'Target Contribution %', 'Revenue Target', 'Revenue Target %'],
+    leaderAgg.map(l => [
+      l.leader, fmtNum(l.count),
+      fmtPct((l.count / totalSessionsCount) * 100, 1),
+      fmtNum(l.target),
+      fmtPct((l.target / totalLeaderTarget) * 100, 1),
+      fmtNum(l.revenueTarget),
+      fmtPct((l.revenueTarget / totalLeaderRevenueTarget) * 100, 1),
+    ]), false, true);
+  html += `</div>`;
+
+  const leaderCats = leaderAgg.map(l => l.leader);
+  const hbarOpts = { rowH: 27, fontSize: 11, leftPad: 150, valueFmt: null };
+  html += `<div style="margin-top:14px;">`;
+  html += `<div class="day-chips" style="margin-bottom:8px;">
+    <button class="day-chip ${CAL_LEADER_MODE === 'absolute' ? 'active' : ''}" onclick="setCalLeaderMode('absolute')">Absolute</button>
+    <button class="day-chip ${CAL_LEADER_MODE === 'percent' ? 'active' : ''}" onclick="setCalLeaderMode('percent')">Percentage</button>
+  </div>`;
+  html += `<div class="day-chips" style="margin-bottom:8px;">
+    <button class="day-chip ${LEADER_METRIC === 'registrations' ? 'active' : ''}" onclick="setLeaderMetric('registrations')">Registrations</button>
+    <button class="day-chip ${LEADER_METRIC === 'revenue' ? 'active' : ''}" onclick="setLeaderMetric('revenue')">Revenue Targets</button>
+  </div>`;
+  html += `<div class="grid-2">`;
+  html += `<div class="hbar-scroll">`;
+  if (CAL_LEADER_MODE === 'percent') {
+    html += chartInWrap('Leader-wise Session Contribution %', () =>
+      renderHBarChart(leaderCats, [
+        { name: 'Session Contribution %', color: COLORS.oneOnOne, data: leaderAgg.map(l => (l.count / totalSessionsCount) * 100) },
+      ], { ...hbarOpts, valueFmt: v => fmtPct(v, 1) }));
+  } else {
+    html += chartInWrap('Leader-wise Sessions', () =>
+      renderHBarChart(leaderCats, [
+        { name: 'Sessions', color: COLORS.oneOnOne, data: leaderAgg.map(l => l.count) },
+      ], { ...hbarOpts, valueFmt: v => fmtNum(v) }));
+  }
+  html += `</div>`;
+  html += `<div class="hbar-scroll">`;
+  if (CAL_LEADER_MODE === 'percent' && LEADER_METRIC === 'revenue') {
+    html += chartInWrap('Leader-wise Revenue Target Contribution %', () =>
+      renderHBarChart(leaderCats, [
+        { name: 'Revenue Target Contribution %', color: COLORS.violet, data: leaderAgg.map(l => (l.revenueTarget / totalLeaderRevenueTarget) * 100) },
+      ], { ...hbarOpts, valueFmt: v => fmtPct(v, 1) }));
+  } else if (CAL_LEADER_MODE === 'percent') {
+    html += chartInWrap('Leader-wise Target Contribution %', () =>
+      renderHBarChart(leaderCats, [
+        { name: 'Target Contribution %', color: COLORS.violet, data: leaderAgg.map(l => (l.target / totalLeaderTarget) * 100) },
+      ], { ...hbarOpts, valueFmt: v => fmtPct(v, 1) }));
+  } else if (LEADER_METRIC === 'revenue') {
+    html += chartInWrap('Leader-wise Revenue Target', () =>
+      renderHBarChart(leaderCats, [
+        { name: 'Revenue Target', color: COLORS.violet, data: leaderAgg.map(l => l.revenueTarget) },
+      ], { ...hbarOpts, valueFmt: v => fmtNum(v) }));
+  } else {
+    html += chartInWrap('Leader-wise Target', () =>
+      renderHBarChart(leaderCats, [
+        { name: 'Target', color: COLORS.violet, data: leaderAgg.map(l => l.target) },
+      ], { ...hbarOpts, valueFmt: v => fmtNum(v) }));
+  }
+  html += `</div>`;
+  html += `</div>`;
+  html += `</div>`;
+
+  const phaseBuckets = ['before7', 'd7', 'd6', 'd5', 'd4', 'd3', 'd2', 'd1', 'd0'];
+  const phaseLabels = ['>7 days', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1', 'D0 (session day)'];
+
+  const phasingLeaders = uniqueSorted(filtered.map(s => s.leader));
+  const phasingTopics = uniqueSorted(filtered.map(s => s.topic));
+  const phasingCampaigns = uniqueSorted(filtered.map(s => s.campaign));
+  const phasingTaggings = uniqueSorted(filtered.map(s => s.leaderTagging));
+  const phasingLanguages = uniqueSorted(filtered.map(s => s.language));
+
+  html += `<div class="section-title">Registration Phasing (days before session)</div>`;
+  html += `<div class="cal-filters" style="margin-top:0;">`;
+  html += `<div class="filter-field">
+    <span class="filter-label">Session Date From</span>
+    <input type="date" id="phasing-date-from" value="${PHASING_FILTERS.dateFrom || ''}" onchange="onPhasingFilterChange('dateFrom', this.value)" />
+  </div>`;
+  html += `<div class="filter-field">
+    <span class="filter-label">Session Date To</span>
+    <input type="date" id="phasing-date-to" value="${PHASING_FILTERS.dateTo || ''}" onchange="onPhasingFilterChange('dateTo', this.value)" />
+  </div>`;
+  html += selectFilterHtml('phasing-leader', 'leader', 'Leader', phasingLeaders.map(l => ({ value: l, label: l })), PHASING_FILTERS.leader, 'onPhasingFilterChange');
+  html += selectFilterHtml('phasing-topic', 'topic', 'Topic', phasingTopics.map(t => ({ value: t, label: t })), PHASING_FILTERS.topic, 'onPhasingFilterChange');
+  html += selectFilterHtml('phasing-campaign', 'campaign', 'Campaign', phasingCampaigns.map(c => ({ value: c, label: c })), PHASING_FILTERS.campaign, 'onPhasingFilterChange');
+  html += selectFilterHtml('phasing-tagging', 'tagging', 'Leader Tagging', phasingTaggings.map(t => ({ value: t, label: t })), PHASING_FILTERS.tagging, 'onPhasingFilterChange');
+  html += selectFilterHtml('phasing-language', 'language', 'Language', phasingLanguages.map(l => ({ value: l, label: l })), PHASING_FILTERS.language, 'onPhasingFilterChange');
+  html += `</div>`;
+
+  const phasingSessions = filtered.filter(s => {
+    if (PHASING_FILTERS.dateFrom && s.date < PHASING_FILTERS.dateFrom) return false;
+    if (PHASING_FILTERS.dateTo && s.date > PHASING_FILTERS.dateTo) return false;
+    if (PHASING_FILTERS.leader && s.leader !== PHASING_FILTERS.leader) return false;
+    if (PHASING_FILTERS.topic && s.topic !== PHASING_FILTERS.topic) return false;
+    if (PHASING_FILTERS.campaign && s.campaign !== PHASING_FILTERS.campaign) return false;
+    if (PHASING_FILTERS.tagging && s.leaderTagging !== PHASING_FILTERS.tagging) return false;
+    if (PHASING_FILTERS.language && s.language !== PHASING_FILTERS.language) return false;
+    return true;
+  });
+
+  if (!phasingSessions.length) {
+    html += `<div class="empty-note" style="margin-top:10px;">No sessions match the phasing filters.</div>`;
+  } else {
+    const phaseTotals = phaseBuckets.map(b => sum(phasingSessions, s => s.phasing[b]));
+    const phasingTotalTarget = sum(phasingSessions, s => s.target);
+    const phasingTotalReg = sumIfAny(phasingSessions, s => s.totalRegistrations);
+    const phasingOverallPct = (phasingTotalTarget && phasingTotalReg !== null) ? (phasingTotalReg / phasingTotalTarget) * 100 : null;
+
+    html += `<div class="grid-3" style="margin:14px 0;">`;
+    html += statTile('Total target', fmtNum(phasingTotalTarget));
+    html += statTile('Total registrations received', fmtNum(phasingTotalReg));
+    html += statTile('Achievement %', phasingOverallPct === null ? '—' : fmtPct(phasingOverallPct, 0));
+    html += `</div>`;
+    html += chartInWrap('Phasing Target by Day-Before-Session', () =>
+      renderBarChart(phaseLabels, [
+        { name: 'Phasing Target', color: COLORS.yellow, data: phaseTotals },
+      ], {}));
+    html += `<div style="margin-top:14px;">`;
+    html += tableCard('Phasing Target Contribution to Total Target',
+      ['Bucket', 'Phasing Target', '% of Total Target'],
+      phaseLabels.map((lbl, i) => [
+        lbl, fmtNum(phaseTotals[i]),
+        phasingTotalTarget ? fmtPct((phaseTotals[i] / phasingTotalTarget) * 100, 1) : '—',
+      ]), false, true);
+    html += `</div>`;
+  }
+
+  root.innerHTML = html;
+  mountCharts(root);
 }
 
 /* ════════════════════════ TABLE / CHART CARD SHELLS ════════════════════════ */
-function tableCard(title, headers, rows, standalone) {
-  const head = `<tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr>`;
+function tableCard(title, headers, rows, standalone, zebra, tall, leftAlignCols) {
+  const isLeft = ci => leftAlignCols && leftAlignCols.includes(ci);
+  const head = `<tr>${headers.map((h, hi) => `<th${isLeft(hi) ? ' class="ta-left"' : ''}>${h}</th>`).join('')}</tr>`;
   const body = rows.length
-    ? rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')
+    ? rows.map(r => `<tr>${r.map((c, ci) => `<td${isLeft(ci) ? ' class="ta-left"' : ''}>${c}</td>`).join('')}</tr>`).join('')
     : `<tr><td colspan="${headers.length}" class="empty-note">No data</td></tr>`;
-  const table = `<div class="table-wrap"><table class="data-table"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+  const table = `<div class="table-wrap${tall ? ' tall' : ''}"><table class="data-table${zebra ? ' zebra' : ''}"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
   if (standalone) return table;
   return `<div class="card">${title ? `<div class="card-head"><span class="card-title">${title}</span></div>` : ''}${table}</div>`;
 }
@@ -1075,7 +1481,8 @@ function niceMax(v) {
 
 function renderBarChart(categories, series, opts = {}) {
   const chartId = 'c' + (CHART_SEQ++);
-  const innerW = CHART_W - PAD.l - PAD.r, innerH = CHART_H - PAD.t - PAD.b;
+  const padB = opts.rotateLabels ? 66 : PAD.b;
+  const innerW = CHART_W - PAD.l - PAD.r, innerH = CHART_H - PAD.t - padB;
   const maxVal = niceMax(Math.max(1, ...series.flatMap(s => s.data.map(v => v || 0))));
   const n = categories.length, sN = series.length;
   const groupW = innerW / n;
@@ -1086,7 +1493,8 @@ function renderBarChart(categories, series, opts = {}) {
 
   let bars = '';
   let hitboxes = [];
-  const barLabelEvery = Math.max(1, Math.ceil(n / (innerW / 42)));
+  const barLabelEvery = Math.max(1, Math.ceil(n / (innerW / (opts.minLabelPx || (opts.rotateLabels ? 12 : 42)))));
+  const maxChars = opts.truncateLabel || 0;
   categories.forEach((cat, ci) => {
     const groupX = PAD.l + ci * groupW;
     series.forEach((s, si) => {
@@ -1100,7 +1508,13 @@ function renderBarChart(categories, series, opts = {}) {
       hitboxes.push({ cat, series: s.name, value: v, color: s.color, dayDetail: opts.dayDetails ? opts.dayDetails[ci] : null });
     });
     if (ci % barLabelEvery === 0 || ci === n - 1) {
-      bars += `<text x="${groupX + groupW/2}" y="${CHART_H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${cat}</text>`;
+      const label = maxChars && cat.length > maxChars ? cat.slice(0, maxChars - 1) + '…' : cat;
+      if (opts.rotateLabels) {
+        const lx = groupX + groupW / 2, ly = PAD.t + innerH + 6;
+        bars += `<text x="0" y="0" text-anchor="end" font-size="9" fill="var(--muted)" transform="translate(${lx},${ly}) rotate(-90)">${label}</text>`;
+      } else {
+        bars += `<text x="${groupX + groupW/2}" y="${CHART_H - 8}" text-anchor="middle" font-size="9" fill="var(--muted)">${label}</text>`;
+      }
     }
   });
 
@@ -1114,6 +1528,72 @@ function renderBarChart(categories, series, opts = {}) {
       <svg viewBox="0 0 ${CHART_W} ${CHART_H}" preserveAspectRatio="xMidYMid meet">
         ${gridSvg}
         <line x1="${PAD.l}" y1="${PAD.t+innerH}" x2="${CHART_W-PAD.r}" y2="${PAD.t+innerH}" stroke="var(--baseline)" stroke-width="1" />
+        ${bars}
+      </svg>
+    </div>
+    ${tableToggle}`;
+}
+
+function roundedRightRect(x, y, w, h, r) {
+  if (w <= 0) return `M${x},${y} L${x},${y+h} Z`;
+  r = Math.min(r, w, h / 2);
+  return `M${x},${y} L${x+w-r},${y} Q${x+w},${y} ${x+w},${y+r} L${x+w},${y+h-r} Q${x+w},${y+h} ${x+w-r},${y+h} L${x},${y+h} Z`;
+}
+
+function renderHBarChart(categories, series, opts = {}) {
+  const chartId = 'c' + (CHART_SEQ++);
+  const width = 640;
+  const fontSize = opts.fontSize || 9;
+  const leftPad = opts.leftPad || 132;
+  const rightPad = opts.valueFmt ? 54 : 16;
+  const topPad = 8;
+  const bottomPad = 26;
+  const rowH = opts.rowH || 22;
+  const n = categories.length, sN = series.length;
+  const innerW = width - leftPad - rightPad;
+  const innerH = rowH * n;
+  const height = topPad + innerH + bottomPad;
+  const maxVal = niceMax(Math.max(1, ...series.flatMap(s => s.data.map(v => v || 0))));
+  const barGap = 3;
+  const barH = Math.max(4, Math.min(18, (rowH - barGap * (sN + 1)) / sN));
+
+  const ticks = 4;
+  let gridSvg = '';
+  for (let i = 0; i <= ticks; i++) {
+    const val = (maxVal / ticks) * i;
+    const x = leftPad + (val / maxVal) * innerW;
+    gridSvg += `<line x1="${x}" y1="${topPad}" x2="${x}" y2="${topPad + innerH}" stroke="var(--grid)" stroke-width="1" />`;
+    gridSvg += `<text x="${x}" y="${topPad + innerH + 16}" text-anchor="middle" font-size="${fontSize}" fill="var(--muted)">${fmtCompact(val)}</text>`;
+  }
+
+  let bars = '', hitboxes = [];
+  categories.forEach((cat, ci) => {
+    const rowY = topPad + ci * rowH;
+    series.forEach((s, si) => {
+      const v = s.data[ci];
+      const vv = v || 0;
+      const w = vv > 0 ? Math.max(3, (vv / maxVal) * innerW) : 0;
+      const y = rowY + barGap + si * (barH + barGap);
+      hitboxes.push({ cat, series: s.name, value: v, color: s.color });
+      bars += `<path data-hit="${hitboxes.length - 1}" class="bar-rect" d="${roundedRightRect(leftPad, y, w, barH, 3)}" fill="${s.color}"></path>`;
+      if (opts.valueFmt) {
+        bars += `<text x="${leftPad + w + 5}" y="${y + barH / 2 + 3}" text-anchor="start" font-size="${fontSize}" fill="var(--text-2)">${opts.valueFmt(vv)}</text>`;
+      }
+    });
+    const label = cat.length > 20 ? cat.slice(0, 19) + '…' : cat;
+    bars += `<text x="${leftPad - 8}" y="${rowY + rowH / 2 + 3}" text-anchor="end" font-size="${fontSize}" fill="var(--muted)">${label}</text>`;
+  });
+
+  const legend = sN > 1 ? `<div class="chart-legend">${series.map(s =>
+    `<span class="legend-item"><span class="legend-swatch" style="background:${s.color}"></span>${s.name}</span>`).join('')}</div>` : '';
+
+  const tableToggle = miniTable(categories, series);
+
+  return `${legend}
+    <div class="chart-svg-wrap" data-chart-id="${chartId}" data-hits='${JSON.stringify(hitboxes).replace(/'/g,"&#39;")}'>
+      <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="xMidYMid meet">
+        ${gridSvg}
+        <line x1="${leftPad}" y1="${topPad}" x2="${leftPad}" y2="${topPad + innerH}" stroke="var(--baseline)" stroke-width="1" />
         ${bars}
       </svg>
     </div>
@@ -1292,6 +1772,7 @@ function bindChartEvents(wrap) {
       const hdr = document.createElement('div');
       hdr.className = 'tt-leaders-hdr';
       hdr.textContent = dd.kind === 'phasing' ? 'Leaders — phasing target'
+        : dd.kind === 'calendar' ? 'Leaders — sessions / target'
         : dd.elapsed ? 'Leaders — target / missed' : 'Leaders — target';
       wrap.appendChild(hdr);
       dd.leaders.forEach(l => {
@@ -1303,6 +1784,7 @@ function bindChartEvents(wrap) {
         const val = document.createElement('span');
         val.className = 'tt-leader-val';
         val.textContent = dd.kind === 'phasing' ? fmtNum(l.value)
+          : dd.kind === 'calendar' ? `${fmtNum(l.count)} / ${fmtNum(l.target)}`
           : dd.elapsed ? `${fmtNum(l.target)} / ${l.hasElapsed ? fmtNum(l.missed) : '—'}` : fmtNum(l.target);
         row.appendChild(name);
         row.appendChild(val);

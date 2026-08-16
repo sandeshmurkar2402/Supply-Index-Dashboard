@@ -145,6 +145,60 @@ def cell(row, i):
     return row[i] if i < len(row) else ""
 
 
+def fetch_calendar_sessions(service, config):
+    """session_level_summ_Dashboard: one row per scheduled group session (online or
+    offline), header row 5 (index 4), data from row 6 (index 5). Column layout (0-indexed):
+    4 Leader Name, 5 Registrations Target, 7 Price, 8 Session Date, 9 Session Time,
+    11 Revenue Targets, 12 Course Instance Id, 13 Course Id, 14 Campaign,
+    15 Leader tagging, 16 Language, 19 Topic, 28 Session Time Bucket,
+    29-37 phasing (b4 7days, D7..D0), 38 Total Paid Registrations, 39 Phasing Days,
+    40 % Registrations vs Targets."""
+    rng = f"{config['calendarSheetName']}!{config['calendarRange']}"
+    result = service.spreadsheets().values().get(
+        spreadsheetId=config["spreadsheetId"], range=rng, valueRenderOption="FORMATTED_VALUE"
+    ).execute()
+    raw_rows = result.get("values", [])
+    if len(raw_rows) < 6:
+        return []
+
+    sessions = []
+    for row in raw_rows[5:]:
+        iso = parse_date(cell(row, 8))
+        leader = cell(row, 4).strip()
+        if not iso or not leader:
+            continue
+        sessions.append({
+            "leader": leader,
+            "target": parse_int(cell(row, 5)),
+            "price": parse_int(cell(row, 7)),
+            "revenueTarget": parse_int(cell(row, 11)),
+            "courseInstanceId": cell(row, 12).strip(),
+            "courseId": cell(row, 13).strip(),
+            "date": iso,
+            "time": cell(row, 9),
+            "campaign": cell(row, 14).strip(),
+            "leaderTagging": cell(row, 15).strip(),
+            "language": cell(row, 16).strip(),
+            "topic": cell(row, 19).strip(),
+            "timeBucket": cell(row, 28).strip(),
+            "phasing": {
+                "before7": parse_int(cell(row, 29)),
+                "d7": parse_int(cell(row, 30)),
+                "d6": parse_int(cell(row, 31)),
+                "d5": parse_int(cell(row, 32)),
+                "d4": parse_int(cell(row, 33)),
+                "d3": parse_int(cell(row, 34)),
+                "d2": parse_int(cell(row, 35)),
+                "d1": parse_int(cell(row, 36)),
+                "d0": parse_int(cell(row, 37)),
+            },
+            "totalRegistrations": parse_int(cell(row, 38)),
+            "phasingDays": parse_int(cell(row, 39)),
+            "pctVsTarget": parse_pct(cell(row, 40)),
+        })
+    return sessions
+
+
 def main():
     with open(os.path.join(ROOT, "config.json")) as f:
         config = json.load(f)
@@ -216,10 +270,13 @@ def main():
             },
         })
 
+    sessions = fetch_calendar_sessions(service, config)
+
     output = {
         "lastUpdated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "sheetName": config["sheetName"],
         "days": days,
+        "sessions": sessions,
     }
 
     out_path = os.path.join(ROOT, "data", "supply_index.json")
@@ -227,7 +284,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"OK: {len(days)} days written to {out_path}")
+    print(f"OK: {len(days)} days and {len(sessions)} calendar sessions written to {out_path}")
 
 
 if __name__ == "__main__":

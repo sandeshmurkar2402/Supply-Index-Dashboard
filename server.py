@@ -7,16 +7,45 @@ import os
 import subprocess
 import sys
 from http.server import HTTPServer, SimpleHTTPRequestHandler
+from urllib.parse import urlparse, parse_qs
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts"))
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
 class DashboardHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
-        if self.path.split("?")[0] == "/api/refresh":
+        path = self.path.split("?")[0]
+        if path == "/api/refresh":
             self._handle_refresh()
+        elif path == "/api/sheets":
+            self._handle_sheets()
+        elif path == "/api/auth/session":
+            self._json_response(200, json.dumps({"user": None}).encode())
         else:
             super().do_GET()
+
+    def _handle_sheets(self):
+        """Mocks the portal's same-origin /api/sheets proxy for local preview of
+        supply_index.html, fetching live via cred1.json instead of a server-side
+        service-account secret."""
+        qs = parse_qs(urlparse(self.path).query)
+        spreadsheet_id = qs.get("spreadsheetId", [""])[0]
+        rng = qs.get("range", [""])[0]
+        if not spreadsheet_id or not rng:
+            self._json_response(400, json.dumps({"error": "spreadsheetId and range are required"}).encode())
+            return
+        try:
+            from fetch import build_service
+            service = build_service()
+            result = service.spreadsheets().values().get(
+                spreadsheetId=spreadsheet_id, range=rng, valueRenderOption="FORMATTED_VALUE"
+            ).execute()
+            body = json.dumps({"values": result.get("values", [])}).encode()
+            self._json_response(200, body)
+        except Exception as e:
+            self._json_response(500, json.dumps({"error": str(e)}).encode())
 
     def _handle_refresh(self):
         print("  --> Fetching latest data from Google Sheets...")

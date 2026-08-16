@@ -1,5 +1,7 @@
 {
   "spreadsheetId": "1byIOu0sFUVSaX0E0rLI2LkF2DX8ht7WnDBRgP-9pt1I",
   "sheetName": "Supply_Index_Dashboard",
-  "range": "A1:AK500"
+  "range": "A1:AK500",
+  "calendarSheetName": "session_level_summ_Dashboard",
+  "calendarRange": "A1:AT1000"
 }
