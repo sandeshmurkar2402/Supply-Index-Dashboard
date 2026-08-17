@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T12:51:50Z",
+  "lastUpdated": "2026-08-17T13:42:23Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -4825,7 +4825,7 @@
         "sessions": 7,
         "sessionTarget": 1031,
         "sessionAchieved": 455,
-        "phasingTarget": 300,
+        "phasingTarget": 297,
         "phasingAchieved": 234
       },
       "offline": {
@@ -4874,10 +4874,6 @@
         },
         {
           "name": "Neera Sareen",
-          "value": 3
-        },
-        {
-          "name": "Dushyant",
           "value": 3
         },
         {
@@ -5591,7 +5587,7 @@
         "sessions": 6,
         "sessionTarget": 45,
         "sessionAchieved": 42,
-        "phasingTarget": 135,
+        "phasingTarget": 132,
         "phasingAchieved": 89
       },
       "offline": {
@@ -5627,10 +5623,6 @@
           "value": 5
         },
         {
-          "name": "Dushyant",
-          "value": 5
-        },
-        {
           "name": "Manka Malik",
           "value": 5
         },
@@ -5648,6 +5640,10 @@
         },
         {
           "name": "Krishna Jangid",
+          "value": 3
+        },
+        {
+          "name": "Dushyant",
           "value": 3
         },
         {
@@ -5967,7 +5963,7 @@
         "sessions": 4,
         "sessionTarget": 80,
         "sessionAchieved": 25,
-        "phasingTarget": 216,
+        "phasingTarget": 214,
         "phasingAchieved": 103
       },
       "offline": {
@@ -5995,10 +5991,6 @@
           "value": 8
         },
         {
-          "name": "Dushyant",
-          "value": 8
-        },
-        {
           "name": "Rhea Mathew",
           "value": 6
         },
@@ -6009,6 +6001,10 @@
         {
           "name": "Arpana Khanna",
           "value": 6
+        },
+        {
+          "name": "Dushyant",
+          "value": 5
         },
         {
           "name": "Sukhmani Bajwa",
@@ -6328,8 +6324,8 @@
       "dayName": "Monday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 9,
-        "sessionTarget": 107,
+        "sessions": 8,
+        "sessionTarget": 82,
         "sessionAchieved": 34,
         "phasingTarget": 224,
         "phasingAchieved": null
@@ -6541,10 +6537,6 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Dushyant",
-          "value": 25
-        },
-        {
           "name": "Arpana Khanna",
           "value": 18
         },
@@ -6723,10 +6715,10 @@
       "dayName": "Tuesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 8,
-        "sessionTarget": 797,
+        "sessions": 9,
+        "sessionTarget": 822,
         "sessionAchieved": 384,
-        "phasingTarget": 206,
+        "phasingTarget": 214,
         "phasingAchieved": null
       },
       "offline": {
@@ -6756,6 +6748,10 @@
         {
           "name": "Manka Malik",
           "value": 9
+        },
+        {
+          "name": "Dushyant",
+          "value": 8
         },
         {
           "name": "Divyaa",
@@ -6907,6 +6903,10 @@
         }
       ],
       "groupLeaderTargets": [
+        {
+          "name": "Dushyant",
+          "value": 25
+        },
         {
           "name": "Kavyal Sedanni",
           "value": 700
@@ -22117,35 +22117,6 @@
       "pctVsTarget": 40.0
     },
     {
-      "leader": "Dushyant",
-      "target": 25,
-      "price": 850,
-      "revenueTarget": 21250,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-08-17",
-      "time": "19:00",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Shiv tantra",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 3,
-        "d3": 3,
-        "d2": 5,
-        "d1": 8,
-        "d0": 8
-      },
-      "totalRegistrations": null,
-      "phasingDays": 5,
-      "pctVsTarget": 0.0
-    },
-    {
       "leader": "Arpana Khanna",
       "target": 18,
       "price": 410,
@@ -22376,6 +22347,35 @@
       "totalRegistrations": 1,
       "phasingDays": null,
       "pctVsTarget": 50.0
+    },
+    {
+      "leader": "Dushyant",
+      "target": 25,
+      "price": 850,
+      "revenueTarget": 21250,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-08-18",
+      "time": "19:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Shiv tantra",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 3,
+        "d3": 3,
+        "d2": 5,
+        "d1": 8,
+        "d0": 8
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0
     },
     {
       "leader": "Kavyal Sedanni",
