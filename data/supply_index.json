@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T04:48:17Z",
+  "lastUpdated": "2026-08-17T05:38:18Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -3734,10 +3734,6 @@
           "value": 1
         },
         {
-          "name": "Disha Sharma",
-          "value": 1
-        },
-        {
           "name": "Aditi Grover",
           "value": 1
         },
@@ -3999,7 +3995,7 @@
         "sessions": 9,
         "sessionTarget": 62,
         "sessionAchieved": 28,
-        "phasingTarget": 283,
+        "phasingTarget": 282,
         "phasingAchieved": 150
       },
       "offline": {
@@ -4136,10 +4132,6 @@
         },
         {
           "name": "Debanjan Medhi",
-          "value": 1
-        },
-        {
-          "name": "Disha Sharma",
           "value": 1
         },
         {
@@ -4428,7 +4420,7 @@
         "sessions": 8,
         "sessionTarget": 57,
         "sessionAchieved": 24,
-        "phasingTarget": 296,
+        "phasingTarget": 295,
         "phasingAchieved": 161
       },
       "offline": {
@@ -4529,10 +4521,6 @@
         },
         {
           "name": "Debanjan Medhi",
-          "value": 1
-        },
-        {
-          "name": "Disha Sharma",
           "value": 1
         },
         {
@@ -4841,7 +4829,7 @@
         "sessions": 7,
         "sessionTarget": 1031,
         "sessionAchieved": 455,
-        "phasingTarget": 301,
+        "phasingTarget": 300,
         "phasingAchieved": 234
       },
       "offline": {
@@ -4950,10 +4938,6 @@
         },
         {
           "name": "Debanjan Medhi",
-          "value": 1
-        },
-        {
-          "name": "Disha Sharma",
           "value": 1
         },
         {
@@ -5238,7 +5222,7 @@
         "sessions": 6,
         "sessionTarget": 231,
         "sessionAchieved": 90,
-        "phasingTarget": 153,
+        "phasingTarget": 152,
         "phasingAchieved": 112
       },
       "offline": {
@@ -5343,10 +5327,6 @@
         },
         {
           "name": "Debanjan Medhi",
-          "value": 2
-        },
-        {
-          "name": "Disha Sharma",
           "value": 2
         },
         {
@@ -5616,10 +5596,10 @@
       "dayName": "Saturday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 50,
+        "sessions": 6,
+        "sessionTarget": 45,
         "sessionAchieved": 42,
-        "phasingTarget": 133,
+        "phasingTarget": 132,
         "phasingAchieved": 89
       },
       "offline": {
@@ -5723,10 +5703,6 @@
           "value": 2
         },
         {
-          "name": "Disha Sharma",
-          "value": 2
-        },
-        {
           "name": "Debanjan Medhi",
           "value": 1
         },
@@ -5817,10 +5793,6 @@
           "value": 5
         },
         {
-          "name": "Disha Sharma",
-          "value": 5
-        },
-        {
           "name": "Sidanta Goggate",
           "value": 7
         },
@@ -5844,10 +5816,6 @@
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 3
-        },
-        {
-          "name": "Disha Sharma",
           "missed": 3
         },
         {
@@ -20985,35 +20953,6 @@
       "language": "English",
       "topic": "Pranic Healing",
       "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 1,
-        "d0": 1
-      },
-      "totalRegistrations": 2,
-      "phasingDays": null,
-      "pctVsTarget": 40.0
-    },
-    {
-      "leader": "Disha Sharma",
-      "target": 5,
-      "price": 410,
-      "revenueTarget": 2050,
-      "courseInstanceId": "7212",
-      "courseId": "1776",
-      "date": "2026-08-15",
-      "time": "18:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Live Nazar Removal Session",
-      "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
