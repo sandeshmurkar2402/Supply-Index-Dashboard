@@ -313,6 +313,30 @@
     background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
     color: var(--text); padding: 5px 8px; font-size: 0.78rem; font-family: inherit; width: 100%;
   }
+  .multiselect { position: relative; }
+  .ms-btn {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
+    color: var(--text); padding: 6px 8px; font-size: 0.78rem; font-family: inherit;
+    width: 100%; min-width: 140px; max-width: 220px; text-align: left; cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between; gap: 6px;
+  }
+  .ms-caret { font-size: 0.6rem; color: var(--muted); }
+  .ms-panel {
+    display: none; position: absolute; top: calc(100% + 4px); left: 0; z-index: 20;
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px;
+    padding: 8px; width: 220px; max-width: 280px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  }
+  .ms-panel.show { display: block; }
+  .ms-actions { display: flex; gap: 6px; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .ms-action-btn {
+    background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text-2);
+    padding: 3px 8px; border-radius: 5px; font-size: 0.68rem; font-weight: 600; cursor: pointer;
+  }
+  .ms-options { max-height: 220px; overflow-y: auto; display: flex; flex-direction: column; gap: 2px; }
+  .ms-option { display: flex; align-items: center; gap: 6px; font-size: 0.76rem; color: var(--text-2); padding: 3px 4px; border-radius: 4px; cursor: pointer; }
+  .ms-option:hover { background: var(--surface-2); }
+  .ms-option input[type=checkbox] { accent-color: var(--blue); }
   .day-chips { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
   .day-chip {
     background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text-2);
@@ -525,17 +549,65 @@ function toggleDbdDay(d) {
 }
 
 let CAL_DAYS = new Set(DOW);
-let CAL_FILTERS = { month: '', leader: '', language: '', campaign: '', tagging: '', bucket: '', topic: '', dateFrom: '', dateTo: '' };
+let CAL_FILTERS = {
+  month: new Set(), leader: new Set(), language: new Set(), campaign: new Set(),
+  tagging: new Set(), bucket: new Set(), topic: new Set(),
+  dateFrom: '', dateTo: '',
+};
+let CAL_DATE_DEFAULTED = false;
+let OPEN_MULTISELECT = null;
+const CAL_FILTER_ACCESSORS = {
+  month: s => s.date.slice(0, 7),
+  leader: s => s.leader,
+  topic: s => s.topic,
+  language: s => s.language,
+  campaign: s => s.campaign,
+  tagging: s => s.leaderTagging,
+  bucket: s => s.timeBucket,
+};
 let CAL_LEADER_MODE = 'absolute';
 let LEADER_METRIC = 'registrations';
 let DAYWISE_TARGET_MODE = 'registrations';
-let PHASING_FILTERS = { dateFrom: '', dateTo: '', leader: '', topic: '', campaign: '', tagging: '', language: '' };
+let PHASING_FILTERS = {
+  leader: new Set(), topic: new Set(), campaign: new Set(), tagging: new Set(), language: new Set(),
+  dateFrom: '', dateTo: '',
+};
+const PHASING_FILTER_ACCESSORS = {
+  leader: s => s.leader,
+  topic: s => s.topic,
+  campaign: s => s.campaign,
+  tagging: s => s.leaderTagging,
+  language: s => s.language,
+};
+const FILTER_GROUPS = {
+  cal: { state: CAL_FILTERS, accessors: CAL_FILTER_ACCESSORS },
+  phasing: { state: PHASING_FILTERS, accessors: PHASING_FILTER_ACCESSORS },
+};
 function toggleCalDay(d) {
   if (CAL_DAYS.has(d)) { if (CAL_DAYS.size > 1) CAL_DAYS.delete(d); } else CAL_DAYS.add(d);
   render();
 }
 function onCalFilterChange(key, value) {
   CAL_FILTERS[key] = value;
+  render();
+}
+function toggleMultiFilter(group, key, value) {
+  const set = FILTER_GROUPS[group].state[key];
+  if (set.has(value)) set.delete(value); else set.add(value);
+  render();
+}
+function selectAllFilter(group, key) {
+  const { state, accessors } = FILTER_GROUPS[group];
+  state[key] = new Set(uniqueSorted(SESSIONS.map(accessors[key])));
+  render();
+}
+function clearFilter(group, key) {
+  FILTER_GROUPS[group].state[key] = new Set();
+  render();
+}
+function toggleMultiselectPanel(group, key) {
+  const id = group + ':' + key;
+  OPEN_MULTISELECT = (OPEN_MULTISELECT === id) ? null : id;
   render();
 }
 function setCalLeaderMode(mode) {
@@ -642,6 +714,11 @@ function addDays(iso, n) {
   d.setDate(d.getDate() + n);
   return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
 }
+function isoWeekRange(iso) {
+  const day = new Date(iso + 'T00:00:00').getDay(); // 0=Sun..6=Sat
+  const monday = addDays(iso, day === 0 ? -6 : 1 - day);
+  return { from: monday, to: addDays(monday, 6) };
+}
 
 /* ════════════════════════ DATA LOAD ════════════════════════ */
 async function loadData(showSkeleton = true) {
@@ -694,6 +771,12 @@ function resolveTodayISO() {
 /* ════════════════════════ TABS ════════════════════════ */
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => setTab(btn.dataset.tab));
+});
+document.addEventListener('click', e => {
+  if (OPEN_MULTISELECT && !e.target.closest('.multiselect')) {
+    OPEN_MULTISELECT = null;
+    render();
+  }
 });
 function setTab(tab) {
   CURRENT_TAB = tab;
@@ -1132,13 +1215,29 @@ function monthLabel(ym) {
   const [y, m] = ym.split('-').map(Number);
   return new Date(y, m - 1, 1).toLocaleDateString(undefined, { month: 'long', year: 'numeric' });
 }
-function selectFilterHtml(id, key, label, options, current, onChangeFn = 'onCalFilterChange') {
-  return `<div class="filter-field">
+function multiSelectHtml(group, key, label, options, labelFn) {
+  const fmt = labelFn || (v => v);
+  const selected = FILTER_GROUPS[group].state[key];
+  const id = group + ':' + key;
+  const summary = selected.size === 0 ? 'All' : `${selected.size} selected`;
+  const items = options.map(o => {
+    const safe = String(o).replace(/"/g, '&quot;');
+    const checked = selected.has(o) ? 'checked' : '';
+    return `<label class="ms-option">
+      <input type="checkbox" value="${safe}" ${checked} onchange="toggleMultiFilter('${group}', '${key}', this.value)" />
+      <span>${fmt(o)}</span>
+    </label>`;
+  }).join('');
+  return `<div class="filter-field multiselect">
     <span class="filter-label">${label}</span>
-    <select id="${id}" onchange="${onChangeFn}('${key}', this.value)">
-      <option value="">All</option>
-      ${options.map(o => `<option value="${o.value.replace(/"/g, '&quot;')}" ${o.value === current ? 'selected' : ''}>${o.label}</option>`).join('')}
-    </select>
+    <button type="button" class="ms-btn" onclick="toggleMultiselectPanel('${group}', '${key}')">${summary}<span class="ms-caret">&#9662;</span></button>
+    <div class="ms-panel ${OPEN_MULTISELECT === id ? 'show' : ''}">
+      <div class="ms-actions">
+        <button type="button" class="ms-action-btn" onclick="selectAllFilter('${group}', '${key}')">Select All</button>
+        <button type="button" class="ms-action-btn" onclick="clearFilter('${group}', '${key}')">Clear</button>
+      </div>
+      <div class="ms-options">${items}</div>
+    </div>
   </div>`;
 }
 
@@ -1146,14 +1245,11 @@ function filteredSessions() {
   return SESSIONS.filter(s => {
     if (CAL_FILTERS.dateFrom && s.date < CAL_FILTERS.dateFrom) return false;
     if (CAL_FILTERS.dateTo && s.date > CAL_FILTERS.dateTo) return false;
-    if (CAL_FILTERS.month && s.date.slice(0, 7) !== CAL_FILTERS.month) return false;
     if (!CAL_DAYS.has(dowShort(s.date))) return false;
-    if (CAL_FILTERS.leader && s.leader !== CAL_FILTERS.leader) return false;
-    if (CAL_FILTERS.topic && s.topic !== CAL_FILTERS.topic) return false;
-    if (CAL_FILTERS.language && s.language !== CAL_FILTERS.language) return false;
-    if (CAL_FILTERS.campaign && s.campaign !== CAL_FILTERS.campaign) return false;
-    if (CAL_FILTERS.tagging && s.leaderTagging !== CAL_FILTERS.tagging) return false;
-    if (CAL_FILTERS.bucket && s.timeBucket !== CAL_FILTERS.bucket) return false;
+    for (const key in CAL_FILTER_ACCESSORS) {
+      const set = CAL_FILTERS[key];
+      if (set.size && !set.has(CAL_FILTER_ACCESSORS[key](s))) return false;
+    }
     return true;
   });
 }
@@ -1193,6 +1289,30 @@ function aggregateByLeader(sessions) {
   return Array.from(map.values()).sort((a, b) => b.target - a.target);
 }
 
+function calDatePresets() {
+  const today = isoToday();
+  return [
+    { key: 'yesterday', label: 'Yesterday', from: addDays(today, -1), to: addDays(today, -1) },
+    { key: 'today', label: 'Today', from: today, to: today },
+    { key: 'tomorrow', label: 'Tomorrow', from: addDays(today, 1), to: addDays(today, 1) },
+    { key: 'lastWeek', label: 'Last Week', ...isoWeekRange(addDays(today, -7)) },
+    { key: 'thisWeek', label: 'Current Week', ...isoWeekRange(today) },
+    { key: 'nextWeek', label: 'Next Week', ...isoWeekRange(addDays(today, 7)) },
+  ];
+}
+function setCalDateShortcut(key) {
+  const preset = calDatePresets().find(p => p.key === key);
+  if (!preset) return;
+  CAL_FILTERS.dateFrom = preset.from;
+  CAL_FILTERS.dateTo = preset.to;
+  render();
+}
+function calDatePresetHtml() {
+  return `<div class="day-chips">${calDatePresets().map(p =>
+    `<button class="day-chip ${CAL_FILTERS.dateFrom === p.from && CAL_FILTERS.dateTo === p.to ? 'active' : ''}" onclick="setCalDateShortcut('${p.key}')">${p.label}</button>`
+  ).join('')}</div>`;
+}
+
 function calendarFiltersHtml() {
   const months = uniqueSorted(SESSIONS.map(s => s.date.slice(0, 7)));
   const leaders = uniqueSorted(SESSIONS.map(s => s.leader));
@@ -1211,14 +1331,15 @@ function calendarFiltersHtml() {
     <span class="filter-label">Session Date To</span>
     <input type="date" id="cal-date-to" value="${CAL_FILTERS.dateTo || ''}" onchange="onCalFilterChange('dateTo', this.value)" />
   </div>`;
-  html += selectFilterHtml('cal-month', 'month', 'Month', months.map(m => ({ value: m, label: monthLabel(m) })), CAL_FILTERS.month);
-  html += selectFilterHtml('cal-leader', 'leader', 'Leader', leaders.map(l => ({ value: l, label: l })), CAL_FILTERS.leader);
-  html += selectFilterHtml('cal-topic', 'topic', 'Topic', topics.map(t => ({ value: t, label: t })), CAL_FILTERS.topic);
-  html += selectFilterHtml('cal-language', 'language', 'Language', languages.map(l => ({ value: l, label: l })), CAL_FILTERS.language);
-  html += selectFilterHtml('cal-campaign', 'campaign', 'Campaign', campaigns.map(c => ({ value: c, label: c })), CAL_FILTERS.campaign);
-  html += selectFilterHtml('cal-tagging', 'tagging', 'Leader Tagging', taggings.map(t => ({ value: t, label: t })), CAL_FILTERS.tagging);
-  html += selectFilterHtml('cal-bucket', 'bucket', 'Session Time Bucket', buckets.map(b => ({ value: b, label: b })), CAL_FILTERS.bucket);
+  html += multiSelectHtml('cal', 'month', 'Month', months, monthLabel);
+  html += multiSelectHtml('cal', 'leader', 'Leader', leaders);
+  html += multiSelectHtml('cal', 'topic', 'Topic', topics);
+  html += multiSelectHtml('cal', 'language', 'Language', languages);
+  html += multiSelectHtml('cal', 'campaign', 'Campaign', campaigns);
+  html += multiSelectHtml('cal', 'tagging', 'Leader Tagging', taggings);
+  html += multiSelectHtml('cal', 'bucket', 'Session Time Bucket', buckets);
   html += `</div>`;
+  html += calDatePresetHtml();
   html += dayChipsHtml(CAL_DAYS, 'toggleCalDay');
   return html;
 }
@@ -1237,6 +1358,12 @@ function calendarSessionsTable(sessions) {
 }
 
 function renderCalendarTab(root) {
+  if (!CAL_DATE_DEFAULTED) {
+    const wk = isoWeekRange(isoToday());
+    CAL_FILTERS.dateFrom = wk.from;
+    CAL_FILTERS.dateTo = wk.to;
+    CAL_DATE_DEFAULTED = true;
+  }
   let html = `<div class="day-heading">Group Sessions Calendar</div>`;
   html += `<div class="section-title">Filters</div>`;
   html += calendarFiltersHtml();
@@ -1384,21 +1511,20 @@ function renderCalendarTab(root) {
     <span class="filter-label">Session Date To</span>
     <input type="date" id="phasing-date-to" value="${PHASING_FILTERS.dateTo || ''}" onchange="onPhasingFilterChange('dateTo', this.value)" />
   </div>`;
-  html += selectFilterHtml('phasing-leader', 'leader', 'Leader', phasingLeaders.map(l => ({ value: l, label: l })), PHASING_FILTERS.leader, 'onPhasingFilterChange');
-  html += selectFilterHtml('phasing-topic', 'topic', 'Topic', phasingTopics.map(t => ({ value: t, label: t })), PHASING_FILTERS.topic, 'onPhasingFilterChange');
-  html += selectFilterHtml('phasing-campaign', 'campaign', 'Campaign', phasingCampaigns.map(c => ({ value: c, label: c })), PHASING_FILTERS.campaign, 'onPhasingFilterChange');
-  html += selectFilterHtml('phasing-tagging', 'tagging', 'Leader Tagging', phasingTaggings.map(t => ({ value: t, label: t })), PHASING_FILTERS.tagging, 'onPhasingFilterChange');
-  html += selectFilterHtml('phasing-language', 'language', 'Language', phasingLanguages.map(l => ({ value: l, label: l })), PHASING_FILTERS.language, 'onPhasingFilterChange');
+  html += multiSelectHtml('phasing', 'leader', 'Leader', phasingLeaders);
+  html += multiSelectHtml('phasing', 'topic', 'Topic', phasingTopics);
+  html += multiSelectHtml('phasing', 'campaign', 'Campaign', phasingCampaigns);
+  html += multiSelectHtml('phasing', 'tagging', 'Leader Tagging', phasingTaggings);
+  html += multiSelectHtml('phasing', 'language', 'Language', phasingLanguages);
   html += `</div>`;
 
   const phasingSessions = filtered.filter(s => {
     if (PHASING_FILTERS.dateFrom && s.date < PHASING_FILTERS.dateFrom) return false;
     if (PHASING_FILTERS.dateTo && s.date > PHASING_FILTERS.dateTo) return false;
-    if (PHASING_FILTERS.leader && s.leader !== PHASING_FILTERS.leader) return false;
-    if (PHASING_FILTERS.topic && s.topic !== PHASING_FILTERS.topic) return false;
-    if (PHASING_FILTERS.campaign && s.campaign !== PHASING_FILTERS.campaign) return false;
-    if (PHASING_FILTERS.tagging && s.leaderTagging !== PHASING_FILTERS.tagging) return false;
-    if (PHASING_FILTERS.language && s.language !== PHASING_FILTERS.language) return false;
+    for (const key in PHASING_FILTER_ACCESSORS) {
+      const set = PHASING_FILTERS[key];
+      if (set.size && !set.has(PHASING_FILTER_ACCESSORS[key](s))) return false;
+    }
     return true;
   });
 

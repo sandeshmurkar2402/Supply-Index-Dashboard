@@ -4,5 +4,6 @@ credentials.json
 __pycache__/
 .DS_Store
 server.log
+server_log.txt
 _chrome_profile/
 supply_index.html

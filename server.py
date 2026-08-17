@@ -6,7 +6,7 @@ import json
 import os
 import subprocess
 import sys
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts"))
@@ -87,7 +87,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8080
     os.chdir(ROOT)
-    httpd = HTTPServer(("", port), DashboardHandler)
+    httpd = ThreadingHTTPServer(("", port), DashboardHandler)
     print(f"Dashboard server running at http://localhost:{port}")
     print("Press Ctrl+C to stop.\n")
     try:
