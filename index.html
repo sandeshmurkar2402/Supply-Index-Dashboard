@@ -328,6 +328,10 @@
     box-shadow: 0 8px 24px rgba(0,0,0,0.25);
   }
   .ms-panel.show { display: block; }
+  .ms-search {
+    width: 100%; margin-bottom: 6px; padding: 5px 8px; font-size: 0.76rem; font-family: inherit;
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 5px; color: var(--text);
+  }
   .ms-actions { display: flex; gap: 6px; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
   .ms-action-btn {
     background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text-2);
@@ -557,6 +561,7 @@ let CAL_FILTERS = {
 };
 let CAL_DATE_DEFAULTED = false;
 let OPEN_MULTISELECT = null;
+let MS_SEARCH = {};
 const CAL_FILTER_ACCESSORS = {
   month: s => s.date.slice(0, 7),
   leader: s => s.leader,
@@ -610,6 +615,17 @@ function toggleMultiselectPanel(group, key) {
   const id = group + ':' + key;
   OPEN_MULTISELECT = (OPEN_MULTISELECT === id) ? null : id;
   render();
+}
+function onMsSearchInput(id, input) {
+  MS_SEARCH[id] = input.value;
+  filterMsOptions(input);
+}
+function filterMsOptions(input) {
+  const q = input.value.trim().toLowerCase();
+  const panel = input.closest('.ms-panel');
+  panel.querySelectorAll('.ms-option').forEach(opt => {
+    opt.style.display = opt.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
 }
 function setCalLeaderMode(mode) {
   CAL_LEADER_MODE = mode;
@@ -1226,19 +1242,23 @@ function multiSelectHtml(group, key, label, options, labelFn) {
   const fmt = labelFn || (v => v);
   const selected = FILTER_GROUPS[group].state[key];
   const id = group + ':' + key;
+  const search = (MS_SEARCH[id] || '').toLowerCase();
   const summary = selected.size === 0 ? 'All' : `${selected.size} selected`;
   const items = options.map(o => {
     const safe = String(o).replace(/"/g, '&quot;');
     const checked = selected.has(o) ? 'checked' : '';
-    return `<label class="ms-option">
+    const display = fmt(o);
+    const hidden = search && !String(display).toLowerCase().includes(search) ? ' style="display:none"' : '';
+    return `<label class="ms-option"${hidden}>
       <input type="checkbox" value="${safe}" ${checked} onchange="toggleMultiFilter('${group}', '${key}', this.value)" />
-      <span>${fmt(o)}</span>
+      <span>${display}</span>
     </label>`;
   }).join('');
   return `<div class="filter-field multiselect">
     <span class="filter-label">${label}</span>
     <button type="button" class="ms-btn" onclick="toggleMultiselectPanel('${group}', '${key}')">${summary}<span class="ms-caret">&#9662;</span></button>
     <div class="ms-panel ${OPEN_MULTISELECT === id ? 'show' : ''}">
+      <input type="text" class="ms-search" placeholder="Search..." value="${(MS_SEARCH[id] || '').replace(/"/g, '&quot;')}" oninput="onMsSearchInput('${id}', this)" />
       <div class="ms-actions">
         <button type="button" class="ms-action-btn" onclick="selectAllFilter('${group}', '${key}')">Select All</button>
         <button type="button" class="ms-action-btn" onclick="clearFilter('${group}', '${key}')">Clear</button>
