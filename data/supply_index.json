@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T21:29:22Z",
+  "lastUpdated": "2026-08-17T22:28:49Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6572,7 +6572,7 @@
       "groupMissedTargets": [
         {
           "name": "Arpana Khanna",
-          "missed": 12
+          "missed": 11
         },
         {
           "name": "Rhea Mathew",
@@ -6746,7 +6746,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 822,
-        "sessionAchieved": 384,
+        "sessionAchieved": 433,
         "phasingTarget": 214,
         "phasingAchieved": null
       },
@@ -6999,7 +6999,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 69,
-        "sessionAchieved": 9,
+        "sessionAchieved": 10,
         "phasingTarget": 132,
         "phasingAchieved": null
       },
@@ -7236,7 +7236,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 149,
-        "sessionAchieved": 6,
+        "sessionAchieved": 7,
         "phasingTarget": 136,
         "phasingAchieved": null
       },
@@ -7766,14 +7766,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 95,
-        "sessionAchieved": 133,
+        "sessionAchieved": 139,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
-        "sessionAchieved": 128,
+        "sessionAchieved": 132,
         "phasingTarget": 32,
         "phasingAchieved": null
       },
@@ -8035,7 +8035,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 231,
-        "sessionAchieved": 18,
+        "sessionAchieved": 20,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
@@ -8778,7 +8778,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 2,
+        "sessionAchieved": 3,
         "phasingTarget": 203,
         "phasingAchieved": null
       },
@@ -9590,7 +9590,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 270,
-        "sessionAchieved": 13,
+        "sessionAchieved": 14,
         "phasingTarget": 121,
         "phasingAchieved": null
       },
@@ -22170,9 +22170,9 @@
         "d1": 5,
         "d0": 5
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 7,
       "phasingDays": 5,
-      "pctVsTarget": 33.0
+      "pctVsTarget": 39.0
     },
     {
       "leader": "Rhea Mathew",
@@ -22431,9 +22431,9 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 373,
+      "totalRegistrations": 418,
       "phasingDays": 10,
-      "pctVsTarget": 53.0
+      "pctVsTarget": 60.0
     },
     {
       "leader": "Krishna Jangid",
@@ -22460,9 +22460,9 @@
         "d1": 9,
         "d0": 9
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 4,
       "phasingDays": 5,
-      "pctVsTarget": 7.0
+      "pctVsTarget": 13.0
     },
     {
       "leader": "Manka Malik",
@@ -22634,9 +22634,9 @@
         "d1": 1,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": 0.0
+      "pctVsTarget": 50.0
     },
     {
       "leader": "Amrita Shah",
@@ -22663,9 +22663,9 @@
         "d1": 5,
         "d0": 8
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 7,
       "phasingDays": 3,
-      "pctVsTarget": 24.0
+      "pctVsTarget": 28.0
     },
     {
       "leader": "Violet Tara",
@@ -22953,9 +22953,9 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 3,
-      "pctVsTarget": 10.0
+      "pctVsTarget": 20.0
     },
     {
       "leader": "Bansari Nagda",
@@ -23388,9 +23388,9 @@
         "d1": 6,
         "d0": 5
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 6,
-      "pctVsTarget": 4.0
+      "pctVsTarget": 8.0
     },
     {
       "leader": "Mariko Hiyama",
@@ -23417,9 +23417,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": null,
-      "pctVsTarget": 15.0
+      "pctVsTarget": 20.0
     },
     {
       "leader": "Ellaeenah Niloufer",
@@ -23591,9 +23591,9 @@
         "d1": 25,
         "d0": 18
       },
-      "totalRegistrations": 17,
+      "totalRegistrations": 19,
       "phasingDays": 11,
-      "pctVsTarget": 11.0
+      "pctVsTarget": 13.0
     },
     {
       "leader": "Nithya Ji",
@@ -24229,9 +24229,9 @@
         "d1": 6,
         "d0": 5
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 4,
-      "pctVsTarget": 0.0
+      "pctVsTarget": 7.0
     },
     {
       "leader": "Devina Fogla",
@@ -25041,9 +25041,9 @@
         "d1": 10,
         "d0": 7
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 11,
-      "pctVsTarget": 12.0
+      "pctVsTarget": 13.0
     },
     {
       "leader": "Dr. Sweta Adatia",
