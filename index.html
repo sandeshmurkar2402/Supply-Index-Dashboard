@@ -343,6 +343,7 @@
     padding: 5px 11px; border-radius: 6px; font-size: 0.74rem; font-weight: 600; cursor: pointer;
   }
   .day-chip.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+  .day-chip.clear-all { border-color: var(--critical); color: var(--critical); }
 
   /* ── Chart ──────────────────────────────────────────── */
   .chart-card { background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius); padding: 16px 18px; }
@@ -718,6 +719,12 @@ function isoWeekRange(iso) {
   const day = new Date(iso + 'T00:00:00').getDay(); // 0=Sun..6=Sat
   const monday = addDays(iso, day === 0 ? -6 : 1 - day);
   return { from: monday, to: addDays(monday, 6) };
+}
+function monthRange(iso, offset) {
+  const d = new Date(iso + 'T00:00:00');
+  const y = d.getFullYear(), m = d.getMonth() + offset;
+  const fmt = dt => dt.getFullYear() + '-' + String(dt.getMonth() + 1).padStart(2, '0') + '-' + String(dt.getDate()).padStart(2, '0');
+  return { from: fmt(new Date(y, m, 1)), to: fmt(new Date(y, m + 1, 0)) };
 }
 
 /* ════════════════════════ DATA LOAD ════════════════════════ */
@@ -1298,6 +1305,9 @@ function calDatePresets() {
     { key: 'lastWeek', label: 'Last Week', ...isoWeekRange(addDays(today, -7)) },
     { key: 'thisWeek', label: 'Current Week', ...isoWeekRange(today) },
     { key: 'nextWeek', label: 'Next Week', ...isoWeekRange(addDays(today, 7)) },
+    { key: 'prevMonth', label: 'Previous Month', ...monthRange(today, -1) },
+    { key: 'currentMonth', label: 'Current Month', ...monthRange(today, 0) },
+    { key: 'nextMonth', label: 'Next Month', ...monthRange(today, 1) },
   ];
 }
 function setCalDateShortcut(key) {
@@ -1307,10 +1317,20 @@ function setCalDateShortcut(key) {
   CAL_FILTERS.dateTo = preset.to;
   render();
 }
+function clearAllCalFilters() {
+  CAL_FILTERS.dateFrom = '';
+  CAL_FILTERS.dateTo = '';
+  for (const key in CAL_FILTER_ACCESSORS) {
+    CAL_FILTERS[key] = new Set();
+  }
+  CAL_DAYS = new Set(DOW);
+  render();
+}
 function calDatePresetHtml() {
-  return `<div class="day-chips">${calDatePresets().map(p =>
+  let html = `<div class="day-chips">${calDatePresets().map(p =>
     `<button class="day-chip ${CAL_FILTERS.dateFrom === p.from && CAL_FILTERS.dateTo === p.to ? 'active' : ''}" onclick="setCalDateShortcut('${p.key}')">${p.label}</button>`
-  ).join('')}</div>`;
+  ).join('')}<button class="day-chip clear-all" onclick="clearAllCalFilters()">Clear All Filters</button></div>`;
+  return html;
 }
 
 function calendarFiltersHtml() {
