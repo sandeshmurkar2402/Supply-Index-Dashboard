@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T07:41:29Z",
+  "lastUpdated": "2026-08-18T08:41:41Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -8814,10 +8814,6 @@
         {
           "name": "Supriya Chhabra",
           "value": 1
-        },
-        {
-          "name": "Suraj Raghav Ram",
-          "value": 1
         }
       ],
       "groupLeaderTargets": [
@@ -9043,10 +9039,6 @@
         {
           "name": "Supriya Chhabra",
           "value": 1
-        },
-        {
-          "name": "Suraj Raghav Ram",
-          "value": 1
         }
       ],
       "groupLeaderTargets": [
@@ -9256,10 +9248,6 @@
         {
           "name": "Supriya Chhabra",
           "value": 1
-        },
-        {
-          "name": "Suraj Raghav Ram",
-          "value": 1
         }
       ],
       "groupLeaderTargets": [
@@ -9451,10 +9439,6 @@
           "value": 1
         },
         {
-          "name": "Suraj Raghav Ram",
-          "value": 1
-        },
-        {
           "name": "Supriya Chhabra",
           "value": 1
         }
@@ -9509,8 +9493,8 @@
       "dayName": "Saturday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 8,
-        "sessionTarget": 61,
+        "sessions": 7,
+        "sessionTarget": 60,
         "sessionAchieved": 1,
         "phasingTarget": 123,
         "phasingAchieved": null
@@ -9624,10 +9608,6 @@
           "value": 1
         },
         {
-          "name": "Suraj Raghav Ram",
-          "value": 1
-        },
-        {
           "name": "Supriya Chhabra",
           "value": 1
         }
@@ -9663,10 +9643,6 @@
         },
         {
           "name": "Supriya Chhabra",
-          "value": 1
-        },
-        {
-          "name": "Suraj Raghav Ram",
           "value": 1
         }
       ],
@@ -11531,7 +11507,7 @@
         "sessions": 6,
         "sessionTarget": 36,
         "sessionAchieved": 0,
-        "phasingTarget": 203,
+        "phasingTarget": 202,
         "phasingAchieved": null
       },
       "offline": {
@@ -11596,10 +11572,6 @@
         },
         {
           "name": "Shalini Chugh",
-          "value": 2
-        },
-        {
-          "name": "Poonam Dhandania",
           "value": 2
         },
         {
@@ -11720,7 +11692,7 @@
         "sessions": 8,
         "sessionTarget": 200,
         "sessionAchieved": 0,
-        "phasingTarget": 204,
+        "phasingTarget": 203,
         "phasingAchieved": null
       },
       "offline": {
@@ -11778,10 +11750,6 @@
         {
           "name": "Aditi Grover",
           "value": 3
-        },
-        {
-          "name": "Poonam Dhandania",
-          "value": 2
         },
         {
           "name": "Mohini Srishati",
@@ -11909,7 +11877,7 @@
         "sessions": 5,
         "sessionTarget": 834,
         "sessionAchieved": 4,
-        "phasingTarget": 175,
+        "phasingTarget": 171,
         "phasingAchieved": null
       },
       "offline": {
@@ -11938,10 +11906,6 @@
         },
         {
           "name": "Kajal Thakkar",
-          "value": 4
-        },
-        {
-          "name": "Poonam Dhandania",
           "value": 4
         },
         {
@@ -12071,10 +12035,10 @@
       "dayName": "Saturday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 66,
+        "sessions": 4,
+        "sessionTarget": 56,
         "sessionAchieved": 0,
-        "phasingTarget": 39,
+        "phasingTarget": 36,
         "phasingAchieved": null
       },
       "offline": {
@@ -12104,10 +12068,6 @@
         {
           "name": "Ivy Roy",
           "value": 4
-        },
-        {
-          "name": "Poonam Dhandania",
-          "value": 3
         },
         {
           "name": "Mohini Srishati",
@@ -12186,10 +12146,6 @@
         {
           "name": "Susitha Pappiah",
           "value": 20
-        },
-        {
-          "name": "Poonam Dhandania",
-          "value": 10
         },
         {
           "name": "Mohini Srishati",
@@ -15936,6 +15892,35 @@
       "pctVsTarget": 50.0
     },
     {
+      "leader": "Binita Aamol Rege",
+      "target": 10,
+      "price": 1275,
+      "revenueTarget": 12750,
+      "courseInstanceId": "5093",
+      "courseId": "1557",
+      "date": "2026-07-11",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 10,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 5,
+      "phasingDays": 6,
+      "pctVsTarget": 50.0
+    },
+    {
       "leader": "Nishi Shah",
       "target": 0,
       "price": 699,
@@ -16137,6 +16122,35 @@
       "totalRegistrations": 3,
       "phasingDays": null,
       "pctVsTarget": 60.0
+    },
+    {
+      "leader": "Manka Malik",
+      "target": 50,
+      "price": 1699,
+      "revenueTarget": 84950,
+      "courseInstanceId": "5893",
+      "courseId": "1691",
+      "date": "2026-07-12",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 15,
+      "phasingDays": 6,
+      "pctVsTarget": 30.0
     },
     {
       "leader": "Rhea Mathew",
@@ -17299,6 +17313,35 @@
       "pctVsTarget": 25.0
     },
     {
+      "leader": "Mahima Mor",
+      "target": 50,
+      "price": 1699,
+      "revenueTarget": 84950,
+      "courseInstanceId": "5891",
+      "courseId": "1548",
+      "date": "2026-07-19",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 23,
+      "phasingDays": 5,
+      "pctVsTarget": 46.0
+    },
+    {
       "leader": "Nishi Shah",
       "target": 0,
       "price": 699,
@@ -18053,6 +18096,35 @@
       "pctVsTarget": 0.0
     },
     {
+      "leader": "Praanah",
+      "target": 50,
+      "price": 1699,
+      "revenueTarget": 84950,
+      "courseInstanceId": "6230",
+      "courseId": "1709",
+      "date": "2026-07-24",
+      "time": "18:30",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 24,
+      "phasingDays": 6,
+      "pctVsTarget": 48.0
+    },
+    {
       "leader": "Krupa Shah",
       "target": 2,
       "price": 810,
@@ -18111,6 +18183,35 @@
       "pctVsTarget": 30.0
     },
     {
+      "leader": "Nattasha Kapoor",
+      "target": 30,
+      "price": 2150,
+      "revenueTarget": 64500,
+      "courseInstanceId": "6413",
+      "courseId": "1718",
+      "date": "2026-07-25",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 30,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 7,
+      "phasingDays": 5,
+      "pctVsTarget": 23.0
+    },
+    {
       "leader": "Krishna Jangid",
       "target": 25,
       "price": 699,
@@ -18138,6 +18239,35 @@
       "totalRegistrations": 16,
       "phasingDays": 3,
       "pctVsTarget": 64.0
+    },
+    {
+      "leader": "Sheelaa M Bajaj",
+      "target": 200,
+      "price": 2999,
+      "revenueTarget": 599800,
+      "courseInstanceId": "5440",
+      "courseId": "1648",
+      "date": "2026-07-25",
+      "time": "15:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 200,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 64,
+      "phasingDays": 6,
+      "pctVsTarget": 32.0
     },
     {
       "leader": "Sheelaa M Bajaj",
@@ -18225,6 +18355,64 @@
       "totalRegistrations": 20,
       "phasingDays": 6,
       "pctVsTarget": 167.0
+    },
+    {
+      "leader": "Meghna Siraj",
+      "target": 150,
+      "price": 770,
+      "revenueTarget": 115500,
+      "courseInstanceId": "5880",
+      "courseId": "1683",
+      "date": "2026-07-26",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 150,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 116,
+      "phasingDays": 6,
+      "pctVsTarget": 77.0
+    },
+    {
+      "leader": "Susitha Pappiah",
+      "target": 50,
+      "price": 1699,
+      "revenueTarget": 84950,
+      "courseInstanceId": "5581",
+      "courseId": "1671",
+      "date": "2026-07-26",
+      "time": "11:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 32,
+      "phasingDays": 6,
+      "pctVsTarget": 64.0
     },
     {
       "leader": "Bijay J. Anand",
@@ -19010,6 +19198,35 @@
       "pctVsTarget": 193.0
     },
     {
+      "leader": "Dr. Tamanna C",
+      "target": 100,
+      "price": 10111,
+      "revenueTarget": 1011100,
+      "courseInstanceId": "6204",
+      "courseId": "1701",
+      "date": "2026-07-31",
+      "time": "18:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 100,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 59,
+      "phasingDays": 6,
+      "pctVsTarget": 59.0
+    },
+    {
       "leader": "Meenakshi Mishra",
       "target": 5,
       "price": 285,
@@ -19211,6 +19428,35 @@
       "totalRegistrations": 8,
       "phasingDays": null,
       "pctVsTarget": 160.0
+    },
+    {
+      "leader": "Bijay J. Anand",
+      "target": 50,
+      "price": 2599,
+      "revenueTarget": 129950,
+      "courseInstanceId": "5527",
+      "courseId": "1658",
+      "date": "2026-08-02",
+      "time": "11:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 16,
+      "phasingDays": 7,
+      "pctVsTarget": 32.0
     },
     {
       "leader": "Nayana Cariappa",
@@ -20400,6 +20646,35 @@
       "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0
+    },
+    {
+      "leader": "Arjun Aiyar",
+      "target": 20,
+      "price": 1699,
+      "revenueTarget": 33980,
+      "courseInstanceId": "6848",
+      "courseId": "1768",
+      "date": "2026-08-08",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 20,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 9,
+      "phasingDays": 8,
+      "pctVsTarget": 45.0
     },
     {
       "leader": "Dimple Desai",
@@ -23360,6 +23635,64 @@
       "pctVsTarget": 0.0
     },
     {
+      "leader": "Kavyal Sedanni",
+      "target": 250,
+      "price": 2499,
+      "revenueTarget": 624750,
+      "courseInstanceId": "7250",
+      "courseId": "1804",
+      "date": "2026-08-22",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 250,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 30,
+      "pctVsTarget": 0.0
+    },
+    {
+      "leader": "Immersive Sound Experience",
+      "target": 60,
+      "price": 1699,
+      "revenueTarget": 101940,
+      "courseInstanceId": "6534",
+      "courseId": "1614",
+      "date": "2026-08-22",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 60,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 18,
+      "phasingDays": 16,
+      "pctVsTarget": 30.0
+    },
+    {
       "leader": "Hanuman Dass",
       "target": 30,
       "price": 1020,
@@ -23648,6 +23981,35 @@
       "totalRegistrations": 0,
       "phasingDays": 10,
       "pctVsTarget": 0.0
+    },
+    {
+      "leader": "Hiral Pawar",
+      "target": 25,
+      "price": 1275,
+      "revenueTarget": 31875,
+      "courseInstanceId": "7230",
+      "courseId": "1796",
+      "date": "2026-08-23",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 25,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 1,
+      "phasingDays": 8,
+      "pctVsTarget": 4.0
     },
     {
       "leader": "Nayana Cariappa",
@@ -24781,6 +25143,35 @@
       "pctVsTarget": 0.0
     },
     {
+      "leader": "Immersive Kirtan",
+      "target": 125,
+      "price": 770,
+      "revenueTarget": 96250,
+      "courseInstanceId": "6541",
+      "courseId": "1023",
+      "date": "2026-08-29",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 125,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 17,
+      "pctVsTarget": 0.0
+    },
+    {
       "leader": "Susitha Pappiah",
       "target": 20,
       "price": 699,
@@ -24984,35 +25375,6 @@
       "pctVsTarget": 0.0
     },
     {
-      "leader": "Suraj Raghav Ram",
-      "target": 1,
-      "price": 677,
-      "revenueTarget": 677,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-08-29",
-      "time": "20:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Shravan- Shiv Kirtan",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": 0.0
-    },
-    {
       "leader": "Munisha Khatwani",
       "target": 150,
       "price": 1275,
@@ -25097,6 +25459,64 @@
       },
       "totalRegistrations": 1,
       "phasingDays": 10,
+      "pctVsTarget": 2.0
+    },
+    {
+      "leader": "Smita Jayakar",
+      "target": 50,
+      "price": 2599,
+      "revenueTarget": 129950,
+      "courseInstanceId": "6535",
+      "courseId": "1387",
+      "date": "2026-08-30",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 1,
+      "phasingDays": 16,
+      "pctVsTarget": 2.0
+    },
+    {
+      "leader": "Swapnil Gawde",
+      "target": 50,
+      "price": 1699,
+      "revenueTarget": 84950,
+      "courseInstanceId": "6289",
+      "courseId": "1470",
+      "date": "2026-08-30",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 1,
+      "phasingDays": 16,
       "pctVsTarget": 2.0
     },
     {
@@ -26028,6 +26448,64 @@
       "pctVsTarget": 0.0
     },
     {
+      "leader": "Megh and Govind",
+      "target": 250,
+      "price": 770,
+      "revenueTarget": 192500,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-09-06",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 250,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0
+    },
+    {
+      "leader": "Nithya Ji",
+      "target": 50,
+      "price": 3399,
+      "revenueTarget": 169950,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-09-06",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0
+    },
+    {
       "leader": "Navneeth Vallabh",
       "target": 1,
       "price": 850,
@@ -26863,35 +27341,6 @@
         "d2": 3,
         "d1": 8,
         "d0": 6
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 4,
-      "pctVsTarget": 0.0
-    },
-    {
-      "leader": "Poonam Dhandania",
-      "target": 10,
-      "price": 770,
-      "revenueTarget": 7700,
-      "courseInstanceId": "7359",
-      "courseId": "897",
-      "date": "2026-09-12",
-      "time": "11:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Reiki for Gut Healing",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 2,
-        "d2": 2,
-        "d1": 4,
-        "d0": 3
       },
       "totalRegistrations": 0,
       "phasingDays": 4,
@@ -28313,6 +28762,35 @@
         "d2": 4,
         "d1": 4,
         "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0
+    },
+    {
+      "leader": "Kavyal Sedanni",
+      "target": 570,
+      "price": 2550,
+      "revenueTarget": 1453500,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-09-26",
+      "time": "15:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 570,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
       },
       "totalRegistrations": null,
       "phasingDays": 6,
