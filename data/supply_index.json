@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T22:28:03Z",
+  "lastUpdated": "2026-08-18T23:26:37Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -5197,8 +5197,8 @@
       "slotsFilledToday": 10,
       "pctSlotsFilledToday": 2.32,
       "pageViews": {
-        "total1on1": 1614,
-        "slotsAvailable": 1168,
+        "total1on1": 1615,
+        "slotsAvailable": 1169,
         "pctSlotsAvailable": 72.0
       }
     },
@@ -5942,8 +5942,8 @@
       "slotsFilledToday": 8,
       "pctSlotsFilledToday": 1.97,
       "pageViews": {
-        "total1on1": 836,
-        "slotsAvailable": 774,
+        "total1on1": 837,
+        "slotsAvailable": 775,
         "pctSlotsAvailable": 93.0
       }
     },
@@ -6710,8 +6710,8 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 2.74,
       "pageViews": {
-        "total1on1": 1274,
-        "slotsAvailable": 1137,
+        "total1on1": 1275,
+        "slotsAvailable": 1139,
         "pctSlotsAvailable": 89.0
       }
     },
@@ -7103,12 +7103,12 @@
           "slots": 4
         }
       ],
-      "slotsFilledToday": 0,
-      "pctSlotsFilledToday": 0.0,
+      "slotsFilledToday": 11,
+      "pctSlotsFilledToday": 2.4,
       "pageViews": {
-        "total1on1": 98,
-        "slotsAvailable": 78,
-        "pctSlotsAvailable": 80.0
+        "total1on1": 1574,
+        "slotsAvailable": 892,
+        "pctSlotsAvailable": 57.0
       }
     },
     {
@@ -7319,19 +7319,149 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
-        "t2": null,
-        "t3": null,
-        "t4": null,
-        "t5": null,
-        "t6": null,
-        "t7": null
+        "leadersWithSlots": 105,
+        "leadersAvailableToday": 97,
+        "today": 451,
+        "t1": 460,
+        "t2": 460,
+        "t3": 285,
+        "t4": 249,
+        "t5": 4,
+        "t6": 7,
+        "t7": 5
       },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
+      "categoryBreakdown": [
+        {
+          "category": "Akashic Record Reading",
+          "leaders": 5,
+          "slots": 17
+        },
+        {
+          "category": "Ancestral Healing",
+          "leaders": 2,
+          "slots": 13
+        },
+        {
+          "category": "Angel Guidance",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Animal Telepathy",
+          "leaders": 1,
+          "slots": 6
+        },
+        {
+          "category": "Astrology",
+          "leaders": 9,
+          "slots": 38
+        },
+        {
+          "category": "Breathwork",
+          "leaders": 15,
+          "slots": 69
+        },
+        {
+          "category": "Chakra Healing",
+          "leaders": 2,
+          "slots": 10
+        },
+        {
+          "category": "Mapping NA",
+          "leaders": 5,
+          "slots": 23
+        },
+        {
+          "category": "Mediumship",
+          "leaders": 1,
+          "slots": 4
+        },
+        {
+          "category": "Numerology",
+          "leaders": 4,
+          "slots": 20
+        },
+        {
+          "category": "Oracle Reading",
+          "leaders": 3,
+          "slots": 14
+        },
+        {
+          "category": "Others",
+          "leaders": 25,
+          "slots": 132
+        },
+        {
+          "category": "Past Life Regression",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Psychic Readings",
+          "leaders": 3,
+          "slots": 12
+        },
+        {
+          "category": "Reiki Healing",
+          "leaders": 2,
+          "slots": 6
+        },
+        {
+          "category": "Tarot Card Reading",
+          "leaders": 21,
+          "slots": 71
+        }
+      ],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 6
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 6
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Moneka Ingley",
+          "slots": 4
+        },
+        {
+          "name": "Naina Goyal",
+          "slots": 3
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 2
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 10
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 4
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 2
+        },
+        {
+          "name": "Shwetha Gururaj",
+          "slots": 2
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 4
+        },
+        {
+          "name": "Tamanna Gulati",
+          "slots": 7
+        }
+      ],
       "slotsFilledToday": null,
       "pctSlotsFilledToday": null,
       "pageViews": {
