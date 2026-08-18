@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T04:39:56Z",
+  "lastUpdated": "2026-08-18T05:33:50Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -5587,7 +5587,7 @@
         "sessions": 6,
         "sessionTarget": 45,
         "sessionAchieved": 42,
-        "phasingTarget": 132,
+        "phasingTarget": 128,
         "phasingAchieved": 89
       },
       "offline": {
@@ -5620,10 +5620,6 @@
         },
         {
           "name": "Dr. Vineet Aggarwal",
-          "value": 5
-        },
-        {
-          "name": "Manka Malik",
           "value": 5
         },
         {
@@ -5963,7 +5959,7 @@
         "sessions": 4,
         "sessionTarget": 80,
         "sessionAchieved": 25,
-        "phasingTarget": 214,
+        "phasingTarget": 209,
         "phasingAchieved": 103
       },
       "offline": {
@@ -6008,10 +6004,6 @@
         },
         {
           "name": "Sukhmani Bajwa",
-          "value": 5
-        },
-        {
-          "name": "Manka Malik",
           "value": 5
         },
         {
@@ -6327,7 +6319,7 @@
         "sessions": 8,
         "sessionTarget": 82,
         "sessionAchieved": 34,
-        "phasingTarget": 224,
+        "phasingTarget": 212,
         "phasingAchieved": 156
       },
       "offline": {
@@ -6345,10 +6337,6 @@
         {
           "name": "Kavyal Sedanni",
           "value": 117
-        },
-        {
-          "name": "Manka Malik",
-          "value": 12
         },
         {
           "name": "Guru Maa MeeMaa",
@@ -6744,10 +6732,10 @@
       "dayName": "Tuesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 9,
-        "sessionTarget": 822,
+        "sessions": 8,
+        "sessionTarget": 792,
         "sessionAchieved": 446,
-        "phasingTarget": 214,
+        "phasingTarget": 205,
         "phasingAchieved": null
       },
       "offline": {
@@ -6772,10 +6760,6 @@
         },
         {
           "name": "Krishna Jangid",
-          "value": 9
-        },
-        {
-          "name": "Manka Malik",
           "value": 9
         },
         {
@@ -6942,10 +6926,6 @@
         },
         {
           "name": "Krishna Jangid",
-          "value": 30
-        },
-        {
-          "name": "Manka Malik",
           "value": 30
         },
         {
@@ -22589,35 +22569,6 @@
       "totalRegistrations": 4,
       "phasingDays": 5,
       "pctVsTarget": 13.0
-    },
-    {
-      "leader": "Manka Malik",
-      "target": 30,
-      "price": 850,
-      "revenueTarget": 25500,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-08-18",
-      "time": "11:00",
-      "campaign": "Biz Boost",
-      "leaderTagging": "ASC Course Bets",
-      "language": "English",
-      "topic": "Chanting The Shri Lalita Sahasranama",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 5,
-        "d2": 5,
-        "d1": 12,
-        "d0": 9
-      },
-      "totalRegistrations": null,
-      "phasingDays": 4,
-      "pctVsTarget": 0.0
     },
     {
       "leader": "Divyaa",
