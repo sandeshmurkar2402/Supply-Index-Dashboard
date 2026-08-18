@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T08:41:41Z",
+  "lastUpdated": "2026-08-18T09:37:38Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6734,7 +6734,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 792,
-        "sessionAchieved": 481,
+        "sessionAchieved": 510,
         "phasingTarget": 205,
         "phasingAchieved": null
       },
@@ -7872,14 +7872,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 95,
-        "sessionAchieved": 143,
+        "sessionAchieved": 145,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
-        "sessionAchieved": 136,
+        "sessionAchieved": 138,
         "phasingTarget": 32,
         "phasingAchieved": null
       },
@@ -8141,7 +8141,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 231,
-        "sessionAchieved": 27,
+        "sessionAchieved": 28,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
@@ -9681,8 +9681,8 @@
         "phasingAchieved": null
       },
       "offline": {
-        "sessions": 2,
-        "sessionTarget": 100,
+        "sessions": 1,
+        "sessionTarget": 50,
         "sessionAchieved": 2,
         "phasingTarget": 10,
         "phasingAchieved": null
@@ -9816,10 +9816,6 @@
         },
         {
           "name": "Smita Jayakar",
-          "value": 50
-        },
-        {
-          "name": "Swapnil Gawde",
           "value": 50
         },
         {
@@ -13975,14 +13971,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 56,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 64,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -22760,9 +22756,9 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 463,
+      "totalRegistrations": 492,
       "phasingDays": 10,
-      "pctVsTarget": 66.0
+      "pctVsTarget": 70.0
     },
     {
       "leader": "Krishna Jangid",
@@ -23949,7 +23945,7 @@
         "d1": 25,
         "d0": 18
       },
-      "totalRegistrations": 25,
+      "totalRegistrations": 26,
       "phasingDays": 11,
       "pctVsTarget": 17.0
     },
@@ -25473,35 +25469,6 @@
       "campaign": "OFFLINE",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "OFFLINE",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 50,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 1,
-      "phasingDays": 16,
-      "pctVsTarget": 2.0
-    },
-    {
-      "leader": "Swapnil Gawde",
-      "target": 50,
-      "price": 1699,
-      "revenueTarget": 84950,
-      "courseInstanceId": "6289",
-      "courseId": "1470",
-      "date": "2026-08-30",
-      "time": "16:00",
-      "campaign": "OFFLINE",
-      "leaderTagging": "",
-      "language": "English",
       "topic": "OFFLINE",
       "timeBucket": "After 12PM",
       "phasing": {
