@@ -301,6 +301,16 @@
   table.data-table tbody tr:hover td { background: var(--surface-2); }
   .empty-note { padding: 18px; text-align: center; color: var(--muted); font-size: 0.8rem; }
 
+  /* ── Sessions table highlights ────────────────────────── */
+  .target-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-weight: 700; color: #fff; }
+  .target-badge.tb-1 { background: #2e7d32; }
+  .target-badge.tb-2 { background: #9e9d24; }
+  .target-badge.tb-3 { background: #f9a825; }
+  .target-badge.tb-4 { background: #ef6c00; }
+  .target-badge.tb-5 { background: #d84315; }
+  .target-badge.tb-6 { background: #c62828; }
+  .dnm-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-weight: 700; color: var(--critical); background: color-mix(in srgb, var(--critical) 18%, transparent); }
+
   /* ── Calendar tab: filters & day chips ───────────────── */
   .cal-filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin-bottom: 12px; }
   .filter-field { display: flex; flex-direction: column; gap: 4px; flex: 0 1 170px; }
@@ -1384,14 +1394,34 @@ function calendarFiltersHtml() {
   return html;
 }
 
+function targetBandClass(v) {
+  if (v === null || v === undefined) return '';
+  if (v < 100) return 'tb-1';
+  if (v <= 200) return 'tb-2';
+  if (v <= 300) return 'tb-3';
+  if (v <= 500) return 'tb-4';
+  if (v <= 1000) return 'tb-5';
+  return 'tb-6';
+}
+
 function calendarSessionsTable(sessions) {
-  const rows = [...sessions].sort((a, b) => a.date === b.date ? a.leader.localeCompare(b.leader) : a.date.localeCompare(b.date));
+  const rows = [...sessions].sort((a, b) => {
+    if (a.date !== b.date) return a.date.localeCompare(b.date);
+    const at = a.time || '', bt = b.time || '';
+    if (at !== bt) return at.localeCompare(bt);
+    return (b.target || 0) - (a.target || 0);
+  });
   const headers = ['Date', 'Day', 'Time', 'Leader', 'Price', 'Revenue Target', 'Registrations Target', 'Registered', 'Registrations %', 'Campaign', 'Language', 'Leader Tagging', 'Time Bucket', 'Course Instance Id', 'Course Id', 'Topic'];
   const body = rows.map(s => [
     fmtDateFull(s.date), dowShort(s.date), s.time || '—',
-    s.leader || '—', fmtNum(s.price), fmtNum(s.revenueTarget), fmtNum(s.target), fmtNum(s.totalRegistrations),
+    s.leader || '—', fmtNum(s.price), fmtNum(s.revenueTarget),
+    s.target === null || s.target === undefined
+      ? '—'
+      : `<span class="target-badge ${targetBandClass(s.target)}">${fmtNum(s.target)}</span>`,
+    fmtNum(s.totalRegistrations),
     s.pctVsTarget === null ? '—' : fmtPct(s.pctVsTarget, 0),
-    s.campaign || '—', s.language || '—', s.leaderTagging || '—', s.timeBucket || '—',
+    s.campaign === 'Do Not Market' ? `<span class="dnm-badge">${s.campaign}</span>` : (s.campaign || '—'),
+    s.language || '—', s.leaderTagging || '—', s.timeBucket || '—',
     s.courseInstanceId || '—', s.courseId || '—', s.topic || '—',
   ]);
   return tableCard('Sessions', headers, body, false, true, true, [3, 9, 10, 11, 15]);
