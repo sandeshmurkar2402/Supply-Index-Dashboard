@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T10:33:12Z",
+  "lastUpdated": "2026-08-18T11:29:16Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6734,7 +6734,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 792,
-        "sessionAchieved": 510,
+        "sessionAchieved": 531,
         "phasingTarget": 205,
         "phasingAchieved": null
       },
@@ -7342,7 +7342,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 149,
-        "sessionAchieved": 9,
+        "sessionAchieved": 10,
         "phasingTarget": 136,
         "phasingAchieved": null
       },
@@ -8141,7 +8141,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 231,
-        "sessionAchieved": 28,
+        "sessionAchieved": 29,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
@@ -22756,9 +22756,9 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 492,
+      "totalRegistrations": 512,
       "phasingDays": 10,
-      "pctVsTarget": 70.0
+      "pctVsTarget": 73.0
     },
     {
       "leader": "Krishna Jangid",
@@ -22785,9 +22785,9 @@
         "d1": 9,
         "d0": 9
       },
-      "totalRegistrations": 4,
+      "totalRegistrations": 5,
       "phasingDays": 5,
-      "pctVsTarget": 13.0
+      "pctVsTarget": 17.0
     },
     {
       "leader": "Divyaa",
@@ -23162,9 +23162,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 6,
-      "pctVsTarget": 7.0
+      "pctVsTarget": 8.0
     },
     {
       "leader": "Seemaa Dhingra",
@@ -23945,9 +23945,9 @@
         "d1": 25,
         "d0": 18
       },
-      "totalRegistrations": 26,
+      "totalRegistrations": 27,
       "phasingDays": 11,
-      "pctVsTarget": 17.0
+      "pctVsTarget": 18.0
     },
     {
       "leader": "Nithya Ji",
@@ -24561,8 +24561,8 @@
     {
       "leader": "Ved Prakash",
       "target": 20,
-      "price": 850,
-      "revenueTarget": 17000,
+      "price": 677,
+      "revenueTarget": 13540,
       "courseInstanceId": "7217",
       "courseId": "1529",
       "date": "2026-08-26",
