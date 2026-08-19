@@ -361,10 +361,18 @@
 
   /* ── Chart ──────────────────────────────────────────── */
   .chart-card { background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius); padding: 16px 18px; }
-  .chart-legend { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 4px; }
+  .chart-legend { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin-bottom: 4px; }
   .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.74rem; color: var(--text-2); }
   .legend-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
   .legend-swatch.line { width: 12px; height: 2px; border-radius: 1px; }
+  .legend-item.legend-toggle { cursor: pointer; padding: 2px 6px; border-radius: 5px; user-select: none; }
+  .legend-item.legend-toggle:hover { background: var(--surface-2); }
+  .legend-item.legend-toggle.inactive { color: var(--muted); opacity: 0.5; }
+  .legend-item.legend-toggle.inactive .legend-swatch { opacity: 0.35; }
+  .legend-clear-btn {
+    background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text-2);
+    padding: 3px 10px; border-radius: 5px; font-size: 0.7rem; font-weight: 600; cursor: pointer;
+  }
 
   .chart-svg-wrap { position: relative; }
   .chart-svg-wrap svg { display: block; width: 100%; height: auto; overflow: visible; }
@@ -1082,15 +1090,25 @@ function phasingLeaderDayDetail(day) {
   return { kind: 'phasing', leaders };
 }
 
-/* Today..T+7 shaded from strong (most immediate) to faint (furthest out), mixed against
-   the current theme's surface so it stays correct in light and dark without a separate ramp. */
+/* Today..T+7 — one clearly distinct color per lookahead day (not a single-hue shade
+   ramp) so each segment reads at a glance and holds up when a few are filtered out. */
+const SLOTS_AHEAD_LABELS = ['Today', 'T+1', 'T+2', 'T+3', 'T+4', 'T+5', 'T+6', 'T+7'];
+const SLOTS_AHEAD_COLORS = ['#1565c0', '#00897b', '#2e7d32', '#9e9d24', '#f9a825', '#ef6c00', '#d84315', '#ad1457'];
+let SLOTS_AHEAD_FILTER = new Set(); // empty = show all lookahead days
+function toggleSlotsAheadFilter(name) {
+  if (SLOTS_AHEAD_FILTER.has(name)) SLOTS_AHEAD_FILTER.delete(name);
+  else SLOTS_AHEAD_FILTER.add(name);
+  render();
+}
+function clearSlotsAheadFilter() {
+  SLOTS_AHEAD_FILTER = new Set();
+  render();
+}
 function buildSlotsAheadSeries(days) {
   const keys = ['today', 't1', 't2', 't3', 't4', 't5', 't6', 't7'];
-  const labels = ['Today', 'T+1', 'T+2', 'T+3', 'T+4', 'T+5', 'T+6', 'T+7'];
-  const pcts = [100, 88, 76, 65, 55, 46, 38, 30];
   return keys.map((k, i) => ({
-    name: labels[i],
-    color: `color-mix(in srgb, ${COLORS.oneOnOne} ${pcts[i]}%, var(--surface))`,
+    name: SLOTS_AHEAD_LABELS[i],
+    color: SLOTS_AHEAD_COLORS[i],
     data: days.map(d => d.oneOnOneSlots[k]),
   }));
 }
@@ -1117,22 +1135,29 @@ function renderBusinessLineDetail(days, todayISO, periodEndISO) {
   const cats = days.map(d => fmtDateShort(d.date));
   if (BL_TAB === '1on1') {
     // 1:1 leader/slot/category columns are a daily snapshot the sheet only fills in
-    // through "today" — anchor these blocks on the most recent day that has them,
-    // rather than whichever day happens to be last in the picked period.
+    // through "today" — anchor the category/leader tables on the most recent day that
+    // has them, rather than whichever day happens to be last in the picked period.
     const slotsAnchor = findSlotsAnchor(days, todayISO);
+
+    html += chartInWrap('1:1 — Slots Available (Daily) — Today through T+7', () =>
+      renderStackedBarChart(cats, buildSlotsAheadSeries(days), {
+        filterState: SLOTS_AHEAD_FILTER, toggleFn: 'toggleSlotsAheadFilter', clearFn: 'clearSlotsAheadFilter',
+      }));
+
+    html += `<div style="margin-top:14px;">`;
+    html += chartCard('slots-lookahead', '1:1 Slots Available — Today through T+7', () =>
+      renderBarChart(cats,
+        [{ name: 'Today’s slots available', color: COLORS.oneOnOne,
+           data: days.map(d => d.oneOnOneSlots.today) }])
+    );
+    html += `</div>`;
 
     if (slotsAnchor) {
       const anchorNote = slotsAnchor.date === periodEndISO ? '' :
-        `<p class="card-hint" style="margin:-4px 0 12px;">1:1 slot-level data is only tracked through ${fmtDateShort(slotsAnchor.date)} — showing its Today&ndash;T+7 forecast, the furthest ahead the sheet currently covers.</p>`;
+        `<p class="card-hint" style="margin:14px 0 -4px;">1:1 slot-level data is only tracked through ${fmtDateShort(slotsAnchor.date)} — showing its category and leader breakdown, the most recent the sheet currently covers.</p>`;
       html += anchorNote;
-      html += chartCard('slots-lookahead', `1:1 Slots Available — Today through T+7 (as of ${fmtDateShort(slotsAnchor.date)})`, () =>
-        renderBarChart(['Today','T+1','T+2','T+3','T+4','T+5','T+6','T+7'],
-          [{ name: 'Slots available', color: COLORS.oneOnOne,
-             data: [slotsAnchor.oneOnOneSlots.today, slotsAnchor.oneOnOneSlots.t1, slotsAnchor.oneOnOneSlots.t2, slotsAnchor.oneOnOneSlots.t3,
-                    slotsAnchor.oneOnOneSlots.t4, slotsAnchor.oneOnOneSlots.t5, slotsAnchor.oneOnOneSlots.t6, slotsAnchor.oneOnOneSlots.t7] }])
-      );
 
-      html += `<div class="grid-2">`;
+      html += `<div class="grid-2" style="margin-top:14px;">`;
       html += tableCard(`Category — Leaders &amp; Slots Available &middot; 1:1 (as of ${fmtDateShort(slotsAnchor.date)})`,
         ['Category', 'Leaders', 'Slots'],
         sortDesc(slotsAnchor.categoryBreakdown, 'slots').map(c => [c.category, fmtNum(c.leaders), fmtNum(c.slots)]));
@@ -1155,10 +1180,6 @@ function renderBusinessLineDetail(days, todayISO, periodEndISO) {
     html += `<div style="margin-top:14px;">`;
     html += chartInWrap('1:1 — Phasing Target &amp; Achieved (Purchase Date)', () =>
       renderLineChart(cats, targetAchievedSeries(days, d => d.oneOnOne.phasingTarget, d => d.oneOnOne.phasingAchieved, COLORS.oneOnOne, COLORS.targetLine)));
-    html += `</div>`;
-    html += `<div style="margin-top:14px;">`;
-    html += chartInWrap('1:1 — Slots Available (Daily) — Today through T+7', () =>
-      renderStackedBarChart(cats, buildSlotsAheadSeries(days)));
     html += `</div>`;
 
     html += dayByDayLineTable('1on1', days);
@@ -1796,10 +1817,12 @@ function renderHBarChart(categories, series, opts = {}) {
     ${tableToggle}`;
 }
 
-function renderStackedBarChart(categories, series) {
+function renderStackedBarChart(categories, series, opts = {}) {
   const chartId = 'c' + (CHART_SEQ++);
   const innerW = CHART_W - PAD.l - PAD.r, innerH = CHART_H - PAD.t - PAD.b;
-  const totals = categories.map((_, ci) => series.reduce((s, ser) => s + (ser.data[ci] || 0), 0));
+  const filterState = opts.filterState;
+  const visibleSeries = (filterState && filterState.size) ? series.filter(s => filterState.has(s.name)) : series;
+  const totals = categories.map((_, ci) => visibleSeries.reduce((s, ser) => s + (ser.data[ci] || 0), 0));
   const maxVal = niceMax(Math.max(1, ...totals));
   const n = categories.length;
   const groupW = innerW / n;
@@ -1813,7 +1836,7 @@ function renderStackedBarChart(categories, series) {
   const barLabelEvery = Math.max(1, Math.ceil(n / (innerW / 42)));
   categories.forEach((cat, ci) => {
     const x = PAD.l + ci * groupW + (groupW - barW) / 2;
-    const segs = series
+    const segs = visibleSeries
       .map(s => ({ name: s.name, color: s.color, value: s.data[ci] }))
       .filter(s => s.value !== null && s.value !== undefined && s.value > 0);
     let cum = 0;
@@ -1834,10 +1857,22 @@ function renderStackedBarChart(categories, series) {
     }
   });
 
-  const legend = `<div class="chart-legend">${series.map(s =>
-    `<span class="legend-item"><span class="legend-swatch" style="background:${s.color}"></span>${s.name}</span>`).join('')}</div>`;
+  let legend;
+  if (opts.toggleFn) {
+    const items = series.map(s => {
+      const inactive = filterState && filterState.size && !filterState.has(s.name);
+      return `<span class="legend-item legend-toggle${inactive ? ' inactive' : ''}" onclick="${opts.toggleFn}('${s.name}')">
+        <span class="legend-swatch" style="background:${s.color}"></span>${s.name}
+      </span>`;
+    }).join('');
+    const clearBtn = opts.clearFn ? `<button type="button" class="legend-clear-btn" onclick="${opts.clearFn}()">Clear filter</button>` : '';
+    legend = `<div class="chart-legend">${items}${clearBtn}</div>`;
+  } else {
+    legend = `<div class="chart-legend">${series.map(s =>
+      `<span class="legend-item"><span class="legend-swatch" style="background:${s.color}"></span>${s.name}</span>`).join('')}</div>`;
+  }
 
-  const tableToggle = miniTable(categories, series);
+  const tableToggle = miniTable(categories, visibleSeries);
 
   return `${legend}
     <div class="chart-svg-wrap" data-chart-id="${chartId}" data-hits='${JSON.stringify(hitboxes).replace(/'/g,"&#39;")}'>
