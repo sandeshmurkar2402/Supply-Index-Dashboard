@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T08:42:26Z",
+  "lastUpdated": "2026-08-19T09:38:24Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7118,7 +7118,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 68,
-        "sessionAchieved": 25,
+        "sessionAchieved": 29,
         "phasingTarget": 136,
         "phasingAchieved": null
       },
@@ -7477,7 +7477,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 159,
-        "sessionAchieved": 14,
+        "sessionAchieved": 15,
         "phasingTarget": 139,
         "phasingAchieved": null
       },
@@ -7734,7 +7734,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 90,
-        "sessionAchieved": 3,
+        "sessionAchieved": 4,
         "phasingTarget": 186,
         "phasingAchieved": null
       },
@@ -8019,7 +8019,7 @@
         "phasingAchieved": null
       },
       "oneOnOne": {
-        "phasingTarget": 24,
+        "phasingTarget": 25,
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
@@ -8276,7 +8276,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 231,
-        "sessionAchieved": 35,
+        "sessionAchieved": 36,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
@@ -8288,7 +8288,7 @@
         "phasingAchieved": null
       },
       "oneOnOne": {
-        "phasingTarget": 24,
+        "phasingTarget": 25,
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
@@ -8541,7 +8541,7 @@
         "phasingAchieved": null
       },
       "oneOnOne": {
-        "phasingTarget": 24,
+        "phasingTarget": 25,
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
@@ -9465,7 +9465,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 22,
+        "sessionAchieved": 27,
         "phasingTarget": 245,
         "phasingAchieved": null
       },
@@ -11242,7 +11242,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 703,
-        "sessionAchieved": 8,
+        "sessionAchieved": 9,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
@@ -23658,9 +23658,9 @@
         "d1": 5,
         "d0": 8
       },
-      "totalRegistrations": 13,
+      "totalRegistrations": 17,
       "phasingDays": 3,
-      "pctVsTarget": 52.0
+      "pctVsTarget": 68.0
     },
     {
       "leader": "Violet Tara",
@@ -23832,9 +23832,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 11,
+      "totalRegistrations": 12,
       "phasingDays": 6,
-      "pctVsTarget": 11.0
+      "pctVsTarget": 12.0
     },
     {
       "leader": "Seemaa Dhingra",
@@ -24064,9 +24064,9 @@
         "d1": 4,
         "d0": 7
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 3,
-      "pctVsTarget": 0.0
+      "pctVsTarget": 5.0
     },
     {
       "leader": "Priyanka Agarwal",
@@ -24325,9 +24325,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 134,
+      "totalRegistrations": 133,
       "phasingDays": 30,
-      "pctVsTarget": 54.0
+      "pctVsTarget": 53.0
     },
     {
       "leader": "Immersive Sound Experience",
@@ -24615,9 +24615,9 @@
         "d1": 25,
         "d0": 18
       },
-      "totalRegistrations": 33,
+      "totalRegistrations": 34,
       "phasingDays": 11,
-      "pctVsTarget": 22.0
+      "pctVsTarget": 23.0
     },
     {
       "leader": "Nithya Ji",
@@ -25688,7 +25688,7 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 20,
+      "totalRegistrations": 24,
       "phasingDays": 10,
       "pctVsTarget": 3.0
     },
@@ -27167,7 +27167,7 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 8,
+      "totalRegistrations": 9,
       "phasingDays": 11,
       "pctVsTarget": 1.0
     },
