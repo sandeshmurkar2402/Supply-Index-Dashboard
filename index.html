@@ -1138,7 +1138,10 @@ function renderBusinessLineDetail(days, todayISO, periodEndISO) {
     // through "today" — anchor the category/leader tables on the most recent day that
     // has them, rather than whichever day happens to be last in the picked period.
     const slotsAnchor = findSlotsAnchor(days, todayISO);
-    const isSingleDay = days.length === 1;
+    // Scoped to the Today/Yesterday tabs specifically — NOT days.length === 1, which
+    // would also be true for a single-day Custom Range selection and wrongly swap the
+    // chart order there too.
+    const isSingleDay = CURRENT_TAB === 'today' || CURRENT_TAB === 'yesterday';
 
     const dailyStackedChart = () => chartInWrap('1:1 — Slots Available (Daily) — Today through T+7', () =>
       renderStackedBarChart(cats, buildSlotsAheadSeries(days), {
