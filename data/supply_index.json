@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T23:26:37Z",
+  "lastUpdated": "2026-08-19T01:27:27Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -8007,14 +8007,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 95,
-        "sessionAchieved": 155,
+        "sessionAchieved": 157,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
-        "sessionAchieved": 146,
+        "sessionAchieved": 148,
         "phasingTarget": 32,
         "phasingAchieved": null
       },
@@ -9453,7 +9453,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 19,
+        "sessionAchieved": 20,
         "phasingTarget": 230,
         "phasingAchieved": null
       },
@@ -11130,7 +11130,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 512,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 151,
         "phasingAchieved": null
       },
@@ -25268,9 +25268,9 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 17,
+      "totalRegistrations": 18,
       "phasingDays": 10,
-      "pctVsTarget": 2.0
+      "pctVsTarget": 3.0
     },
     {
       "leader": "Jyotismita Das",
