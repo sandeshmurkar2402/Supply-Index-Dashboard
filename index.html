@@ -1138,19 +1138,41 @@ function renderBusinessLineDetail(days, todayISO, periodEndISO) {
     // through "today" — anchor the category/leader tables on the most recent day that
     // has them, rather than whichever day happens to be last in the picked period.
     const slotsAnchor = findSlotsAnchor(days, todayISO);
+    const isSingleDay = days.length === 1;
 
-    html += chartInWrap('1:1 — Slots Available (Daily) — Today through T+7', () =>
+    const dailyStackedChart = () => chartInWrap('1:1 — Slots Available (Daily) — Today through T+7', () =>
       renderStackedBarChart(cats, buildSlotsAheadSeries(days), {
         filterState: SLOTS_AHEAD_FILTER, toggleFn: 'toggleSlotsAheadFilter', clearFn: 'clearSlotsAheadFilter',
       }));
 
-    html += `<div style="margin-top:14px;">`;
-    html += chartCard('slots-lookahead', '1:1 Slots Available — Today through T+7', () =>
-      renderBarChart(cats,
-        [{ name: 'Today’s slots available', color: COLORS.oneOnOne,
-           data: days.map(d => d.oneOnOneSlots.today) }])
-    );
-    html += `</div>`;
+    if (isSingleDay) {
+      // Today/Yesterday: a single day's own Today->T+7 forecast is what's relevant
+      // here, so it leads; the daily stacked breakdown (same data, segmented) follows.
+      if (slotsAnchor) {
+        html += chartCard('slots-lookahead', '1:1 Slots Available — Today through T+7', () =>
+          renderBarChart(['Today', 'T+1', 'T+2', 'T+3', 'T+4', 'T+5', 'T+6', 'T+7'],
+            [{ name: 'Slots available', color: COLORS.oneOnOne,
+               data: ['today', 't1', 't2', 't3', 't4', 't5', 't6', 't7'].map(k => slotsAnchor.oneOnOneSlots[k]) }])
+        );
+        html += `<div style="margin-top:14px;">`;
+        html += dailyStackedChart();
+        html += `</div>`;
+      } else {
+        html += dailyStackedChart();
+      }
+    } else {
+      // Custom Range: the daily stacked breakdown across the selected period leads;
+      // the second chart plots each day's own "Today" slots figure across the range
+      // instead of one anchor day's forecast.
+      html += dailyStackedChart();
+      html += `<div style="margin-top:14px;">`;
+      html += chartCard('slots-lookahead', '1:1 Slots Available — Today through T+7', () =>
+        renderBarChart(cats,
+          [{ name: 'Today’s slots available', color: COLORS.oneOnOne,
+             data: days.map(d => d.oneOnOneSlots.today) }])
+      );
+      html += `</div>`;
+    }
 
     if (slotsAnchor) {
       const anchorNote = slotsAnchor.date === periodEndISO ? '' :
