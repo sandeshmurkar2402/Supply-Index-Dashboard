@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T17:30:16Z",
+  "lastUpdated": "2026-08-19T18:40:28Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18,7 +18,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 18,
-        "phasingAchieved": null
+        "phasingAchieved": 10
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -365,7 +365,7 @@
         "sessionTarget": 50,
         "sessionAchieved": 16,
         "phasingTarget": 18,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -708,7 +708,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -1143,7 +1143,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 6,
-        "phasingAchieved": null
+        "phasingAchieved": 7
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -1534,7 +1534,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 7,
-        "phasingAchieved": null
+        "phasingAchieved": 6
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -1981,7 +1981,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 7,
-        "phasingAchieved": null
+        "phasingAchieved": 9
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -2420,7 +2420,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 7
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -2859,7 +2859,7 @@
         "sessionTarget": 20,
         "sessionAchieved": 9,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 5
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -3223,7 +3223,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 8,
-        "phasingAchieved": null
+        "phasingAchieved": 8
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -3574,7 +3574,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -4003,7 +4003,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 12,
-        "phasingAchieved": null
+        "phasingAchieved": 9
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -4428,7 +4428,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 12,
-        "phasingAchieved": null
+        "phasingAchieved": 12
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -4837,7 +4837,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 12,
-        "phasingAchieved": null
+        "phasingAchieved": 10
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -5226,7 +5226,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 16,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -5607,7 +5607,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 21,
-        "phasingAchieved": null
+        "phasingAchieved": 24
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -5983,7 +5983,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 21,
-        "phasingAchieved": null
+        "phasingAchieved": 21
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -6347,7 +6347,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 23,
-        "phasingAchieved": null
+        "phasingAchieved": 17
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -6767,7 +6767,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 26,
-        "phasingAchieved": null
+        "phasingAchieved": 28
       },
       "oneOnOne": {
         "phasingTarget": 23,
@@ -7172,18 +7172,18 @@
         "sessionTarget": 68,
         "sessionAchieved": 29,
         "phasingTarget": 137,
-        "phasingAchieved": null
+        "phasingAchieved": 12
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 33,
-        "phasingAchieved": null
+        "phasingAchieved": 23
       },
       "oneOnOne": {
         "phasingTarget": 25,
-        "phasingAchieved": null
+        "phasingAchieved": 2
       },
       "groupLeaderPhasingTargets": [
         {
@@ -7373,7 +7373,32 @@
           "value": 5
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Amrita Shah",
+          "missed": 8
+        },
+        {
+          "name": "Violet Tara",
+          "missed": 11
+        },
+        {
+          "name": "Shalini Chugh",
+          "missed": 6
+        },
+        {
+          "name": "Pranjal Katoch",
+          "missed": 6
+        },
+        {
+          "name": "Dr. Nehaa Jain",
+          "missed": 5
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 3
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 105,
         "leadersAvailableToday": 97,
@@ -7518,12 +7543,12 @@
           "slots": 7
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 115,
+        "slotsAvailable": 60,
+        "pctSlotsAvailable": 52.0
       }
     },
     {
@@ -7772,13 +7797,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 460,
-        "t1": 460,
-        "t2": 285,
-        "t3": 249,
-        "t4": 4,
-        "t5": 7,
-        "t6": 5,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -8045,12 +8070,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 460,
-        "t1": 285,
-        "t2": 249,
-        "t3": 4,
-        "t4": 7,
-        "t5": 5,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
         "t6": null,
         "t7": null
       },
@@ -8314,11 +8339,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 285,
-        "t1": 249,
-        "t2": 4,
-        "t3": 7,
-        "t4": 5,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
         "t5": null,
         "t6": null,
         "t7": null
@@ -8563,10 +8588,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 249,
-        "t1": 4,
-        "t2": 7,
-        "t3": 5,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -8808,9 +8833,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 4,
-        "t1": 7,
-        "t2": 5,
+        "today": null,
+        "t1": null,
+        "t2": null,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -9049,8 +9074,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 7,
-        "t1": 5,
+        "today": null,
+        "t1": null,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -9266,7 +9291,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 5,
+        "today": null,
         "t1": null,
         "t2": null,
         "t3": null,
