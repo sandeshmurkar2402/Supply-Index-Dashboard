@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T12:55:15Z",
+  "lastUpdated": "2026-08-19T13:48:34Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -9,7 +9,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 41,
-        "sessionAchieved": 0,
+        "sessionAchieved": 28,
         "phasingTarget": 142,
         "phasingAchieved": 87
       },
@@ -356,14 +356,14 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 26,
-        "sessionAchieved": 0,
+        "sessionAchieved": 27,
         "phasingTarget": 150,
         "phasingAchieved": 99
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 50,
-        "sessionAchieved": 0,
+        "sessionAchieved": 16,
         "phasingTarget": 18,
         "phasingAchieved": 1
       },
@@ -699,7 +699,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 75,
-        "sessionAchieved": 0,
+        "sessionAchieved": 35,
         "phasingTarget": 162,
         "phasingAchieved": 169
       },
@@ -1134,7 +1134,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 51,
-        "sessionAchieved": 0,
+        "sessionAchieved": 45,
         "phasingTarget": 322,
         "phasingAchieved": 194
       },
@@ -1525,7 +1525,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 74,
-        "sessionAchieved": 0,
+        "sessionAchieved": 28,
         "phasingTarget": 359,
         "phasingAchieved": 252
       },
@@ -1972,7 +1972,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 1058,
-        "sessionAchieved": 0,
+        "sessionAchieved": 605,
         "phasingTarget": 348,
         "phasingAchieved": 319
       },
@@ -2411,7 +2411,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 302,
-        "sessionAchieved": 0,
+        "sessionAchieved": 449,
         "phasingTarget": 197,
         "phasingAchieved": 232
       },
@@ -2850,14 +2850,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 27,
-        "sessionAchieved": 0,
+        "sessionAchieved": 48,
         "phasingTarget": 154,
         "phasingAchieved": 109
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 20,
-        "sessionAchieved": 0,
+        "sessionAchieved": 9,
         "phasingTarget": 11,
         "phasingAchieved": 5
       },
@@ -3214,7 +3214,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 168,
-        "sessionAchieved": 0,
+        "sessionAchieved": 77,
         "phasingTarget": 206,
         "phasingAchieved": 117
       },
@@ -3565,7 +3565,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 0,
+        "sessionAchieved": 22,
         "phasingTarget": 193,
         "phasingAchieved": 151
       },
@@ -3994,7 +3994,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 62,
-        "sessionAchieved": 0,
+        "sessionAchieved": 28,
         "phasingTarget": 282,
         "phasingAchieved": 150
       },
@@ -4419,7 +4419,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 0,
+        "sessionAchieved": 24,
         "phasingTarget": 295,
         "phasingAchieved": 161
       },
@@ -4828,7 +4828,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 1031,
-        "sessionAchieved": 0,
+        "sessionAchieved": 455,
         "phasingTarget": 297,
         "phasingAchieved": 234
       },
@@ -5217,7 +5217,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 231,
-        "sessionAchieved": 0,
+        "sessionAchieved": 90,
         "phasingTarget": 155,
         "phasingAchieved": 112
       },
@@ -5598,7 +5598,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 45,
-        "sessionAchieved": 0,
+        "sessionAchieved": 42,
         "phasingTarget": 128,
         "phasingAchieved": 89
       },
@@ -5974,7 +5974,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 80,
-        "sessionAchieved": 0,
+        "sessionAchieved": 25,
         "phasingTarget": 215,
         "phasingAchieved": 103
       },
@@ -6338,7 +6338,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 82,
-        "sessionAchieved": 0,
+        "sessionAchieved": 34,
         "phasingTarget": 220,
         "phasingAchieved": 156
       },
@@ -6758,7 +6758,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 812,
-        "sessionAchieved": 0,
+        "sessionAchieved": 550,
         "phasingTarget": 214,
         "phasingAchieved": 175
       },
@@ -7170,7 +7170,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 68,
-        "sessionAchieved": 0,
+        "sessionAchieved": 29,
         "phasingTarget": 137,
         "phasingAchieved": null
       },
@@ -7533,7 +7533,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 160,
-        "sessionAchieved": 0,
+        "sessionAchieved": 15,
         "phasingTarget": 139,
         "phasingAchieved": null
       },
@@ -7798,7 +7798,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 90,
-        "sessionAchieved": 0,
+        "sessionAchieved": 4,
         "phasingTarget": 186,
         "phasingAchieved": null
       },
@@ -8071,14 +8071,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 95,
-        "sessionAchieved": 0,
+        "sessionAchieved": 166,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
-        "sessionAchieved": 0,
+        "sessionAchieved": 157,
         "phasingTarget": 35,
         "phasingAchieved": null
       },
@@ -8340,14 +8340,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 231,
-        "sessionAchieved": 0,
+        "sessionAchieved": 38,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
       "offline": {
-        "sessions": 1,
-        "sessionTarget": 25,
-        "sessionAchieved": 0,
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 16,
         "phasingAchieved": null
       },
@@ -8543,10 +8543,6 @@
           "value": 50
         },
         {
-          "name": "Hiral Pawar",
-          "value": 25
-        },
-        {
           "name": "Nayana Cariappa",
           "value": 10
         },
@@ -8593,7 +8589,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 73,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
@@ -8838,7 +8834,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 298,
-        "sessionAchieved": 0,
+        "sessionAchieved": 5,
         "phasingTarget": 203,
         "phasingAchieved": null
       },
@@ -9079,7 +9075,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 0,
+        "sessionAchieved": 3,
         "phasingTarget": 203,
         "phasingAchieved": null
       },
@@ -9296,7 +9292,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 95,
-        "sessionAchieved": 0,
+        "sessionAchieved": 2,
         "phasingTarget": 226,
         "phasingAchieved": null
       },
@@ -9529,7 +9525,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 0,
+        "sessionAchieved": 32,
         "phasingTarget": 245,
         "phasingAchieved": null
       },
@@ -9650,10 +9646,6 @@
           "value": 1
         },
         {
-          "name": "Tamanna Gulati",
-          "value": 1
-        },
-        {
           "name": "Seemaa Dhingra",
           "value": 1
         },
@@ -9718,14 +9710,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 60,
-        "sessionAchieved": 0,
+        "sessionAchieved": 2,
         "phasingTarget": 137,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 125,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 22,
         "phasingAchieved": null
       },
@@ -9827,10 +9819,6 @@
           "value": 1
         },
         {
-          "name": "Tamanna Gulati",
-          "value": 1
-        },
-        {
           "name": "Seemaa Dhingra",
           "value": 1
         },
@@ -9907,14 +9895,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 270,
-        "sessionAchieved": 0,
+        "sessionAchieved": 18,
         "phasingTarget": 134,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 100,
-        "sessionAchieved": 0,
+        "sessionAchieved": 2,
         "phasingTarget": 10,
         "phasingAchieved": null
       },
@@ -10008,10 +9996,6 @@
           "value": 1
         },
         {
-          "name": "Tamanna Gulati",
-          "value": 1
-        },
-        {
           "name": "Seemaa Dhingra",
           "value": 1
         },
@@ -10096,7 +10080,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 70,
-        "sessionAchieved": 0,
+        "sessionAchieved": 2,
         "phasingTarget": 103,
         "phasingAchieved": null
       },
@@ -10170,10 +10154,6 @@
         },
         {
           "name": "Aditi Grover",
-          "value": 2
-        },
-        {
-          "name": "Tamanna Gulati",
           "value": 2
         },
         {
@@ -10286,7 +10266,7 @@
         "sessions": 3,
         "sessionTarget": 22,
         "sessionAchieved": 0,
-        "phasingTarget": 100,
+        "phasingTarget": 98,
         "phasingAchieved": null
       },
       "offline": {
@@ -10351,10 +10331,6 @@
         },
         {
           "name": "Sidanta Goggate",
-          "value": 2
-        },
-        {
-          "name": "Tamanna Gulati",
           "value": 2
         },
         {
@@ -10463,7 +10439,7 @@
         "sessions": 4,
         "sessionTarget": 56,
         "sessionAchieved": 0,
-        "phasingTarget": 166,
+        "phasingTarget": 162,
         "phasingAchieved": null
       },
       "offline": {
@@ -10520,10 +10496,6 @@
         },
         {
           "name": "Parul Khanna",
-          "value": 2
-        },
-        {
-          "name": "Tamanna Gulati",
           "value": 2
         },
         {
@@ -10649,10 +10621,10 @@
       "dayName": "Thursday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 89,
-        "sessionAchieved": 0,
-        "phasingTarget": 167,
+        "sessions": 5,
+        "sessionTarget": 80,
+        "sessionAchieved": 1,
+        "phasingTarget": 164,
         "phasingAchieved": null
       },
       "offline": {
@@ -10689,10 +10661,6 @@
         },
         {
           "name": "Neera Sareen",
-          "value": 3
-        },
-        {
-          "name": "Tamanna Gulati",
           "value": 3
         },
         {
@@ -10800,10 +10768,6 @@
         {
           "name": "Neera Sareen",
           "value": 10
-        },
-        {
-          "name": "Tamanna Gulati",
-          "value": 9
         },
         {
           "name": "Seemaa Dhingra",
@@ -11053,7 +11017,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 45,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 205,
         "phasingAchieved": null
       },
@@ -11274,7 +11238,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 703,
-        "sessionAchieved": 0,
+        "sessionAchieved": 11,
         "phasingTarget": 176,
         "phasingAchieved": null
       },
@@ -11491,7 +11455,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 38,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 101,
         "phasingAchieved": null
       },
@@ -11637,10 +11601,6 @@
         },
         {
           "name": "Mohini Srishati",
-          "value": 1
-        },
-        {
-          "name": "Krishnna",
           "value": 1
         },
         {
@@ -11845,10 +11805,6 @@
           "value": 1
         },
         {
-          "name": "Krishnna",
-          "value": 1
-        },
-        {
           "name": "Jaya Mandhian",
           "value": 1
         },
@@ -11914,7 +11870,7 @@
         "sessions": 7,
         "sessionTarget": 44,
         "sessionAchieved": 0,
-        "phasingTarget": 205,
+        "phasingTarget": 204,
         "phasingAchieved": null
       },
       "offline": {
@@ -12047,10 +12003,6 @@
         },
         {
           "name": "Mohini Srishati",
-          "value": 1
-        },
-        {
-          "name": "Krishnna",
           "value": 1
         },
         {
@@ -12259,10 +12211,6 @@
           "value": 1
         },
         {
-          "name": "Krishnna",
-          "value": 1
-        },
-        {
           "name": "Denzil Oconnell",
           "value": 1
         },
@@ -12355,8 +12303,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 834,
-        "sessionAchieved": 0,
-        "phasingTarget": 188,
+        "sessionAchieved": 4,
+        "phasingTarget": 187,
         "phasingAchieved": null
       },
       "offline": {
@@ -12456,10 +12404,6 @@
           "value": 1
         },
         {
-          "name": "Krishnna",
-          "value": 1
-        },
-        {
           "name": "Jaya Mandhian",
           "value": 1
         },
@@ -12542,8 +12486,8 @@
       "dayName": "Saturday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 59,
+        "sessions": 5,
+        "sessionTarget": 58,
         "sessionAchieved": 0,
         "phasingTarget": 54,
         "phasingAchieved": null
@@ -12629,10 +12573,6 @@
           "value": 1
         },
         {
-          "name": "Krishnna",
-          "value": 1
-        },
-        {
           "name": "Denzil Oconnell",
           "value": 1
         },
@@ -12692,10 +12632,6 @@
         },
         {
           "name": "Mohini Srishati",
-          "value": 1
-        },
-        {
-          "name": "Krishnna",
           "value": 1
         },
         {
@@ -13111,7 +13047,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 38,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 80,
         "phasingAchieved": null
       },
@@ -13827,7 +13763,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 39,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 154,
         "phasingAchieved": null
       },
@@ -14797,7 +14733,7 @@
       "groupOnline": {
         "sessions": 1,
         "sessionTarget": 700,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 173,
         "phasingAchieved": null
       },
@@ -14914,14 +14850,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 67,
-        "sessionAchieved": 0,
+        "sessionAchieved": 10,
         "phasingTarget": 64,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 0,
+        "sessionAchieved": 10,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -15233,7 +15169,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 20,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 14,
         "phasingAchieved": null
       },
