@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T09:38:59Z",
+  "lastUpdated": "2026-08-20T10:35:30Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -26548,8 +26548,8 @@
     {
       "leader": "Binita Aamol Rege",
       "target": 10,
-      "price": 850,
-      "revenueTarget": 8500,
+      "price": 770,
+      "revenueTarget": 7700,
       "courseInstanceId": "7292",
       "courseId": "1825",
       "date": "2026-08-31",
@@ -29332,13 +29332,13 @@
     {
       "leader": "Binita Aamol Rege",
       "target": 9,
-      "price": 850,
-      "revenueTarget": 7650,
+      "price": 770,
+      "revenueTarget": 6930,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-09-18",
       "time": "19:30",
-      "campaign": "ROL Boost",
+      "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
       "topic": "Womb healing guided by sacred energies of Maa Durga and Maa Kali",
@@ -29346,16 +29346,16 @@
       "phasing": {
         "before7": 0,
         "d7": 0,
-        "d6": 1,
-        "d5": 1,
+        "d6": 0,
+        "d5": 0,
         "d4": 1,
         "d3": 1,
-        "d2": 1,
+        "d2": 2,
         "d1": 2,
-        "d0": 3
+        "d0": 2
       },
       "totalRegistrations": null,
-      "phasingDays": 3,
+      "phasingDays": null,
       "pctVsTarget": 0.0
     },
     {
@@ -30202,8 +30202,8 @@
     {
       "leader": "Binita Aamol Rege",
       "target": 10,
-      "price": 850,
-      "revenueTarget": 8500,
+      "price": 770,
+      "revenueTarget": 7700,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-09-26",
