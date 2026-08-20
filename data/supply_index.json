@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T06:52:49Z",
+  "lastUpdated": "2026-08-20T07:44:55Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -8138,10 +8138,6 @@
           "value": 1
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 1
-        },
-        {
           "name": "Bhairavi Mehta",
           "value": 1
         },
@@ -8383,10 +8379,6 @@
           "value": 1
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 1
-        },
-        {
           "name": "Nishi Shah",
           "value": 1
         },
@@ -8484,7 +8476,7 @@
         "sessions": 6,
         "sessionTarget": 231,
         "sessionAchieved": 43,
-        "phasingTarget": 205,
+        "phasingTarget": 204,
         "phasingAchieved": null
       },
       "offline": {
@@ -8624,10 +8616,6 @@
           "value": 1
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 1
-        },
-        {
           "name": "Jyotismita Das",
           "value": 1
         },
@@ -8657,10 +8645,6 @@
         },
         {
           "name": "Preety",
-          "value": 1
-        },
-        {
-          "name": "Meenakshi Mishra",
           "value": 1
         },
         {
@@ -8729,7 +8713,7 @@
         "sessions": 7,
         "sessionTarget": 73,
         "sessionAchieved": 1,
-        "phasingTarget": 204,
+        "phasingTarget": 202,
         "phasingAchieved": null
       },
       "offline": {
@@ -8845,10 +8829,6 @@
           "value": 2
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 1
-        },
-        {
           "name": "Dr. Mitali Jaiswal",
           "value": 1
         },
@@ -8878,10 +8858,6 @@
         },
         {
           "name": "Arjun Aiyar",
-          "value": 1
-        },
-        {
-          "name": "Meenakshi Mishra",
           "value": 1
         },
         {
@@ -8970,7 +8946,7 @@
         "sessions": 7,
         "sessionTarget": 291,
         "sessionAchieved": 5,
-        "phasingTarget": 201,
+        "phasingTarget": 199,
         "phasingAchieved": null
       },
       "offline": {
@@ -9090,10 +9066,6 @@
           "value": 2
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 2
-        },
-        {
           "name": "Debanjan Medhi",
           "value": 2
         },
@@ -9107,10 +9079,6 @@
         },
         {
           "name": "Divyaa",
-          "value": 1
-        },
-        {
-          "name": "Meenakshi Mishra",
           "value": 1
         },
         {
@@ -9204,10 +9172,10 @@
       "dayName": "Wednesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 58,
+        "sessions": 5,
+        "sessionTarget": 53,
         "sessionAchieved": 3,
-        "phasingTarget": 203,
+        "phasingTarget": 201,
         "phasingAchieved": null
       },
       "offline": {
@@ -9311,10 +9279,6 @@
           "value": 2
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 2
-        },
-        {
           "name": "Divyaa",
           "value": 2
         },
@@ -9325,10 +9289,6 @@
         {
           "name": "Priyanka Agarwal",
           "value": 2
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "value": 1
         },
         {
           "name": "Sayalee Jadhav",
@@ -9385,10 +9345,6 @@
           "value": 8
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 5
-        },
-        {
           "name": "Swati Ahluwalia",
           "value": 1
         }
@@ -9424,7 +9380,7 @@
         "sessions": 9,
         "sessionTarget": 95,
         "sessionAchieved": 2,
-        "phasingTarget": 225,
+        "phasingTarget": 224,
         "phasingAchieved": null
       },
       "offline": {
@@ -9529,10 +9485,6 @@
         },
         {
           "name": "Divyaa",
-          "value": 2
-        },
-        {
-          "name": "Meenakshi Mishra",
           "value": 2
         },
         {
@@ -9654,10 +9606,10 @@
       "dayName": "Friday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 736,
+        "sessions": 4,
+        "sessionTarget": 731,
         "sessionAchieved": 51,
-        "phasingTarget": 244,
+        "phasingTarget": 243,
         "phasingAchieved": null
       },
       "offline": {
@@ -9749,10 +9701,6 @@
           "value": 2
         },
         {
-          "name": "Meenakshi Mishra",
-          "value": 2
-        },
-        {
           "name": "Disha Sharma",
           "value": 2
         },
@@ -9805,10 +9753,6 @@
         {
           "name": "Arjun Aiyar",
           "value": 10
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "value": 5
         }
       ],
       "groupMissedTargets": [],
@@ -25357,8 +25301,8 @@
     {
       "leader": "Meenakshi Mishra",
       "target": 5,
-      "price": 285,
-      "revenueTarget": 1425,
+      "price": 410,
+      "revenueTarget": 2050,
       "courseInstanceId": "6871",
       "courseId": "1670",
       "date": "2026-08-24",
@@ -25726,35 +25670,6 @@
         "d2": 2,
         "d1": 2,
         "d0": 2
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": 0.0
-    },
-    {
-      "leader": "Meenakshi Mishra",
-      "target": 5,
-      "price": 285,
-      "revenueTarget": 1425,
-      "courseInstanceId": "6872",
-      "courseId": "1670",
-      "date": "2026-08-26",
-      "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Reiki",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 1,
-        "d0": 1
       },
       "totalRegistrations": 0,
       "phasingDays": null,
@@ -26165,35 +26080,6 @@
       "totalRegistrations": 2,
       "phasingDays": 3,
       "pctVsTarget": 20.0
-    },
-    {
-      "leader": "Meenakshi Mishra",
-      "target": 5,
-      "price": 285,
-      "revenueTarget": 1425,
-      "courseInstanceId": "6873",
-      "courseId": "1670",
-      "date": "2026-08-28",
-      "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Reiki",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 1,
-        "d0": 1
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": 0.0
     },
     {
       "leader": "Immersive Kirtan",
