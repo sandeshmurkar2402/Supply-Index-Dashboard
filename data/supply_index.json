@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T23:27:18Z",
+  "lastUpdated": "2026-08-20T01:26:28Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -204,7 +204,20 @@
           "value": 5
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Neha Kumra",
+          "missed": 8
+        },
+        {
+          "name": "Shalini Chugh",
+          "missed": 5
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 5
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 114,
         "leadersAvailableToday": 35,
@@ -538,7 +551,24 @@
           "value": 6
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Bijay J. Anand",
+          "missed": 34
+        },
+        {
+          "name": "Nayana Cariappa",
+          "missed": 5
+        },
+        {
+          "name": "Rishi Nanda",
+          "missed": 7
+        },
+        {
+          "name": "Preety",
+          "missed": 3
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 114,
         "leadersAvailableToday": 30,
@@ -896,7 +926,36 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Rhea Mathew",
+          "missed": 15
+        },
+        {
+          "name": "Arpana Khanna",
+          "missed": 3
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "missed": 10
+        },
+        {
+          "name": "Akanksha Walia",
+          "missed": 6
+        },
+        {
+          "name": "Navneeth Vallabh",
+          "missed": 3
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 4
+        },
+        {
+          "name": "Ashwini Kamath",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 114,
         "leadersAvailableToday": 108,
@@ -1270,7 +1329,16 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Amrita Shah",
+          "missed": 7
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 4
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 112,
         "leadersAvailableToday": 110,
@@ -1680,7 +1748,44 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Sonika Vickraman",
+          "missed": 14
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "missed": 12
+        },
+        {
+          "name": "Abhirammi",
+          "missed": 4
+        },
+        {
+          "name": "Krishnna",
+          "missed": 3
+        },
+        {
+          "name": "Barkha Mahesh",
+          "missed": 6
+        },
+        {
+          "name": "Krupa Shah",
+          "missed": 2
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 3
+        },
+        {
+          "name": "Amritaa Shankar",
+          "missed": 1
+        },
+        {
+          "name": "Shilpa Goel",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 110,
         "leadersAvailableToday": 108,
@@ -2098,7 +2203,32 @@
           "value": 5
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "missed": 411
+        },
+        {
+          "name": "Premmayi Gurumaa",
+          "missed": 19
+        },
+        {
+          "name": "Harpreet B Sharma",
+          "missed": 9
+        },
+        {
+          "name": "Alpa Kapadia Teli",
+          "missed": 6
+        },
+        {
+          "name": "Tamanna Gulati",
+          "missed": 5
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 3
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 107,
         "leadersAvailableToday": 105,
@@ -2516,7 +2646,32 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 13
+        },
+        {
+          "name": "Jyoti Soni",
+          "missed": 5
+        },
+        {
+          "name": "Pranjal Katoch",
+          "missed": 3
+        },
+        {
+          "name": "Dr Kinnari I Gupta",
+          "missed": 5
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
+        },
+        {
+          "name": "Deepa Shetty",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 104,
         "leadersAvailableToday": 101,
@@ -2918,7 +3073,28 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Arjun Aiyar",
+          "missed": 11
+        },
+        {
+          "name": "Dimple Desai",
+          "missed": 9
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 2
+        },
+        {
+          "name": "Disha Sharma",
+          "missed": 1
+        },
+        {
+          "name": "Rashmi Shahbazker",
+          "missed": 2
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 112,
         "leadersAvailableToday": 29,
@@ -3265,7 +3441,28 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Swapnil Gawde",
+          "missed": 56
+        },
+        {
+          "name": "Nithya Ji",
+          "missed": 12
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 21
+        },
+        {
+          "name": "Dr.Jiggnna Desai",
+          "missed": 7
+        },
+        {
+          "name": "Nishi Shah",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 112,
         "leadersAvailableToday": 22,
@@ -3595,7 +3792,40 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Rooppreet Caur",
+          "missed": 4
+        },
+        {
+          "name": "Shreya Singh",
+          "missed": 4
+        },
+        {
+          "name": "Sujata Dutta",
+          "missed": 10
+        },
+        {
+          "name": "Meheck Mukherjee",
+          "missed": 5
+        },
+        {
+          "name": "Prasiddhi Khare Mishra",
+          "missed": 4
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 3
+        },
+        {
+          "name": "Bhupali Deore",
+          "missed": 4
+        },
+        {
+          "name": "Ashima Sood Patil",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 112,
         "leadersAvailableToday": 106,
@@ -3987,7 +4217,36 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Vidhya K",
+          "missed": 8
+        },
+        {
+          "name": "Mahima Mor",
+          "missed": 10
+        },
+        {
+          "name": "Dr. Ruchi Gulati",
+          "missed": 7
+        },
+        {
+          "name": "Gunjan Nautiyall",
+          "missed": 8
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 2
+        },
+        {
+          "name": "Lovina Gidwani",
+          "missed": 1
+        },
+        {
+          "name": "Bhairavi Mehta",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 112,
         "leadersAvailableToday": 109,
@@ -4367,7 +4626,36 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Rashi Gaur",
+          "missed": 3
+        },
+        {
+          "name": "Jyotismita Das",
+          "missed": 10
+        },
+        {
+          "name": "Amrita Shah",
+          "missed": 5
+        },
+        {
+          "name": "Seemaa Dhingra",
+          "missed": 3
+        },
+        {
+          "name": "Anupama Chatterjee",
+          "missed": 7
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 4
+        },
+        {
+          "name": "Preethi Balan",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 111,
         "leadersAvailableToday": 106,
@@ -4739,7 +5027,28 @@
           "value": 2
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "missed": 566
+        },
+        {
+          "name": "Neera Sareen",
+          "missed": 1
+        },
+        {
+          "name": "Renu Kaushik",
+          "missed": 6
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 4
+        },
+        {
+          "name": "Ashwini Bhave",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 106,
         "leadersAvailableToday": 102,
@@ -5111,7 +5420,24 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Vidhi Agarwal",
+          "missed": 128
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 10
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
+        },
+        {
+          "name": "Dr. Suchitra",
+          "missed": 2
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 104,
         "leadersAvailableToday": 98,
@@ -5483,7 +5809,28 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Susitha Pappiah",
+          "missed": 4
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 3
+        },
+        {
+          "name": "Aditi Grover",
+          "missed": 2
+        },
+        {
+          "name": "Vanita Keswani",
+          "missed": 2
+        },
+        {
+          "name": "Taniyaa Gupta",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 118,
         "leadersAvailableToday": 90,
@@ -5830,7 +6177,24 @@
           "value": 10
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Devi Nidhi Saraswat",
+          "missed": 35
+        },
+        {
+          "name": "Dr. Vineet Aggarwal",
+          "missed": 6
+        },
+        {
+          "name": "Alipta Sabharwal",
+          "missed": 9
+        },
+        {
+          "name": "Punita Kadam",
+          "missed": 6
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 118,
         "leadersAvailableToday": 87,
@@ -6217,7 +6581,36 @@
           "value": 2
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Arpana Khanna",
+          "missed": 11
+        },
+        {
+          "name": "Rhea Mathew",
+          "missed": 9
+        },
+        {
+          "name": "Sukhmani Bajwa",
+          "missed": 7
+        },
+        {
+          "name": "Ivy Roy",
+          "missed": 8
+        },
+        {
+          "name": "Siddhi Shah",
+          "missed": 8
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
+        },
+        {
+          "name": "Setu Gokani",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 104,
         "leadersAvailableToday": 92,
@@ -6588,7 +6981,40 @@
           "value": 20
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Dushyant",
+          "missed": 24
+        },
+        {
+          "name": "Kavyal Sedanni",
+          "missed": 170
+        },
+        {
+          "name": "Krishna Jangid",
+          "missed": 25
+        },
+        {
+          "name": "Divyaa",
+          "missed": 16
+        },
+        {
+          "name": "Denzil Oconnell",
+          "missed": 10
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 5
+        },
+        {
+          "name": "Supriya Chhabra",
+          "missed": 1
+        },
+        {
+          "name": "Manka Malik",
+          "missed": 11
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 105,
         "leadersAvailableToday": 94,
@@ -6947,7 +7373,32 @@
           "value": 5
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Amrita Shah",
+          "missed": 7
+        },
+        {
+          "name": "Violet Tara",
+          "missed": 11
+        },
+        {
+          "name": "Shalini Chugh",
+          "missed": 6
+        },
+        {
+          "name": "Pranjal Katoch",
+          "missed": 5
+        },
+        {
+          "name": "Dr. Nehaa Jain",
+          "missed": 5
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 3
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 105,
         "leadersAvailableToday": 97,
@@ -7107,7 +7558,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 160,
-        "sessionAchieved": 19,
+        "sessionAchieved": 20,
         "phasingTarget": 139,
         "phasingAchieved": null
       },
@@ -7771,7 +8222,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 95,
-        "sessionAchieved": 175,
+        "sessionAchieved": 176,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
@@ -23817,9 +24268,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 14,
+      "totalRegistrations": 15,
       "phasingDays": 6,
-      "pctVsTarget": 14.0
+      "pctVsTarget": 15.0
     },
     {
       "leader": "Seemaa Dhingra",
@@ -24455,9 +24906,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 7,
       "phasingDays": null,
-      "pctVsTarget": 30.0
+      "pctVsTarget": 35.0
     },
     {
       "leader": "Ellaeenah Niloufer",
