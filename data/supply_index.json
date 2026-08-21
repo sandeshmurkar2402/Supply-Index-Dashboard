@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T17:46:38Z",
+  "lastUpdated": "2026-08-21T18:42:12Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6267,18 +6267,18 @@
         "sessionTarget": 75,
         "sessionAchieved": 13,
         "phasingTarget": 165,
-        "phasingAchieved": null
+        "phasingAchieved": 13
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 29,
-        "phasingAchieved": null
+        "phasingAchieved": 44
       },
       "oneOnOne": {
         "phasingTarget": 25,
-        "phasingAchieved": null
+        "phasingAchieved": 6
       },
       "groupLeaderPhasingTargets": [
         {
@@ -6480,7 +6480,40 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Hiral Pawar",
+          "missed": 16
+        },
+        {
+          "name": "Kabir",
+          "missed": 10
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 10
+        },
+        {
+          "name": "Dr. Jiggnna Desai",
+          "missed": 10
+        },
+        {
+          "name": "Meher Gehi",
+          "missed": 8
+        },
+        {
+          "name": "Akanksha Walia",
+          "missed": 4
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 4
+        },
+        {
+          "name": "Bhairavi Mehta",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 106,
         "leadersAvailableToday": 91,
@@ -6548,12 +6581,12 @@
           "slots": 7
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 118,
+        "slotsAvailable": 28,
+        "pctSlotsAvailable": 24.0
       }
     },
     {
