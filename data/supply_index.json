@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T08:46:16Z",
+  "lastUpdated": "2026-08-21T09:41:06Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -5829,7 +5829,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 75,
-        "sessionAchieved": 11,
+        "sessionAchieved": 12,
         "phasingTarget": 182,
         "phasingAchieved": null
       },
@@ -6143,14 +6143,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 95,
-        "sessionAchieved": 240,
+        "sessionAchieved": 249,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
-        "sessionAchieved": 193,
+        "sessionAchieved": 200,
         "phasingTarget": 31,
         "phasingAchieved": null
       },
@@ -6408,7 +6408,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 236,
-        "sessionAchieved": 51,
+        "sessionAchieved": 54,
         "phasingTarget": 205,
         "phasingAchieved": null
       },
@@ -7589,7 +7589,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 71,
+        "sessionAchieved": 73,
         "phasingTarget": 243,
         "phasingAchieved": null
       },
@@ -13698,14 +13698,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 80,
-        "sessionAchieved": 15,
+        "sessionAchieved": 16,
         "phasingTarget": 69,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 15,
+        "sessionAchieved": 16,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -23278,9 +23278,9 @@
         "d1": 4,
         "d0": 7
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 3,
-      "pctVsTarget": 23.0
+      "pctVsTarget": 27.0
     },
     {
       "leader": "Kabir",
@@ -23510,9 +23510,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 148,
+      "totalRegistrations": 149,
       "phasingDays": 30,
-      "pctVsTarget": 59.0
+      "pctVsTarget": 60.0
     },
     {
       "leader": "Immersive Sound Experience",
@@ -23539,9 +23539,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 35,
+      "totalRegistrations": 39,
       "phasingDays": 16,
-      "pctVsTarget": 58.0
+      "pctVsTarget": 65.0
     },
     {
       "leader": "Hanuman Dass",
@@ -23597,9 +23597,9 @@
         "d1": 6,
         "d0": 5
       },
-      "totalRegistrations": 33,
+      "totalRegistrations": 34,
       "phasingDays": 6,
-      "pctVsTarget": 132.0
+      "pctVsTarget": 136.0
     },
     {
       "leader": "Mariko Hiyama",
@@ -23626,9 +23626,9 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 8,
+      "totalRegistrations": 9,
       "phasingDays": null,
-      "pctVsTarget": 40.0
+      "pctVsTarget": 45.0
     },
     {
       "leader": "Ellaeenah Niloufer",
@@ -23800,9 +23800,9 @@
         "d1": 25,
         "d0": 18
       },
-      "totalRegistrations": 45,
+      "totalRegistrations": 46,
       "phasingDays": 11,
-      "pctVsTarget": 30.0
+      "pctVsTarget": 31.0
     },
     {
       "leader": "Nithya Ji",
@@ -23829,9 +23829,9 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 5,
       "phasingDays": 10,
-      "pctVsTarget": 6.0
+      "pctVsTarget": 10.0
     },
     {
       "leader": "Nayana Cariappa",
@@ -24815,7 +24815,7 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 67,
+      "totalRegistrations": 69,
       "phasingDays": 10,
       "pctVsTarget": 10.0
     },
