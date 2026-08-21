@@ -147,12 +147,13 @@ def cell(row, i):
 
 def fetch_calendar_sessions(service, config):
     """session_level_summ_Dashboard: one row per scheduled group session (online or
-    offline), header row 5 (index 4), data from row 6 (index 5). Column layout (0-indexed):
+    offline — flagged by Campaign/Topic literally being "OFFLINE"), header row 5
+    (index 4), data from row 6 (index 5). Column layout (0-indexed):
     4 Leader Name, 5 Registrations Target, 7 Price, 8 Session Date, 9 Session Time,
     11 Revenue Targets, 12 Course Instance Id, 13 Course Id, 14 Campaign,
     15 Leader tagging, 16 Language, 19 Topic, 28 Session Time Bucket,
     29-37 phasing (b4 7days, D7..D0), 38 Total Paid Registrations, 39 Phasing Days,
-    40 % Registrations vs Targets."""
+    40 % Registrations vs Targets, 44 Revenue Achieved, 45 % Revenue vs Targets."""
     rng = f"{config['calendarSheetName']}!{config['calendarRange']}"
     result = service.spreadsheets().values().get(
         spreadsheetId=config["spreadsheetId"], range=rng, valueRenderOption="FORMATTED_VALUE"
@@ -195,6 +196,8 @@ def fetch_calendar_sessions(service, config):
             "totalRegistrations": parse_int(cell(row, 38)),
             "phasingDays": parse_int(cell(row, 39)),
             "pctVsTarget": parse_pct(cell(row, 40)),
+            "revenueAchieved": parse_int(cell(row, 44)),
+            "pctRevenueVsTarget": parse_pct(cell(row, 45)),
         })
     return sessions
 
