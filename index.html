@@ -355,6 +355,7 @@
   .ms-option { display: flex; align-items: center; gap: 6px; font-size: 0.76rem; color: var(--text-2); padding: 3px 4px; border-radius: 4px; cursor: pointer; }
   .ms-option:hover { background: var(--surface-2); }
   .ms-option input[type=checkbox] { accent-color: var(--blue); }
+  .ms-option-blank span { font-style: italic; color: var(--muted); }
   .day-chips { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
   .day-chip {
     background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text-2);
@@ -586,6 +587,7 @@ let CAL_DAYS = new Set(DOW);
 let CAL_FILTERS = {
   month: new Set(), leader: new Set(), language: new Set(), campaign: new Set(),
   tagging: new Set(), bucket: new Set(), topic: new Set(),
+  courseInstanceId: new Set(), courseId: new Set(), time: new Set(),
   dateFrom: '', dateTo: '',
 };
 let CAL_DATE_DEFAULTED = false;
@@ -599,7 +601,13 @@ const CAL_FILTER_ACCESSORS = {
   campaign: s => s.campaign,
   tagging: s => s.leaderTagging,
   bucket: s => s.timeBucket,
+  courseInstanceId: s => s.courseInstanceId,
+  courseId: s => s.courseId,
+  time: s => s.time,
 };
+/* These filters allow an explicit "(Blank)" option so sessions with a missing value
+   can be selected/excluded rather than being silently unfilterable. */
+const BLANK_AWARE_FILTER_KEYS = new Set(['bucket', 'courseInstanceId', 'courseId', 'time']);
 let CAL_LEADER_MODE = 'absolute';
 let LEADER_METRIC = 'regTargets';
 let DAYWISE_TARGET_MODE = 'registrations';
@@ -633,7 +641,7 @@ function toggleMultiFilter(group, key, value) {
 }
 function selectAllFilter(group, key) {
   const { state, accessors } = FILTER_GROUPS[group];
-  state[key] = new Set(uniqueSorted(SESSIONS.map(accessors[key])));
+  state[key] = new Set(optionsForFilter(key, SESSIONS.map(accessors[key])));
   render();
 }
 function clearFilter(group, key) {
@@ -1320,6 +1328,16 @@ function dayByDayLineTable(lineKey, allDays) {
 function uniqueSorted(arr) {
   return Array.from(new Set(arr.filter(Boolean))).sort((a, b) => a.localeCompare(b));
 }
+/* Same as uniqueSorted, but keeps an explicit '' entry (rendered as "(Blank)") when at
+   least one row actually has a missing value for this field. */
+function uniqueSortedWithBlank(arr) {
+  const hasBlank = arr.some(v => !v || String(v).trim() === '');
+  const nonBlank = uniqueSorted(arr);
+  return hasBlank ? ['', ...nonBlank] : nonBlank;
+}
+function optionsForFilter(key, arr) {
+  return BLANK_AWARE_FILTER_KEYS.has(key) ? uniqueSortedWithBlank(arr) : uniqueSorted(arr);
+}
 function monthLabel(ym) {
   const [y, m] = ym.split('-').map(Number);
   return new Date(y, m - 1, 1).toLocaleDateString(undefined, { month: 'long', year: 'numeric' });
@@ -1333,9 +1351,10 @@ function multiSelectHtml(group, key, label, options, labelFn) {
   const items = options.map(o => {
     const safe = String(o).replace(/"/g, '&quot;');
     const checked = selected.has(o) ? 'checked' : '';
-    const display = fmt(o);
+    const isBlank = o === '';
+    const display = isBlank ? '(Blank)' : fmt(o);
     const hidden = search && !String(display).toLowerCase().includes(search) ? ' style="display:none"' : '';
-    return `<label class="ms-option"${hidden}>
+    return `<label class="ms-option${isBlank ? ' ms-option-blank' : ''}"${hidden}>
       <input type="checkbox" value="${safe}" ${checked} onchange="toggleMultiFilter('${group}', '${key}', this.value)" />
       <span>${display}</span>
     </label>`;
@@ -1448,7 +1467,10 @@ function calendarFiltersHtml() {
   const languages = uniqueSorted(SESSIONS.map(s => s.language));
   const campaigns = uniqueSorted(SESSIONS.map(s => s.campaign));
   const taggings = uniqueSorted(SESSIONS.map(s => s.leaderTagging));
-  const buckets = uniqueSorted(SESSIONS.map(s => s.timeBucket));
+  const buckets = optionsForFilter('bucket', SESSIONS.map(s => s.timeBucket));
+  const courseInstanceIds = optionsForFilter('courseInstanceId', SESSIONS.map(s => s.courseInstanceId));
+  const courseIds = optionsForFilter('courseId', SESSIONS.map(s => s.courseId));
+  const times = optionsForFilter('time', SESSIONS.map(s => s.time));
 
   let html = `<div class="cal-filters">`;
   html += `<div class="filter-field">
@@ -1465,7 +1487,10 @@ function calendarFiltersHtml() {
   html += multiSelectHtml('cal', 'language', 'Language', languages);
   html += multiSelectHtml('cal', 'campaign', 'Campaign', campaigns);
   html += multiSelectHtml('cal', 'tagging', 'Leader Tagging', taggings);
-  html += multiSelectHtml('cal', 'bucket', 'Session Time Bucket', buckets);
+  html += multiSelectHtml('cal', 'time', 'Time', times);
+  html += multiSelectHtml('cal', 'bucket', 'Time Bucket', buckets);
+  html += multiSelectHtml('cal', 'courseInstanceId', 'Course Instance Id', courseInstanceIds);
+  html += multiSelectHtml('cal', 'courseId', 'Course Id', courseIds);
   html += `</div>`;
   html += calDatePresetHtml();
   html += dayChipsHtml(CAL_DAYS, 'toggleCalDay');
