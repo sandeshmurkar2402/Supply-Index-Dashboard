@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T17:24:41Z",
+  "lastUpdated": "2026-08-22T18:36:05Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6598,18 +6598,18 @@
         "sessionTarget": 53,
         "sessionAchieved": 297,
         "phasingTarget": 162,
-        "phasingAchieved": null
+        "phasingAchieved": 19
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
         "sessionAchieved": 218,
         "phasingTarget": 31,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": 25,
-        "phasingAchieved": null
+        "phasingAchieved": 7
       },
       "groupLeaderPhasingTargets": [
         {
@@ -6799,7 +6799,32 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "missed": 232
+        },
+        {
+          "name": "Immersive Sound Experience",
+          "missed": 18
+        },
+        {
+          "name": "Mariko Hiyama",
+          "missed": 6
+        },
+        {
+          "name": "Disha Sharma",
+          "missed": 3
+        },
+        {
+          "name": "Sweta Gusain",
+          "missed": 2
+        },
+        {
+          "name": "Jaya Mandhian",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 128,
         "leadersAvailableToday": 86,
@@ -6863,12 +6888,12 @@
           "slots": 7
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 221,
+        "slotsAvailable": 73,
+        "pctSlotsAvailable": 33.0
       }
     },
     {
