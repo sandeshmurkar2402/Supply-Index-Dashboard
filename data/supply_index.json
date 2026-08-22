@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T22:26:37Z",
+  "lastUpdated": "2026-08-22T23:24:47Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -4407,8 +4407,8 @@
       "slotsFilledToday": 6,
       "pctSlotsFilledToday": 1.47,
       "pageViews": {
-        "total1on1": 1127,
-        "slotsAvailable": 974,
+        "total1on1": 1126,
+        "slotsAvailable": 973,
         "pctSlotsAvailable": 86.0
       }
     },
@@ -5926,8 +5926,8 @@
       "slotsFilledToday": 14,
       "pctSlotsFilledToday": 3.1,
       "pageViews": {
-        "total1on1": 2368,
-        "slotsAvailable": 1104,
+        "total1on1": 2369,
+        "slotsAvailable": 1105,
         "pctSlotsAvailable": 47.0
       }
     },
@@ -6253,8 +6253,8 @@
       "slotsFilledToday": 10,
       "pctSlotsFilledToday": 2.23,
       "pageViews": {
-        "total1on1": 1942,
-        "slotsAvailable": 831,
+        "total1on1": 1943,
+        "slotsAvailable": 832,
         "pctSlotsAvailable": 43.0
       }
     },
@@ -6584,8 +6584,8 @@
       "slotsFilledToday": 14,
       "pctSlotsFilledToday": 3.16,
       "pageViews": {
-        "total1on1": 1348,
-        "slotsAvailable": 504,
+        "total1on1": 1346,
+        "slotsAvailable": 502,
         "pctSlotsAvailable": 37.0
       }
     },
@@ -6888,12 +6888,12 @@
           "slots": 7
         }
       ],
-      "slotsFilledToday": 0,
-      "pctSlotsFilledToday": 0.0,
+      "slotsFilledToday": 11,
+      "pctSlotsFilledToday": 2.76,
       "pageViews": {
-        "total1on1": 221,
-        "slotsAvailable": 73,
-        "pctSlotsAvailable": 33.0
+        "total1on1": 1591,
+        "slotsAvailable": 1135,
+        "pctSlotsAvailable": 71.0
       }
     },
     {
@@ -7116,19 +7116,44 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 365,
+        "leadersWithSlots": 128,
+        "leadersAvailableToday": 73,
+        "today": 352,
         "t1": 507,
         "t2": 531,
         "t3": 524,
         "t4": 524,
         "t5": 499,
         "t6": 516,
-        "t7": null
+        "t7": 490
       },
       "categoryBreakdown": [],
-      "topLeaderSlots": [],
+      "topLeaderSlots": [
+        {
+          "name": "Disha Sharma",
+          "slots": 9
+        },
+        {
+          "name": "Moneka Ingley",
+          "slots": 3
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 8
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 9
+        },
+        {
+          "name": "Sumaa Mahesh Gowda",
+          "slots": 2
+        },
+        {
+          "name": "Tamanna Gulati",
+          "slots": 6
+        }
+      ],
       "slotsFilledToday": null,
       "pctSlotsFilledToday": null,
       "pageViews": {
@@ -7349,7 +7374,7 @@
         "t3": 524,
         "t4": 499,
         "t5": 516,
-        "t6": null,
+        "t6": 490,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -7565,7 +7590,7 @@
         "t2": 524,
         "t3": 499,
         "t4": 516,
-        "t5": null,
+        "t5": 490,
         "t6": null,
         "t7": null
       },
@@ -7773,7 +7798,7 @@
         "t1": 524,
         "t2": 499,
         "t3": 516,
-        "t4": null,
+        "t4": 490,
         "t5": null,
         "t6": null,
         "t7": null
@@ -8005,7 +8030,7 @@
         "today": 524,
         "t1": 499,
         "t2": 516,
-        "t3": null,
+        "t3": 490,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -8197,7 +8222,7 @@
         "leadersAvailableToday": null,
         "today": 499,
         "t1": 516,
-        "t2": null,
+        "t2": 490,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -8389,7 +8414,7 @@
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
         "today": 516,
-        "t1": null,
+        "t1": 490,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -8609,7 +8634,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 490,
         "t1": null,
         "t2": null,
         "t3": null,
