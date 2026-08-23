@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T06:48:51Z",
+  "lastUpdated": "2026-08-23T07:36:52Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -5939,7 +5939,7 @@
         "sessions": 9,
         "sessionTarget": 160,
         "sessionAchieved": 30,
-        "phasingTarget": 128,
+        "phasingTarget": 126,
         "phasingAchieved": 75
       },
       "offline": {
@@ -6024,10 +6024,6 @@
         },
         {
           "name": "Bansari Nagda",
-          "value": 2
-        },
-        {
-          "name": "Nayana Cariappa",
           "value": 2
         },
         {
@@ -6266,7 +6262,7 @@
         "sessions": 8,
         "sessionTarget": 75,
         "sessionAchieved": 14,
-        "phasingTarget": 165,
+        "phasingTarget": 164,
         "phasingAchieved": 86
       },
       "offline": {
@@ -6347,10 +6343,6 @@
         },
         {
           "name": "Arpana Khanna",
-          "value": 2
-        },
-        {
-          "name": "Nayana Cariappa",
           "value": 2
         },
         {
@@ -6597,7 +6589,7 @@
         "sessions": 5,
         "sessionTarget": 53,
         "sessionAchieved": 297,
-        "phasingTarget": 162,
+        "phasingTarget": 158,
         "phasingAchieved": 68
       },
       "offline": {
@@ -6643,10 +6635,6 @@
         {
           "name": "Nithya Shanti",
           "value": 5
-        },
-        {
-          "name": "Nayana Cariappa",
-          "value": 4
         },
         {
           "name": "Poonam Dhandania",
@@ -6901,10 +6889,10 @@
       "dayName": "Sunday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 236,
-        "sessionAchieved": 77,
-        "phasingTarget": 204,
+        "sessions": 6,
+        "sessionTarget": 226,
+        "sessionAchieved": 84,
+        "phasingTarget": 201,
         "phasingAchieved": null
       },
       "offline": {
@@ -6966,10 +6954,6 @@
         {
           "name": "Dr. Sweta Adatia",
           "value": 4
-        },
-        {
-          "name": "Nayana Cariappa",
-          "value": 3
         },
         {
           "name": "Poonam Dhandania",
@@ -7092,10 +7076,6 @@
         {
           "name": "Nithya Ji",
           "value": 50
-        },
-        {
-          "name": "Nayana Cariappa",
-          "value": 10
         },
         {
           "name": "Poonam Dhandania",
@@ -7394,7 +7374,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 286,
-        "sessionAchieved": 18,
+        "sessionAchieved": 19,
         "phasingTarget": 196,
         "phasingAchieved": null
       },
@@ -8053,7 +8033,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 105,
+        "sessionAchieved": 112,
         "phasingTarget": 241,
         "phasingAchieved": null
       },
@@ -10022,7 +10002,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 708,
-        "sessionAchieved": 17,
+        "sessionAchieved": 19,
         "phasingTarget": 179,
         "phasingAchieved": null
       },
