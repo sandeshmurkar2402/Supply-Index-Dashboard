@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T05:33:10Z",
+  "lastUpdated": "2026-08-23T06:48:51Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -24813,11 +24813,11 @@
         "d1": 25,
         "d0": 18
       },
-      "totalRegistrations": 58,
+      "totalRegistrations": 63,
       "phasingDays": 11,
-      "pctVsTarget": 39.0,
-      "revenueAchieved": 57896,
-      "pctRevenueVsTarget": 45.0
+      "pctVsTarget": 42.0,
+      "revenueAchieved": 62913,
+      "pctRevenueVsTarget": 49.0
     },
     {
       "leader": "Nithya Ji",
@@ -24844,42 +24844,11 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 14,
+      "totalRegistrations": 16,
       "phasingDays": 10,
-      "pctVsTarget": 28.0,
-      "revenueAchieved": 20616,
-      "pctRevenueVsTarget": 32.0
-    },
-    {
-      "leader": "Nayana Cariappa",
-      "target": 10,
-      "price": 850,
-      "revenueTarget": 8500,
-      "courseInstanceId": "6513",
-      "courseId": "1677",
-      "date": "2026-08-23",
-      "time": "11:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Philosophy behind the Devi Mahatmya, Learning the Mantra",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 2,
-        "d2": 2,
-        "d1": 4,
-        "d0": 3
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 32.0,
+      "revenueAchieved": 23626,
+      "pctRevenueVsTarget": 37.0
     },
     {
       "leader": "Poonam Dhandania",
@@ -25340,11 +25309,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 3,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 2590,
-      "pctRevenueVsTarget": 34.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 3499,
+      "pctRevenueVsTarget": 45.0
     },
     {
       "leader": "Dr. Devanshi",
@@ -25836,11 +25805,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 101,
+      "totalRegistrations": 108,
       "phasingDays": 10,
-      "pctVsTarget": 14.0,
-      "revenueAchieved": 101169,
-      "pctRevenueVsTarget": 17.0
+      "pctVsTarget": 15.0,
+      "revenueAchieved": 108190,
+      "pctRevenueVsTarget": 18.0
     },
     {
       "leader": "Jyotismita Das",
@@ -27572,10 +27541,10 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 16,
+      "totalRegistrations": 18,
       "phasingDays": 11,
-      "pctVsTarget": 2.0,
-      "revenueAchieved": 18902,
+      "pctVsTarget": 3.0,
+      "revenueAchieved": 21310,
       "pctRevenueVsTarget": 3.0
     },
     {
