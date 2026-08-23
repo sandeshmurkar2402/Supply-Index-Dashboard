@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T08:35:33Z",
+  "lastUpdated": "2026-08-23T09:31:51Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6891,7 +6891,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 226,
-        "sessionAchieved": 84,
+        "sessionAchieved": 85,
         "phasingTarget": 201,
         "phasingAchieved": null
       },
@@ -7374,7 +7374,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 286,
-        "sessionAchieved": 19,
+        "sessionAchieved": 20,
         "phasingTarget": 196,
         "phasingAchieved": null
       },
@@ -7800,7 +7800,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 90,
-        "sessionAchieved": 3,
+        "sessionAchieved": 4,
         "phasingTarget": 222,
         "phasingAchieved": null
       },
@@ -8033,7 +8033,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 112,
+        "sessionAchieved": 118,
         "phasingTarget": 241,
         "phasingAchieved": null
       },
@@ -24824,11 +24824,11 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 16,
+      "totalRegistrations": 17,
       "phasingDays": 10,
-      "pctVsTarget": 32.0,
-      "revenueAchieved": 23626,
-      "pctRevenueVsTarget": 37.0
+      "pctVsTarget": 34.0,
+      "revenueAchieved": 25131,
+      "pctRevenueVsTarget": 39.0
     },
     {
       "leader": "Poonam Dhandania",
@@ -25196,11 +25196,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 5,
       "pctVsTarget": 5.0,
-      "revenueAchieved": 9027,
-      "pctRevenueVsTarget": 5.0
+      "revenueAchieved": 10030,
+      "pctRevenueVsTarget": 6.0
     },
     {
       "leader": "Mrridula Bali",
@@ -25568,11 +25568,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 3,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 561,
-      "pctRevenueVsTarget": 8.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 1122,
+      "pctRevenueVsTarget": 16.0
     },
     {
       "leader": "Dr. Mitali Jaiswal",
@@ -25785,11 +25785,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 108,
+      "totalRegistrations": 114,
       "phasingDays": 10,
-      "pctVsTarget": 15.0,
-      "revenueAchieved": 108190,
-      "pctRevenueVsTarget": 18.0
+      "pctVsTarget": 16.0,
+      "revenueAchieved": 114209,
+      "pctRevenueVsTarget": 19.0
     },
     {
       "leader": "Jyotismita Das",
