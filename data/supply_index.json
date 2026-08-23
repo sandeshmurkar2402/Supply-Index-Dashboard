@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:25:47Z",
+  "lastUpdated": "2026-08-23T22:26:59Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -6891,7 +6891,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 226,
-        "sessionAchieved": 85,
+        "sessionAchieved": 89,
         "phasingTarget": 201,
         "phasingAchieved": 12
       },
@@ -7101,7 +7101,7 @@
         },
         {
           "name": "Nithya Ji",
-          "missed": 33
+          "missed": 30
         },
         {
           "name": "Poonam Dhandania",
@@ -7399,7 +7399,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 286,
-        "sessionAchieved": 20,
+        "sessionAchieved": 21,
         "phasingTarget": 196,
         "phasingAchieved": null
       },
@@ -8058,7 +8058,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 123,
+        "sessionAchieved": 133,
         "phasingTarget": 241,
         "phasingAchieved": null
       },
@@ -9778,14 +9778,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 59,
-        "sessionAchieved": 4,
+        "sessionAchieved": 5,
         "phasingTarget": 212,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 3,
+        "sessionAchieved": 4,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -11429,7 +11429,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 84,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 64,
         "phasingAchieved": null
       },
@@ -24849,11 +24849,11 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 17,
+      "totalRegistrations": 20,
       "phasingDays": 10,
-      "pctVsTarget": 34.0,
-      "revenueAchieved": 25131,
-      "pctRevenueVsTarget": 39.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 29646,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Poonam Dhandania",
@@ -25221,10 +25221,10 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 10,
+      "totalRegistrations": 11,
       "phasingDays": 5,
-      "pctVsTarget": 5.0,
-      "revenueAchieved": 10030,
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 11033,
       "pctRevenueVsTarget": 6.0
     },
     {
@@ -25810,11 +25810,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 119,
+      "totalRegistrations": 129,
       "phasingDays": 10,
-      "pctVsTarget": 17.0,
-      "revenueAchieved": 119224,
-      "pctRevenueVsTarget": 20.0
+      "pctVsTarget": 18.0,
+      "revenueAchieved": 129254,
+      "pctRevenueVsTarget": 22.0
     },
     {
       "leader": "Jyotismita Das",
@@ -28817,11 +28817,11 @@
         "d1": 7,
         "d0": 12
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 3.0,
+      "revenueAchieved": 1505,
+      "pctRevenueVsTarget": 3.0
     },
     {
       "leader": "Jaya Mandhian",
