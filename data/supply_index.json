@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T17:34:23Z",
+  "lastUpdated": "2026-08-24T18:46:36Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7188,18 +7188,18 @@
         "sessionTarget": 58,
         "sessionAchieved": 10,
         "phasingTarget": 137,
-        "phasingAchieved": null
+        "phasingAchieved": 4
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 16,
-        "phasingAchieved": null
+        "phasingAchieved": 4
       },
       "oneOnOne": {
         "phasingTarget": 25,
-        "phasingAchieved": null
+        "phasingAchieved": 2
       },
       "groupLeaderPhasingTargets": [
         {
@@ -7373,7 +7373,28 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Arpana Khanna",
+          "missed": 17
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "missed": 9
+        },
+        {
+          "name": "Lovish Kandoi",
+          "missed": 11
+        },
+        {
+          "name": "Meher Gehi",
+          "missed": 8
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 4
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 120,
         "leadersAvailableToday": 112,
@@ -7441,12 +7462,12 @@
           "slots": 4
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 2,
+      "pctSlotsFilledToday": 0.4,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 130,
+        "slotsAvailable": 87,
+        "pctSlotsAvailable": 67.0
       }
     },
     {
