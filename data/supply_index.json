@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T10:40:39Z",
+  "lastUpdated": "2026-08-24T11:33:03Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -12220,10 +12220,6 @@
         {
           "name": "Dr. Neha Racca",
           "value": 1
-        },
-        {
-          "name": "Gunjan Nautiyall",
-          "value": 1
         }
       ],
       "groupLeaderTargets": [
@@ -12425,10 +12421,6 @@
         {
           "name": "Preety",
           "value": 1
-        },
-        {
-          "name": "Gunjan Nautiyall",
-          "value": 1
         }
       ],
       "groupLeaderTargets": [
@@ -12480,7 +12472,7 @@
         "sessions": 9,
         "sessionTarget": 49,
         "sessionAchieved": 1,
-        "phasingTarget": 139,
+        "phasingTarget": 138,
         "phasingAchieved": null
       },
       "offline": {
@@ -12621,10 +12613,6 @@
         },
         {
           "name": "Dr. Neha Racca",
-          "value": 1
-        },
-        {
-          "name": "Gunjan Nautiyall",
           "value": 1
         },
         {
@@ -12817,10 +12805,6 @@
           "value": 1
         },
         {
-          "name": "Gunjan Nautiyall",
-          "value": 1
-        },
-        {
           "name": "Ambika Ganesh",
           "value": 1
         },
@@ -12986,10 +12970,6 @@
           "value": 1
         },
         {
-          "name": "Gunjan Nautiyall",
-          "value": 1
-        },
-        {
           "name": "Divyaa",
           "value": 1
         },
@@ -13060,10 +13040,10 @@
       "dayName": "Sunday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 68,
+        "sessions": 4,
+        "sessionTarget": 67,
         "sessionAchieved": 0,
-        "phasingTarget": 150,
+        "phasingTarget": 149,
         "phasingAchieved": null
       },
       "offline": {
@@ -13175,10 +13155,6 @@
           "value": 1
         },
         {
-          "name": "Gunjan Nautiyall",
-          "value": 1
-        },
-        {
           "name": "Jyotismita Das",
           "value": 1
         },
@@ -13203,10 +13179,6 @@
         {
           "name": "Nithya Shanti",
           "value": 40
-        },
-        {
-          "name": "Gunjan Nautiyall",
-          "value": 1
         },
         {
           "name": "Devi Nidhi Saraswat",
@@ -26753,7 +26725,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "TBC",
+      "topic": "A Money Healing Journey with EFT + Reiki",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
@@ -30209,37 +30181,6 @@
       },
       "totalRegistrations": null,
       "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Gunjan Nautiyall",
-      "target": 1,
-      "price": 755,
-      "revenueTarget": 755,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-09-20",
-      "time": "12:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "",
-      "topic": "TBC",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
       "pctVsTarget": 0.0,
       "revenueAchieved": null,
       "pctRevenueVsTarget": 0.0
