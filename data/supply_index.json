@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T09:53:08Z",
+  "lastUpdated": "2026-08-24T10:40:39Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -10499,7 +10499,7 @@
         "sessions": 7,
         "sessionTarget": 46,
         "sessionAchieved": 1,
-        "phasingTarget": 125,
+        "phasingTarget": 123,
         "phasingAchieved": null
       },
       "offline": {
@@ -10568,10 +10568,6 @@
         },
         {
           "name": "Kajal Thakkar",
-          "value": 2
-        },
-        {
-          "name": "Shalini Chugh",
           "value": 2
         },
         {
@@ -10728,7 +10724,7 @@
         "sessions": 7,
         "sessionTarget": 44,
         "sessionAchieved": 0,
-        "phasingTarget": 207,
+        "phasingTarget": 206,
         "phasingAchieved": null
       },
       "offline": {
@@ -10789,10 +10785,6 @@
         },
         {
           "name": "Kajal Thakkar",
-          "value": 2
-        },
-        {
-          "name": "Shalini Chugh",
           "value": 2
         },
         {
@@ -10965,7 +10957,7 @@
         "sessions": 9,
         "sessionTarget": 103,
         "sessionAchieved": 1,
-        "phasingTarget": 210,
+        "phasingTarget": 206,
         "phasingAchieved": null
       },
       "offline": {
@@ -10995,10 +10987,6 @@
         {
           "name": "Nithya Ji",
           "value": 5
-        },
-        {
-          "name": "Shalini Chugh",
-          "value": 4
         },
         {
           "name": "Dr. Neha Racca",
@@ -11211,10 +11199,10 @@
       "dayName": "Friday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 834,
+        "sessions": 4,
+        "sessionTarget": 824,
         "sessionAchieved": 6,
-        "phasingTarget": 198,
+        "phasingTarget": 195,
         "phasingAchieved": null
       },
       "offline": {
@@ -11256,10 +11244,6 @@
         {
           "name": "Aditi Grover",
           "value": 4
-        },
-        {
-          "name": "Shalini Chugh",
-          "value": 3
         },
         {
           "name": "Ellaeenah Niloufer",
@@ -11379,10 +11363,6 @@
         }
       ],
       "groupLeaderTargets": [
-        {
-          "name": "Shalini Chugh",
-          "value": 10
-        },
         {
           "name": "Dr. Rashmi N Muthalkar",
           "value": 800
@@ -28464,37 +28444,6 @@
       "phasingDays": null,
       "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Shalini Chugh",
-      "target": 10,
-      "price": 770,
-      "revenueTarget": 7700,
-      "courseInstanceId": "7290",
-      "courseId": "1750",
-      "date": "2026-09-11",
-      "time": "11:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "7 Chakra Healing for Anxiety",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 2,
-        "d2": 2,
-        "d1": 4,
-        "d0": 3
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
