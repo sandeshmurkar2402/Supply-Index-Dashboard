@@ -293,6 +293,9 @@
   }
   table.data-table thead th:first-child { text-align: left; }
   table.data-table thead th.ta-left { text-align: left; }
+  table.data-table thead th.sortable { cursor: pointer; user-select: none; }
+  table.data-table thead th.sortable:hover { color: var(--text); background: var(--surface); }
+  table.data-table thead th .sort-arrow { font-size: 0.6rem; margin-left: 3px; color: var(--blue); }
   table.data-table tbody td {
     padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--border);
     font-variant-numeric: tabular-nums; color: var(--text-2); white-space: nowrap;
@@ -316,22 +319,39 @@
   .dnm-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-weight: 700; color: var(--critical); background: color-mix(in srgb, var(--critical) 18%, transparent); }
 
   /* ── Calendar tab: filters & day chips ───────────────── */
-  .cal-filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin-bottom: 12px; }
-  .filter-field { display: flex; flex-direction: column; gap: 4px; flex: 0 1 170px; }
-  .filter-label { font-size: 0.66rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .cal-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-start; margin-bottom: 12px; }
+  .filter-field { display: flex; flex-direction: column; gap: 4px; flex: 0 1 124px; }
+  .filter-label { font-size: 0.64rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
   .filter-field select {
     background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
-    color: var(--text); padding: 6px 8px; font-size: 0.78rem; font-family: inherit; width: 100%; min-width: 140px; max-width: 220px;
+    color: var(--text); padding: 6px 6px; font-size: 0.76rem; font-family: inherit; width: 100%; min-width: 0; max-width: 220px;
   }
   .filter-field input[type=date] {
     background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
-    color: var(--text); padding: 5px 8px; font-size: 0.78rem; font-family: inherit; width: 100%;
+    color: var(--text); padding: 5px 6px; font-size: 0.76rem; font-family: inherit; width: 100%;
+  }
+  /* ── Numeric range filters (Registrations Target, Revenue Target, etc.) ── */
+  .numeric-filter { flex-basis: 152px; }
+  .num-filter-row { display: flex; gap: 3px; align-items: center; }
+  .num-filter-mode {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
+    color: var(--text); padding: 5px 4px; font-size: 0.7rem; font-family: inherit; flex: 1 1 auto; min-width: 0;
+  }
+  .num-filter-clear {
+    background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text-2);
+    border-radius: 6px; width: 20px; height: 23px; flex: 0 0 auto; cursor: pointer; font-size: 0.8rem; line-height: 1;
+  }
+  .num-filter-clear:hover { border-color: var(--critical); color: var(--critical); }
+  .num-filter-values { display: flex; gap: 3px; margin-top: 4px; }
+  .num-filter-input {
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
+    color: var(--text); padding: 5px 4px; font-size: 0.7rem; font-family: inherit; width: 100%; min-width: 0;
   }
   .multiselect { position: relative; }
   .ms-btn {
     background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px;
-    color: var(--text); padding: 6px 8px; font-size: 0.78rem; font-family: inherit;
-    width: 100%; min-width: 140px; max-width: 220px; text-align: left; cursor: pointer;
+    color: var(--text); padding: 6px 6px; font-size: 0.76rem; font-family: inherit;
+    width: 100%; min-width: 0; max-width: 220px; text-align: left; cursor: pointer;
     display: flex; align-items: center; justify-content: space-between; gap: 6px;
   }
   .ms-caret { font-size: 0.6rem; color: var(--muted); }
@@ -608,6 +628,69 @@ const CAL_FILTER_ACCESSORS = {
 /* These filters allow an explicit "(Blank)" option so sessions with a missing value
    can be selected/excluded rather than being silently unfilterable. */
 const BLANK_AWARE_FILTER_KEYS = new Set(['bucket', 'courseInstanceId', 'courseId', 'time']);
+
+/* Numeric range filters — Registrations Target / Revenue Target / Registered / Revenue.
+   Each has a mode ('all' | 'between' | 'eq' | 'gte' | 'lte' | 'list') plus up to two raw
+   text values ('a'/'b') whose meaning depends on the mode: between uses a=min, b=max;
+   eq/gte/lte use a as the single value; list uses a as a comma-separated string. */
+function blankNumFilter() { return { mode: 'all', a: '', b: '' }; }
+let CAL_NUM_FILTERS = {
+  target: blankNumFilter(),
+  revenueTarget: blankNumFilter(),
+  totalRegistrations: blankNumFilter(),
+  revenueAchieved: blankNumFilter(),
+  price: blankNumFilter(),
+};
+const CAL_NUM_FILTER_ACCESSORS = {
+  target: s => s.target,
+  revenueTarget: s => s.revenueTarget,
+  totalRegistrations: s => s.totalRegistrations,
+  revenueAchieved: s => s.revenueAchieved,
+  price: s => s.price,
+};
+function parseNumList(raw) {
+  const set = new Set();
+  String(raw || '').split(',').forEach(tok => {
+    const t = tok.trim();
+    if (t === '') return;
+    const n = Number(t);
+    if (!isNaN(n)) set.add(n);
+  });
+  return set;
+}
+function numFilterMatches(filter, value) {
+  if (!filter || filter.mode === 'all') return true;
+  if (value === null || value === undefined) return false;
+  const v = Number(value);
+  if (isNaN(v)) return false;
+  switch (filter.mode) {
+    case 'between': {
+      const lo = filter.a === '' ? -Infinity : Number(filter.a);
+      const hi = filter.b === '' ? Infinity : Number(filter.b);
+      return v >= lo && v <= hi;
+    }
+    case 'eq': return filter.a !== '' && v === Number(filter.a);
+    case 'gte': return filter.a !== '' && v >= Number(filter.a);
+    case 'lte': return filter.a !== '' && v <= Number(filter.a);
+    case 'list': {
+      const list = parseNumList(filter.a);
+      return list.size > 0 && list.has(v);
+    }
+    default: return true;
+  }
+}
+function setNumFilterMode(key, mode) {
+  CAL_NUM_FILTERS[key] = { mode, a: '', b: '' };
+  render();
+}
+function setNumFilterValue(key, field, value) {
+  CAL_NUM_FILTERS[key][field] = value;
+  render();
+}
+function clearNumFilter(key) {
+  CAL_NUM_FILTERS[key] = blankNumFilter();
+  render();
+}
 let CAL_LEADER_MODE = 'absolute';
 let LEADER_METRIC = 'regTargets';
 let DAYWISE_TARGET_MODE = 'registrations';
@@ -1373,6 +1456,40 @@ function multiSelectHtml(group, key, label, options, labelFn) {
   </div>`;
 }
 
+const NUM_FILTER_MODES = [
+  ['all', 'All'], ['between', 'Between'], ['eq', 'Equals'],
+  ['gte', '>='], ['lte', '<='], ['list', 'List'],
+];
+function numFilterHtml(key, label) {
+  const f = CAL_NUM_FILTERS[key];
+  let valueInputs = '';
+  if (f.mode === 'between') {
+    valueInputs = `<div class="num-filter-values">
+      <input type="number" class="num-filter-input" placeholder="Min" value="${f.a}" onchange="setNumFilterValue('${key}','a', this.value)" />
+      <input type="number" class="num-filter-input" placeholder="Max" value="${f.b}" onchange="setNumFilterValue('${key}','b', this.value)" />
+    </div>`;
+  } else if (f.mode === 'eq' || f.mode === 'gte' || f.mode === 'lte') {
+    valueInputs = `<div class="num-filter-values">
+      <input type="number" class="num-filter-input" placeholder="Value" value="${f.a}" onchange="setNumFilterValue('${key}','a', this.value)" />
+    </div>`;
+  } else if (f.mode === 'list') {
+    valueInputs = `<div class="num-filter-values">
+      <input type="text" class="num-filter-input" placeholder="e.g. 50, 75, 80" value="${(f.a || '').replace(/"/g, '&quot;')}" onchange="setNumFilterValue('${key}','a', this.value)" />
+    </div>`;
+  }
+  const clearBtn = f.mode !== 'all' ? `<button type="button" class="num-filter-clear" title="Clear" onclick="clearNumFilter('${key}')">&times;</button>` : '';
+  return `<div class="filter-field numeric-filter">
+    <span class="filter-label">${label}</span>
+    <div class="num-filter-row">
+      <select class="num-filter-mode" onchange="setNumFilterMode('${key}', this.value)">
+        ${NUM_FILTER_MODES.map(([v, l]) => `<option value="${v}" ${f.mode === v ? 'selected' : ''}>${l}</option>`).join('')}
+      </select>
+      ${clearBtn}
+    </div>
+    ${valueInputs}
+  </div>`;
+}
+
 function filteredSessions() {
   return SESSIONS.filter(s => {
     if (CAL_FILTERS.dateFrom && s.date < CAL_FILTERS.dateFrom) return false;
@@ -1381,6 +1498,9 @@ function filteredSessions() {
     for (const key in CAL_FILTER_ACCESSORS) {
       const set = CAL_FILTERS[key];
       if (set.size && !set.has(CAL_FILTER_ACCESSORS[key](s))) return false;
+    }
+    for (const key in CAL_NUM_FILTER_ACCESSORS) {
+      if (!numFilterMatches(CAL_NUM_FILTERS[key], CAL_NUM_FILTER_ACCESSORS[key](s))) return false;
     }
     return true;
   });
@@ -1450,6 +1570,9 @@ function clearAllCalFilters() {
   for (const key in CAL_FILTER_ACCESSORS) {
     CAL_FILTERS[key] = new Set();
   }
+  for (const key in CAL_NUM_FILTER_ACCESSORS) {
+    CAL_NUM_FILTERS[key] = blankNumFilter();
+  }
   CAL_DAYS = new Set(DOW);
   render();
 }
@@ -1491,6 +1614,11 @@ function calendarFiltersHtml() {
   html += multiSelectHtml('cal', 'bucket', 'Time Bucket', buckets);
   html += multiSelectHtml('cal', 'courseInstanceId', 'Course Instance Id', courseInstanceIds);
   html += multiSelectHtml('cal', 'courseId', 'Course Id', courseIds);
+  html += numFilterHtml('target', 'Registrations Target');
+  html += numFilterHtml('revenueTarget', 'Revenue Target');
+  html += numFilterHtml('totalRegistrations', 'Registered');
+  html += numFilterHtml('revenueAchieved', 'Revenue');
+  html += numFilterHtml('price', 'Price');
   html += `</div>`;
   html += calDatePresetHtml();
   html += dayChipsHtml(CAL_DAYS, 'toggleCalDay');
@@ -1539,7 +1667,7 @@ function calendarSessionsTable(sessions) {
     s.timeBucket || '', s.courseInstanceId || '', s.courseId || '', s.topic || '',
   ]);
   return tableCard('Sessions', headers, body, false, true, true, [3, 5, 6, 7, 17],
-    { filename: 'sessions.csv', headers, rows: csvRows });
+    { filename: 'sessions.csv', headers, rows: csvRows }, 'sessions');
 }
 
 function renderCalendarTab(root) {
@@ -1639,7 +1767,7 @@ function renderCalendarTab(root) {
   html += `<div class="section-title">Leader Contribution to Overall Target</div>`;
   html += `<div style="margin-top:6px;">`;
   html += tableCard(null, leaderTableHeaders, leaderTableRows, false, true, false, null,
-    { filename: 'leader-contribution.csv', headers: leaderTableHeaders, rows: leaderTableCsvRows });
+    { filename: 'leader-contribution.csv', headers: leaderTableHeaders, rows: leaderTableCsvRows }, 'leaderContribution');
   html += `</div>`;
 
   const leaderCats = leaderAgg.map(l => l.leader);
@@ -1786,7 +1914,7 @@ function renderCalendarTab(root) {
       phaseLabels.map((lbl, i) => [
         lbl, fmtNum(phaseTotals[i]),
         phasingTotalTarget ? fmtPct((phaseTotals[i] / phasingTotalTarget) * 100, 1) : '—',
-      ]), false, true);
+      ]), false, true, false, null, null, 'phasingContribution');
     html += `</div>`;
   }
 
@@ -1818,17 +1946,58 @@ function downloadCSVById(id) {
   const data = CSV_REGISTRY[id];
   if (data) downloadCSV(data.filename, data.headers, data.rows);
 }
-function tableCard(title, headers, rows, standalone, zebra, tall, leftAlignCols, csvExport) {
+
+/* Click-to-sort table headers. State is keyed by a caller-chosen stable sortId (NOT an
+   auto-incrementing sequence like CSV/CHART registries) so a column's sort persists
+   across re-renders triggered by unrelated filter/tab changes elsewhere on the page. */
+const TABLE_SORT_STATE = {};
+function sortTableColumn(sortId, col) {
+  const state = TABLE_SORT_STATE[sortId] || (TABLE_SORT_STATE[sortId] = { col: null, dir: null });
+  if (state.col !== col) { state.col = col; state.dir = 'asc'; }
+  else if (state.dir === 'asc') { state.dir = 'desc'; }
+  else { state.col = null; state.dir = null; }
+  render();
+}
+/* Cells are already-rendered strings (may contain HTML badges) — strip tags, then try a
+   numeric read (stripping commas/%) before falling back to case-insensitive text compare. */
+function sortCellValue(cell) {
+  const text = String(cell === null || cell === undefined ? '' : cell).replace(/<[^>]*>/g, '').trim();
+  if (text === '' || text === '—') return { num: null, text: '', blank: true };
+  const num = Number(text.replace(/[,%]/g, ''));
+  return { num: isNaN(num) ? null : num, text: text.toLowerCase(), blank: false };
+}
+function compareForSort(a, b, dir) {
+  const va = sortCellValue(a), vb = sortCellValue(b);
+  if (va.blank && vb.blank) return 0;
+  if (va.blank) return 1;   // blanks always sort last, regardless of direction
+  if (vb.blank) return -1;
+  const cmp = (va.num !== null && vb.num !== null) ? va.num - vb.num : va.text.localeCompare(vb.text);
+  return dir === 'desc' ? -cmp : cmp;
+}
+function tableCard(title, headers, rows, standalone, zebra, tall, leftAlignCols, csvExport, sortId) {
   const isLeft = ci => leftAlignCols && leftAlignCols.includes(ci);
-  const head = `<tr>${headers.map((h, hi) => `<th${isLeft(hi) ? ' class="ta-left"' : ''}>${h}</th>`).join('')}</tr>`;
-  const body = rows.length
-    ? rows.map(r => `<tr>${r.map((c, ci) => `<td${isLeft(ci) ? ' class="ta-left"' : ''}>${c}</td>`).join('')}</tr>`).join('')
+  const sortState = sortId ? (TABLE_SORT_STATE[sortId] || (TABLE_SORT_STATE[sortId] = { col: null, dir: null })) : null;
+  const displayRows = (sortState && sortState.col !== null)
+    ? [...rows].sort((r1, r2) => compareForSort(r1[sortState.col], r2[sortState.col], sortState.dir))
+    : rows;
+  const head = `<tr>${headers.map((h, hi) => {
+    if (!sortId) return `<th${isLeft(hi) ? ' class="ta-left"' : ''}>${h}</th>`;
+    const cls = ['sortable']; if (isLeft(hi)) cls.push('ta-left');
+    const arrow = sortState.col === hi ? ` <span class="sort-arrow">${sortState.dir === 'asc' ? '&#9650;' : '&#9660;'}</span>` : '';
+    return `<th class="${cls.join(' ')}" onclick="sortTableColumn('${sortId}', ${hi})">${h}${arrow}</th>`;
+  }).join('')}</tr>`;
+  const body = displayRows.length
+    ? displayRows.map(r => `<tr>${r.map((c, ci) => `<td${isLeft(ci) ? ' class="ta-left"' : ''}>${c}</td>`).join('')}</tr>`).join('')
     : `<tr><td colspan="${headers.length}" class="empty-note">No data</td></tr>`;
   const table = `<div class="table-wrap${tall ? ' tall' : ''}"><table class="data-table${zebra ? ' zebra' : ''}"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
   let downloadBtn = '';
   if (csvExport) {
     const id = 'csv-' + (CSV_SEQ++);
-    CSV_REGISTRY[id] = csvExport;
+    let csvRows = csvExport.rows;
+    if (sortState && sortState.col !== null) {
+      csvRows = [...csvRows].sort((r1, r2) => compareForSort(r1[sortState.col], r2[sortState.col], sortState.dir));
+    }
+    CSV_REGISTRY[id] = { filename: csvExport.filename, headers: csvExport.headers, rows: csvRows };
     downloadBtn = `<button class="csv-btn" onclick="downloadCSVById('${id}')">⭳ Download CSV</button>`;
   }
   if (standalone) return (downloadBtn ? `<div class="table-actions">${downloadBtn}</div>` : '') + table;
