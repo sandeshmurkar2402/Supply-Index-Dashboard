@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T07:49:16Z",
+  "lastUpdated": "2026-08-25T08:49:02Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -9210,10 +9210,6 @@
           "value": 1
         },
         {
-          "name": "Ruchika Uppal",
-          "value": 1
-        },
-        {
           "name": "Bijal Sunil Doshi",
           "value": 1
         },
@@ -9431,10 +9427,6 @@
           "value": 1
         },
         {
-          "name": "Ruchika Uppal",
-          "value": 1
-        },
-        {
           "name": "Bijal Sunil Doshi",
           "value": 1
         },
@@ -9496,7 +9488,7 @@
         "sessions": 7,
         "sessionTarget": 61,
         "sessionAchieved": 1,
-        "phasingTarget": 187,
+        "phasingTarget": 186,
         "phasingAchieved": null
       },
       "offline": {
@@ -9653,10 +9645,6 @@
         },
         {
           "name": "Meher Gehi",
-          "value": 1
-        },
-        {
-          "name": "Ruchika Uppal",
           "value": 1
         },
         {
@@ -9893,10 +9881,6 @@
           "value": 1
         },
         {
-          "name": "Ruchika Uppal",
-          "value": 1
-        },
-        {
           "name": "Bijal Sunil Doshi",
           "value": 1
         },
@@ -10130,10 +10114,6 @@
           "value": 1
         },
         {
-          "name": "Ruchika Uppal",
-          "value": 1
-        },
-        {
           "name": "Bijal Sunil Doshi",
           "value": 1
         },
@@ -10268,8 +10248,8 @@
       "dayName": "Sunday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 708,
+        "sessions": 4,
+        "sessionTarget": 707,
         "sessionAchieved": 27,
         "phasingTarget": 207,
         "phasingAchieved": null
@@ -10419,10 +10399,6 @@
           "value": 1
         },
         {
-          "name": "Ruchika Uppal",
-          "value": 1
-        },
-        {
           "name": "Bijal Sunil Doshi",
           "value": 1
         },
@@ -10468,10 +10444,6 @@
         }
       ],
       "groupLeaderTargets": [
-        {
-          "name": "Ruchika Uppal",
-          "value": 1
-        },
         {
           "name": "Bijal Sunil Doshi",
           "value": 1
@@ -28088,37 +28060,6 @@
       "pctVsTarget": 5.0,
       "revenueAchieved": 8020,
       "pctRevenueVsTarget": 6.0
-    },
-    {
-      "leader": "Ruchika Uppal",
-      "target": 1,
-      "price": 850,
-      "revenueTarget": 850,
-      "courseInstanceId": "7302",
-      "courseId": "1748",
-      "date": "2026-09-06",
-      "time": "11:30",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Build your Traumagram for Healing",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Bijal Sunil Doshi",
