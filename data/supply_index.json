@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T11:32:37Z",
+  "lastUpdated": "2026-08-25T12:54:18Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7719,7 +7719,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 12,
+        "sessionAchieved": 17,
         "phasingTarget": 227,
         "phasingAchieved": null
       },
@@ -7873,6 +7873,10 @@
         },
         {
           "name": "Sharmila Awasthi",
+          "value": 1
+        },
+        {
+          "name": "Sayalee Jadhav",
           "value": 1
         },
         {
@@ -8101,6 +8105,10 @@
           "value": 1
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
           "name": "Supriya Chhabra",
           "value": 1
         },
@@ -8173,7 +8181,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 198,
+        "sessionAchieved": 202,
         "phasingTarget": 266,
         "phasingAchieved": null
       },
@@ -8274,15 +8282,15 @@
           "value": 1
         },
         {
-          "name": "Simran Jadhwani",
-          "value": 1
-        },
-        {
           "name": "Nattasha Kapoor",
           "value": 1
         },
         {
           "name": "Dr. Ddevika",
+          "value": 1
+        },
+        {
+          "name": "Simran Jadhwani",
           "value": 1
         },
         {
@@ -8307,6 +8315,10 @@
         },
         {
           "name": "Divyaa",
+          "value": 1
+        },
+        {
+          "name": "Sayalee Jadhav",
           "value": 1
         },
         {
@@ -8366,7 +8378,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 36,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 160,
         "phasingAchieved": null
       },
@@ -8467,6 +8479,10 @@
           "value": 1
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
           "name": "Divyaa",
           "value": 1
         },
@@ -8564,7 +8580,7 @@
         "sessions": 5,
         "sessionTarget": 280,
         "sessionAchieved": 32,
-        "phasingTarget": 204,
+        "phasingTarget": 206,
         "phasingAchieved": null
       },
       "offline": {
@@ -8673,6 +8689,10 @@
         },
         {
           "name": "Parul Khanna",
+          "value": 1
+        },
+        {
+          "name": "Sayalee Jadhav",
           "value": 1
         },
         {
@@ -8789,7 +8809,7 @@
         "sessions": 6,
         "sessionTarget": 81,
         "sessionAchieved": 3,
-        "phasingTarget": 180,
+        "phasingTarget": 195,
         "phasingAchieved": null
       },
       "offline": {
@@ -8814,7 +8834,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 13
+          "value": 25
         },
         {
           "name": "Manka Malik",
@@ -8870,6 +8890,10 @@
         },
         {
           "name": "Lovina Gidwani",
+          "value": 2
+        },
+        {
+          "name": "Sayalee Jadhav",
           "value": 2
         },
         {
@@ -9015,10 +9039,10 @@
       "dayName": "Tuesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 406,
-        "sessionAchieved": 16,
-        "phasingTarget": 174,
+        "sessions": 7,
+        "sessionTarget": 413,
+        "sessionAchieved": 17,
+        "phasingTarget": 194,
         "phasingAchieved": null
       },
       "offline": {
@@ -9043,7 +9067,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 18
+          "value": 36
         },
         {
           "name": "Nattasha Kapoor",
@@ -9064,6 +9088,10 @@
         {
           "name": "Devi Nidhi Saraswat",
           "value": 4
+        },
+        {
+          "name": "Sayalee Jadhav",
+          "value": 3
         },
         {
           "name": "Lovina Gidwani",
@@ -9114,11 +9142,11 @@
           "value": 1
         },
         {
-          "name": "Prateek Bajaj",
+          "name": "Parul Khanna",
           "value": 1
         },
         {
-          "name": "Parul Khanna",
+          "name": "Prateek Bajaj",
           "value": 1
         },
         {
@@ -9178,34 +9206,46 @@
           "value": 1
         },
         {
+          "name": "Ruchika Uppal",
+          "value": 1
+        },
+        {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
           "name": "Rishi Nanda",
           "value": 1
         }
       ],
       "groupLeaderTargets": [
         {
-          "name": "Simran Jadhwani",
-          "value": 10
-        },
-        {
-          "name": "Violet Tara",
-          "value": 11
+          "name": "Dr. Tamanna C",
+          "value": 350
         },
         {
           "name": "Nattasha Kapoor",
           "value": 15
         },
         {
+          "name": "Dr. Ddevika",
+          "value": 15
+        },
+        {
+          "name": "Violet Tara",
+          "value": 11
+        },
+        {
+          "name": "Simran Jadhwani",
+          "value": 10
+        },
+        {
           "name": "Divyaa",
           "value": 5
         },
         {
-          "name": "Dr. Tamanna C",
-          "value": 350
-        },
-        {
-          "name": "Dr. Ddevika",
-          "value": 15
+          "name": "Sayalee Jadhav",
+          "value": 7
         }
       ],
       "groupMissedTargets": [],
@@ -9239,7 +9279,7 @@
         "sessions": 3,
         "sessionTarget": 31,
         "sessionAchieved": 0,
-        "phasingTarget": 175,
+        "phasingTarget": 193,
         "phasingAchieved": null
       },
       "offline": {
@@ -9264,7 +9304,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 18
+          "value": 36
         },
         {
           "name": "Devi Nidhi Saraswat",
@@ -9391,6 +9431,14 @@
           "value": 1
         },
         {
+          "name": "Ruchika Uppal",
+          "value": 1
+        },
+        {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
           "name": "Rishi Nanda",
           "value": 1
         },
@@ -9405,12 +9453,12 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Abhirammi",
-          "value": 10
-        },
-        {
           "name": "Lovina Gidwani",
           "value": 11
+        },
+        {
+          "name": "Abhirammi",
+          "value": 10
         },
         {
           "name": "Poonam Dhandania",
@@ -9448,7 +9496,7 @@
         "sessions": 7,
         "sessionTarget": 61,
         "sessionAchieved": 1,
-        "phasingTarget": 186,
+        "phasingTarget": 208,
         "phasingAchieved": null
       },
       "offline": {
@@ -9473,7 +9521,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 18
+          "value": 36
         },
         {
           "name": "Devi Nidhi Saraswat",
@@ -9488,15 +9536,19 @@
           "value": 5
         },
         {
+          "name": "Nithya Ji",
+          "value": 4
+        },
+        {
           "name": "Neera Sareen",
           "value": 3
         },
         {
-          "name": "Seemaa Dhingra",
+          "name": "Akanksha Walia",
           "value": 3
         },
         {
-          "name": "Akanksha Walia",
+          "name": "Seemaa Dhingra",
           "value": 3
         },
         {
@@ -9608,6 +9660,14 @@
           "value": 1
         },
         {
+          "name": "Ruchika Uppal",
+          "value": 1
+        },
+        {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
           "name": "Rishi Nanda",
           "value": 1
         },
@@ -9634,7 +9694,15 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Devi Nidhi Saraswat",
+          "value": 25
+        },
+        {
           "name": "Neera Sareen",
+          "value": 10
+        },
+        {
+          "name": "Akanksha Walia",
           "value": 10
         },
         {
@@ -9642,24 +9710,16 @@
           "value": 9
         },
         {
-          "name": "Sujata Dutta",
-          "value": 1
-        },
-        {
-          "name": "Akanksha Walia",
-          "value": 10
-        },
-        {
           "name": "Divyaa",
           "value": 5
         },
         {
-          "name": "Meher Gehi",
+          "name": "Sujata Dutta",
           "value": 1
         },
         {
-          "name": "Devi Nidhi Saraswat",
-          "value": 25
+          "name": "Meher Gehi",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -9693,7 +9753,7 @@
         "sessions": 7,
         "sessionTarget": 56,
         "sessionAchieved": 0,
-        "phasingTarget": 242,
+        "phasingTarget": 264,
         "phasingAchieved": null
       },
       "offline": {
@@ -9718,7 +9778,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 18
+          "value": 36
         },
         {
           "name": "Swapnil Gawde",
@@ -9734,6 +9794,10 @@
         },
         {
           "name": "Pranjal Katoch",
+          "value": 4
+        },
+        {
+          "name": "Nithya Ji",
           "value": 4
         },
         {
@@ -9837,11 +9901,19 @@
           "value": 1
         },
         {
-          "name": "Rishi Nanda",
+          "name": "Ruchika Uppal",
           "value": 1
         },
         {
           "name": "Bansari Nagda",
+          "value": 1
+        },
+        {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
           "value": 1
         },
         {
@@ -9879,20 +9951,16 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Bansari Nagda",
-          "value": 1
-        },
-        {
-          "name": "Dr. Kinnari I. Gupta",
-          "value": 10
-        },
-        {
           "name": "Priyanka Agarwal",
           "value": 18
         },
         {
-          "name": "Barkha Mahesh",
-          "value": 1
+          "name": "Pranjal Katoch",
+          "value": 11
+        },
+        {
+          "name": "Dr. Kinnari I. Gupta",
+          "value": 10
         },
         {
           "name": "Sidanta Goggate",
@@ -9903,8 +9971,12 @@
           "value": 5
         },
         {
-          "name": "Pranjal Katoch",
-          "value": 11
+          "name": "Bansari Nagda",
+          "value": 1
+        },
+        {
+          "name": "Barkha Mahesh",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -9938,7 +10010,7 @@
         "sessions": 8,
         "sessionTarget": 59,
         "sessionAchieved": 6,
-        "phasingTarget": 233,
+        "phasingTarget": 255,
         "phasingAchieved": null
       },
       "offline": {
@@ -9963,7 +10035,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 18
+          "value": 36
         },
         {
           "name": "Swapnil Gawde",
@@ -9976,6 +10048,10 @@
         {
           "name": "Vidhi Agarwal",
           "value": 5
+        },
+        {
+          "name": "Nithya Ji",
+          "value": 4
         },
         {
           "name": "Rashmi Shahbazker",
@@ -10066,6 +10142,14 @@
           "value": 1
         },
         {
+          "name": "Ruchika Uppal",
+          "value": 1
+        },
+        {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
           "name": "Rishi Nanda",
           "value": 1
         },
@@ -10132,8 +10216,12 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Supriya Chhabra",
-          "value": 1
+          "name": "Immersive Sound Experience",
+          "value": 75
+        },
+        {
+          "name": "Parul Khanna",
+          "value": 15
         },
         {
           "name": "Prateek Bajaj",
@@ -10142,14 +10230,6 @@
         {
           "name": "Rashmi Shahbazker",
           "value": 9
-        },
-        {
-          "name": "Parul Khanna",
-          "value": 15
-        },
-        {
-          "name": "Dr. Suchitra",
-          "value": 1
         },
         {
           "name": "Gunjan Adya",
@@ -10164,8 +10244,12 @@
           "value": 5
         },
         {
-          "name": "Immersive Sound Experience",
-          "value": 75
+          "name": "Supriya Chhabra",
+          "value": 1
+        },
+        {
+          "name": "Dr. Suchitra",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -10196,16 +10280,16 @@
       "dayName": "Sunday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 3,
-        "sessionTarget": 706,
-        "sessionAchieved": 27,
-        "phasingTarget": 206,
+        "sessions": 5,
+        "sessionTarget": 708,
+        "sessionAchieved": 31,
+        "phasingTarget": 228,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 300,
-        "sessionAchieved": 5,
+        "sessionAchieved": 9,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -10224,7 +10308,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 18
+          "value": 36
         },
         {
           "name": "Swapnil Gawde",
@@ -10243,15 +10327,15 @@
           "value": 5
         },
         {
+          "name": "Nithya Ji",
+          "value": 4
+        },
+        {
           "name": "Ashwini Kamath",
           "value": 3
         },
         {
           "name": "Ved Prakash",
-          "value": 3
-        },
-        {
-          "name": "Nithya Ji",
           "value": 3
         },
         {
@@ -10331,6 +10415,14 @@
           "value": 1
         },
         {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 1
+        },
+        {
           "name": "Navneeth Vallabh",
           "value": 1
         },
@@ -10347,7 +10439,7 @@
           "value": 1
         },
         {
-          "name": "Rishi Nanda",
+          "name": "Ruchika Uppal",
           "value": 1
         },
         {
@@ -10393,10 +10485,6 @@
           "value": 700
         },
         {
-          "name": "Rishi Nanda",
-          "value": 1
-        },
-        {
           "name": "Megh and Govind",
           "value": 250
         },
@@ -10407,6 +10495,18 @@
         {
           "name": "Sharmila Awasthi",
           "value": 5
+        },
+        {
+          "name": "Ruchika Uppal",
+          "value": 1
+        },
+        {
+          "name": "Bijal Sunil Doshi",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -10440,7 +10540,7 @@
         "sessions": 7,
         "sessionTarget": 53,
         "sessionAchieved": 1,
-        "phasingTarget": 137,
+        "phasingTarget": 158,
         "phasingAchieved": null
       },
       "offline": {
@@ -10461,7 +10561,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 18
+          "value": 36
         },
         {
           "name": "Vidhi Agarwal",
@@ -10488,6 +10588,10 @@
           "value": 4
         },
         {
+          "name": "Nithya Ji",
+          "value": 4
+        },
+        {
           "name": "Devina Fogla",
           "value": 4
         },
@@ -10501,10 +10605,6 @@
         },
         {
           "name": "Bhupali Deore",
-          "value": 3
-        },
-        {
-          "name": "Nithya Ji",
           "value": 3
         },
         {
@@ -10638,14 +10738,6 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Navneeth Vallabh",
-          "value": 1
-        },
-        {
-          "name": "Ashwini Kamath",
-          "value": 10
-        },
-        {
           "name": "Rhea Mathew",
           "value": 15
         },
@@ -10654,16 +10746,24 @@
           "value": 11
         },
         {
-          "name": "Punita Kadam",
-          "value": 1
+          "name": "Ashwini Kamath",
+          "value": 10
+        },
+        {
+          "name": "Devina Fogla",
+          "value": 10
         },
         {
           "name": "Meenakshi Mishra",
           "value": 5
         },
         {
-          "name": "Devina Fogla",
-          "value": 10
+          "name": "Navneeth Vallabh",
+          "value": 1
+        },
+        {
+          "name": "Punita Kadam",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -10697,7 +10797,7 @@
         "sessions": 8,
         "sessionTarget": 47,
         "sessionAchieved": 1,
-        "phasingTarget": 180,
+        "phasingTarget": 225,
         "phasingAchieved": null
       },
       "offline": {
@@ -10713,12 +10813,12 @@
       },
       "groupLeaderPhasingTargets": [
         {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 58
+          "name": "Dr. Tamanna C",
+          "value": 84
         },
         {
-          "name": "Dr. Tamanna C",
-          "value": 42
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 58
         },
         {
           "name": "Vidhi Agarwal",
@@ -10733,6 +10833,10 @@
           "value": 6
         },
         {
+          "name": "Ved Prakash",
+          "value": 4
+        },
+        {
           "name": "Sonika Vickraman",
           "value": 4
         },
@@ -10741,11 +10845,11 @@
           "value": 4
         },
         {
-          "name": "Ved Prakash",
+          "name": "Neha Kumra",
           "value": 4
         },
         {
-          "name": "Neha Kumra",
+          "name": "Nithya Ji",
           "value": 4
         },
         {
@@ -10762,10 +10866,6 @@
         },
         {
           "name": "Bhupali Deore",
-          "value": 3
-        },
-        {
-          "name": "Nithya Ji",
           "value": 3
         },
         {
@@ -10883,32 +10983,32 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Amrita Shah",
-          "value": 10
-        },
-        {
           "name": "Neha Kumra",
           "value": 11
         },
         {
-          "name": "Vanita Keswani",
-          "value": 1
-        },
-        {
-          "name": "Bhupali Deore",
-          "value": 8
-        },
-        {
-          "name": "Damini Grover",
-          "value": 1
+          "name": "Amrita Shah",
+          "value": 10
         },
         {
           "name": "Harpreet B Sharma",
           "value": 10
         },
         {
+          "name": "Bhupali Deore",
+          "value": 8
+        },
+        {
           "name": "Divyaa",
           "value": 5
+        },
+        {
+          "name": "Vanita Keswani",
+          "value": 1
+        },
+        {
+          "name": "Damini Grover",
+          "value": 1
         },
         {
           "name": "Nishi Shah",
@@ -10946,7 +11046,7 @@
         "sessions": 8,
         "sessionTarget": 64,
         "sessionAchieved": 0,
-        "phasingTarget": 261,
+        "phasingTarget": 306,
         "phasingAchieved": null
       },
       "offline": {
@@ -10967,7 +11067,7 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 42
+          "value": 84
         },
         {
           "name": "Vidhi Agarwal",
@@ -10986,11 +11086,11 @@
           "value": 6
         },
         {
-          "name": "Nithya Ji",
-          "value": 5
+          "name": "Jyotismita Das",
+          "value": 4
         },
         {
-          "name": "Jyotismita Das",
+          "name": "Nithya Ji",
           "value": 4
         },
         {
@@ -11136,6 +11236,14 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Ved Prakash",
+          "value": 20
+        },
+        {
+          "name": "Jyotismita Das",
+          "value": 11
+        },
+        {
           "name": "Sonika Vickraman",
           "value": 10
         },
@@ -11144,16 +11252,12 @@
           "value": 10
         },
         {
-          "name": "Jyotismita Das",
-          "value": 11
+          "name": "Jyoti Soni",
+          "value": 10
         },
         {
           "name": "Shilpa Goel",
           "value": 1
-        },
-        {
-          "name": "Jyoti Soni",
-          "value": 10
         },
         {
           "name": "Amritaa Shankar",
@@ -11162,10 +11266,6 @@
         {
           "name": "Vaidehi Surotia",
           "value": 1
-        },
-        {
-          "name": "Ved Prakash",
-          "value": 20
         }
       ],
       "groupMissedTargets": [],
@@ -11196,10 +11296,10 @@
       "dayName": "Thursday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 10,
-        "sessionTarget": 353,
+        "sessions": 9,
+        "sessionTarget": 603,
         "sessionAchieved": 1,
-        "phasingTarget": 245,
+        "phasingTarget": 274,
         "phasingAchieved": null
       },
       "offline": {
@@ -11220,11 +11320,15 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "value": 30
+          "value": 59
         },
         {
           "name": "Vidhi Agarwal",
           "value": 25
+        },
+        {
+          "name": "Nithya Ji",
+          "value": 9
         },
         {
           "name": "Swapnil Gawde",
@@ -11233,10 +11337,6 @@
         {
           "name": "Janhvi V Singh",
           "value": 6
-        },
-        {
-          "name": "Nithya Ji",
-          "value": 5
         },
         {
           "name": "Shreya Singh",
@@ -11252,6 +11352,10 @@
         },
         {
           "name": "Susitha Pappiah",
+          "value": 3
+        },
+        {
+          "name": "Nithya Shanti",
           "value": 3
         },
         {
@@ -11389,32 +11493,32 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Shaan",
-          "value": 1
-        },
-        {
-          "name": "Mahima Mor",
-          "value": 0
-        },
-        {
-          "name": "Sanyaas In The City",
-          "value": 1
-        },
-        {
-          "name": "Arpita Thakkar",
-          "value": 10
+          "name": "Dr. Tamanna C",
+          "value": 500
         },
         {
           "name": "Vidhi Agarwal",
           "value": 75
         },
         {
-          "name": "Divyaa",
-          "value": 4
+          "name": "Arpita Thakkar",
+          "value": 10
         },
         {
           "name": "Dr. Neha Racca",
           "value": 10
+        },
+        {
+          "name": "Divyaa",
+          "value": 4
+        },
+        {
+          "name": "Shaan",
+          "value": 1
+        },
+        {
+          "name": "Sanyaas In The City",
+          "value": 1
         },
         {
           "name": "Renu Kaushik",
@@ -11423,10 +11527,6 @@
         {
           "name": "Ashima Sood Patil",
           "value": 1
-        },
-        {
-          "name": "Dr. Tamanna C",
-          "value": 250
         }
       ],
       "groupMissedTargets": [],
@@ -11459,8 +11559,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 834,
-        "sessionAchieved": 6,
-        "phasingTarget": 206,
+        "sessionAchieved": 7,
+        "phasingTarget": 203,
         "phasingAchieved": null
       },
       "offline": {
@@ -11484,12 +11584,12 @@
           "value": 15
         },
         {
-          "name": "Susitha Pappiah",
-          "value": 8
+          "name": "Nithya Ji",
+          "value": 9
         },
         {
-          "name": "Nithya Ji",
-          "value": 7
+          "name": "Susitha Pappiah",
+          "value": 8
         },
         {
           "name": "Janhvi V Singh",
@@ -11505,6 +11605,10 @@
         },
         {
           "name": "Aditi Grover",
+          "value": 4
+        },
+        {
+          "name": "Nithya Shanti",
           "value": 4
         },
         {
@@ -11646,12 +11750,12 @@
           "value": 11
         },
         {
-          "name": "Deepa Shetty",
-          "value": 1
-        },
-        {
           "name": "Shreya Singh",
           "value": 10
+        },
+        {
+          "name": "Deepa Shetty",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -11683,9 +11787,9 @@
       "month": "Aug-26",
       "groupOnline": {
         "sessions": 9,
-        "sessionTarget": 84,
+        "sessionTarget": 99,
         "sessionAchieved": 1,
-        "phasingTarget": 71,
+        "phasingTarget": 72,
         "phasingAchieved": null
       },
       "offline": {
@@ -11706,7 +11810,7 @@
         },
         {
           "name": "Nithya Ji",
-          "value": 12
+          "value": 9
         },
         {
           "name": "Susitha Pappiah",
@@ -11726,6 +11830,10 @@
         },
         {
           "name": "Dr. Neelam Parwani",
+          "value": 4
+        },
+        {
+          "name": "Nithya Shanti",
           "value": 4
         },
         {
@@ -11867,16 +11975,28 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Nithya Ji",
+          "value": 50
+        },
+        {
           "name": "Susitha Pappiah",
           "value": 20
         },
         {
-          "name": "Mohini Srishati",
-          "value": 1
+          "name": "Rashi Gaur",
+          "value": 10
         },
         {
-          "name": "Nithya Ji",
-          "value": 35
+          "name": "Ellaeenah Niloufer",
+          "value": 10
+        },
+        {
+          "name": "Disha Sharma",
+          "value": 5
+        },
+        {
+          "name": "Mohini Srishati",
+          "value": 1
         },
         {
           "name": "Jaya Mandhian",
@@ -11887,20 +12007,8 @@
           "value": 1
         },
         {
-          "name": "Rashi Gaur",
-          "value": 10
-        },
-        {
-          "name": "Disha Sharma",
-          "value": 5
-        },
-        {
           "name": "Krishnna",
           "value": 1
-        },
-        {
-          "name": "Ellaeenah Niloufer",
-          "value": 10
         }
       ],
       "groupMissedTargets": [],
@@ -11934,7 +12042,7 @@
         "sessions": 6,
         "sessionTarget": 123,
         "sessionAchieved": 0,
-        "phasingTarget": 65,
+        "phasingTarget": 74,
         "phasingAchieved": null
       },
       "offline": {
@@ -11958,7 +12066,15 @@
           "value": 10
         },
         {
+          "name": "Smita Venkatesh",
+          "value": 6
+        },
+        {
           "name": "Shalini Chugh",
+          "value": 4
+        },
+        {
+          "name": "Nithya Shanti",
           "value": 4
         },
         {
@@ -12038,6 +12154,10 @@
           "value": 1
         },
         {
+          "name": "Dr. Devanshi",
+          "value": 1
+        },
+        {
           "name": "Divyaa",
           "value": 1
         },
@@ -12104,6 +12224,10 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Swapnil Gawde",
+          "value": 85
+        },
+        {
           "name": "Alipta Sabharwal",
           "value": 10
         },
@@ -12112,16 +12236,12 @@
           "value": 10
         },
         {
-          "name": "Loveena Bahl",
-          "value": 8
-        },
-        {
-          "name": "Swapnil Gawde",
-          "value": 85
-        },
-        {
           "name": "Dr. Neelam Parwani",
           "value": 9
+        },
+        {
+          "name": "Loveena Bahl",
+          "value": 8
         },
         {
           "name": "Sweta Gusain",
@@ -12159,7 +12279,7 @@
         "sessions": 6,
         "sessionTarget": 37,
         "sessionAchieved": 0,
-        "phasingTarget": 51,
+        "phasingTarget": 60,
         "phasingAchieved": null
       },
       "offline": {
@@ -12177,6 +12297,14 @@
         {
           "name": "Janhvi V Singh",
           "value": 14
+        },
+        {
+          "name": "Smita Venkatesh",
+          "value": 6
+        },
+        {
+          "name": "Nithya Shanti",
+          "value": 4
         },
         {
           "name": "Shweta Chatterjee",
@@ -12255,6 +12383,10 @@
           "value": 1
         },
         {
+          "name": "Dr. Devanshi",
+          "value": 1
+        },
+        {
           "name": "Prateek Bajaj",
           "value": 1
         },
@@ -12325,10 +12457,6 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Ashwini Bhave",
-          "value": 1
-        },
-        {
           "name": "Shweta Chatterjee",
           "value": 10
         },
@@ -12337,16 +12465,20 @@
           "value": 10
         },
         {
-          "name": "Suraj Raghav Ram",
-          "value": 1
+          "name": "Shalini Chugh",
+          "value": 10
         },
         {
           "name": "Meenakshi Mishra",
           "value": 5
         },
         {
-          "name": "Shalini Chugh",
-          "value": 10
+          "name": "Ashwini Bhave",
+          "value": 1
+        },
+        {
+          "name": "Suraj Raghav Ram",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -12380,7 +12512,7 @@
         "sessions": 8,
         "sessionTarget": 123,
         "sessionAchieved": 17,
-        "phasingTarget": 101,
+        "phasingTarget": 110,
         "phasingAchieved": null
       },
       "offline": {
@@ -12404,8 +12536,16 @@
           "value": 14
         },
         {
+          "name": "Smita Venkatesh",
+          "value": 6
+        },
+        {
           "name": "Rashika Kaul",
           "value": 5
+        },
+        {
+          "name": "Nithya Shanti",
+          "value": 4
         },
         {
           "name": "Amrita Shah",
@@ -12465,6 +12605,10 @@
         },
         {
           "name": "Denzil Oconnell",
+          "value": 1
+        },
+        {
+          "name": "Dr. Devanshi",
           "value": 1
         },
         {
@@ -12530,12 +12674,8 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Setu Gokani",
-          "value": 1
-        },
-        {
-          "name": "Preethi Balan",
-          "value": 1
+          "name": "Janhvi V Singh",
+          "value": 80
         },
         {
           "name": "Rashika Kaul",
@@ -12546,10 +12686,6 @@
           "value": 10
         },
         {
-          "name": "Taniyaa Gupta",
-          "value": 1
-        },
-        {
           "name": "Vidhya K",
           "value": 10
         },
@@ -12558,8 +12694,16 @@
           "value": 5
         },
         {
-          "name": "Janhvi V Singh",
-          "value": 80
+          "name": "Setu Gokani",
+          "value": 1
+        },
+        {
+          "name": "Preethi Balan",
+          "value": 1
+        },
+        {
+          "name": "Taniyaa Gupta",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -12593,7 +12737,7 @@
         "sessions": 4,
         "sessionTarget": 27,
         "sessionAchieved": 0,
-        "phasingTarget": 137,
+        "phasingTarget": 147,
         "phasingAchieved": null
       },
       "offline": {
@@ -12617,6 +12761,10 @@
           "value": 50
         },
         {
+          "name": "Smita Venkatesh",
+          "value": 6
+        },
+        {
           "name": "Neha Ranglani",
           "value": 4
         },
@@ -12625,15 +12773,19 @@
           "value": 4
         },
         {
+          "name": "Nithya Shanti",
+          "value": 4
+        },
+        {
+          "name": "Krishna Jangid",
+          "value": 3
+        },
+        {
           "name": "Pranjal Katoch",
           "value": 3
         },
         {
           "name": "Nattasha Kapoor",
-          "value": 3
-        },
-        {
-          "name": "Krishna Jangid",
           "value": 3
         },
         {
@@ -12662,6 +12814,10 @@
         },
         {
           "name": "Denzil Oconnell",
+          "value": 2
+        },
+        {
+          "name": "Dr. Devanshi",
           "value": 2
         },
         {
@@ -12743,20 +12899,20 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Chaittali",
-          "value": 7
-        },
-        {
-          "name": "Rishi Nanda",
-          "value": 1
+          "name": "Krupa Shah",
+          "value": 11
         },
         {
           "name": "Pranjal Katoch",
           "value": 8
         },
         {
-          "name": "Krupa Shah",
-          "value": 11
+          "name": "Chaittali",
+          "value": 7
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -12790,7 +12946,7 @@
         "sessions": 9,
         "sessionTarget": 49,
         "sessionAchieved": 1,
-        "phasingTarget": 147,
+        "phasingTarget": 154,
         "phasingAchieved": null
       },
       "offline": {
@@ -12822,7 +12978,7 @@
           "value": 7
         },
         {
-          "name": "Nithya Shanti",
+          "name": "Smita Venkatesh",
           "value": 6
         },
         {
@@ -12830,15 +12986,19 @@
           "value": 4
         },
         {
+          "name": "Nithya Shanti",
+          "value": 4
+        },
+        {
           "name": "Devi Nidhi Saraswat",
           "value": 4
         },
         {
-          "name": "Binita Aamol Rege",
+          "name": "Krishna Jangid",
           "value": 3
         },
         {
-          "name": "Krishna Jangid",
+          "name": "Binita Aamol Rege",
           "value": 3
         },
         {
@@ -12867,6 +13027,10 @@
         },
         {
           "name": "Denzil Oconnell",
+          "value": 2
+        },
+        {
+          "name": "Dr. Devanshi",
           "value": 2
         },
         {
@@ -12899,6 +13063,10 @@
         },
         {
           "name": "Dr. Ddevika",
+          "value": 1
+        },
+        {
+          "name": "Pallavi Kambo",
           "value": 1
         },
         {
@@ -12952,20 +13120,28 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Bansari Nagda",
-          "value": 1
+          "name": "Neha Ranglani",
+          "value": 20
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "value": 12
         },
         {
           "name": "Ridhhimaa Tandon",
           "value": 7
         },
         {
-          "name": "Swati Ahluwalia",
+          "name": "Divyaa",
+          "value": 5
+        },
+        {
+          "name": "Bansari Nagda",
           "value": 1
         },
         {
-          "name": "Neha Ranglani",
-          "value": 20
+          "name": "Swati Ahluwalia",
+          "value": 1
         },
         {
           "name": "Meheck Mukherjee",
@@ -12978,14 +13154,6 @@
         {
           "name": "Rishita Makhija",
           "value": 1
-        },
-        {
-          "name": "Nattasha Kapoor",
-          "value": 12
-        },
-        {
-          "name": "Divyaa",
-          "value": 5
         }
       ],
       "groupMissedTargets": [],
@@ -13019,7 +13187,7 @@
         "sessions": 4,
         "sessionTarget": 21,
         "sessionAchieved": 0,
-        "phasingTarget": 156,
+        "phasingTarget": 172,
         "phasingAchieved": null
       },
       "offline": {
@@ -13047,12 +13215,20 @@
           "value": 11
         },
         {
+          "name": "Nithya Shanti",
+          "value": 9
+        },
+        {
           "name": "Krishna Jangid",
+          "value": 8
+        },
+        {
+          "name": "Smita Venkatesh",
           "value": 6
         },
         {
-          "name": "Nithya Shanti",
-          "value": 6
+          "name": "Shweta Singh Kirti",
+          "value": 5
         },
         {
           "name": "Nayana Cariappa",
@@ -13067,10 +13243,6 @@
           "value": 4
         },
         {
-          "name": "Shweta Singh Kirti",
-          "value": 3
-        },
-        {
           "name": "Binita Aamol Rege",
           "value": 3
         },
@@ -13080,6 +13252,10 @@
         },
         {
           "name": "Denzil Oconnell",
+          "value": 2
+        },
+        {
+          "name": "Dr. Devanshi",
           "value": 2
         },
         {
@@ -13128,6 +13304,10 @@
         },
         {
           "name": "Dr. Ddevika",
+          "value": 1
+        },
+        {
+          "name": "Pallavi Kambo",
           "value": 1
         },
         {
@@ -13161,20 +13341,20 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Ambika Ganesh",
-          "value": 1
+          "name": "Peyush Bhatia",
+          "value": 10
         },
         {
           "name": "Binita Aamol Rege",
           "value": 9
         },
         {
-          "name": "Dr. Nehaa Jain",
+          "name": "Ambika Ganesh",
           "value": 1
         },
         {
-          "name": "Peyush Bhatia",
-          "value": 10
+          "name": "Dr. Nehaa Jain",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -13205,10 +13385,10 @@
       "dayName": "Saturday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 53,
+        "sessions": 8,
+        "sessionTarget": 68,
         "sessionAchieved": 2,
-        "phasingTarget": 160,
+        "phasingTarget": 165,
         "phasingAchieved": null
       },
       "offline": {
@@ -13232,19 +13412,27 @@
           "value": 50
         },
         {
-          "name": "Nithya Shanti",
-          "value": 16
-        },
-        {
           "name": "Guru Maa MeeMaa",
           "value": 11
+        },
+        {
+          "name": "Nithya Shanti",
+          "value": 9
+        },
+        {
+          "name": "Krishna Jangid",
+          "value": 6
+        },
+        {
+          "name": "Smita Venkatesh",
+          "value": 6
         },
         {
           "name": "Devi Nidhi Saraswat",
           "value": 5
         },
         {
-          "name": "Krishna Jangid",
+          "name": "Shweta Singh Kirti",
           "value": 5
         },
         {
@@ -13252,11 +13440,11 @@
           "value": 4
         },
         {
-          "name": "Nayana Cariappa",
-          "value": 3
+          "name": "Dr. Devanshi",
+          "value": 4
         },
         {
-          "name": "Shweta Singh Kirti",
+          "name": "Nayana Cariappa",
           "value": 3
         },
         {
@@ -13313,6 +13501,10 @@
         },
         {
           "name": "Dr. Ddevika",
+          "value": 1
+        },
+        {
+          "name": "Pallavi Kambo",
           "value": 1
         },
         {
@@ -13354,32 +13546,36 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Ruchika Uppal",
-          "value": 6
-        },
-        {
-          "name": "Supriya Chhabra",
-          "value": 1
-        },
-        {
-          "name": "Prateek Bajaj",
-          "value": 7
-        },
-        {
           "name": "Krishna Jangid",
-          "value": 15
+          "value": 20
         },
         {
           "name": "Denzil Oconnell",
           "value": 10
         },
         {
+          "name": "Nayana Cariappa",
+          "value": 9
+        },
+        {
+          "name": "Prateek Bajaj",
+          "value": 7
+        },
+        {
+          "name": "Ruchika Uppal",
+          "value": 6
+        },
+        {
           "name": "Disha Sharma",
           "value": 5
         },
         {
-          "name": "Nayana Cariappa",
-          "value": 9
+          "name": "Supriya Chhabra",
+          "value": 1
+        },
+        {
+          "name": "Dr. Devanshi",
+          "value": 10
         }
       ],
       "groupMissedTargets": [],
@@ -13411,9 +13607,9 @@
       "month": "Aug-26",
       "groupOnline": {
         "sessions": 4,
-        "sessionTarget": 67,
+        "sessionTarget": 77,
         "sessionAchieved": 0,
-        "phasingTarget": 164,
+        "phasingTarget": 175,
         "phasingAchieved": null
       },
       "offline": {
@@ -13437,12 +13633,16 @@
           "value": 50
         },
         {
-          "name": "Nithya Shanti",
-          "value": 12
+          "name": "Smita Venkatesh",
+          "value": 13
         },
         {
           "name": "Guru Maa MeeMaa",
           "value": 11
+        },
+        {
+          "name": "Shweta Singh Kirti",
+          "value": 10
         },
         {
           "name": "Devi Nidhi Saraswat",
@@ -13453,8 +13653,8 @@
           "value": 6
         },
         {
-          "name": "Shweta Singh Kirti",
-          "value": 5
+          "name": "Nithya Shanti",
+          "value": 6
         },
         {
           "name": "Swapnil Gawde",
@@ -13490,6 +13690,10 @@
         },
         {
           "name": "Dr. Ddevika",
+          "value": 2
+        },
+        {
+          "name": "Pallavi Kambo",
           "value": 2
         },
         {
@@ -13559,20 +13763,20 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Nithya Shanti",
+          "value": 50
+        },
+        {
+          "name": "Devi Nidhi Saraswat",
+          "value": 25
+        },
+        {
           "name": "Dr. Neha Racca",
           "value": 1
         },
         {
           "name": "Preety",
           "value": 1
-        },
-        {
-          "name": "Nithya Shanti",
-          "value": 40
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
-          "value": 25
         }
       ],
       "groupMissedTargets": [],
@@ -13606,7 +13810,7 @@
         "sessions": 3,
         "sessionTarget": 28,
         "sessionAchieved": 0,
-        "phasingTarget": 170,
+        "phasingTarget": 193,
         "phasingAchieved": null
       },
       "offline": {
@@ -13630,12 +13834,16 @@
           "value": 50
         },
         {
-          "name": "Guru Maa MeeMaa",
-          "value": 11
+          "name": "Shweta Singh Kirti",
+          "value": 15
         },
         {
-          "name": "Shweta Singh Kirti",
-          "value": 8
+          "name": "Smita Venkatesh",
+          "value": 13
+        },
+        {
+          "name": "Guru Maa MeeMaa",
+          "value": 11
         },
         {
           "name": "Rhea Mathew",
@@ -13687,6 +13895,10 @@
         },
         {
           "name": "Dr. Ddevika",
+          "value": 2
+        },
+        {
+          "name": "Pallavi Kambo",
           "value": 2
         },
         {
@@ -13768,12 +13980,12 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Dushyant",
-          "value": 8
-        },
-        {
           "name": "Rhea Mathew",
           "value": 15
+        },
+        {
+          "name": "Dushyant",
+          "value": 8
         },
         {
           "name": "Meenakshi Mishra",
@@ -13808,10 +14020,10 @@
       "dayName": "Tuesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 69,
+        "sessions": 6,
+        "sessionTarget": 169,
         "sessionAchieved": 0,
-        "phasingTarget": 244,
+        "phasingTarget": 268,
         "phasingAchieved": null
       },
       "offline": {
@@ -13835,12 +14047,16 @@
           "value": 50
         },
         {
-          "name": "Guru Maa MeeMaa",
-          "value": 11
+          "name": "Shweta Singh Kirti",
+          "value": 15
         },
         {
-          "name": "Shweta Singh Kirti",
-          "value": 8
+          "name": "Smita Venkatesh",
+          "value": 13
+        },
+        {
+          "name": "Guru Maa MeeMaa",
+          "value": 11
         },
         {
           "name": "Amrita Shah",
@@ -13871,6 +14087,10 @@
           "value": 4
         },
         {
+          "name": "Vidhi Agarwal",
+          "value": 4
+        },
+        {
           "name": "Susitha Pappiah",
           "value": 3
         },
@@ -13883,11 +14103,11 @@
           "value": 2
         },
         {
-          "name": "Dr. Jiggnna Desai",
+          "name": "Pallavi Kambo",
           "value": 2
         },
         {
-          "name": "Vidhi Agarwal",
+          "name": "Dr. Jiggnna Desai",
           "value": 2
         },
         {
@@ -13965,6 +14185,10 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Shweta Singh Kirti",
+          "value": 50
+        },
+        {
           "name": "Amrita Shah",
           "value": 15
         },
@@ -13973,16 +14197,16 @@
           "value": 12
         },
         {
-          "name": "Shweta Singh Kirti",
-          "value": 25
+          "name": "Ved Prakash",
+          "value": 12
         },
         {
           "name": "Divyaa",
           "value": 5
         },
         {
-          "name": "Ved Prakash",
-          "value": 12
+          "name": "Smita Venkatesh",
+          "value": 75
         }
       ],
       "groupMissedTargets": [],
@@ -14013,10 +14237,10 @@
       "dayName": "Wednesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 68,
+        "sessions": 8,
+        "sessionTarget": 78,
         "sessionAchieved": 0,
-        "phasingTarget": 304,
+        "phasingTarget": 307,
         "phasingAchieved": null
       },
       "offline": {
@@ -14068,6 +14292,14 @@
           "value": 4
         },
         {
+          "name": "Pallavi Kambo",
+          "value": 4
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "value": 4
+        },
+        {
           "name": "Sukhmani Bajwa",
           "value": 4
         },
@@ -14097,10 +14329,6 @@
         },
         {
           "name": "Hanuman Dass",
-          "value": 2
-        },
-        {
-          "name": "Vidhi Agarwal",
           "value": 2
         },
         {
@@ -14174,7 +14402,23 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Swapnil Gawde",
+          "value": 25
+        },
+        {
+          "name": "Sukhmani Bajwa",
+          "value": 11
+        },
+        {
           "name": "Sonika Vickraman",
+          "value": 10
+        },
+        {
+          "name": "Rooppreet Caur",
+          "value": 10
+        },
+        {
+          "name": "Dr. Ddevika",
           "value": 10
         },
         {
@@ -14182,24 +14426,12 @@
           "value": 1
         },
         {
-          "name": "Rooppreet Caur",
-          "value": 10
-        },
-        {
           "name": "Krishnna",
           "value": 1
         },
         {
-          "name": "Dr. Ddevika",
+          "name": "Pallavi Kambo",
           "value": 10
-        },
-        {
-          "name": "Swapnil Gawde",
-          "value": 25
-        },
-        {
-          "name": "Sukhmani Bajwa",
-          "value": 11
         }
       ],
       "groupMissedTargets": [],
@@ -14273,6 +14505,10 @@
           "value": 4
         },
         {
+          "name": "Vidhi Agarwal",
+          "value": 4
+        },
+        {
           "name": "Dr. Jiggnna Desai",
           "value": 3
         },
@@ -14306,10 +14542,6 @@
         },
         {
           "name": "Arjun Aiyar",
-          "value": 2
-        },
-        {
-          "name": "Vidhi Agarwal",
           "value": 2
         },
         {
@@ -14379,28 +14611,28 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Susitha Pappiah",
-          "value": 20
+          "name": "Kavyal Sedanni",
+          "value": 700
         },
         {
-          "name": "Dr. Mitali Jaiswal",
-          "value": 7
+          "name": "Susitha Pappiah",
+          "value": 20
         },
         {
           "name": "Dr. Jiggnna Desai",
           "value": 10
         },
         {
-          "name": "Kavyal Sedanni",
-          "value": 700
+          "name": "Akanksha Walia",
+          "value": 10
+        },
+        {
+          "name": "Dr. Mitali Jaiswal",
+          "value": 7
         },
         {
           "name": "Divyaa",
           "value": 5
-        },
-        {
-          "name": "Akanksha Walia",
-          "value": 10
         },
         {
           "name": "Gunjan Nautiyall",
@@ -14466,6 +14698,10 @@
           "value": 8
         },
         {
+          "name": "Vidhi Agarwal",
+          "value": 7
+        },
+        {
           "name": "Binita Aamol Rege",
           "value": 4
         },
@@ -14487,10 +14723,6 @@
         },
         {
           "name": "Siddhi Shah",
-          "value": 4
-        },
-        {
-          "name": "Vidhi Agarwal",
           "value": 4
         },
         {
@@ -14564,12 +14796,12 @@
           "value": 10
         },
         {
-          "name": "Nishi Shah",
-          "value": 1
-        },
-        {
           "name": "Siddhi Shah",
           "value": 10
+        },
+        {
+          "name": "Nishi Shah",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -14603,7 +14835,7 @@
         "sessions": 10,
         "sessionTarget": 80,
         "sessionAchieved": 21,
-        "phasingTarget": 69,
+        "phasingTarget": 77,
         "phasingAchieved": null
       },
       "offline": {
@@ -14621,6 +14853,10 @@
         {
           "name": "Guru Maa MeeMaa",
           "value": 26
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "value": 7
         },
         {
           "name": "Hiral Pawar",
@@ -14643,15 +14879,11 @@
           "value": 4
         },
         {
-          "name": "Vidhi Agarwal",
-          "value": 4
-        },
-        {
-          "name": "Binita Aamol Rege",
+          "name": "Dr. Vineet Aggarwal",
           "value": 3
         },
         {
-          "name": "Dr. Vineet Aggarwal",
+          "name": "Binita Aamol Rege",
           "value": 3
         },
         {
@@ -14709,12 +14941,8 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Aditi Grover",
-          "value": 1
-        },
-        {
-          "name": "Binita Aamol Rege",
-          "value": 10
+          "name": "Kavyal Sedanni",
+          "value": 570
         },
         {
           "name": "Hiral Pawar",
@@ -14725,8 +14953,8 @@
           "value": 15
         },
         {
-          "name": "Kavyal Sedanni",
-          "value": 570
+          "name": "Binita Aamol Rege",
+          "value": 10
         },
         {
           "name": "Shweta Chatterjee",
@@ -14737,20 +14965,24 @@
           "value": 9
         },
         {
-          "name": "Sayalee Jadhav",
-          "value": 1
-        },
-        {
-          "name": "Denzil Oconnell",
-          "value": 1
+          "name": "Ellaeenah Niloufer",
+          "value": 8
         },
         {
           "name": "Disha Sharma",
           "value": 5
         },
         {
-          "name": "Ellaeenah Niloufer",
-          "value": 8
+          "name": "Aditi Grover",
+          "value": 1
+        },
+        {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
+          "name": "Denzil Oconnell",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -14784,7 +15016,7 @@
         "sessions": 2,
         "sessionTarget": 170,
         "sessionAchieved": 0,
-        "phasingTarget": 56,
+        "phasingTarget": 66,
         "phasingAchieved": null
       },
       "offline": {
@@ -14804,12 +15036,12 @@
           "value": 18
         },
         {
-          "name": "Nattasha Kapoor",
-          "value": 6
+          "name": "Vidhi Agarwal",
+          "value": 10
         },
         {
-          "name": "Vidhi Agarwal",
-          "value": 5
+          "name": "Nattasha Kapoor",
+          "value": 6
         },
         {
           "name": "Hanuman Dass",
@@ -14850,12 +15082,12 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Nattasha Kapoor",
-          "value": 20
-        },
-        {
           "name": "Guru Maa MeeMaa",
           "value": 150
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "value": 20
         }
       ],
       "groupMissedTargets": [],
@@ -14887,9 +15119,9 @@
       "month": "Aug-26",
       "groupOnline": {
         "sessions": 3,
-        "sessionTarget": 40,
+        "sessionTarget": 65,
         "sessionAchieved": 0,
-        "phasingTarget": 41,
+        "phasingTarget": 49,
         "phasingAchieved": null
       },
       "offline": {
@@ -14906,7 +15138,7 @@
       "groupLeaderPhasingTargets": [
         {
           "name": "Vidhi Agarwal",
-          "value": 9
+          "value": 17
         },
         {
           "name": "Munisha Khatwani",
@@ -14947,12 +15179,12 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Shreya Singh",
-          "value": 10
+          "name": "Vidhi Agarwal",
+          "value": 50
         },
         {
-          "name": "Vidhi Agarwal",
-          "value": 25
+          "name": "Shreya Singh",
+          "value": 10
         },
         {
           "name": "Meenakshi Mishra",
@@ -15036,12 +15268,12 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Rashika Kaul",
-          "value": 10
+          "name": "Hanuman Dass",
+          "value": 30
         },
         {
-          "name": "Dr. Ruchi Gulati",
-          "value": 1
+          "name": "Rashika Kaul",
+          "value": 10
         },
         {
           "name": "Dr. Neelam Parwani",
@@ -15052,12 +15284,12 @@
           "value": 5
         },
         {
-          "name": "Damini Grover",
+          "name": "Dr. Ruchi Gulati",
           "value": 1
         },
         {
-          "name": "Hanuman Dass",
-          "value": 30
+          "name": "Damini Grover",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
