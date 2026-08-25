@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T06:55:32Z",
+  "lastUpdated": "2026-08-25T07:49:16Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7056,10 +7056,6 @@
           "value": 1
         },
         {
-          "name": "Sayalee Jadhav",
-          "value": 1
-        },
-        {
           "name": "Preety",
           "value": 1
         },
@@ -7332,10 +7328,6 @@
         },
         {
           "name": "Rhea Mathew",
-          "value": 1
-        },
-        {
-          "name": "Sayalee Jadhav",
           "value": 1
         },
         {
@@ -7638,10 +7630,6 @@
           "value": 1
         },
         {
-          "name": "Sayalee Jadhav",
-          "value": 1
-        },
-        {
           "name": "Swati Ahluwalia",
           "value": 1
         },
@@ -7896,10 +7884,6 @@
           "value": 1
         },
         {
-          "name": "Sayalee Jadhav",
-          "value": 1
-        },
-        {
           "name": "Disha Sharma",
           "value": 1
         },
@@ -7993,7 +7977,7 @@
         "sessions": 8,
         "sessionTarget": 90,
         "sessionAchieved": 6,
-        "phasingTarget": 248,
+        "phasingTarget": 246,
         "phasingAchieved": null
       },
       "offline": {
@@ -8113,10 +8097,6 @@
           "value": 1
         },
         {
-          "name": "Sayalee Jadhav",
-          "value": 1
-        },
-        {
           "name": "Sharmila Awasthi",
           "value": 1
         },
@@ -8158,10 +8138,6 @@
         },
         {
           "name": "Divyaa",
-          "value": 1
-        },
-        {
-          "name": "Manika Aggarwal",
           "value": 1
         }
       ],
@@ -8230,7 +8206,7 @@
         "sessions": 5,
         "sessionTarget": 736,
         "sessionAchieved": 190,
-        "phasingTarget": 269,
+        "phasingTarget": 266,
         "phasingAchieved": null
       },
       "offline": {
@@ -8310,10 +8286,6 @@
           "value": 2
         },
         {
-          "name": "Sayalee Jadhav",
-          "value": 2
-        },
-        {
           "name": "Binita Aamol Rege",
           "value": 2
         },
@@ -8372,10 +8344,6 @@
         {
           "name": "Supriya Chhabra",
           "value": 1
-        },
-        {
-          "name": "Manika Aggarwal",
-          "value": 1
         }
       ],
       "groupLeaderTargets": [
@@ -8428,10 +8396,10 @@
       "dayName": "Saturday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 43,
+        "sessions": 4,
+        "sessionTarget": 36,
         "sessionAchieved": 9,
-        "phasingTarget": 162,
+        "phasingTarget": 160,
         "phasingAchieved": null
       },
       "offline": {
@@ -8484,10 +8452,6 @@
         },
         {
           "name": "Vidhi Agarwal",
-          "value": 3
-        },
-        {
-          "name": "Sayalee Jadhav",
           "value": 3
         },
         {
@@ -8571,10 +8535,6 @@
           "value": 1
         },
         {
-          "name": "Manika Aggarwal",
-          "value": 1
-        },
-        {
           "name": "Sujata Dutta",
           "value": 1
         },
@@ -8595,10 +8555,6 @@
         {
           "name": "Ambika Ganesh",
           "value": 10
-        },
-        {
-          "name": "Sayalee Jadhav",
-          "value": 7
         },
         {
           "name": "Disha Sharma",
@@ -8785,10 +8741,6 @@
         },
         {
           "name": "Rhea Mathew",
-          "value": 1
-        },
-        {
-          "name": "Manika Aggarwal",
           "value": 1
         },
         {
@@ -9013,10 +8965,6 @@
           "value": 1
         },
         {
-          "name": "Manika Aggarwal",
-          "value": 1
-        },
-        {
           "name": "Disha Sharma",
           "value": 1
         },
@@ -9099,8 +9047,8 @@
       "dayName": "Tuesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 407,
+        "sessions": 6,
+        "sessionTarget": 406,
         "sessionAchieved": 15,
         "phasingTarget": 174,
         "phasingAchieved": null
@@ -9234,10 +9182,6 @@
           "value": 1
         },
         {
-          "name": "Manika Aggarwal",
-          "value": 1
-        },
-        {
           "name": "Meher Gehi",
           "value": 1
         },
@@ -9282,10 +9226,6 @@
         {
           "name": "Simran Jadhwani",
           "value": 10
-        },
-        {
-          "name": "Manika Aggarwal",
-          "value": 1
         },
         {
           "name": "Violet Tara",
@@ -26693,37 +26633,6 @@
       "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Sayalee Jadhav",
-      "target": 7,
-      "price": 1111,
-      "revenueTarget": 7777,
-      "courseInstanceId": "7345",
-      "courseId": "1703",
-      "date": "2026-08-29",
-      "time": "19:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Manifest Your Intentions With Sigil Magic",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 1,
-        "d2": 1,
-        "d1": 1,
-        "d0": 2
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Disha Sharma",
       "target": 5,
       "price": 410,
@@ -27212,37 +27121,6 @@
         "d2": 3,
         "d1": 3,
         "d0": 2
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Manika Aggarwal",
-      "target": 1,
-      "price": 699,
-      "revenueTarget": 699,
-      "courseInstanceId": "7373",
-      "courseId": "1763",
-      "date": "2026-09-01",
-      "time": "20:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Healing the Inner Critic",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
       },
       "totalRegistrations": 0,
       "phasingDays": null,
