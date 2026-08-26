@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T08:49:59Z",
+  "lastUpdated": "2026-08-26T09:47:56Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7740,7 +7740,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 68,
-        "sessionAchieved": 24,
+        "sessionAchieved": 26,
         "phasingTarget": 231,
         "phasingAchieved": null
       },
@@ -8026,7 +8026,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 90,
-        "sessionAchieved": 16,
+        "sessionAchieved": 17,
         "phasingTarget": 246,
         "phasingAchieved": null
       },
@@ -8255,7 +8255,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 234,
+        "sessionAchieved": 246,
         "phasingTarget": 266,
         "phasingAchieved": null
       },
@@ -8453,8 +8453,8 @@
         "phasingAchieved": null
       },
       "offline": {
-        "sessions": 1,
-        "sessionTarget": 125,
+        "sessions": 0,
+        "sessionTarget": 0,
         "sessionAchieved": 4,
         "phasingTarget": 22,
         "phasingAchieved": null
@@ -8595,10 +8595,6 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Immersive Kirtan",
-          "value": 125
-        },
-        {
           "name": "Susitha Pappiah",
           "value": 20
         },
@@ -8645,13 +8641,13 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 280,
-        "sessionAchieved": 40,
+        "sessionAchieved": 44,
         "phasingTarget": 201,
         "phasingAchieved": null
       },
       "offline": {
-        "sessions": 2,
-        "sessionTarget": 100,
+        "sessions": 1,
+        "sessionTarget": 50,
         "sessionAchieved": 12,
         "phasingTarget": 10,
         "phasingAchieved": null
@@ -8821,10 +8817,6 @@
         },
         {
           "name": "Smita Jayakar",
-          "value": 50
-        },
-        {
-          "name": "Swapnil Gawde",
           "value": 50
         },
         {
@@ -9091,7 +9083,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 398,
-        "sessionAchieved": 20,
+        "sessionAchieved": 21,
         "phasingTarget": 195,
         "phasingAchieved": null
       },
@@ -10048,8 +10040,8 @@
         "phasingAchieved": null
       },
       "offline": {
-        "sessions": 1,
-        "sessionTarget": 75,
+        "sessions": 0,
+        "sessionTarget": 0,
         "sessionAchieved": 4,
         "phasingTarget": 0,
         "phasingAchieved": null
@@ -10246,10 +10238,6 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Immersive Sound Experience",
-          "value": 75
-        },
-        {
           "name": "Parul Khanna",
           "value": 15
         },
@@ -10312,7 +10300,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 708,
-        "sessionAchieved": 35,
+        "sessionAchieved": 36,
         "phasingTarget": 235,
         "phasingAchieved": null
       },
@@ -26074,11 +26062,11 @@
         "d1": 6,
         "d0": 6
       },
-      "totalRegistrations": 12,
+      "totalRegistrations": 13,
       "phasingDays": 5,
-      "pctVsTarget": 60.0,
-      "revenueAchieved": 9641,
-      "pctRevenueVsTarget": 71.0
+      "pctVsTarget": 65.0,
+      "revenueAchieved": 10440,
+      "pctRevenueVsTarget": 77.0
     },
     {
       "leader": "Sonika Vickraman",
@@ -26198,11 +26186,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 7,
       "phasingDays": null,
-      "pctVsTarget": 600.0,
-      "revenueAchieved": 5310,
-      "pctRevenueVsTarget": 703.0
+      "pctVsTarget": 700.0,
+      "revenueAchieved": 6195,
+      "pctRevenueVsTarget": 821.0
     },
     {
       "leader": "Debanjan Medhi",
@@ -26446,11 +26434,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 3,
-      "pctVsTarget": 90.0,
-      "revenueAchieved": 8181,
-      "pctRevenueVsTarget": 106.0
+      "pctVsTarget": 100.0,
+      "revenueAchieved": 9090,
+      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Divyaa",
@@ -26508,11 +26496,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 228,
+      "totalRegistrations": 240,
       "phasingDays": 10,
-      "pctVsTarget": 33.0,
-      "revenueAchieved": 228291,
-      "pctRevenueVsTarget": 38.0
+      "pctVsTarget": 34.0,
+      "revenueAchieved": 240328,
+      "pctRevenueVsTarget": 40.0
     },
     {
       "leader": "Jyotismita Das",
@@ -26637,37 +26625,6 @@
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Immersive Kirtan",
-      "target": 125,
-      "price": 770,
-      "revenueTarget": 96250,
-      "courseInstanceId": "6541",
-      "courseId": "1023",
-      "date": "2026-08-29",
-      "time": "16:00",
-      "campaign": "OFFLINE",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "OFFLINE",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 125,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 4,
-      "phasingDays": 17,
-      "pctVsTarget": 3.0,
-      "revenueAchieved": 3636,
-      "pctRevenueVsTarget": 4.0
     },
     {
       "leader": "Susitha Pappiah",
@@ -26849,11 +26806,11 @@
         "d1": 10,
         "d0": 7
       },
-      "totalRegistrations": 17,
+      "totalRegistrations": 19,
       "phasingDays": 11,
-      "pctVsTarget": 28.0,
-      "revenueAchieved": 20468,
-      "pctRevenueVsTarget": 33.0
+      "pctVsTarget": 32.0,
+      "revenueAchieved": 22876,
+      "pctRevenueVsTarget": 37.0
     },
     {
       "leader": "Dr. Sweta Adatia",
@@ -26880,11 +26837,11 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 9,
       "phasingDays": 10,
-      "pctVsTarget": 14.0,
-      "revenueAchieved": 14384,
-      "pctRevenueVsTarget": 17.0
+      "pctVsTarget": 18.0,
+      "revenueAchieved": 18394,
+      "pctRevenueVsTarget": 22.0
     },
     {
       "leader": "Smita Jayakar",
@@ -26916,37 +26873,6 @@
       "pctVsTarget": 18.0,
       "revenueAchieved": 31851,
       "pctRevenueVsTarget": 25.0
-    },
-    {
-      "leader": "Swapnil Gawde",
-      "target": 50,
-      "price": 1699,
-      "revenueTarget": 84950,
-      "courseInstanceId": "6289",
-      "courseId": "1470",
-      "date": "2026-08-30",
-      "time": "11:00",
-      "campaign": "OFFLINE",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "OFFLINE",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 50,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 3,
-      "phasingDays": 6,
-      "pctVsTarget": 6.0,
-      "revenueAchieved": 6015,
-      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Sharmila Awasthi",
@@ -27221,10 +27147,10 @@
         "d1": 58,
         "d0": 58
       },
-      "totalRegistrations": 20,
+      "totalRegistrations": 21,
       "phasingDays": 10,
       "pctVsTarget": 6.0,
-      "revenueAchieved": 33020,
+      "revenueAchieved": 34671,
       "pctRevenueVsTarget": 7.0
     },
     {
@@ -27879,37 +27805,6 @@
       "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Immersive Sound Experience",
-      "target": 75,
-      "price": 1699,
-      "revenueTarget": 127425,
-      "courseInstanceId": "7464",
-      "courseId": "1614",
-      "date": "2026-09-05",
-      "time": "16:00",
-      "campaign": "OFFLINE",
-      "leaderTagging": "",
-      "language": "",
-      "topic": "OFFLINE",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 75,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 4,
-      "phasingDays": 6,
-      "pctVsTarget": 5.0,
-      "revenueAchieved": 8020,
-      "pctRevenueVsTarget": 6.0
-    },
-    {
       "leader": "Parul Khanna",
       "target": 15,
       "price": 1020,
@@ -28182,10 +28077,10 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 23,
+      "totalRegistrations": 24,
       "phasingDays": 11,
       "pctVsTarget": 3.0,
-      "revenueAchieved": 27330,
+      "revenueAchieved": 28534,
       "pctRevenueVsTarget": 4.0
     },
     {
@@ -28284,8 +28179,8 @@
     {
       "leader": "Ruchika Uppal",
       "target": 1,
-      "price": 850,
-      "revenueTarget": 850,
+      "price": 770,
+      "revenueTarget": 770,
       "courseInstanceId": "7302",
       "courseId": "1748",
       "date": "2026-09-06",
