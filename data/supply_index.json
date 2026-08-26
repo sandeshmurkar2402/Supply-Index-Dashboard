@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T04:43:55Z",
+  "lastUpdated": "2026-08-26T05:38:10Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -10031,10 +10031,6 @@
           "value": 1
         },
         {
-          "name": "Amritaa Shankar",
-          "value": 1
-        },
-        {
           "name": "Vaidehi Surotia",
           "value": 1
         }
@@ -10280,10 +10276,6 @@
           "value": 1
         },
         {
-          "name": "Amritaa Shankar",
-          "value": 1
-        },
-        {
           "name": "Vaidehi Surotia",
           "value": 1
         },
@@ -10373,7 +10365,7 @@
         "sessions": 5,
         "sessionTarget": 708,
         "sessionAchieved": 33,
-        "phasingTarget": 236,
+        "phasingTarget": 235,
         "phasingAchieved": null
       },
       "offline": {
@@ -10538,10 +10530,6 @@
         },
         {
           "name": "Shilpa Goel",
-          "value": 1
-        },
-        {
-          "name": "Amritaa Shankar",
           "value": 1
         },
         {
@@ -10782,10 +10770,6 @@
           "value": 1
         },
         {
-          "name": "Amritaa Shankar",
-          "value": 1
-        },
-        {
           "name": "Vaidehi Surotia",
           "value": 1
         },
@@ -10887,7 +10871,7 @@
         "sessions": 8,
         "sessionTarget": 47,
         "sessionAchieved": 1,
-        "phasingTarget": 220,
+        "phasingTarget": 219,
         "phasingAchieved": null
       },
       "offline": {
@@ -11015,10 +10999,6 @@
           "value": 1
         },
         {
-          "name": "Amritaa Shankar",
-          "value": 1
-        },
-        {
           "name": "Vaidehi Surotia",
           "value": 1
         },
@@ -11133,8 +11113,8 @@
       "dayName": "Wednesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 8,
-        "sessionTarget": 64,
+        "sessions": 7,
+        "sessionTarget": 63,
         "sessionAchieved": 0,
         "phasingTarget": 292,
         "phasingAchieved": null
@@ -11264,10 +11244,6 @@
           "value": 1
         },
         {
-          "name": "Amritaa Shankar",
-          "value": 1
-        },
-        {
           "name": "Vaidehi Surotia",
           "value": 1
         },
@@ -11347,10 +11323,6 @@
         },
         {
           "name": "Shilpa Goel",
-          "value": 1
-        },
-        {
-          "name": "Amritaa Shankar",
           "value": 1
         },
         {
@@ -29168,37 +29140,6 @@
       "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Amritaa Shankar",
-      "target": 1,
-      "price": 750,
-      "revenueTarget": 750,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-09-09",
-      "time": "20:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "TBC",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Vaidehi Surotia",
       "target": 1,
       "price": 770,
@@ -30543,7 +30484,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "",
-      "topic": "TBC",
+      "topic": "What If Your Emotional Blocks Are Blocking Your Manifestation?",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
