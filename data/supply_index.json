@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T10:39:14Z",
+  "lastUpdated": "2026-08-26T11:33:49Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7877,10 +7877,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Binita Aamol Rege",
           "value": 1
         },
@@ -8151,10 +8147,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Lovina Gidwani",
           "value": 1
         },
@@ -8368,10 +8360,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Lovina Gidwani",
           "value": 1
         },
@@ -8521,10 +8509,6 @@
           "value": 2
         },
         {
-          "name": "Violet Tara",
-          "value": 2
-        },
-        {
           "name": "Binita Aamol Rege",
           "value": 2
         },
@@ -8642,7 +8626,7 @@
         "sessions": 5,
         "sessionTarget": 280,
         "sessionAchieved": 44,
-        "phasingTarget": 201,
+        "phasingTarget": 197,
         "phasingAchieved": null
       },
       "offline": {
@@ -8715,10 +8699,6 @@
         },
         {
           "name": "Poonam Dhandania",
-          "value": 2
-        },
-        {
-          "name": "Violet Tara",
           "value": 2
         },
         {
@@ -8859,7 +8839,7 @@
         "sessions": 6,
         "sessionTarget": 81,
         "sessionAchieved": 3,
-        "phasingTarget": 188,
+        "phasingTarget": 184,
         "phasingAchieved": null
       },
       "offline": {
@@ -8916,10 +8896,6 @@
         },
         {
           "name": "Simran Jadhwani",
-          "value": 3
-        },
-        {
-          "name": "Violet Tara",
           "value": 3
         },
         {
@@ -9081,10 +9057,10 @@
       "dayName": "Tuesday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 398,
+        "sessions": 5,
+        "sessionTarget": 387,
         "sessionAchieved": 21,
-        "phasingTarget": 195,
+        "phasingTarget": 192,
         "phasingAchieved": null
       },
       "offline": {
@@ -9121,10 +9097,6 @@
         },
         {
           "name": "Poonam Dhandania",
-          "value": 4
-        },
-        {
-          "name": "Violet Tara",
           "value": 4
         },
         {
@@ -9264,10 +9236,6 @@
         {
           "name": "Dr. Ddevika",
           "value": 15
-        },
-        {
-          "name": "Violet Tara",
-          "value": 11
         },
         {
           "name": "Simran Jadhwani",
@@ -11963,10 +11931,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Rishita Makhija",
           "value": 1
         }
@@ -12204,10 +12168,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Rishita Makhija",
           "value": 1
         },
@@ -12429,10 +12389,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Rishita Makhija",
           "value": 1
         },
@@ -12646,10 +12602,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Rishita Makhija",
           "value": 1
         },
@@ -12735,7 +12687,7 @@
         "sessions": 4,
         "sessionTarget": 27,
         "sessionAchieved": 0,
-        "phasingTarget": 147,
+        "phasingTarget": 146,
         "phasingAchieved": null
       },
       "offline": {
@@ -12859,10 +12811,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Rishita Makhija",
           "value": 1
         },
@@ -12941,8 +12889,8 @@
       "dayName": "Thursday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 9,
-        "sessionTarget": 49,
+        "sessions": 8,
+        "sessionTarget": 48,
         "sessionAchieved": 1,
         "phasingTarget": 154,
         "phasingAchieved": null
@@ -13076,10 +13024,6 @@
           "value": 1
         },
         {
-          "name": "Violet Tara",
-          "value": 1
-        },
-        {
           "name": "Rishita Makhija",
           "value": 1
         },
@@ -13143,10 +13087,6 @@
         },
         {
           "name": "Meheck Mukherjee",
-          "value": 1
-        },
-        {
-          "name": "Violet Tara",
           "value": 1
         },
         {
@@ -27185,37 +27125,6 @@
       "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Violet Tara",
-      "target": 11,
-      "price": 699,
-      "revenueTarget": 7689,
-      "courseInstanceId": "7402",
-      "courseId": "1830",
-      "date": "2026-09-01",
-      "time": "20:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "",
-      "topic": "Ho'oponopono + EFT Meditation for Releasing Grief & Heavy Burdens",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 1,
-        "d5": 1,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 2,
-        "d0": 4
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Simran Jadhwani",
       "target": 10,
       "price": 500,
@@ -30623,37 +30532,6 @@
       "phasingDays": null,
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Violet Tara",
-      "target": 1,
-      "price": 699,
-      "revenueTarget": 699,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-09-17",
-      "time": "20:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "",
-      "topic": "TBC",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
       "pctRevenueVsTarget": 0.0
     },
     {
