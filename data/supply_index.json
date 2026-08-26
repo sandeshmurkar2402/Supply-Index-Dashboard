@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T03:09:39Z",
+  "lastUpdated": "2026-08-26T04:43:55Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7736,7 +7736,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 21,
+        "sessionAchieved": 23,
         "phasingTarget": 227,
         "phasingAchieved": null
       },
@@ -8026,7 +8026,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 90,
-        "sessionAchieved": 10,
+        "sessionAchieved": 11,
         "phasingTarget": 246,
         "phasingAchieved": null
       },
@@ -8259,7 +8259,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 218,
+        "sessionAchieved": 222,
         "phasingTarget": 266,
         "phasingAchieved": null
       },
@@ -8657,14 +8657,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 280,
-        "sessionAchieved": 37,
+        "sessionAchieved": 39,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 100,
-        "sessionAchieved": 11,
+        "sessionAchieved": 12,
         "phasingTarget": 10,
         "phasingAchieved": null
       },
@@ -26154,11 +26154,11 @@
         "d1": 6,
         "d0": 6
       },
-      "totalRegistrations": 11,
+      "totalRegistrations": 12,
       "phasingDays": 5,
-      "pctVsTarget": 55.0,
-      "revenueAchieved": 8842,
-      "pctRevenueVsTarget": 65.0
+      "pctVsTarget": 60.0,
+      "revenueAchieved": 9641,
+      "pctRevenueVsTarget": 71.0
     },
     {
       "leader": "Sonika Vickraman",
@@ -26309,11 +26309,11 @@
         "d1": 1,
         "d0": 1
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 484,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Shruti Seth",
@@ -26526,11 +26526,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 3,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 2727,
-      "pctRevenueVsTarget": 35.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 3636,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Divyaa",
@@ -26588,10 +26588,10 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 212,
+      "totalRegistrations": 216,
       "phasingDays": 10,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 212242,
+      "pctVsTarget": 31.0,
+      "revenueAchieved": 216255,
       "pctRevenueVsTarget": 36.0
     },
     {
@@ -26929,11 +26929,11 @@
         "d1": 10,
         "d0": 7
       },
-      "totalRegistrations": 16,
+      "totalRegistrations": 17,
       "phasingDays": 11,
-      "pctVsTarget": 27.0,
-      "revenueAchieved": 19264,
-      "pctRevenueVsTarget": 31.0
+      "pctVsTarget": 28.0,
+      "revenueAchieved": 20468,
+      "pctRevenueVsTarget": 33.0
     },
     {
       "leader": "Dr. Sweta Adatia",
@@ -27022,11 +27022,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 6,
-      "pctVsTarget": 4.0,
-      "revenueAchieved": 4010,
-      "pctRevenueVsTarget": 5.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 6015,
+      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Sharmila Awasthi",
@@ -30853,7 +30853,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "TBC",
+      "topic": "Moon Meditation",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
