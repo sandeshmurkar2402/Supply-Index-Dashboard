@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T05:38:10Z",
+  "lastUpdated": "2026-08-26T06:56:17Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7736,7 +7736,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 23,
+        "sessionAchieved": 24,
         "phasingTarget": 227,
         "phasingAchieved": null
       },
@@ -8026,7 +8026,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 90,
-        "sessionAchieved": 11,
+        "sessionAchieved": 16,
         "phasingTarget": 246,
         "phasingAchieved": null
       },
@@ -8259,7 +8259,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 222,
+        "sessionAchieved": 234,
         "phasingTarget": 266,
         "phasingAchieved": null
       },
@@ -8456,14 +8456,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 36,
-        "sessionAchieved": 14,
+        "sessionAchieved": 16,
         "phasingTarget": 160,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 125,
-        "sessionAchieved": 3,
+        "sessionAchieved": 4,
         "phasingTarget": 22,
         "phasingAchieved": null
       },
@@ -8657,8 +8657,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 280,
-        "sessionAchieved": 39,
-        "phasingTarget": 206,
+        "sessionAchieved": 40,
+        "phasingTarget": 205,
         "phasingAchieved": null
       },
       "offline": {
@@ -8759,10 +8759,6 @@
         },
         {
           "name": "Divyaa",
-          "value": 1
-        },
-        {
-          "name": "Neera Sareen",
           "value": 1
         },
         {
@@ -8887,7 +8883,7 @@
         "sessions": 6,
         "sessionTarget": 81,
         "sessionAchieved": 3,
-        "phasingTarget": 195,
+        "phasingTarget": 194,
         "phasingAchieved": null
       },
       "offline": {
@@ -8989,10 +8985,6 @@
         {
           "name": "Seemaa Dhingra",
           "value": 2
-        },
-        {
-          "name": "Neera Sareen",
-          "value": 1
         },
         {
           "name": "Parul Khanna",
@@ -9120,7 +9112,7 @@
         "sessions": 7,
         "sessionTarget": 413,
         "sessionAchieved": 20,
-        "phasingTarget": 201,
+        "phasingTarget": 199,
         "phasingAchieved": null
       },
       "offline": {
@@ -9185,10 +9177,6 @@
         },
         {
           "name": "Abhirammi",
-          "value": 2
-        },
-        {
-          "name": "Neera Sareen",
           "value": 2
         },
         {
@@ -9361,7 +9349,7 @@
         "sessions": 3,
         "sessionTarget": 31,
         "sessionAchieved": 0,
-        "phasingTarget": 200,
+        "phasingTarget": 197,
         "phasingAchieved": null
       },
       "offline": {
@@ -9414,10 +9402,6 @@
         },
         {
           "name": "Poonam Dhandania",
-          "value": 3
-        },
-        {
-          "name": "Neera Sareen",
           "value": 3
         },
         {
@@ -9579,10 +9563,10 @@
       "dayName": "Thursday",
       "month": "Aug-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 61,
+        "sessions": 6,
+        "sessionTarget": 51,
         "sessionAchieved": 1,
-        "phasingTarget": 215,
+        "phasingTarget": 212,
         "phasingAchieved": null
       },
       "offline": {
@@ -9628,10 +9612,6 @@
         {
           "name": "Nithya Ji",
           "value": 4
-        },
-        {
-          "name": "Neera Sareen",
-          "value": 3
         },
         {
           "name": "Akanksha Walia",
@@ -9786,10 +9766,6 @@
         {
           "name": "Devi Nidhi Saraswat",
           "value": 25
-        },
-        {
-          "name": "Neera Sareen",
-          "value": 10
         },
         {
           "name": "Akanksha Walia",
@@ -10364,14 +10340,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 708,
-        "sessionAchieved": 33,
+        "sessionAchieved": 35,
         "phasingTarget": 235,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 300,
-        "sessionAchieved": 10,
+        "sessionAchieved": 11,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -26250,11 +26226,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": null,
-      "pctVsTarget": 500.0,
-      "revenueAchieved": 4425,
-      "pctRevenueVsTarget": 586.0
+      "pctVsTarget": 600.0,
+      "revenueAchieved": 5310,
+      "pctRevenueVsTarget": 703.0
     },
     {
       "leader": "Debanjan Medhi",
@@ -26498,11 +26474,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 4,
+      "totalRegistrations": 9,
       "phasingDays": 3,
-      "pctVsTarget": 40.0,
-      "revenueAchieved": 3636,
-      "pctRevenueVsTarget": 47.0
+      "pctVsTarget": 90.0,
+      "revenueAchieved": 8181,
+      "pctRevenueVsTarget": 106.0
     },
     {
       "leader": "Divyaa",
@@ -26560,11 +26536,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 216,
+      "totalRegistrations": 228,
       "phasingDays": 10,
-      "pctVsTarget": 31.0,
-      "revenueAchieved": 216255,
-      "pctRevenueVsTarget": 36.0
+      "pctVsTarget": 33.0,
+      "revenueAchieved": 228291,
+      "pctRevenueVsTarget": 38.0
     },
     {
       "leader": "Jyotismita Das",
@@ -26715,11 +26691,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 17,
-      "pctVsTarget": 2.0,
-      "revenueAchieved": 2727,
-      "pctRevenueVsTarget": 3.0
+      "pctVsTarget": 3.0,
+      "revenueAchieved": 3636,
+      "pctRevenueVsTarget": 4.0
     },
     {
       "leader": "Susitha Pappiah",
@@ -26746,11 +26722,11 @@
         "d1": 8,
         "d0": 6
       },
-      "totalRegistrations": 8,
+      "totalRegistrations": 9,
       "phasingDays": 4,
-      "pctVsTarget": 40.0,
-      "revenueAchieved": 6600,
-      "pctRevenueVsTarget": 47.0
+      "pctVsTarget": 45.0,
+      "revenueAchieved": 7425,
+      "pctRevenueVsTarget": 53.0
     },
     {
       "leader": "Ambika Ganesh",
@@ -26932,11 +26908,11 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 7,
       "phasingDays": 10,
-      "pctVsTarget": 12.0,
-      "revenueAchieved": 12379,
-      "pctRevenueVsTarget": 15.0
+      "pctVsTarget": 14.0,
+      "revenueAchieved": 14384,
+      "pctRevenueVsTarget": 17.0
     },
     {
       "leader": "Smita Jayakar",
@@ -27588,37 +27564,6 @@
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Neera Sareen",
-      "target": 10,
-      "price": 850,
-      "revenueTarget": 8500,
-      "courseInstanceId": "7334",
-      "courseId": "1789",
-      "date": "2026-09-03",
-      "time": "16:00",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Nazar Dosh",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 2,
-        "d1": 3,
-        "d0": 3
-      },
-      "totalRegistrations": 1,
-      "phasingDays": 5,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 1003,
-      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Akanksha Walia",
@@ -28296,10 +28241,10 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 22,
+      "totalRegistrations": 23,
       "phasingDays": 11,
       "pctVsTarget": 3.0,
-      "revenueAchieved": 26126,
+      "revenueAchieved": 27330,
       "pctRevenueVsTarget": 4.0
     },
     {
@@ -28327,10 +28272,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 6,
       "pctVsTarget": 4.0,
-      "revenueAchieved": 17262,
+      "revenueAchieved": 18171,
       "pctRevenueVsTarget": 9.0
     },
     {
@@ -30546,7 +30491,7 @@
       "campaign": "Hindi",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "Deeper exploration + practices of Mahavidya",
+      "topic": "NEW TBC",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
