@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T22:33:20Z",
+  "lastUpdated": "2026-08-31T01:14:17Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -3809,8 +3809,8 @@
       "slotsFilledToday": 11,
       "pctSlotsFilledToday": 2.42,
       "pageViews": {
-        "total1on1": 1285,
-        "slotsAvailable": 1143,
+        "total1on1": 1284,
+        "slotsAvailable": 1142,
         "pctSlotsAvailable": 89.0
       }
     },
@@ -7971,8 +7971,8 @@
       "slotsFilledToday": 16,
       "pctSlotsFilledToday": 3.06,
       "pageViews": {
-        "total1on1": 2222,
-        "slotsAvailable": 803,
+        "total1on1": 2221,
+        "slotsAvailable": 802,
         "pctSlotsAvailable": 36.0
       }
     },
@@ -8505,8 +8505,8 @@
       "slotsFilledToday": 11,
       "pctSlotsFilledToday": 1.51,
       "pageViews": {
-        "total1on1": 1623,
-        "slotsAvailable": 613,
+        "total1on1": 1625,
+        "slotsAvailable": 615,
         "pctSlotsAvailable": 38.0
       }
     },
@@ -8740,8 +8740,8 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 2.04,
       "pageViews": {
-        "total1on1": 1450,
-        "slotsAvailable": 653,
+        "total1on1": 1454,
+        "slotsAvailable": 657,
         "pctSlotsAvailable": 45.0
       }
     },
@@ -8988,12 +8988,12 @@
           "slots": 9
         }
       ],
-      "slotsFilledToday": 0,
-      "pctSlotsFilledToday": 0.0,
+      "slotsFilledToday": 14,
+      "pctSlotsFilledToday": 0.85,
       "pageViews": {
-        "total1on1": 342,
-        "slotsAvailable": 88,
-        "pctSlotsAvailable": 26.0
+        "total1on1": 2234,
+        "slotsAvailable": 746,
+        "pctSlotsAvailable": 33.0
       }
     },
     {
@@ -9232,7 +9232,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 372,
-        "sessionAchieved": 92,
+        "sessionAchieved": 93,
         "phasingTarget": 199,
         "phasingAchieved": null
       },
@@ -27331,11 +27331,11 @@
         "d1": 58,
         "d0": 58
       },
-      "totalRegistrations": 90,
+      "totalRegistrations": 91,
       "phasingDays": 10,
       "pctVsTarget": 26.0,
-      "revenueAchieved": 147927,
-      "pctRevenueVsTarget": 30.0
+      "revenueAchieved": 149577,
+      "pctRevenueVsTarget": 31.0
     },
     {
       "leader": "Simran Jadhwani",
