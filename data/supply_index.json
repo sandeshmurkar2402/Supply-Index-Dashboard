@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:49:36Z",
+  "lastUpdated": "2026-09-01T01:07:12Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -202,16 +202,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
-        "t2": null,
-        "t3": null,
-        "t4": null,
-        "t5": null,
-        "t6": null,
-        "t7": null
+        "leadersWithSlots": 116,
+        "leadersAvailableToday": 109,
+        "today": 2227,
+        "t1": 780,
+        "t2": 736,
+        "t3": 739,
+        "t4": 628,
+        "t5": 584,
+        "t6": 77,
+        "t7": 49
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -230,7 +230,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 62,
-        "sessionAchieved": 13,
+        "sessionAchieved": 14,
         "phasingTarget": 201,
         "phasingAchieved": null
       },
@@ -445,13 +445,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
-        "t2": null,
-        "t3": null,
-        "t4": null,
-        "t5": null,
-        "t6": null,
+        "today": 780,
+        "t1": 736,
+        "t2": 739,
+        "t3": 628,
+        "t4": 584,
+        "t5": 77,
+        "t6": 49,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -694,12 +694,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
-        "t2": null,
-        "t3": null,
-        "t4": null,
-        "t5": null,
+        "today": 736,
+        "t1": 739,
+        "t2": 628,
+        "t3": 584,
+        "t4": 77,
+        "t5": 49,
         "t6": null,
         "t7": null
       },
@@ -959,11 +959,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
-        "t2": null,
-        "t3": null,
-        "t4": null,
+        "today": 739,
+        "t1": 628,
+        "t2": 584,
+        "t3": 77,
+        "t4": 49,
         "t5": null,
         "t6": null,
         "t7": null
@@ -1252,10 +1252,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
-        "t2": null,
-        "t3": null,
+        "today": 628,
+        "t1": 584,
+        "t2": 77,
+        "t3": 49,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -1517,9 +1517,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
-        "t2": null,
+        "today": 584,
+        "t1": 77,
+        "t2": 49,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -1782,8 +1782,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
-        "t1": null,
+        "today": 77,
+        "t1": 49,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -2043,7 +2043,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 49,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -19754,11 +19754,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 3,
-      "pctVsTarget": 27.0,
-      "revenueAchieved": 2475,
-      "pctRevenueVsTarget": 32.0
+      "pctVsTarget": 36.0,
+      "revenueAchieved": 3300,
+      "pctRevenueVsTarget": 43.0
     },
     {
       "leader": "Debanjan Medhi",
