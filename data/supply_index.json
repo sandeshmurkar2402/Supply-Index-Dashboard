@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T17:45:56Z",
+  "lastUpdated": "2026-09-02T20:49:10Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -249,18 +249,18 @@
         "sessionTarget": 71,
         "sessionAchieved": 18,
         "phasingTarget": 203,
-        "phasingAchieved": null
+        "phasingAchieved": 6
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 29
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 4
       },
       "groupLeaderPhasingTargets": [
         {
@@ -458,7 +458,36 @@
           "value": 11
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Abhirammi",
+          "missed": 5
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 4
+        },
+        {
+          "name": "Dr. Ddevika",
+          "missed": 14
+        },
+        {
+          "name": "Loveena Bahl",
+          "missed": 6
+        },
+        {
+          "name": "Lovina Gidwani",
+          "missed": 10
+        },
+        {
+          "name": "Poonam Dhandania",
+          "missed": 7
+        },
+        {
+          "name": "Violet Tara",
+          "missed": 7
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 117,
         "leadersAvailableToday": 110,
@@ -473,12 +502,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 3,
+      "pctSlotsFilledToday": 0.14,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 125,
+        "slotsAvailable": 52,
+        "pctSlotsAvailable": 42.0
       }
     },
     {
