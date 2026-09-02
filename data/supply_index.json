@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T08:37:54Z",
+  "lastUpdated": "2026-09-02T13:27:04Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -729,7 +729,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 53,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 281,
         "phasingAchieved": null
       },
@@ -1271,14 +1271,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 708,
-        "sessionAchieved": 198,
+        "sessionAchieved": 205,
         "phasingTarget": 246,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 300,
-        "sessionAchieved": 83,
+        "sessionAchieved": 85,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -1797,7 +1797,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 46,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 273,
         "phasingAchieved": null
       },
@@ -2303,7 +2303,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 628,
-        "sessionAchieved": 23,
+        "sessionAchieved": 28,
         "phasingTarget": 308,
         "phasingAchieved": null
       },
@@ -2560,7 +2560,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 824,
-        "sessionAchieved": 14,
+        "sessionAchieved": 19,
         "phasingTarget": 250,
         "phasingAchieved": null
       },
@@ -3279,7 +3279,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 56,
-        "sessionAchieved": 1,
+        "sessionAchieved": 2,
         "phasingTarget": 193,
         "phasingAchieved": null
       },
@@ -3761,7 +3761,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 732,
-        "sessionAchieved": 0,
+        "sessionAchieved": 3,
         "phasingTarget": 219,
         "phasingAchieved": null
       },
@@ -20169,11 +20169,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 5,
-      "pctVsTarget": 27.0,
-      "revenueAchieved": 3009,
-      "pctRevenueVsTarget": 32.0
+      "pctVsTarget": 36.0,
+      "revenueAchieved": 4012,
+      "pctRevenueVsTarget": 43.0
     },
     {
       "leader": "Rhea Mathew",
@@ -20572,11 +20572,11 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 113,
+      "totalRegistrations": 118,
       "phasingDays": 11,
-      "pctVsTarget": 16.0,
-      "revenueAchieved": 135413,
-      "pctRevenueVsTarget": 19.0
+      "pctVsTarget": 17.0,
+      "revenueAchieved": 141434,
+      "pctRevenueVsTarget": 20.0
     },
     {
       "leader": "Megh and Govind",
@@ -20603,11 +20603,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 76,
+      "totalRegistrations": 78,
       "phasingDays": 6,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 127211,
-      "pctRevenueVsTarget": 66.0
+      "pctVsTarget": 31.0,
+      "revenueAchieved": 129029,
+      "pctRevenueVsTarget": 67.0
     },
     {
       "leader": "Nithya Ji",
@@ -21657,11 +21657,11 @@
         "d1": 83,
         "d0": 58
       },
-      "totalRegistrations": 21,
+      "totalRegistrations": 26,
       "phasingDays": 11,
-      "pctVsTarget": 4.0,
-      "revenueAchieved": 34671,
-      "pctRevenueVsTarget": 5.0
+      "pctVsTarget": 5.0,
+      "revenueAchieved": 42926,
+      "pctRevenueVsTarget": 6.0
     },
     {
       "leader": "Renu Kaushik",
@@ -21874,11 +21874,11 @@
         "d1": 133,
         "d0": 133
       },
-      "totalRegistrations": 13,
+      "totalRegistrations": 18,
       "phasingDays": 10,
       "pctVsTarget": 2.0,
-      "revenueAchieved": 13634,
-      "pctRevenueVsTarget": 2.0
+      "revenueAchieved": 18939,
+      "pctRevenueVsTarget": 3.0
     },
     {
       "leader": "Kajal Thakkar",
