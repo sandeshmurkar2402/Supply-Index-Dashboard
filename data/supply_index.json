@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:46:06Z",
+  "lastUpdated": "2026-09-03T23:06:36Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -513,8 +513,8 @@
       "slotsFilledToday": 19,
       "pctSlotsFilledToday": 0.87,
       "pageViews": {
-        "total1on1": 1153,
-        "slotsAvailable": 522,
+        "total1on1": 1156,
+        "slotsAvailable": 523,
         "pctSlotsAvailable": 45.0
       }
     },
@@ -784,12 +784,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": 0,
-      "pctSlotsFilledToday": 0.0,
+      "slotsFilledToday": 7,
+      "pctSlotsFilledToday": 0.31,
       "pageViews": {
-        "total1on1": 51,
-        "slotsAvailable": 41,
-        "pctSlotsAvailable": 80.0
+        "total1on1": 1314,
+        "slotsAvailable": 585,
+        "pctSlotsAvailable": 45.0
       }
     },
     {
@@ -799,7 +799,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 53,
-        "sessionAchieved": 17,
+        "sessionAchieved": 22,
         "phasingTarget": 281,
         "phasingAchieved": null
       },
@@ -1044,16 +1044,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 784,
-        "t1": 682,
-        "t2": 605,
-        "t3": 121,
-        "t4": 105,
-        "t5": 104,
-        "t6": 67,
-        "t7": null
+        "leadersWithSlots": 121,
+        "leadersAvailableToday": 118,
+        "today": 2193,
+        "t1": 725,
+        "t2": 633,
+        "t3": 168,
+        "t4": 149,
+        "t5": 145,
+        "t6": 114,
+        "t7": 76
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -1072,14 +1072,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 68,
-        "sessionAchieved": 35,
+        "sessionAchieved": 41,
         "phasingTarget": 278,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 75,
-        "sessionAchieved": 29,
+        "sessionAchieved": 33,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -1339,13 +1339,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 682,
-        "t1": 605,
-        "t2": 121,
-        "t3": 105,
-        "t4": 104,
-        "t5": 67,
-        "t6": null,
+        "today": 725,
+        "t1": 633,
+        "t2": 168,
+        "t3": 149,
+        "t4": 145,
+        "t5": 114,
+        "t6": 76,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -1365,14 +1365,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 709,
-        "sessionAchieved": 250,
+        "sessionAchieved": 257,
         "phasingTarget": 247,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 300,
-        "sessionAchieved": 103,
+        "sessionAchieved": 104,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -1616,12 +1616,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 605,
-        "t1": 121,
-        "t2": 105,
-        "t3": 104,
-        "t4": 67,
-        "t5": null,
+        "today": 633,
+        "t1": 168,
+        "t2": 149,
+        "t3": 145,
+        "t4": 114,
+        "t5": 76,
         "t6": null,
         "t7": null
       },
@@ -1642,7 +1642,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 83,
-        "sessionAchieved": 3,
+        "sessionAchieved": 5,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -1889,11 +1889,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 121,
-        "t1": 105,
-        "t2": 104,
-        "t3": 67,
-        "t4": null,
+        "today": 168,
+        "t1": 149,
+        "t2": 145,
+        "t3": 114,
+        "t4": 76,
         "t5": null,
         "t6": null,
         "t7": null
@@ -2162,10 +2162,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 105,
-        "t1": 104,
-        "t2": 67,
-        "t3": null,
+        "today": 149,
+        "t1": 145,
+        "t2": 114,
+        "t3": 76,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -2427,9 +2427,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 104,
-        "t1": 67,
-        "t2": null,
+        "today": 145,
+        "t1": 114,
+        "t2": 76,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -2453,7 +2453,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 628,
-        "sessionAchieved": 40,
+        "sessionAchieved": 42,
         "phasingTarget": 308,
         "phasingAchieved": null
       },
@@ -2688,8 +2688,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 67,
-        "t1": null,
+        "today": 114,
+        "t1": 76,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -2714,7 +2714,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 824,
-        "sessionAchieved": 34,
+        "sessionAchieved": 44,
         "phasingTarget": 251,
         "phasingAchieved": null
       },
@@ -2917,7 +2917,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 76,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -6089,14 +6089,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 71,
-        "sessionAchieved": 61,
+        "sessionAchieved": 66,
         "phasingTarget": 106,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 61,
+        "sessionAchieved": 66,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -7177,14 +7177,14 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 32,
+        "sessionAchieved": 33,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 32,
+        "sessionAchieved": 33,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -20508,11 +20508,11 @@
         "d1": 5,
         "d0": 5
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 7,
       "phasingDays": 5,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 2475,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 47.0,
+      "revenueAchieved": 5775,
+      "pctRevenueVsTarget": 55.0
     },
     {
       "leader": "Pranjal Katoch",
@@ -20601,11 +20601,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 5,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 1818,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 30.0,
+      "revenueAchieved": 2727,
+      "pctRevenueVsTarget": 35.0
     },
     {
       "leader": "Dimple Desai",
@@ -20725,11 +20725,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 2,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 22.0,
+      "revenueAchieved": 2006,
+      "pctRevenueVsTarget": 26.0
     },
     {
       "leader": "Immersive Sound Experience",
@@ -20756,11 +20756,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 29,
+      "totalRegistrations": 33,
       "phasingDays": 6,
-      "pctVsTarget": 39.0,
-      "revenueAchieved": 73882,
-      "pctRevenueVsTarget": 58.0
+      "pctVsTarget": 44.0,
+      "revenueAchieved": 81902,
+      "pctRevenueVsTarget": 64.0
     },
     {
       "leader": "Parul Khanna",
@@ -20942,11 +20942,11 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 144,
+      "totalRegistrations": 150,
       "phasingDays": 11,
       "pctVsTarget": 21.0,
-      "revenueAchieved": 172740,
-      "pctRevenueVsTarget": 24.0
+      "revenueAchieved": 179965,
+      "pctRevenueVsTarget": 25.0
     },
     {
       "leader": "Megh and Govind",
@@ -20973,11 +20973,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 95,
+      "totalRegistrations": 96,
       "phasingDays": 6,
       "pctVsTarget": 38.0,
-      "revenueAchieved": 149023,
-      "pctRevenueVsTarget": 77.0
+      "revenueAchieved": 150840,
+      "pctRevenueVsTarget": 78.0
     },
     {
       "leader": "Nithya Ji",
@@ -21376,11 +21376,11 @@
         "d1": 12,
         "d0": 9
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 3,
       "phasingDays": 4,
-      "pctVsTarget": 3.0,
-      "revenueAchieved": 825,
-      "pctRevenueVsTarget": 4.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 2475,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Amrita Shah",
@@ -22120,10 +22120,10 @@
         "d1": 83,
         "d0": 58
       },
-      "totalRegistrations": 37,
+      "totalRegistrations": 39,
       "phasingDays": 11,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 60846,
+      "pctVsTarget": 8.0,
+      "revenueAchieved": 64147,
       "pctRevenueVsTarget": 9.0
     },
     {
@@ -22275,11 +22275,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 3,
-      "pctVsTarget": 9.0,
-      "revenueAchieved": 825,
-      "pctRevenueVsTarget": 11.0
+      "pctVsTarget": 18.0,
+      "revenueAchieved": 1524,
+      "pctRevenueVsTarget": 20.0
     },
     {
       "leader": "Deepa Shetty",
@@ -22337,11 +22337,11 @@
         "d1": 133,
         "d0": 133
       },
-      "totalRegistrations": 33,
+      "totalRegistrations": 42,
       "phasingDays": 10,
-      "pctVsTarget": 4.0,
-      "revenueAchieved": 34859,
-      "pctRevenueVsTarget": 5.0
+      "pctVsTarget": 5.0,
+      "revenueAchieved": 44410,
+      "pctRevenueVsTarget": 6.0
     },
     {
       "leader": "Kajal Thakkar",
