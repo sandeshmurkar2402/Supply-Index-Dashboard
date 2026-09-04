@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T03:48:40Z",
+  "lastUpdated": "2026-09-04T08:41:48Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -171,10 +171,6 @@
         },
         {
           "name": "Dr. Suchitra",
-          "value": 1
-        },
-        {
-          "name": "Bijal Sunil Doshi",
           "value": 1
         },
         {
@@ -409,10 +405,6 @@
         },
         {
           "name": "Dr. Suchitra",
-          "value": 1
-        },
-        {
-          "name": "Bijal Sunil Doshi",
           "value": 1
         },
         {
@@ -678,10 +670,6 @@
           "value": 1
         },
         {
-          "name": "Bijal Sunil Doshi",
-          "value": 1
-        },
-        {
           "name": "Ruchika Uppal",
           "value": 1
         },
@@ -799,7 +787,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 53,
-        "sessionAchieved": 23,
+        "sessionAchieved": 27,
         "phasingTarget": 281,
         "phasingAchieved": null
       },
@@ -960,10 +948,6 @@
           "value": 1
         },
         {
-          "name": "Bijal Sunil Doshi",
-          "value": 1
-        },
-        {
           "name": "Rishi Nanda",
           "value": 1
         },
@@ -1072,14 +1056,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 68,
-        "sessionAchieved": 42,
+        "sessionAchieved": 46,
         "phasingTarget": 278,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 75,
-        "sessionAchieved": 34,
+        "sessionAchieved": 38,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -1225,10 +1209,6 @@
           "value": 1
         },
         {
-          "name": "Bijal Sunil Doshi",
-          "value": 1
-        },
-        {
           "name": "Ruchika Uppal",
           "value": 1
         },
@@ -1363,16 +1343,16 @@
       "dayName": "Sunday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 709,
-        "sessionAchieved": 259,
+        "sessions": 5,
+        "sessionTarget": 708,
+        "sessionAchieved": 269,
         "phasingTarget": 247,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 300,
-        "sessionAchieved": 104,
+        "sessionAchieved": 106,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -1506,10 +1486,6 @@
           "value": 1
         },
         {
-          "name": "Bijal Sunil Doshi",
-          "value": 1
-        },
-        {
           "name": "Supriya Chhabra",
           "value": 1
         },
@@ -1579,10 +1555,6 @@
         }
       ],
       "groupLeaderTargets": [
-        {
-          "name": "Bijal Sunil Doshi",
-          "value": 1
-        },
         {
           "name": "Kavyal Sedanni",
           "value": 700
@@ -1915,7 +1887,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 48,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 274,
         "phasingAchieved": null
       },
@@ -2453,7 +2425,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 628,
-        "sessionAchieved": 43,
+        "sessionAchieved": 47,
         "phasingTarget": 308,
         "phasingAchieved": null
       },
@@ -2714,7 +2686,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 824,
-        "sessionAchieved": 47,
+        "sessionAchieved": 50,
         "phasingTarget": 251,
         "phasingAchieved": null
       },
@@ -4229,10 +4201,6 @@
           "value": 2
         },
         {
-          "name": "Swapnil Gawde",
-          "value": 2
-        },
-        {
           "name": "Ruchika Uppal",
           "value": 2
         },
@@ -4482,10 +4450,6 @@
           "value": 2
         },
         {
-          "name": "Swapnil Gawde",
-          "value": 2
-        },
-        {
           "name": "Ruchika Uppal",
           "value": 2
         },
@@ -4680,10 +4644,6 @@
         },
         {
           "name": "Arpana Khanna",
-          "value": 2
-        },
-        {
-          "name": "Swapnil Gawde",
           "value": 2
         },
         {
@@ -4884,10 +4844,6 @@
           "value": 4
         },
         {
-          "name": "Swapnil Gawde",
-          "value": 4
-        },
-        {
           "name": "Arpana Khanna",
           "value": 3
         },
@@ -5045,7 +5001,7 @@
         "sessions": 5,
         "sessionTarget": 56,
         "sessionAchieved": 0,
-        "phasingTarget": 108,
+        "phasingTarget": 100,
         "phasingAchieved": null
       },
       "offline": {
@@ -5086,10 +5042,6 @@
         },
         {
           "name": "Munisha Khatwani",
-          "value": 4
-        },
-        {
-          "name": "Swapnil Gawde",
           "value": 4
         },
         {
@@ -5266,7 +5218,7 @@
         "sessions": 6,
         "sessionTarget": 161,
         "sessionAchieved": 0,
-        "phasingTarget": 107,
+        "phasingTarget": 97,
         "phasingAchieved": null
       },
       "offline": {
@@ -5288,10 +5240,6 @@
         {
           "name": "Shweta Singh Kirti",
           "value": 15
-        },
-        {
-          "name": "Swapnil Gawde",
-          "value": 5
         },
         {
           "name": "Sukhmani Bajwa",
@@ -5476,10 +5424,10 @@
       "dayName": "Wednesday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 9,
-        "sessionTarget": 94,
+        "sessions": 8,
+        "sessionTarget": 69,
         "sessionAchieved": 0,
-        "phasingTarget": 68,
+        "phasingTarget": 60,
         "phasingAchieved": null
       },
       "offline": {
@@ -5494,10 +5442,6 @@
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
-        {
-          "name": "Swapnil Gawde",
-          "value": 9
-        },
         {
           "name": "Aditi Grover",
           "value": 5
@@ -5663,10 +5607,6 @@
         {
           "name": "Sukhmani Bajwa",
           "value": 11
-        },
-        {
-          "name": "Swapnil Gawde",
-          "value": 25
         },
         {
           "name": "Krupa Shah",
@@ -20508,11 +20448,11 @@
         "d1": 5,
         "d0": 5
       },
-      "totalRegistrations": 8,
+      "totalRegistrations": 9,
       "phasingDays": 5,
-      "pctVsTarget": 53.0,
-      "revenueAchieved": 6600,
-      "pctRevenueVsTarget": 63.0
+      "pctVsTarget": 60.0,
+      "revenueAchieved": 7425,
+      "pctRevenueVsTarget": 71.0
     },
     {
       "leader": "Pranjal Katoch",
@@ -20570,11 +20510,11 @@
         "d1": 1,
         "d0": 1
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": null,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 484,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 968,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Sidanta Goggate",
@@ -20601,11 +20541,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 5,
       "phasingDays": 5,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 2727,
-      "pctRevenueVsTarget": 35.0
+      "pctVsTarget": 50.0,
+      "revenueAchieved": 4545,
+      "pctRevenueVsTarget": 59.0
     },
     {
       "leader": "Dimple Desai",
@@ -20756,11 +20696,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 34,
+      "totalRegistrations": 38,
       "phasingDays": 6,
-      "pctVsTarget": 45.0,
-      "revenueAchieved": 83907,
-      "pctRevenueVsTarget": 66.0
+      "pctVsTarget": 51.0,
+      "revenueAchieved": 93932,
+      "pctRevenueVsTarget": 74.0
     },
     {
       "leader": "Parul Khanna",
@@ -20887,37 +20827,6 @@
       "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Bijal Sunil Doshi",
-      "target": 1,
-      "price": 770,
-      "revenueTarget": 770,
-      "courseInstanceId": "7358",
-      "courseId": "1729",
-      "date": "2026-09-06",
-      "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Learn To Manifest Using The Attraction Factor",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Kavyal Sedanni",
       "target": 700,
       "price": 1020,
@@ -20942,11 +20851,11 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 152,
+      "totalRegistrations": 160,
       "phasingDays": 11,
-      "pctVsTarget": 22.0,
-      "revenueAchieved": 182372,
-      "pctRevenueVsTarget": 26.0
+      "pctVsTarget": 23.0,
+      "revenueAchieved": 192007,
+      "pctRevenueVsTarget": 27.0
     },
     {
       "leader": "Megh and Govind",
@@ -20973,11 +20882,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 96,
+      "totalRegistrations": 98,
       "phasingDays": 6,
-      "pctVsTarget": 38.0,
-      "revenueAchieved": 150840,
-      "pctRevenueVsTarget": 78.0
+      "pctVsTarget": 39.0,
+      "revenueAchieved": 152658,
+      "pctRevenueVsTarget": 79.0
     },
     {
       "leader": "Nithya Ji",
@@ -21407,11 +21316,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 885,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Bhupali Deore",
@@ -22120,11 +22029,11 @@
         "d1": 83,
         "d0": 58
       },
-      "totalRegistrations": 40,
+      "totalRegistrations": 44,
       "phasingDays": 11,
-      "pctVsTarget": 8.0,
-      "revenueAchieved": 65804,
-      "pctRevenueVsTarget": 9.0
+      "pctVsTarget": 9.0,
+      "revenueAchieved": 72407,
+      "pctRevenueVsTarget": 10.0
     },
     {
       "leader": "Renu Kaushik",
@@ -22337,10 +22246,10 @@
         "d1": 133,
         "d0": 133
       },
-      "totalRegistrations": 45,
+      "totalRegistrations": 48,
       "phasingDays": 10,
       "pctVsTarget": 6.0,
-      "revenueAchieved": 47596,
+      "revenueAchieved": 50778,
       "pctRevenueVsTarget": 7.0
     },
     {
@@ -24912,37 +24821,6 @@
       },
       "totalRegistrations": 0,
       "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Swapnil Gawde",
-      "target": 25,
-      "price": 770,
-      "revenueTarget": 19250,
-      "courseInstanceId": "7644",
-      "courseId": "1886",
-      "date": "2026-09-23",
-      "time": "21:00",
-      "campaign": "Biz Boost",
-      "leaderTagging": "ASC Course Bets",
-      "language": "English",
-      "topic": "Online Sound Bath",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 2,
-        "d5": 2,
-        "d4": 2,
-        "d3": 3,
-        "d2": 3,
-        "d1": 5,
-        "d0": 8
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
