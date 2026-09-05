@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T00:45:02Z",
+  "lastUpdated": "2026-09-05T05:26:11Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -457,7 +457,7 @@
       "groupMissedTargets": [
         {
           "name": "Abhirammi",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Debanjan Medhi",
@@ -781,7 +781,7 @@
         "sessionTarget": 53,
         "sessionAchieved": 29,
         "phasingTarget": 277,
-        "phasingAchieved": 10
+        "phasingAchieved": 92
       },
       "offline": {
         "sessions": 0,
@@ -792,7 +792,7 @@
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": 1
+        "phasingAchieved": 31
       },
       "groupLeaderPhasingTargets": [
         {
@@ -1069,14 +1069,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 58,
-        "sessionAchieved": 53,
+        "sessionAchieved": 54,
         "phasingTarget": 275,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 75,
-        "sessionAchieved": 45,
+        "sessionAchieved": 46,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -1350,14 +1350,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 708,
-        "sessionAchieved": 294,
+        "sessionAchieved": 301,
         "phasingTarget": 247,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 300,
-        "sessionAchieved": 113,
+        "sessionAchieved": 116,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -1619,7 +1619,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 83,
-        "sessionAchieved": 11,
+        "sessionAchieved": 12,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -2165,7 +2165,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 109,
-        "sessionAchieved": 4,
+        "sessionAchieved": 5,
         "phasingTarget": 348,
         "phasingAchieved": null
       },
@@ -2430,7 +2430,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 628,
-        "sessionAchieved": 54,
+        "sessionAchieved": 56,
         "phasingTarget": 308,
         "phasingAchieved": null
       },
@@ -2691,7 +2691,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 824,
-        "sessionAchieved": 63,
+        "sessionAchieved": 66,
         "phasingTarget": 251,
         "phasingAchieved": null
       },
@@ -18077,8 +18077,8 @@
       "target": 250,
       "price": 2499,
       "revenueTarget": 624750,
-      "courseInstanceId": "7250",
-      "courseId": "1804",
+      "courseInstanceId": "6436",
+      "courseId": "1066",
       "date": "2026-08-22",
       "time": "16:00",
       "campaign": "OFFLINE",
@@ -18097,11 +18097,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 18,
+      "totalRegistrations": 158,
       "phasingDays": 30,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 101594,
-      "pctRevenueVsTarget": 16.0
+      "pctVsTarget": 63.0,
+      "revenueAchieved": 977070,
+      "pctRevenueVsTarget": 156.0
     },
     {
       "leader": "Immersive Sound Experience",
@@ -19937,8 +19937,8 @@
       "target": 10,
       "price": 770,
       "revenueTarget": 7700,
-      "courseInstanceId": "7816",
-      "courseId": "1556",
+      "courseInstanceId": "7642",
+      "courseId": "1884",
       "date": "2026-09-02",
       "time": "19:00",
       "campaign": "ROL Boost",
@@ -19957,11 +19957,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 0,
       "phasingDays": 3,
-      "pctVsTarget": 50.0,
-      "revenueAchieved": 4545,
-      "pctRevenueVsTarget": 59.0
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Debanjan Medhi",
@@ -20670,11 +20670,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 45,
+      "totalRegistrations": 46,
       "phasingDays": 6,
-      "pctVsTarget": 60.0,
-      "revenueAchieved": 113981,
-      "pctRevenueVsTarget": 89.0
+      "pctVsTarget": 61.0,
+      "revenueAchieved": 115986,
+      "pctRevenueVsTarget": 91.0
     },
     {
       "leader": "Parul Khanna",
@@ -20825,10 +20825,10 @@
         "d1": 117,
         "d0": 82
       },
-      "totalRegistrations": 177,
+      "totalRegistrations": 181,
       "phasingDays": 11,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 212477,
+      "pctVsTarget": 26.0,
+      "revenueAchieved": 217294,
       "pctRevenueVsTarget": 30.0
     },
     {
@@ -20856,11 +20856,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 104,
+      "totalRegistrations": 107,
       "phasingDays": 6,
-      "pctVsTarget": 42.0,
-      "revenueAchieved": 163562,
-      "pctRevenueVsTarget": 85.0
+      "pctVsTarget": 43.0,
+      "revenueAchieved": 166289,
+      "pctRevenueVsTarget": 86.0
     },
     {
       "leader": "Nithya Ji",
@@ -21053,8 +21053,8 @@
       "target": 10,
       "price": 850,
       "revenueTarget": 8500,
-      "courseInstanceId": "7531",
-      "courseId": "1736",
+      "courseInstanceId": "",
+      "courseId": "",
       "date": "2026-09-07",
       "time": "19:00",
       "campaign": "ROL Boost",
@@ -21073,10 +21073,10 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": null,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
+      "revenueAchieved": null,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -21259,11 +21259,11 @@
         "d1": 12,
         "d0": 9
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 4,
-      "pctVsTarget": 23.0,
-      "revenueAchieved": 5775,
-      "pctRevenueVsTarget": 28.0
+      "pctVsTarget": 27.0,
+      "revenueAchieved": 6600,
+      "pctRevenueVsTarget": 31.0
     },
     {
       "leader": "Amrita Shah",
@@ -21755,11 +21755,11 @@
         "d1": 15,
         "d0": 15
       },
-      "totalRegistrations": 4,
+      "totalRegistrations": 5,
       "phasingDays": 5,
-      "pctVsTarget": 8.0,
-      "revenueAchieved": 4012,
-      "pctRevenueVsTarget": 9.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 5015,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Sonika Vickraman",
@@ -22003,10 +22003,10 @@
         "d1": 83,
         "d0": 58
       },
-      "totalRegistrations": 49,
+      "totalRegistrations": 50,
       "phasingDays": 11,
       "pctVsTarget": 10.0,
-      "revenueAchieved": 80665,
+      "revenueAchieved": 82316,
       "pctRevenueVsTarget": 12.0
     },
     {
@@ -22045,8 +22045,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "8122",
-      "courseId": "1324",
+      "courseInstanceId": "7534",
+      "courseId": "1647",
       "date": "2026-09-10",
       "time": "19:00",
       "campaign": "Do Not Market",
@@ -22127,11 +22127,11 @@
         "d1": 17,
         "d0": 17
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 10,
-      "pctVsTarget": 5.0,
-      "revenueAchieved": 3390,
-      "pctRevenueVsTarget": 6.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 4089,
+      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Aditi Grover",
@@ -22220,10 +22220,10 @@
         "d1": 133,
         "d0": 133
       },
-      "totalRegistrations": 61,
+      "totalRegistrations": 64,
       "phasingDays": 10,
       "pctVsTarget": 8.0,
-      "revenueAchieved": 64576,
+      "revenueAchieved": 67759,
       "pctRevenueVsTarget": 9.0
     },
     {
@@ -24866,8 +24866,8 @@
       "target": 10,
       "price": 770,
       "revenueTarget": 7700,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "8145",
+      "courseId": "1909",
       "date": "2026-09-24",
       "time": "12:00",
       "campaign": "Hindi",
@@ -24886,10 +24886,10 @@
         "d1": 3,
         "d0": 2
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 6,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -25362,8 +25362,8 @@
       "target": 570,
       "price": 2550,
       "revenueTarget": 1453500,
-      "courseInstanceId": "7344",
-      "courseId": "1838",
+      "courseInstanceId": "7329",
+      "courseId": "1835",
       "date": "2026-09-26",
       "time": "16:30",
       "campaign": "OFFLINE",
@@ -25382,11 +25382,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 70,
       "phasingDays": 6,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 16517,
-      "pctRevenueVsTarget": 1.0
+      "pctVsTarget": 12.0,
+      "revenueAchieved": 430604,
+      "pctRevenueVsTarget": 30.0
     },
     {
       "leader": "Sayalee Jadhav",
@@ -25455,8 +25455,8 @@
       "target": 50,
       "price": 1699,
       "revenueTarget": 84950,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "8144",
+      "courseId": "1654",
       "date": "2026-09-27",
       "time": "18:30",
       "campaign": "ASC Course",
@@ -25475,10 +25475,10 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 10,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
