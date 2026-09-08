@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T07:04:50Z",
+  "lastUpdated": "2026-09-08T12:44:06Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -4567,7 +4567,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 812,
-        "sessionAchieved": 550,
+        "sessionAchieved": 551,
         "phasingTarget": 212,
         "phasingAchieved": 175
       },
@@ -4785,7 +4785,7 @@
       "groupMissedTargets": [
         {
           "name": "Kavyal Sedanni",
-          "missed": 170
+          "missed": 169
         },
         {
           "name": "Krishna Jangid",
@@ -10082,7 +10082,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 109,
-        "sessionAchieved": 23,
+        "sessionAchieved": 27,
         "phasingTarget": 348,
         "phasingAchieved": null
       },
@@ -10347,7 +10347,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 628,
-        "sessionAchieved": 172,
+        "sessionAchieved": 188,
         "phasingTarget": 309,
         "phasingAchieved": null
       },
@@ -10608,7 +10608,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 829,
-        "sessionAchieved": 147,
+        "sessionAchieved": 169,
         "phasingTarget": 251,
         "phasingAchieved": null
       },
@@ -11094,7 +11094,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 120,
-        "sessionAchieved": 3,
+        "sessionAchieved": 5,
         "phasingTarget": 135,
         "phasingAchieved": null
       },
@@ -11604,7 +11604,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 123,
-        "sessionAchieved": 19,
+        "sessionAchieved": 21,
         "phasingTarget": 185,
         "phasingAchieved": null
       },
@@ -11841,8 +11841,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 721,
-        "sessionAchieved": 34,
-        "phasingTarget": 167,
+        "sessionAchieved": 35,
+        "phasingTarget": 165,
         "phasingAchieved": null
       },
       "offline": {
@@ -11923,10 +11923,6 @@
         },
         {
           "name": "Chaittali",
-          "value": 2
-        },
-        {
-          "name": "Nayana Cariappa",
           "value": 2
         },
         {
@@ -12059,7 +12055,7 @@
         "sessions": 10,
         "sessionTarget": 66,
         "sessionAchieved": 3,
-        "phasingTarget": 65,
+        "phasingTarget": 63,
         "phasingAchieved": null
       },
       "offline": {
@@ -12128,10 +12124,6 @@
         },
         {
           "name": "Vanita Keswani",
-          "value": 2
-        },
-        {
-          "name": "Nayana Cariappa",
           "value": 2
         },
         {
@@ -12304,7 +12296,7 @@
         "sessions": 6,
         "sessionTarget": 47,
         "sessionAchieved": 0,
-        "phasingTarget": 73,
+        "phasingTarget": 70,
         "phasingAchieved": null
       },
       "offline": {
@@ -12342,10 +12334,6 @@
         {
           "name": "Devi Nidhi Saraswat",
           "value": 5
-        },
-        {
-          "name": "Nayana Cariappa",
-          "value": 4
         },
         {
           "name": "Dr. Sweta Adatia",
@@ -12514,10 +12502,10 @@
       "dayName": "Saturday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 80,
+        "sessions": 6,
+        "sessionTarget": 71,
         "sessionAchieved": 3,
-        "phasingTarget": 65,
+        "phasingTarget": 63,
         "phasingAchieved": null
       },
       "offline": {
@@ -12571,10 +12559,6 @@
         {
           "name": "Sheelaa M Bajaj",
           "value": 4
-        },
-        {
-          "name": "Nayana Cariappa",
-          "value": 3
         },
         {
           "name": "Amrita Shah",
@@ -12681,10 +12665,6 @@
         {
           "name": "Krishna Jangid",
           "value": 20
-        },
-        {
-          "name": "Nayana Cariappa",
-          "value": 9
         },
         {
           "name": "Supriya Chhabra",
@@ -12931,7 +12911,7 @@
         "sessions": 5,
         "sessionTarget": 56,
         "sessionAchieved": 0,
-        "phasingTarget": 98,
+        "phasingTarget": 97,
         "phasingAchieved": null
       },
       "offline": {
@@ -13036,10 +13016,6 @@
         },
         {
           "name": "Dr. Jiggnna Desai",
-          "value": 1
-        },
-        {
-          "name": "Siddhi Shah",
           "value": 1
         },
         {
@@ -13148,7 +13124,7 @@
         "sessions": 5,
         "sessionTarget": 154,
         "sessionAchieved": 0,
-        "phasingTarget": 93,
+        "phasingTarget": 92,
         "phasingAchieved": null
       },
       "offline": {
@@ -13256,10 +13232,6 @@
           "value": 1
         },
         {
-          "name": "Siddhi Shah",
-          "value": 1
-        },
-        {
           "name": "Nattasha Kapoor",
           "value": 1
         },
@@ -13357,7 +13329,7 @@
         "sessions": 8,
         "sessionTarget": 69,
         "sessionAchieved": 0,
-        "phasingTarget": 78,
+        "phasingTarget": 76,
         "phasingAchieved": null
       },
       "offline": {
@@ -13438,10 +13410,6 @@
         },
         {
           "name": "Devina Fogla",
-          "value": 2
-        },
-        {
-          "name": "Siddhi Shah",
           "value": 2
         },
         {
@@ -13586,7 +13554,7 @@
         "sessions": 7,
         "sessionTarget": 55,
         "sessionAchieved": 0,
-        "phasingTarget": 96,
+        "phasingTarget": 93,
         "phasingAchieved": null
       },
       "offline": {
@@ -13635,10 +13603,6 @@
         },
         {
           "name": "Aanchal Aashish",
-          "value": 3
-        },
-        {
-          "name": "Siddhi Shah",
           "value": 3
         },
         {
@@ -13804,10 +13768,10 @@
       "dayName": "Friday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 776,
+        "sessions": 5,
+        "sessionTarget": 766,
         "sessionAchieved": 6,
-        "phasingTarget": 91,
+        "phasingTarget": 88,
         "phasingAchieved": null
       },
       "offline": {
@@ -13857,10 +13821,6 @@
         {
           "name": "Krishnleela M Patel",
           "value": 4
-        },
-        {
-          "name": "Siddhi Shah",
-          "value": 3
         },
         {
           "name": "Susitha Pappiah",
@@ -13961,10 +13921,6 @@
           "value": 1
         },
         {
-          "name": "Siddhi Shah",
-          "value": 10
-        },
-        {
           "name": "Rhea Mathew",
           "value": 5
         },
@@ -14003,14 +13959,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 71,
-        "sessionAchieved": 101,
+        "sessionAchieved": 102,
         "phasingTarget": 110,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 101,
+        "sessionAchieved": 102,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -23617,10 +23573,10 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 530,
+      "totalRegistrations": 531,
       "phasingDays": 10,
       "pctVsTarget": 76.0,
-      "revenueAchieved": 637033,
+      "revenueAchieved": 638237,
       "pctRevenueVsTarget": 89.0
     },
     {
@@ -27833,11 +27789,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 100.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Divyaa",
@@ -28143,11 +28099,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 3,
-      "pctVsTarget": 9.0,
-      "revenueAchieved": 825,
-      "pctRevenueVsTarget": 11.0
+      "pctVsTarget": 18.0,
+      "revenueAchieved": 1650,
+      "pctRevenueVsTarget": 21.0
     },
     {
       "leader": "Shilpa Goel",
@@ -28205,11 +28161,11 @@
         "d1": 15,
         "d0": 15
       },
-      "totalRegistrations": 16,
+      "totalRegistrations": 18,
       "phasingDays": 5,
-      "pctVsTarget": 32.0,
-      "revenueAchieved": 16048,
-      "pctRevenueVsTarget": 38.0
+      "pctVsTarget": 36.0,
+      "revenueAchieved": 18054,
+      "pctRevenueVsTarget": 42.0
     },
     {
       "leader": "Sonika Vickraman",
@@ -28453,11 +28409,11 @@
         "d1": 83,
         "d0": 58
       },
-      "totalRegistrations": 139,
+      "totalRegistrations": 153,
       "phasingDays": 11,
-      "pctVsTarget": 28.0,
-      "revenueAchieved": 228616,
-      "pctRevenueVsTarget": 33.0
+      "pctVsTarget": 31.0,
+      "revenueAchieved": 251519,
+      "pctRevenueVsTarget": 36.0
     },
     {
       "leader": "Renu Kaushik",
@@ -28577,11 +28533,11 @@
         "d1": 17,
         "d0": 17
       },
-      "totalRegistrations": 33,
+      "totalRegistrations": 35,
       "phasingDays": 10,
-      "pctVsTarget": 33.0,
-      "revenueAchieved": 22962,
-      "pctRevenueVsTarget": 39.0
+      "pctVsTarget": 35.0,
+      "revenueAchieved": 24363,
+      "pctRevenueVsTarget": 41.0
     },
     {
       "leader": "Aditi Grover",
@@ -28670,11 +28626,11 @@
         "d1": 133,
         "d0": 133
       },
-      "totalRegistrations": 144,
+      "totalRegistrations": 166,
       "phasingDays": 10,
-      "pctVsTarget": 18.0,
-      "revenueAchieved": 152644,
-      "pctRevenueVsTarget": 21.0
+      "pctVsTarget": 21.0,
+      "revenueAchieved": 175987,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Kajal Thakkar",
@@ -29104,11 +29060,11 @@
         "d1": 14,
         "d0": 10
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 5,
       "phasingDays": 11,
-      "pctVsTarget": 4.0,
-      "revenueAchieved": 2097,
-      "pctRevenueVsTarget": 4.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 3495,
+      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Sweta Gusain",
@@ -29569,11 +29525,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 3,
       "phasingDays": 3,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 699,
-      "pctRevenueVsTarget": 8.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 2097,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Setu Gokani",
@@ -29755,10 +29711,10 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 34,
+      "totalRegistrations": 35,
       "phasingDays": 10,
       "pctVsTarget": 5.0,
-      "revenueAchieved": 40760,
+      "revenueAchieved": 41964,
       "pctRevenueVsTarget": 6.0
     },
     {
@@ -30439,37 +30395,6 @@
       },
       "totalRegistrations": 0,
       "phasingDays": 6,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Nayana Cariappa",
-      "target": 9,
-      "price": 850,
-      "revenueTarget": 7650,
-      "courseInstanceId": "7479",
-      "courseId": "1677",
-      "date": "2026-09-19",
-      "time": "11:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Philosophy behind the Devi Mahatmya, Learning the Mantra",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 1,
-        "d2": 1,
-        "d1": 4,
-        "d0": 3
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 4,
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
@@ -31560,37 +31485,6 @@
       "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Siddhi Shah",
-      "target": 10,
-      "price": 770,
-      "revenueTarget": 7700,
-      "courseInstanceId": "7818",
-      "courseId": "1510",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Baglamukhi Transmission",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 2,
-        "d1": 3,
-        "d0": 3
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Rhea Mathew",
       "target": 5,
       "price": 410,
@@ -31863,10 +31757,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 97,
+      "totalRegistrations": 98,
       "phasingDays": 6,
       "pctVsTarget": 17.0,
-      "revenueAchieved": 564792,
+      "revenueAchieved": 567741,
       "pctRevenueVsTarget": 39.0
     },
     {
