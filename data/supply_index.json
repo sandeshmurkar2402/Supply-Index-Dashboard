@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T17:09:29Z",
+  "lastUpdated": "2026-09-08T20:55:51Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -9815,18 +9815,18 @@
         "sessionTarget": 47,
         "sessionAchieved": 10,
         "phasingTarget": 274,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 3
       },
       "groupLeaderPhasingTargets": [
         {
@@ -10052,7 +10052,40 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Amrita Shah",
+          "missed": 6
+        },
+        {
+          "name": "Bhupali Deore",
+          "missed": 8
+        },
+        {
+          "name": "Divyaa",
+          "missed": 5
+        },
+        {
+          "name": "Harpreet B Sharma",
+          "missed": 7
+        },
+        {
+          "name": "Nishi Shah",
+          "missed": 1
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "missed": 8
+        },
+        {
+          "name": "Vanita Keswani",
+          "missed": 1
+        },
+        {
+          "name": "Jyoti Soni",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 121,
         "leadersAvailableToday": 118,
@@ -10067,12 +10100,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 89,
+        "slotsAvailable": 46,
+        "pctSlotsAvailable": 52.0
       }
     },
     {
