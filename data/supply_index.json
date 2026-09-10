@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T17:36:28Z",
+  "lastUpdated": "2026-09-10T20:39:24Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -10431,18 +10431,18 @@
         "sessionTarget": 628,
         "sessionAchieved": 330,
         "phasingTarget": 309,
-        "phasingAchieved": null
+        "phasingAchieved": 29
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 29
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 5
       },
       "groupLeaderPhasingTargets": [
         {
@@ -10664,7 +10664,44 @@
           "value": 100
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Arpita Thakkar",
+          "missed": 7
+        },
+        {
+          "name": "Ashima Sood Patil",
+          "missed": 1
+        },
+        {
+          "name": "Divyaa",
+          "missed": 4
+        },
+        {
+          "name": "Dr. Neha Racca",
+          "missed": 8
+        },
+        {
+          "name": "Dr. Tamanna C",
+          "missed": 238
+        },
+        {
+          "name": "Renu Kaushik",
+          "missed": 1
+        },
+        {
+          "name": "Sanyaas In The City",
+          "missed": 1
+        },
+        {
+          "name": "Shaan",
+          "missed": 1
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "missed": 37
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 119,
         "leadersAvailableToday": 113,
@@ -10679,12 +10716,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 3,
+      "pctSlotsFilledToday": 0.17,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 110,
+        "slotsAvailable": 103,
+        "pctSlotsAvailable": 94.0
       }
     },
     {
