@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T13:24:26Z",
+  "lastUpdated": "2026-09-11T17:39:03Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -29902,37 +29902,6 @@
       "pctRevenueVsTarget": 31.0
     },
     {
-      "leader": "Vidhya K",
-      "target": 10,
-      "price": 850,
-      "revenueTarget": 8500,
-      "courseInstanceId": "7672",
-      "courseId": "1726",
-      "date": "2026-09-15",
-      "time": "19:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Manifestation with ho'oponopono",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 1,
-        "d5": 1,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 2,
-        "d0": 3
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Divyaa",
       "target": 5,
       "price": 410,
@@ -31382,37 +31351,6 @@
         "d2": 2,
         "d1": 2,
         "d0": 4
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Shweta Singh Kirti",
-      "target": 50,
-      "price": 949,
-      "revenueTarget": 47450,
-      "courseInstanceId": "7275",
-      "courseId": "1808",
-      "date": "2026-09-22",
-      "time": "20:00",
-      "campaign": "Biz Boost",
-      "leaderTagging": "Hindi Hero",
-      "language": "English",
-      "topic": "From Suffering to Strength: Rewiring How You Process Emotional Trauma",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 3,
-        "d5": 3,
-        "d4": 3,
-        "d3": 7,
-        "d2": 7,
-        "d1": 10,
-        "d0": 17
       },
       "totalRegistrations": 0,
       "phasingDays": 3,
