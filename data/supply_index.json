@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T17:39:03Z",
+  "lastUpdated": "2026-09-11T20:44:31Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -10248,10 +10248,6 @@
           "value": 1
         },
         {
-          "name": "Vidhya K",
-          "value": 1
-        },
-        {
           "name": "Sharmila Awasthi",
           "value": 1
         },
@@ -10550,10 +10546,6 @@
           "value": 1
         },
         {
-          "name": "Vidhya K",
-          "value": 1
-        },
-        {
           "name": "Meenakshi Mishra",
           "value": 1
         },
@@ -10725,18 +10717,18 @@
         "sessionTarget": 830,
         "sessionAchieved": 448,
         "phasingTarget": 251,
-        "phasingAchieved": null
+        "phasingAchieved": 19
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 28
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "groupLeaderPhasingTargets": [
         {
@@ -10848,10 +10840,6 @@
           "value": 1
         },
         {
-          "name": "Vidhya K",
-          "value": 1
-        },
-        {
           "name": "Divyaa",
           "value": 1
         },
@@ -10930,7 +10918,28 @@
           "value": 1
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "missed": 370
+        },
+        {
+          "name": "Aditi Grover",
+          "missed": 9
+        },
+        {
+          "name": "Deepa Shetty",
+          "missed": 1
+        },
+        {
+          "name": "Rhea Mathew",
+          "missed": 4
+        },
+        {
+          "name": "Amritaa Shankar",
+          "missed": 1
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 119,
         "leadersAvailableToday": 113,
@@ -10945,12 +10954,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 81,
+        "slotsAvailable": 73,
+        "pctSlotsAvailable": 90.0
       }
     },
     {
@@ -11050,10 +11059,6 @@
         },
         {
           "name": "Amrita Shah",
-          "value": 2
-        },
-        {
-          "name": "Vidhya K",
           "value": 2
         },
         {
@@ -11214,7 +11219,7 @@
         "sessions": 6,
         "sessionTarget": 120,
         "sessionAchieved": 27,
-        "phasingTarget": 135,
+        "phasingTarget": 132,
         "phasingAchieved": null
       },
       "offline": {
@@ -11291,10 +11296,6 @@
         },
         {
           "name": "Amrita Shah",
-          "value": 2
-        },
-        {
-          "name": "Vidhya K",
           "value": 2
         },
         {
@@ -11463,7 +11464,7 @@
         "sessions": 8,
         "sessionTarget": 67,
         "sessionAchieved": 6,
-        "phasingTarget": 198,
+        "phasingTarget": 194,
         "phasingAchieved": null
       },
       "offline": {
@@ -11524,10 +11525,6 @@
         },
         {
           "name": "Amrita Shah",
-          "value": 2
-        },
-        {
-          "name": "Vidhya K",
           "value": 2
         },
         {
@@ -11721,10 +11718,10 @@
       "dayName": "Tuesday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 8,
-        "sessionTarget": 123,
+        "sessions": 7,
+        "sessionTarget": 113,
         "sessionAchieved": 27,
-        "phasingTarget": 193,
+        "phasingTarget": 190,
         "phasingAchieved": null
       },
       "offline": {
@@ -11757,10 +11754,6 @@
         },
         {
           "name": "Amrita Shah",
-          "value": 4
-        },
-        {
-          "name": "Vidhya K",
           "value": 4
         },
         {
@@ -11922,10 +11915,6 @@
           "value": 15
         },
         {
-          "name": "Vidhya K",
-          "value": 10
-        },
-        {
           "name": "Divyaa",
           "value": 5
         },
@@ -12014,10 +12003,6 @@
         },
         {
           "name": "Swapnil Gawde",
-          "value": 4
-        },
-        {
-          "name": "Shweta Singh Kirti",
           "value": 4
         },
         {
@@ -12243,10 +12228,6 @@
         },
         {
           "name": "Swapnil Gawde",
-          "value": 4
-        },
-        {
-          "name": "Shweta Singh Kirti",
           "value": 4
         },
         {
@@ -12511,10 +12492,6 @@
           "value": 4
         },
         {
-          "name": "Shweta Singh Kirti",
-          "value": 4
-        },
-        {
           "name": "Peyush Bhatia",
           "value": 3
         },
@@ -12728,10 +12705,6 @@
           "value": 8
         },
         {
-          "name": "Shweta Singh Kirti",
-          "value": 7
-        },
-        {
           "name": "Mahima Mor",
           "value": 5
         },
@@ -12921,7 +12894,7 @@
         "sessions": 6,
         "sessionTarget": 93,
         "sessionAchieved": 0,
-        "phasingTarget": 88,
+        "phasingTarget": 73,
         "phasingAchieved": null
       },
       "offline": {
@@ -12943,10 +12916,6 @@
         {
           "name": "Devi Nidhi Saraswat",
           "value": 8
-        },
-        {
-          "name": "Shweta Singh Kirti",
-          "value": 7
         },
         {
           "name": "Rhea Mathew",
@@ -13150,7 +13119,7 @@
         "sessions": 6,
         "sessionTarget": 64,
         "sessionAchieved": 0,
-        "phasingTarget": 100,
+        "phasingTarget": 80,
         "phasingAchieved": null
       },
       "offline": {
@@ -13168,10 +13137,6 @@
         {
           "name": "Smita Venkatesh",
           "value": 23
-        },
-        {
-          "name": "Shweta Singh Kirti",
-          "value": 10
         },
         {
           "name": "Amrita Shah",
@@ -13376,10 +13341,10 @@
       "dayName": "Tuesday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 154,
+        "sessions": 4,
+        "sessionTarget": 104,
         "sessionAchieved": 0,
-        "phasingTarget": 96,
+        "phasingTarget": 81,
         "phasingAchieved": null
       },
       "offline": {
@@ -13397,10 +13362,6 @@
         {
           "name": "Smita Venkatesh",
           "value": 23
-        },
-        {
-          "name": "Shweta Singh Kirti",
-          "value": 17
         },
         {
           "name": "Sheelaa M Bajaj",
@@ -13543,10 +13504,6 @@
         {
           "name": "Kajal Thakkar",
           "value": 12
-        },
-        {
-          "name": "Shweta Singh Kirti",
-          "value": 50
         },
         {
           "name": "Smita Venkatesh",
