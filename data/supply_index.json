@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T22:03:28Z",
+  "lastUpdated": "2026-09-13T00:42:46Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -10965,7 +10965,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 88,
-        "sessionAchieved": 65,
+        "sessionAchieved": 70,
         "phasingTarget": 130,
         "phasingAchieved": 19
       },
@@ -11198,10 +11198,6 @@
           "missed": 9
         },
         {
-          "name": "Denzil Oconnell",
-          "missed": 1
-        },
-        {
           "name": "Disha Sharma",
           "missed": 2
         },
@@ -11239,7 +11235,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 120,
-        "sessionAchieved": 35,
+        "sessionAchieved": 38,
         "phasingTarget": 132,
         "phasingAchieved": null
       },
@@ -11484,7 +11480,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 67,
-        "sessionAchieved": 6,
+        "sessionAchieved": 7,
         "phasingTarget": 194,
         "phasingAchieved": null
       },
@@ -11982,7 +11978,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 728,
-        "sessionAchieved": 94,
+        "sessionAchieved": 98,
         "phasingTarget": 178,
         "phasingAchieved": null
       },
@@ -12464,7 +12460,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 57,
-        "sessionAchieved": 2,
+        "sessionAchieved": 7,
         "phasingTarget": 78,
         "phasingAchieved": null
       },
@@ -14256,14 +14252,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 70,
-        "sessionAchieved": 141,
+        "sessionAchieved": 143,
         "phasingTarget": 111,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 140,
+        "sessionAchieved": 142,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -29377,11 +29373,11 @@
         "d1": 14,
         "d0": 10
       },
-      "totalRegistrations": 36,
+      "totalRegistrations": 38,
       "phasingDays": 11,
-      "pctVsTarget": 42.0,
-      "revenueAchieved": 25164,
-      "pctRevenueVsTarget": 50.0
+      "pctVsTarget": 45.0,
+      "revenueAchieved": 26562,
+      "pctRevenueVsTarget": 53.0
     },
     {
       "leader": "Alipta Sabharwal",
@@ -30524,11 +30520,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 3,
-      "pctVsTarget": 47.0,
-      "revenueAchieved": 6363,
-      "pctRevenueVsTarget": 55.0
+      "pctVsTarget": 53.0,
+      "revenueAchieved": 7272,
+      "pctRevenueVsTarget": 63.0
     },
     {
       "leader": "Dr. Nehaa Jain",
