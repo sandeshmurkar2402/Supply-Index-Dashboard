@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T11:25:37Z",
+  "lastUpdated": "2026-09-13T15:54:43Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -11737,7 +11737,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 113,
-        "sessionAchieved": 48,
+        "sessionAchieved": 52,
         "phasingTarget": 190,
         "phasingAchieved": null
       },
@@ -11978,7 +11978,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 728,
-        "sessionAchieved": 109,
+        "sessionAchieved": 110,
         "phasingTarget": 178,
         "phasingAchieved": null
       },
@@ -12460,7 +12460,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 57,
-        "sessionAchieved": 19,
+        "sessionAchieved": 20,
         "phasingTarget": 78,
         "phasingAchieved": null
       },
@@ -29838,11 +29838,11 @@
         "d1": 24,
         "d0": 24
       },
-      "totalRegistrations": 31,
+      "totalRegistrations": 33,
       "phasingDays": 5,
-      "pctVsTarget": 39.0,
-      "revenueAchieved": 31093,
-      "pctRevenueVsTarget": 46.0
+      "pctVsTarget": 41.0,
+      "revenueAchieved": 33099,
+      "pctRevenueVsTarget": 49.0
     },
     {
       "leader": "Rashika Kaul",
@@ -29869,11 +29869,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 3,
-      "pctVsTarget": 33.0,
-      "revenueAchieved": 3495,
-      "pctRevenueVsTarget": 39.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 4194,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Divyaa",
@@ -29931,11 +29931,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 100.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Setu Gokani",
@@ -30024,10 +30024,10 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 108,
+      "totalRegistrations": 109,
       "phasingDays": 10,
-      "pctVsTarget": 15.0,
-      "revenueAchieved": 129872,
+      "pctVsTarget": 16.0,
+      "revenueAchieved": 131076,
       "pctRevenueVsTarget": 18.0
     },
     {
@@ -30520,11 +30520,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 19,
+      "totalRegistrations": 20,
       "phasingDays": 3,
-      "pctVsTarget": 127.0,
-      "revenueAchieved": 17271,
-      "pctRevenueVsTarget": 150.0
+      "pctVsTarget": 133.0,
+      "revenueAchieved": 18180,
+      "pctRevenueVsTarget": 157.0
     },
     {
       "leader": "Dr. Nehaa Jain",
