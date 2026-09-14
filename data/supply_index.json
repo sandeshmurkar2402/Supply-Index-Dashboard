@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T23:58:54Z",
+  "lastUpdated": "2026-09-14T04:44:27Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -8331,7 +8331,7 @@
       "groupMissedTargets": [
         {
           "name": "Abhirammi",
-          "missed": 10
+          "missed": 5
         },
         {
           "name": "Dr. Ddevika",
@@ -11237,7 +11237,7 @@
         "sessionTarget": 120,
         "sessionAchieved": 49,
         "phasingTarget": 132,
-        "phasingAchieved": 28
+        "phasingAchieved": 71
       },
       "offline": {
         "sessions": 0,
@@ -11248,7 +11248,7 @@
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": 10
+        "phasingAchieved": 37
       },
       "groupLeaderPhasingTargets": [
         {
@@ -12003,7 +12003,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 728,
-        "sessionAchieved": 119,
+        "sessionAchieved": 122,
         "phasingTarget": 178,
         "phasingAchieved": null
       },
@@ -12485,7 +12485,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 57,
-        "sessionAchieved": 23,
+        "sessionAchieved": 25,
         "phasingTarget": 78,
         "phasingAchieved": null
       },
@@ -19954,8 +19954,8 @@
       "target": 0,
       "price": 770,
       "revenueTarget": 0,
-      "courseInstanceId": "5734",
-      "courseId": "1009",
+      "courseInstanceId": "6281",
+      "courseId": "1715",
       "date": "2026-07-30",
       "time": "14:00",
       "campaign": "Do Not Market",
@@ -26805,8 +26805,8 @@
       "target": 10,
       "price": 770,
       "revenueTarget": 7700,
-      "courseInstanceId": "7642",
-      "courseId": "1884",
+      "courseInstanceId": "7816",
+      "courseId": "1556",
       "date": "2026-09-02",
       "time": "19:00",
       "campaign": "ROL Boost",
@@ -26825,11 +26825,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 5,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 50.0,
+      "revenueAchieved": 4545,
+      "pctRevenueVsTarget": 59.0
     },
     {
       "leader": "Dr. Ddevika",
@@ -28882,8 +28882,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "8122",
-      "courseId": "1324",
+      "courseInstanceId": "7534",
+      "courseId": "1647",
       "date": "2026-09-10",
       "time": "19:00",
       "campaign": "Do Not Market",
@@ -30049,10 +30049,10 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 118,
+      "totalRegistrations": 121,
       "phasingDays": 10,
       "pctVsTarget": 17.0,
-      "revenueAchieved": 141913,
+      "revenueAchieved": 145524,
       "pctRevenueVsTarget": 20.0
     },
     {
@@ -30091,7 +30091,7 @@
       "target": 8,
       "price": 850,
       "revenueTarget": 6800,
-      "courseInstanceId": "7631",
+      "courseInstanceId": "8186",
       "courseId": "1322",
       "date": "2026-09-16",
       "time": "20:00",
@@ -30545,11 +30545,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 23,
+      "totalRegistrations": 25,
       "phasingDays": 3,
-      "pctVsTarget": 153.0,
-      "revenueAchieved": 20907,
-      "pctRevenueVsTarget": 181.0
+      "pctVsTarget": 167.0,
+      "revenueAchieved": 22725,
+      "pctRevenueVsTarget": 197.0
     },
     {
       "leader": "Dr. Nehaa Jain",
@@ -34947,10 +34947,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": null,
       "pctVsTarget": null,
-      "revenueAchieved": 0,
+      "revenueAchieved": 825,
       "pctRevenueVsTarget": null
     },
     {
