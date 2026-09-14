@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T16:52:20Z",
+  "lastUpdated": "2026-09-14T20:48:52Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -11507,18 +11507,18 @@
         "sessionTarget": 67,
         "sessionAchieved": 10,
         "phasingTarget": 194,
-        "phasingAchieved": null
+        "phasingAchieved": 10
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "groupLeaderPhasingTargets": [
         {
@@ -11732,7 +11732,40 @@
           "value": 5
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Pallavi Kambo",
+          "missed": 9
+        },
+        {
+          "name": "Shalini Chugh",
+          "missed": 9
+        },
+        {
+          "name": "Shreya Singh",
+          "missed": 5
+        },
+        {
+          "name": "Shweta Chatterjee",
+          "missed": 9
+        },
+        {
+          "name": "Siddhi Shah",
+          "missed": 10
+        },
+        {
+          "name": "Neha Kumra",
+          "missed": 10
+        },
+        {
+          "name": "Ashwini Bhave",
+          "missed": 1
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 4
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 111,
         "leadersAvailableToday": 103,
@@ -11747,12 +11780,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 104,
+        "slotsAvailable": 49,
+        "pctSlotsAvailable": 47.0
       }
     },
     {
