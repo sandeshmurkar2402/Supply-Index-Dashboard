@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:47:58Z",
+  "lastUpdated": "2026-09-15T21:59:42Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -11787,7 +11787,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 113,
-        "sessionAchieved": 65,
+        "sessionAchieved": 67,
         "phasingTarget": 188,
         "phasingAchieved": 25
       },
@@ -11997,7 +11997,7 @@
       "groupMissedTargets": [
         {
           "name": "Janhvi V Singh",
-          "missed": 41
+          "missed": 39
         },
         {
           "name": "Rashika Kaul",
@@ -12045,7 +12045,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 728,
-        "sessionAchieved": 198,
+        "sessionAchieved": 216,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
@@ -12515,7 +12515,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 57,
-        "sessionAchieved": 78,
+        "sessionAchieved": 90,
         "phasingTarget": 78,
         "phasingAchieved": null
       },
@@ -13186,7 +13186,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 64,
-        "sessionAchieved": 1,
+        "sessionAchieved": 2,
         "phasingTarget": 78,
         "phasingAchieved": null
       },
@@ -14259,14 +14259,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 70,
-        "sessionAchieved": 158,
+        "sessionAchieved": 162,
         "phasingTarget": 111,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 157,
+        "sessionAchieved": 161,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -29845,11 +29845,11 @@
         "d1": 24,
         "d0": 24
       },
-      "totalRegistrations": 39,
+      "totalRegistrations": 41,
       "phasingDays": 5,
-      "pctVsTarget": 49.0,
-      "revenueAchieved": 39117,
-      "pctRevenueVsTarget": 58.0
+      "pctVsTarget": 51.0,
+      "revenueAchieved": 41123,
+      "pctRevenueVsTarget": 60.0
     },
     {
       "leader": "Rashika Kaul",
@@ -30031,11 +30031,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 195,
+      "totalRegistrations": 212,
       "phasingDays": 10,
-      "pctVsTarget": 28.0,
-      "revenueAchieved": 234599,
-      "pctRevenueVsTarget": 33.0
+      "pctVsTarget": 30.0,
+      "revenueAchieved": 255067,
+      "pctRevenueVsTarget": 36.0
     },
     {
       "leader": "Chaittali",
@@ -30062,11 +30062,11 @@
         "d1": 2,
         "d0": 1
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 6,
-      "pctVsTarget": 14.0,
-      "revenueAchieved": 909,
-      "pctRevenueVsTarget": 17.0
+      "pctVsTarget": 29.0,
+      "revenueAchieved": 1818,
+      "pctRevenueVsTarget": 34.0
     },
     {
       "leader": "Pranjal Katoch",
@@ -30496,11 +30496,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 77,
+      "totalRegistrations": 89,
       "phasingDays": 3,
-      "pctVsTarget": 513.0,
-      "revenueAchieved": 69884,
-      "pctRevenueVsTarget": 605.0
+      "pctVsTarget": 593.0,
+      "revenueAchieved": 80687,
+      "pctRevenueVsTarget": 699.0
     },
     {
       "leader": "Dr. Nehaa Jain",
@@ -31271,11 +31271,11 @@
         "d1": 1,
         "d0": 1
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 484,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Kajal Thakkar",
@@ -32077,11 +32077,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 151,
+      "totalRegistrations": 155,
       "phasingDays": 6,
-      "pctVsTarget": 26.0,
-      "revenueAchieved": 862658,
-      "pctRevenueVsTarget": 59.0
+      "pctVsTarget": 27.0,
+      "revenueAchieved": 889792,
+      "pctRevenueVsTarget": 61.0
     },
     {
       "leader": "Binita Aamol Rege",
