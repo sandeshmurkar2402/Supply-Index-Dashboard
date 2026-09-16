@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T05:47:48Z",
+  "lastUpdated": "2026-09-16T11:11:01Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -5636,8 +5636,8 @@
         "phasingAchieved": 68
       },
       "offline": {
-        "sessions": 1,
-        "sessionTarget": 60,
+        "sessions": 2,
+        "sessionTarget": 310,
         "sessionAchieved": 218,
         "phasingTarget": 38,
         "phasingAchieved": 15
@@ -5794,6 +5794,10 @@
       ],
       "groupLeaderTargets": [
         {
+          "name": "Kavyal Sedanni",
+          "value": 250
+        },
+        {
           "name": "Immersive Sound Experience",
           "value": 60
         },
@@ -5819,6 +5823,10 @@
         }
       ],
       "groupMissedTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "missed": 92
+        },
         {
           "name": "Immersive Sound Experience",
           "missed": 18
@@ -10966,7 +10974,7 @@
         "sessions": 8,
         "sessionTarget": 88,
         "sessionAchieved": 70,
-        "phasingTarget": 130,
+        "phasingTarget": 129,
         "phasingAchieved": 88
       },
       "offline": {
@@ -11079,10 +11087,6 @@
         },
         {
           "name": "Pranjal Katoch",
-          "value": 1
-        },
-        {
-          "name": "Loveena Bahl",
           "value": 1
         },
         {
@@ -11348,10 +11352,6 @@
           "value": 1
         },
         {
-          "name": "Loveena Bahl",
-          "value": 1
-        },
-        {
           "name": "Premmayi Gurumaa",
           "value": 1
         },
@@ -11373,6 +11373,10 @@
         },
         {
           "name": "Binita Aamol Rege",
+          "value": 1
+        },
+        {
+          "name": "Siddhi Shah",
           "value": 1
         },
         {
@@ -11502,7 +11506,7 @@
         "sessions": 8,
         "sessionTarget": 67,
         "sessionAchieved": 10,
-        "phasingTarget": 193,
+        "phasingTarget": 192,
         "phasingAchieved": 71
       },
       "offline": {
@@ -11582,10 +11586,6 @@
           "value": 2
         },
         {
-          "name": "Loveena Bahl",
-          "value": 2
-        },
-        {
           "name": "Meenakshi Mishra",
           "value": 2
         },
@@ -11623,6 +11623,10 @@
         },
         {
           "name": "Premmayi Gurumaa",
+          "value": 1
+        },
+        {
+          "name": "Siddhi Shah",
           "value": 1
         },
         {
@@ -11683,10 +11687,6 @@
         },
         {
           "name": "Dr. Nehaa Jain",
-          "value": 1
-        },
-        {
-          "name": "Supriya Chhabra",
           "value": 1
         }
       ],
@@ -11788,7 +11788,7 @@
         "sessions": 7,
         "sessionTarget": 113,
         "sessionAchieved": 67,
-        "phasingTarget": 188,
+        "phasingTarget": 187,
         "phasingAchieved": 143
       },
       "offline": {
@@ -11833,10 +11833,6 @@
         },
         {
           "name": "Pranjal Katoch",
-          "value": 3
-        },
-        {
-          "name": "Loveena Bahl",
           "value": 3
         },
         {
@@ -11885,6 +11881,10 @@
         },
         {
           "name": "Debanjan Medhi",
+          "value": 2
+        },
+        {
+          "name": "Siddhi Shah",
           "value": 2
         },
         {
@@ -11953,10 +11953,6 @@
         },
         {
           "name": "Ruchika Uppal",
-          "value": 1
-        },
-        {
-          "name": "Supriya Chhabra",
           "value": 1
         },
         {
@@ -12043,10 +12039,10 @@
       "dayName": "Wednesday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 5,
-        "sessionTarget": 728,
-        "sessionAchieved": 223,
-        "phasingTarget": 175,
+        "sessions": 4,
+        "sessionTarget": 720,
+        "sessionAchieved": 254,
+        "phasingTarget": 174,
         "phasingAchieved": null
       },
       "offline": {
@@ -12102,10 +12098,6 @@
           "value": 3
         },
         {
-          "name": "Loveena Bahl",
-          "value": 3
-        },
-        {
           "name": "Premmayi Gurumaa",
           "value": 3
         },
@@ -12119,6 +12111,10 @@
         },
         {
           "name": "Peyush Bhatia",
+          "value": 2
+        },
+        {
+          "name": "Siddhi Shah",
           "value": 2
         },
         {
@@ -12166,6 +12162,10 @@
           "value": 1
         },
         {
+          "name": "Vidhya K",
+          "value": 1
+        },
+        {
           "name": "Sharmila Awasthi",
           "value": 1
         },
@@ -12194,10 +12194,6 @@
           "value": 1
         },
         {
-          "name": "Supriya Chhabra",
-          "value": 1
-        },
-        {
           "name": "Ruchika Uppal",
           "value": 1
         },
@@ -12221,10 +12217,6 @@
         },
         {
           "name": "Pranjal Katoch",
-          "value": 8
-        },
-        {
-          "name": "Loveena Bahl",
           "value": 8
         },
         {
@@ -12262,8 +12254,8 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 68,
-        "sessionAchieved": 15,
-        "phasingTarget": 74,
+        "sessionAchieved": 22,
+        "phasingTarget": 75,
         "phasingAchieved": null
       },
       "offline": {
@@ -12333,6 +12325,10 @@
         {
           "name": "Ridhhimaa Tandon",
           "value": 3
+        },
+        {
+          "name": "Siddhi Shah",
+          "value": 2
         },
         {
           "name": "Vanita Keswani",
@@ -12391,6 +12387,10 @@
           "value": 1
         },
         {
+          "name": "Vidhya K",
+          "value": 1
+        },
+        {
           "name": "Dr. Ddevika",
           "value": 1
         },
@@ -12412,10 +12412,6 @@
         },
         {
           "name": "Violet Tara",
-          "value": 1
-        },
-        {
-          "name": "Supriya Chhabra",
           "value": 1
         },
         {
@@ -12513,10 +12509,10 @@
       "dayName": "Friday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 57,
-        "sessionAchieved": 105,
-        "phasingTarget": 78,
+        "sessions": 8,
+        "sessionTarget": 65,
+        "sessionAchieved": 123,
+        "phasingTarget": 80,
         "phasingAchieved": null
       },
       "offline": {
@@ -12592,6 +12588,10 @@
           "value": 2
         },
         {
+          "name": "Siddhi Shah",
+          "value": 2
+        },
+        {
           "name": "Vanita Keswani",
           "value": 2
         },
@@ -12616,6 +12616,10 @@
           "value": 1
         },
         {
+          "name": "Swati Ahluwalia",
+          "value": 1
+        },
+        {
           "name": "Dushyant Dharma",
           "value": 1
         },
@@ -12632,6 +12636,10 @@
           "value": 1
         },
         {
+          "name": "Aditi Grover",
+          "value": 1
+        },
+        {
           "name": "Meenakshi Mishra",
           "value": 1
         },
@@ -12641,6 +12649,10 @@
         },
         {
           "name": "Krupa Shah",
+          "value": 1
+        },
+        {
+          "name": "Vidhya K",
           "value": 1
         },
         {
@@ -12665,10 +12677,6 @@
         },
         {
           "name": "Ruchika Uppal",
-          "value": 1
-        },
-        {
-          "name": "Supriya Chhabra",
           "value": 1
         },
         {
@@ -12712,6 +12720,10 @@
         {
           "name": "Rhea Mathew",
           "value": 5
+        },
+        {
+          "name": "Siddhi Shah",
+          "value": 8
         }
       ],
       "groupMissedTargets": [],
@@ -12742,10 +12754,10 @@
       "dayName": "Saturday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 87,
-        "sessionAchieved": 8,
-        "phasingTarget": 71,
+        "sessions": 6,
+        "sessionTarget": 86,
+        "sessionAchieved": 7,
+        "phasingTarget": 72,
         "phasingAchieved": null
       },
       "offline": {
@@ -12825,6 +12837,10 @@
           "value": 2
         },
         {
+          "name": "Vidhya K",
+          "value": 2
+        },
+        {
           "name": "Disha Sharma",
           "value": 2
         },
@@ -12841,7 +12857,15 @@
           "value": 1
         },
         {
+          "name": "Swati Ahluwalia",
+          "value": 1
+        },
+        {
           "name": "Krupa Sawant",
+          "value": 1
+        },
+        {
+          "name": "Aditi Grover",
           "value": 1
         },
         {
@@ -12893,15 +12917,15 @@
           "value": 1
         },
         {
-          "name": "Supriya Chhabra",
-          "value": 1
-        },
-        {
           "name": "Krishnna",
           "value": 1
         },
         {
           "name": "Denzil Oconnell",
+          "value": 1
+        },
+        {
+          "name": "Dr. Neha Racca",
           "value": 1
         }
       ],
@@ -12929,10 +12953,6 @@
         {
           "name": "Disha Sharma",
           "value": 5
-        },
-        {
-          "name": "Supriya Chhabra",
-          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -12965,8 +12985,8 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 93,
-        "sessionAchieved": 0,
-        "phasingTarget": 73,
+        "sessionAchieved": 1,
+        "phasingTarget": 78,
         "phasingAchieved": null
       },
       "offline": {
@@ -13030,6 +13050,10 @@
           "value": 3
         },
         {
+          "name": "Swati Ahluwalia",
+          "value": 2
+        },
+        {
           "name": "Sukhmani Bajwa",
           "value": 2
         },
@@ -13047,6 +13071,10 @@
         },
         {
           "name": "Krupa Shah",
+          "value": 2
+        },
+        {
+          "name": "Vidhya K",
           "value": 2
         },
         {
@@ -13078,6 +13106,10 @@
           "value": 1
         },
         {
+          "name": "Aditi Grover",
+          "value": 1
+        },
+        {
           "name": "Debanjan Medhi",
           "value": 1
         },
@@ -13102,6 +13134,10 @@
           "value": 1
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
           "name": "Preety",
           "value": 1
         },
@@ -13123,6 +13159,10 @@
         },
         {
           "name": "Denzil Oconnell",
+          "value": 1
+        },
+        {
+          "name": "Dr. Neha Racca",
           "value": 1
         },
         {
@@ -13186,8 +13226,8 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 64,
-        "sessionAchieved": 2,
-        "phasingTarget": 78,
+        "sessionAchieved": 3,
+        "phasingTarget": 85,
         "phasingAchieved": null
       },
       "offline": {
@@ -13231,6 +13271,10 @@
           "value": 3
         },
         {
+          "name": "Swati Ahluwalia",
+          "value": 3
+        },
+        {
           "name": "Dushyant Dharma",
           "value": 3
         },
@@ -13243,11 +13287,19 @@
           "value": 3
         },
         {
+          "name": "Vidhya K",
+          "value": 2
+        },
+        {
           "name": "Sukhmani Bajwa",
           "value": 2
         },
         {
           "name": "Krupa Sawant",
+          "value": 2
+        },
+        {
+          "name": "Aditi Grover",
           "value": 2
         },
         {
@@ -13319,6 +13371,10 @@
           "value": 1
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
           "name": "Arjun Aiyar",
           "value": 1
         },
@@ -13335,15 +13391,15 @@
           "value": 1
         },
         {
+          "name": "Dr. Neha Racca",
+          "value": 1
+        },
+        {
           "name": "Gunjan Nautiyall",
           "value": 1
         },
         {
           "name": "Nishi Shah",
-          "value": 1
-        },
-        {
-          "name": "Sayalee Jadhav",
           "value": 1
         }
       ],
@@ -13401,10 +13457,10 @@
       "dayName": "Tuesday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 4,
-        "sessionTarget": 104,
-        "sessionAchieved": 3,
-        "phasingTarget": 79,
+        "sessions": 6,
+        "sessionTarget": 124,
+        "sessionAchieved": 5,
+        "phasingTarget": 89,
         "phasingAchieved": null
       },
       "offline": {
@@ -13448,8 +13504,16 @@
           "value": 4
         },
         {
+          "name": "Vidhya K",
+          "value": 4
+        },
+        {
           "name": "Vidhi Agarwal",
           "value": 4
+        },
+        {
+          "name": "Swati Ahluwalia",
+          "value": 3
         },
         {
           "name": "Jyotismita Das",
@@ -13473,6 +13537,10 @@
         },
         {
           "name": "Krupa Sawant",
+          "value": 2
+        },
+        {
+          "name": "Aditi Grover",
           "value": 2
         },
         {
@@ -13528,7 +13596,15 @@
           "value": 1
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
           "name": "Krishnna",
+          "value": 1
+        },
+        {
+          "name": "Dr. Neha Racca",
           "value": 1
         },
         {
@@ -13545,10 +13621,6 @@
         },
         {
           "name": "Nishi Shah",
-          "value": 1
-        },
-        {
-          "name": "Sayalee Jadhav",
           "value": 1
         }
       ],
@@ -13568,6 +13640,14 @@
         {
           "name": "Divyaa",
           "value": 5
+        },
+        {
+          "name": "Swati Ahluwalia",
+          "value": 10
+        },
+        {
+          "name": "Vidhya K",
+          "value": 10
         }
       ],
       "groupMissedTargets": [],
@@ -13601,7 +13681,7 @@
         "sessions": 8,
         "sessionTarget": 69,
         "sessionAchieved": 0,
-        "phasingTarget": 76,
+        "phasingTarget": 81,
         "phasingAchieved": null
       },
       "offline": {
@@ -13669,6 +13749,10 @@
           "value": 3
         },
         {
+          "name": "Aditi Grover",
+          "value": 3
+        },
+        {
           "name": "Susitha Pappiah",
           "value": 3
         },
@@ -13729,6 +13813,10 @@
           "value": 1
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
           "name": "Disha Sharma",
           "value": 1
         },
@@ -13753,15 +13841,15 @@
           "value": 1
         },
         {
+          "name": "Dr. Neha Racca",
+          "value": 1
+        },
+        {
           "name": "Nishi Shah",
           "value": 1
         },
         {
           "name": "Meenakshi Mishra",
-          "value": 1
-        },
-        {
-          "name": "Sayalee Jadhav",
           "value": 1
         }
       ],
@@ -13827,10 +13915,10 @@
       "dayName": "Thursday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 8,
-        "sessionTarget": 56,
+        "sessions": 10,
+        "sessionTarget": 69,
         "sessionAchieved": 0,
-        "phasingTarget": 93,
+        "phasingTarget": 98,
         "phasingAchieved": null
       },
       "offline": {
@@ -13855,6 +13943,10 @@
         },
         {
           "name": "Krupa Sawant",
+          "value": 4
+        },
+        {
+          "name": "Aditi Grover",
           "value": 4
         },
         {
@@ -13946,6 +14038,10 @@
           "value": 1
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 1
+        },
+        {
           "name": "Sharmila Awasthi",
           "value": 1
         },
@@ -13990,7 +14086,7 @@
           "value": 1
         },
         {
-          "name": "Sayalee Jadhav",
+          "name": "Dr. Neha Racca",
           "value": 1
         },
         {
@@ -14030,6 +14126,14 @@
         {
           "name": "Denzil Oconnell",
           "value": 1
+        },
+        {
+          "name": "Aditi Grover",
+          "value": 12
+        },
+        {
+          "name": "Dr. Neha Racca",
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -14063,7 +14167,7 @@
         "sessions": 5,
         "sessionTarget": 766,
         "sessionAchieved": 12,
-        "phasingTarget": 88,
+        "phasingTarget": 91,
         "phasingAchieved": null
       },
       "offline": {
@@ -14135,6 +14239,10 @@
           "value": 2
         },
         {
+          "name": "Sayalee Jadhav",
+          "value": 2
+        },
+        {
           "name": "Mrridula Bali",
           "value": 2
         },
@@ -14184,10 +14292,6 @@
         },
         {
           "name": "Akanksha Walia",
-          "value": 1
-        },
-        {
-          "name": "Sayalee Jadhav",
           "value": 1
         },
         {
@@ -14258,15 +14362,15 @@
       "month": "Sep-26",
       "groupOnline": {
         "sessions": 7,
-        "sessionTarget": 70,
-        "sessionAchieved": 162,
-        "phasingTarget": 111,
+        "sessionTarget": 76,
+        "sessionAchieved": 164,
+        "phasingTarget": 113,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 161,
+        "sessionAchieved": 163,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -14321,6 +14425,10 @@
         },
         {
           "name": "Mrridula Bali",
+          "value": 3
+        },
+        {
+          "name": "Sayalee Jadhav",
           "value": 3
         },
         {
@@ -14384,10 +14492,6 @@
           "value": 1
         },
         {
-          "name": "Sayalee Jadhav",
-          "value": 1
-        },
-        {
           "name": "Damini Grover",
           "value": 1
         },
@@ -14427,7 +14531,7 @@
         },
         {
           "name": "Sayalee Jadhav",
-          "value": 1
+          "value": 7
         }
       ],
       "groupMissedTargets": [],
@@ -14626,7 +14730,7 @@
         "sessions": 6,
         "sessionTarget": 329,
         "sessionAchieved": 11,
-        "phasingTarget": 157,
+        "phasingTarget": 158,
         "phasingAchieved": null
       },
       "offline": {
@@ -14724,6 +14828,10 @@
         {
           "name": "Damini Grover",
           "value": 1
+        },
+        {
+          "name": "Sujata Dutta",
+          "value": 1
         }
       ],
       "groupLeaderTargets": [
@@ -14783,7 +14891,7 @@
         "sessions": 8,
         "sessionTarget": 111,
         "sessionAchieved": 10,
-        "phasingTarget": 58,
+        "phasingTarget": 59,
         "phasingAchieved": null
       },
       "offline": {
@@ -14851,11 +14959,31 @@
           "value": 2
         },
         {
+          "name": "Vedantika Puri",
+          "value": 1
+        },
+        {
+          "name": "Akanksha Walia",
+          "value": 1
+        },
+        {
+          "name": "Jyoti Soni",
+          "value": 1
+        },
+        {
           "name": "Dr. Ruchi Gulati",
           "value": 1
         },
         {
           "name": "Damini Grover",
+          "value": 1
+        },
+        {
+          "name": "Sujata Dutta",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
           "value": 1
         }
       ],
@@ -14924,7 +15052,7 @@
         "sessions": 7,
         "sessionTarget": 67,
         "sessionAchieved": 1,
-        "phasingTarget": 20,
+        "phasingTarget": 105,
         "phasingAchieved": null
       },
       "offline": {
@@ -14939,6 +15067,14 @@
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 72
+        },
+        {
+          "name": "Swapnil Gawde",
+          "value": 8
+        },
         {
           "name": "Manka Malik",
           "value": 4
@@ -14964,7 +15100,51 @@
           "value": 3
         },
         {
+          "name": "Rashika Kaul",
+          "value": 3
+        },
+        {
+          "name": "Tamanna Gulati",
+          "value": 2
+        },
+        {
           "name": "Debanjan Medhi",
+          "value": 1
+        },
+        {
+          "name": "Akanksha Walia",
+          "value": 1
+        },
+        {
+          "name": "Jyoti Soni",
+          "value": 1
+        },
+        {
+          "name": "Vedantika Puri",
+          "value": 1
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "value": 1
+        },
+        {
+          "name": "Ashima Sood Patil",
+          "value": 1
+        },
+        {
+          "name": "Abhirammi",
+          "value": 1
+        },
+        {
+          "name": "Sujata Dutta",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 1
+        },
+        {
+          "name": "Navneeth Vallabh",
           "value": 1
         }
       ],
@@ -15029,7 +15209,7 @@
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
-        "phasingTarget": 0,
+        "phasingTarget": 88,
         "phasingAchieved": null
       },
       "offline": {
@@ -15043,7 +15223,76 @@
         "phasingTarget": null,
         "phasingAchieved": null
       },
-      "groupLeaderPhasingTargets": [],
+      "groupLeaderPhasingTargets": [
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 72
+        },
+        {
+          "name": "Swapnil Gawde",
+          "value": 8
+        },
+        {
+          "name": "Rashika Kaul",
+          "value": 3
+        },
+        {
+          "name": "Tamanna Gulati",
+          "value": 2
+        },
+        {
+          "name": "Akanksha Walia",
+          "value": 2
+        },
+        {
+          "name": "Jyoti Soni",
+          "value": 2
+        },
+        {
+          "name": "Arpana Khanna",
+          "value": 1
+        },
+        {
+          "name": "Abhirammi",
+          "value": 1
+        },
+        {
+          "name": "Vedantika Puri",
+          "value": 1
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "value": 1
+        },
+        {
+          "name": "Ashima Sood Patil",
+          "value": 1
+        },
+        {
+          "name": "Sujata Dutta",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 1
+        },
+        {
+          "name": "Ashwini Kamath",
+          "value": 1
+        },
+        {
+          "name": "Navneeth Vallabh",
+          "value": 1
+        },
+        {
+          "name": "Aditi Grover",
+          "value": 1
+        },
+        {
+          "name": "Barkha Mahesh",
+          "value": 1
+        }
+      ],
       "groupLeaderTargets": [],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
@@ -15074,9 +15323,9 @@
       "month": "Oct-26",
       "groupOnline": {
         "sessions": 2,
-        "sessionTarget": 0,
+        "sessionTarget": 1,
         "sessionAchieved": 0,
-        "phasingTarget": 0,
+        "phasingTarget": 112,
         "phasingAchieved": null
       },
       "offline": {
@@ -15090,7 +15339,112 @@
         "phasingTarget": null,
         "phasingAchieved": null
       },
-      "groupLeaderPhasingTargets": [],
+      "groupLeaderPhasingTargets": [
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "value": 72
+        },
+        {
+          "name": "Swapnil Gawde",
+          "value": 20
+        },
+        {
+          "name": "Rashika Kaul",
+          "value": 8
+        },
+        {
+          "name": "Tamanna Gulati",
+          "value": 4
+        },
+        {
+          "name": "Akanksha Walia",
+          "value": 2
+        },
+        {
+          "name": "Jyoti Soni",
+          "value": 2
+        },
+        {
+          "name": "Susitha Pappiah",
+          "value": 2
+        },
+        {
+          "name": "Vedantika Puri",
+          "value": 2
+        },
+        {
+          "name": "Abhirammi",
+          "value": 2
+        },
+        {
+          "name": "Nattasha Kapoor",
+          "value": 2
+        },
+        {
+          "name": "Arpana Khanna",
+          "value": 1
+        },
+        {
+          "name": "Krishna Jangid",
+          "value": 1
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "value": 1
+        },
+        {
+          "name": "Ashima Sood Patil",
+          "value": 1
+        },
+        {
+          "name": "Sandy Chana",
+          "value": 1
+        },
+        {
+          "name": "Rashi Gaur",
+          "value": 1
+        },
+        {
+          "name": "Sujata Dutta",
+          "value": 1
+        },
+        {
+          "name": "Rishi Nanda",
+          "value": 1
+        },
+        {
+          "name": "Navneeth Vallabh",
+          "value": 1
+        },
+        {
+          "name": "Ashwini Kamath",
+          "value": 1
+        },
+        {
+          "name": "Aditi Grover",
+          "value": 1
+        },
+        {
+          "name": "Bhupali Deore",
+          "value": 1
+        },
+        {
+          "name": "Barkha Mahesh",
+          "value": 1
+        },
+        {
+          "name": "Jaya Mandhian",
+          "value": 1
+        },
+        {
+          "name": "Krishnna",
+          "value": 1
+        },
+        {
+          "name": "Supriya Chhabra",
+          "value": 1
+        }
+      ],
       "groupLeaderTargets": [
         {
           "name": "Bansari Nagda",
@@ -15098,7 +15452,7 @@
         },
         {
           "name": "Sujata Dutta",
-          "value": 0
+          "value": 1
         }
       ],
       "groupMissedTargets": [],
@@ -24954,6 +25308,37 @@
       "pctRevenueVsTarget": 0.0
     },
     {
+      "leader": "Kavyal Sedanni",
+      "target": 250,
+      "price": 2499,
+      "revenueTarget": 624750,
+      "courseInstanceId": "6436",
+      "courseId": "1066",
+      "date": "2026-08-22",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 250,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 158,
+      "phasingDays": 30,
+      "pctVsTarget": 63.0,
+      "revenueAchieved": 977070,
+      "pctRevenueVsTarget": 156.0
+    },
+    {
       "leader": "Immersive Sound Experience",
       "target": 60,
       "price": 1699,
@@ -30031,11 +30416,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 219,
+      "totalRegistrations": 248,
       "phasingDays": 10,
-      "pctVsTarget": 31.0,
-      "revenueAchieved": 263495,
-      "pctRevenueVsTarget": 37.0
+      "pctVsTarget": 35.0,
+      "revenueAchieved": 298230,
+      "pctRevenueVsTarget": 42.0
     },
     {
       "leader": "Chaittali",
@@ -30100,37 +30485,6 @@
       "pctRevenueVsTarget": 30.0
     },
     {
-      "leader": "Loveena Bahl",
-      "target": 8,
-      "price": 850,
-      "revenueTarget": 6800,
-      "courseInstanceId": "8124",
-      "courseId": "1903",
-      "date": "2026-09-16",
-      "time": "19:30",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Ganesh Sadhana - Remove Obstacles from Life",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 2,
-        "d1": 2,
-        "d0": 2
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Debanjan Medhi",
       "target": 5,
       "price": 410,
@@ -30155,11 +30509,11 @@
         "d1": 1,
         "d0": 1
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 2,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 968,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Bansari Nagda",
@@ -30248,11 +30602,11 @@
         "d1": 4,
         "d0": 7
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 4,
       "phasingDays": 3,
-      "pctVsTarget": 5.0,
-      "revenueAchieved": 1003,
-      "pctRevenueVsTarget": 6.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 4012,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Premmayi Gurumaa",
@@ -30279,11 +30633,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 5,
-      "pctVsTarget": 88.0,
-      "revenueAchieved": 5593,
-      "pctRevenueVsTarget": 103.0
+      "pctVsTarget": 100.0,
+      "revenueAchieved": 6392,
+      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Ridhhimaa Tandon",
@@ -30310,11 +30664,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 3,
       "phasingDays": 5,
-      "pctVsTarget": 14.0,
-      "revenueAchieved": 909,
-      "pctRevenueVsTarget": 17.0
+      "pctVsTarget": 43.0,
+      "revenueAchieved": 2727,
+      "pctRevenueVsTarget": 51.0
     },
     {
       "leader": "Manka Malik",
@@ -30372,11 +30726,11 @@
         "d1": 1,
         "d0": 1
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": null,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 484,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 968,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Meheck Mukherjee",
@@ -30496,11 +30850,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 104,
+      "totalRegistrations": 120,
       "phasingDays": 3,
-      "pctVsTarget": 693.0,
-      "revenueAchieved": 94325,
-      "pctRevenueVsTarget": 817.0
+      "pctVsTarget": 800.0,
+      "revenueAchieved": 108873,
+      "pctRevenueVsTarget": 943.0
     },
     {
       "leader": "Dr. Nehaa Jain",
@@ -30620,11 +30974,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 4,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 1003,
-      "pctRevenueVsTarget": 12.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 2006,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Binita Aamol Rege",
@@ -30687,6 +31041,37 @@
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Siddhi Shah",
+      "target": 8,
+      "price": 770,
+      "revenueTarget": 6160,
+      "courseInstanceId": "7818",
+      "courseId": "1510",
+      "date": "2026-09-18",
+      "time": "12:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Baglamukhi Transmission",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
+      },
+      "totalRegistrations": 1,
+      "phasingDays": 6,
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 15.0
     },
     {
       "leader": "Denzil Oconnell",
@@ -30873,37 +31258,6 @@
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Supriya Chhabra",
-      "target": 1,
-      "price": 770,
-      "revenueTarget": 770,
-      "courseInstanceId": "7453",
-      "courseId": "1211",
-      "date": "2026-09-19",
-      "time": "11:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Yin Yoga",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 1,
-      "phasingDays": null,
-      "pctVsTarget": 100.0,
-      "revenueAchieved": 909,
-      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Nithya Shanti",
@@ -31271,11 +31625,11 @@
         "d1": 1,
         "d0": 1
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": null,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 484,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 968,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Kajal Thakkar",
@@ -31302,11 +31656,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 8.0,
+      "revenueAchieved": 825,
+      "pctRevenueVsTarget": 10.0
     },
     {
       "leader": "Smita Venkatesh",
@@ -31333,11 +31687,11 @@
         "d1": 23,
         "d0": 23
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 5,
-      "pctVsTarget": 4.0,
-      "revenueAchieved": 2858,
-      "pctRevenueVsTarget": 4.0
+      "pctVsTarget": 5.0,
+      "revenueAchieved": 3861,
+      "pctRevenueVsTarget": 6.0
     },
     {
       "leader": "Ved Prakash",
@@ -31397,6 +31751,68 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Swati Ahluwalia",
+      "target": 10,
+      "price": 750,
+      "revenueTarget": 7500,
+      "courseInstanceId": "7673",
+      "courseId": "1818",
+      "date": "2026-09-22",
+      "time": "18:30",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Moon Meditation",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Vidhya K",
+      "target": 10,
+      "price": 850,
+      "revenueTarget": 8500,
+      "courseInstanceId": "7672",
+      "courseId": "1726",
+      "date": "2026-09-22",
+      "time": "19:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Manifestation with ho'oponopono",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 3,
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
@@ -31898,6 +32314,68 @@
       "pctRevenueVsTarget": 0.0
     },
     {
+      "leader": "Aditi Grover",
+      "target": 12,
+      "price": 592,
+      "revenueTarget": 7104,
+      "courseInstanceId": "7335",
+      "courseId": "1630",
+      "date": "2026-09-24",
+      "time": "19:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Manifest a fit life",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 2,
+        "d1": 2,
+        "d0": 4
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dr. Neha Racca",
+      "target": 1,
+      "price": 770,
+      "revenueTarget": 770,
+      "courseInstanceId": "8185",
+      "courseId": "1678",
+      "date": "2026-09-24",
+      "time": "11:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Heart Health",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 0,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
       "leader": "Dr. Rashmi N Muthalkar",
       "target": 700,
       "price": 899,
@@ -32077,11 +32555,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 155,
+      "totalRegistrations": 157,
       "phasingDays": 6,
-      "pctVsTarget": 27.0,
-      "revenueAchieved": 889792,
-      "pctRevenueVsTarget": 61.0
+      "pctVsTarget": 28.0,
+      "revenueAchieved": 895690,
+      "pctRevenueVsTarget": 62.0
     },
     {
       "leader": "Binita Aamol Rege",
@@ -32271,14 +32749,14 @@
     },
     {
       "leader": "Sayalee Jadhav",
-      "target": 1,
+      "target": 7,
       "price": 1111,
-      "revenueTarget": 1111,
+      "revenueTarget": 7777,
       "courseInstanceId": "7395",
       "courseId": "1703",
       "date": "2026-09-26",
       "time": "19:00",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Manifest Your Intentions With Sigil Magic",
@@ -32289,13 +32767,13 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 1,
+        "d2": 1,
+        "d1": 1,
+        "d0": 2
       },
       "totalRegistrations": 0,
-      "phasingDays": null,
+      "phasingDays": 3,
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
@@ -33087,7 +33565,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "TBC",
+      "topic": "The Shreem Abundance Activation",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -33108,9 +33586,9 @@
     },
     {
       "leader": "Sujata Dutta",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "8126",
       "courseId": "1877",
       "date": "2026-10-02",
@@ -33133,51 +33611,20 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Tamanna Gulati",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "8127",
-      "courseId": "1766",
-      "date": "2026-10-03",
-      "time": "11:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Restore And Cleanse All 7 Layers Of Your Aura",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Rashika Kaul",
-      "target": null,
+      "target": 18,
       "price": 592,
-      "revenueTarget": 0,
+      "revenueTarget": 10656,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-03",
       "time": "11:00",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Sai Baba Sadhana",
@@ -33188,27 +33635,27 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 3,
+        "d2": 3,
+        "d1": 7,
+        "d0": 5
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Swapnil Gawde",
-      "target": null,
+      "target": 50,
       "price": 592,
-      "revenueTarget": 0,
+      "revenueTarget": 29600,
       "courseInstanceId": "8209",
       "courseId": "393",
       "date": "2026-10-03",
       "time": "11:30",
-      "campaign": "Do Not Market",
+      "campaign": "Biz Boost",
       "leaderTagging": "ASC Course Bets",
       "language": "English",
       "topic": "Throat Chakra Activation",
@@ -33219,30 +33666,30 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 8,
+        "d2": 8,
+        "d1": 20,
+        "d0": 15
       },
       "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Jyoti Soni",
-      "target": null,
-      "price": 755,
-      "revenueTarget": 0,
-      "courseInstanceId": "8171",
-      "courseId": "1873",
-      "date": "2026-10-04",
-      "time": "12:00",
-      "campaign": "Do Not Market",
+      "leader": "Tamanna Gulati",
+      "target": 10,
+      "price": 850,
+      "revenueTarget": 8500,
+      "courseInstanceId": "8127",
+      "courseId": "1766",
+      "date": "2026-10-03",
+      "time": "11:00",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Aura Cleansing",
+      "language": "English",
+      "topic": "Restore And Cleanse All 7 Layers Of Your Aura",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -33250,27 +33697,27 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Akanksha Walia",
-      "target": null,
+      "target": 8,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 6160,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-04",
       "time": "12:00",
-      "campaign": "Do Not Market",
+      "campaign": "Hindi",
       "leaderTagging": "",
       "language": "Hindi",
       "topic": "Maa Lakshmi Sadhana",
@@ -33280,31 +33727,62 @@
         "d7": 0,
         "d6": 0,
         "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Navneeth Vallabh",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "8164",
-      "courseId": "1502",
-      "date": "2026-10-05",
+      "leader": "Jyoti Soni",
+      "target": 8,
+      "price": 755,
+      "revenueTarget": 6040,
+      "courseInstanceId": "8171",
+      "courseId": "1873",
+      "date": "2026-10-04",
       "time": "12:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Aura Cleansing",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Rishi Nanda",
+      "target": 1,
+      "price": 592,
+      "revenueTarget": 592,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-04",
+      "time": "11:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
-      "language": "English",
-      "topic": "Hypnotherapy",
+      "language": "Hindi",
+      "topic": "Learn Conscious Karma with Lord Hanuman",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -33317,48 +33795,17 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Vedantika Puri",
-      "target": null,
-      "price": 755,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-05",
-      "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Money Frequency",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Abhirammi",
-      "target": null,
+      "target": 8,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 6160,
       "courseInstanceId": "8165",
       "courseId": "1556",
       "date": "2026-10-05",
@@ -33373,23 +33820,54 @@
         "d7": 0,
         "d6": 0,
         "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Arpana Khanna",
+      "target": 10,
+      "price": 592,
+      "revenueTarget": 5920,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-05",
+      "time": "21:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Shiv Mantra Sadhana",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Ashwini Kamath",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "8155",
       "courseId": "1652",
       "date": "2026-10-05",
@@ -33412,24 +33890,24 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Arpana Khanna",
-      "target": null,
-      "price": 592,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
+      "leader": "Navneeth Vallabh",
+      "target": 1,
+      "price": 850,
+      "revenueTarget": 850,
+      "courseInstanceId": "8164",
+      "courseId": "1502",
       "date": "2026-10-05",
-      "time": "21:00",
+      "time": "12:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Shiv Mantra Sadhana",
-      "timeBucket": "After 12PM",
+      "language": "English",
+      "topic": "Hypnotherapy",
+      "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
@@ -33441,17 +33919,48 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Vedantika Puri",
+      "target": 10,
+      "price": 755,
+      "revenueTarget": 7550,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-05",
+      "time": "17:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Money Frequency",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Aditi Grover",
-      "target": null,
+      "target": 1,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 699,
       "courseInstanceId": "8170",
       "courseId": "1630",
       "date": "2026-10-06",
@@ -33474,15 +33983,15 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Nattasha Kapoor",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
+      "leader": "Bhupali Deore",
+      "target": 1,
+      "price": 755,
+      "revenueTarget": 755,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-06",
@@ -33490,7 +33999,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "Ancestral Healing",
+      "topic": "Tratak Meditation + Before sleep meditation",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
@@ -33505,9 +34014,102 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Binita Aamol Rege",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
+      "courseInstanceId": "8189",
+      "courseId": "1896",
+      "date": "2026-10-06",
+      "time": "19:30",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Ancestral healing",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Krishna Jangid",
+      "target": 10,
+      "price": 699,
+      "revenueTarget": 6990,
+      "courseInstanceId": "8187",
+      "courseId": "1526",
+      "date": "2026-10-06",
+      "time": "16:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Sundar Kand",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Nattasha Kapoor",
+      "target": 12,
+      "price": 699,
+      "revenueTarget": 8388,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-06",
+      "time": "20:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Ancestral Healing",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 4,
+        "d0": 4
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Simran Jadhwani",
@@ -33541,81 +34143,19 @@
       "pctRevenueVsTarget": null
     },
     {
-      "leader": "Krishna Jangid",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "8187",
-      "courseId": "1526",
-      "date": "2026-10-06",
-      "time": "16:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Sundar Kand",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Binita Aamol Rege",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "8189",
-      "courseId": "1896",
-      "date": "2026-10-06",
-      "time": "19:30",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Ancestral healing",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Bhupali Deore",
-      "target": null,
-      "price": 755,
-      "revenueTarget": 0,
+      "leader": "Barkha Mahesh",
+      "target": 1,
+      "price": 899,
+      "revenueTarget": 899,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-06",
-      "time": "20:00",
+      "time": "12:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Tratak Meditation + Before sleep meditation",
-      "timeBucket": "After 12PM",
+      "language": "English",
+      "topic": "Inner Child Healing",
+      "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
@@ -33629,15 +34169,46 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Ashima Sood Patil",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-06",
+      "time": "17:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Cut the Cord: Release What’s Keeping You Stuck",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Jaya Mandhian",
-      "target": null,
+      "target": 1,
       "price": 850,
-      "revenueTarget": 0,
+      "revenueTarget": 850,
       "courseInstanceId": "8194",
       "courseId": "1289",
       "date": "2026-10-07",
@@ -33660,24 +34231,24 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Supriya Chhabra",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "8190",
-      "courseId": "1089",
+      "leader": "Krishnna",
+      "target": 1,
+      "price": 699,
+      "revenueTarget": 699,
+      "courseInstanceId": "8128",
+      "courseId": "1640",
       "date": "2026-10-07",
-      "time": "11:00",
+      "time": "17:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "Vishuddhi chakra",
-      "timeBucket": "B4 12PM",
+      "topic": "Learn The Techniques To Manifest Real Results",
+      "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
@@ -33691,9 +34262,9 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Neha Kumra",
@@ -33738,7 +34309,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "TBC",
+      "topic": "Mindful eating",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
@@ -33758,19 +34329,19 @@
       "pctRevenueVsTarget": null
     },
     {
-      "leader": "Krishnna",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "8128",
-      "courseId": "1640",
+      "leader": "Supriya Chhabra",
+      "target": 1,
+      "price": 770,
+      "revenueTarget": 770,
+      "courseInstanceId": "8190",
+      "courseId": "1089",
       "date": "2026-10-07",
-      "time": "17:00",
+      "time": "11:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "Learn The Techniques To Manifest Real Results",
-      "timeBucket": "After 12PM",
+      "topic": "Vishuddhi chakra",
+      "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
@@ -33784,54 +34355,23 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Susitha Pappiah",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-08",
-      "time": "19:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "ASC Course Bets",
-      "language": "English",
-      "topic": "Sai Baba Chanting",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Shreya Singh",
+      "leader": "Renu Kaushik",
       "target": null,
       "price": 770,
       "revenueTarget": 0,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-08",
+      "date": "2026-10-07",
       "time": "12:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "Pitru Paksh",
+      "topic": "Break Free from Limiting beliefs",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -33849,6 +34389,161 @@
       "pctVsTarget": null,
       "revenueAchieved": null,
       "pctRevenueVsTarget": null
+    },
+    {
+      "leader": "Shilpa Goel",
+      "target": null,
+      "price": 699,
+      "revenueTarget": 0,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-07",
+      "time": "18:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Relationship Trust: Spotting Signs of Cheating",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": null,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": null
+    },
+    {
+      "leader": "Arpita Thakkar",
+      "target": 8,
+      "price": 850,
+      "revenueTarget": 6800,
+      "courseInstanceId": "8130",
+      "courseId": "1480",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Master Pendulum Dowsing For Inner Clarity",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Devi Nidhi Saraswat",
+      "target": 10,
+      "price": 592,
+      "revenueTarget": 5920,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "TBC",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Rashi Gaur",
+      "target": 8,
+      "price": 1020,
+      "revenueTarget": 8160,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-08",
+      "time": "19:30",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Master Your Numerology",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Sandy Chana",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
+      "courseInstanceId": "8191",
+      "courseId": "1364",
+      "date": "2026-10-08",
+      "time": "17:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Body Pranic Memory",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
+      },
+      "totalRegistrations": 1,
+      "phasingDays": 3,
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Shaan",
@@ -33882,18 +34577,111 @@
       "pctRevenueVsTarget": null
     },
     {
-      "leader": "Sandy Chana",
-      "target": null,
+      "leader": "Shreya Singh",
+      "target": 8,
       "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "8191",
-      "courseId": "1364",
+      "revenueTarget": 6160,
+      "courseInstanceId": "",
+      "courseId": "",
       "date": "2026-10-08",
+      "time": "12:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Pitru Paksh",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Susitha Pappiah",
+      "target": 30,
+      "price": 699,
+      "revenueTarget": 20970,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "campaign": "Biz Boost",
+      "leaderTagging": "ASC Course Bets",
+      "language": "English",
+      "topic": "Sai Baba Chanting",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 2,
+        "d5": 2,
+        "d4": 2,
+        "d3": 4,
+        "d2": 4,
+        "d1": 6,
+        "d0": 10
+      },
+      "totalRegistrations": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dr. Rashmi N Muthalkar",
+      "target": 1000,
+      "price": 899,
+      "revenueTarget": 899000,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-09",
       "time": "17:00",
+      "campaign": "ASC Course",
+      "leaderTagging": "ASC Course Hero",
+      "language": "English",
+      "topic": "Maa Durga Protection & Aura Shielding",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 143,
+        "d7": 71,
+        "d6": 71,
+        "d5": 71,
+        "d4": 71,
+        "d3": 71,
+        "d2": 167,
+        "d1": 167,
+        "d0": 167
+      },
+      "totalRegistrations": null,
+      "phasingDays": 10,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Harpreet B Sharma",
+      "target": null,
+      "price": 699,
+      "revenueTarget": 0,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-09",
+      "time": "16:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
-      "language": "English",
-      "topic": "Body Pranic Memory",
+      "language": "Hindi",
+      "topic": "A Sacred Navratri Preparation- TBD",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
@@ -33906,110 +34694,79 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": null,
       "phasingDays": null,
       "pctVsTarget": null,
-      "revenueAchieved": 909,
+      "revenueAchieved": null,
       "pctRevenueVsTarget": null
     },
     {
-      "leader": "Arpita Thakkar",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "8130",
-      "courseId": "1480",
-      "date": "2026-10-08",
-      "time": "19:00",
-      "campaign": "Do Not Market",
+      "leader": "Kajal Thakkar",
+      "target": 15,
+      "price": 699,
+      "revenueTarget": 10485,
+      "courseInstanceId": "8131",
+      "courseId": "1815",
+      "date": "2026-10-09",
+      "time": "19:30",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Master Pendulum Dowsing For Inner Clarity",
+      "language": "English",
+      "topic": "Cord Cutting for Black Magic & Negativity",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 2,
+        "d1": 3,
+        "d0": 5
       },
       "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Rashi Gaur",
-      "target": null,
+      "leader": "Parul Khanna",
+      "target": 10,
       "price": 1020,
-      "revenueTarget": 0,
+      "revenueTarget": 10200,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-08",
-      "time": "19:30",
-      "campaign": "Do Not Market",
+      "date": "2026-10-09",
+      "time": "17:00",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
-      "topic": "Master Your Numerology",
+      "topic": "Awaken your psychic abilities",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Devi Nidhi Saraswat",
-      "target": null,
-      "price": 592,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-08",
-      "time": "19:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "TBC",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Ruchika Uppal",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "8196",
       "courseId": "1748",
       "date": "2026-10-09",
@@ -34032,139 +34789,77 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Harpreet B Sharma",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
+      "leader": "Dr. Kinnari I. Gupta",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
+      "courseInstanceId": "8188",
+      "courseId": "1749",
       "date": "2026-10-09",
-      "time": "16:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "TBC",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Parul Khanna",
-      "target": null,
-      "price": 1020,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-09",
-      "time": "17:00",
-      "campaign": "Do Not Market",
+      "time": "18:00",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
-      "topic": "TBC",
+      "topic": "Clear Karmic Patterns With Ajna Chakra Healing",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Kajal Thakkar",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "8131",
-      "courseId": "1815",
-      "date": "2026-10-09",
-      "time": "19:30",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Cord Cutting for Black Magic & Negativity",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
       },
       "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Dr. Rashmi N Muthalkar",
-      "target": null,
-      "price": 899,
-      "revenueTarget": 0,
+      "leader": "Arjun Aiyar",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-09",
-      "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "ASC Course Hero",
+      "date": "2026-10-10",
+      "time": "21:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
       "language": "English",
-      "topic": "Maa Durga Protection & Aura Shielding",
+      "topic": "New Moon",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Bijal Sunil Doshi",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-10",
@@ -34187,15 +34882,139 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dushyant Dharma",
+      "target": 6,
+      "price": 850,
+      "revenueTarget": 5100,
+      "courseInstanceId": "8210",
+      "courseId": "1802",
+      "date": "2026-10-10",
+      "time": "11:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Shiva Tantra",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 1
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Gunjan Adya",
+      "target": 15,
+      "price": 770,
+      "revenueTarget": 11550,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-10",
+      "time": "10:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "10/10 Portal: Become an Energetic Match for Your Desires",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 2,
+        "d2": 2,
+        "d1": 6,
+        "d0": 5
+      },
+      "totalRegistrations": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Kavyal Sedanni",
+      "target": 412,
+      "price": 2499,
+      "revenueTarget": 1029588,
+      "courseInstanceId": "7343",
+      "courseId": "1837",
+      "date": "2026-10-10",
+      "time": "16:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 412,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 99,
+      "phasingDays": 6,
+      "pctVsTarget": 24.0,
+      "revenueAchieved": 654287,
+      "pctRevenueVsTarget": 64.0
+    },
+    {
+      "leader": "Shweta Chatterjee",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Theta Healing For Financial Abundance",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Sweta Gusain",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-10",
@@ -34218,54 +35037,23 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Gunjan Adya",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
+      "leader": "Nishi Shah",
+      "target": 1,
+      "price": 699,
+      "revenueTarget": 699,
+      "courseInstanceId": "8195",
+      "courseId": "1321",
       "date": "2026-10-10",
       "time": "10:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
-      "language": "English",
-      "topic": "10/10 Portal: Become an Energetic Match for Your Desires",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Dushyant Dharma",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "8210",
-      "courseId": "1802",
-      "date": "2026-10-10",
-      "time": "11:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
       "language": "Hindi",
-      "topic": "Shiva Tantra",
+      "topic": "Yoga for Back Pain",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -34280,23 +35068,23 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Arjun Aiyar",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
+      "leader": "Dr. Suchitra",
+      "target": 1,
+      "price": 850,
+      "revenueTarget": 850,
+      "courseInstanceId": "8211",
+      "courseId": "1786",
       "date": "2026-10-10",
-      "time": "21:00",
+      "time": "15:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "New Moon",
+      "topic": "Transform The 5 Layers Of Relationship Patterns",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
@@ -34309,79 +35097,17 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Shweta Chatterjee",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-10",
-      "time": "20:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Theta Healing For Financial Abundance",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Shreya Singh",
-      "target": null,
-      "price": 1699,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-11",
-      "time": "09:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Navratri 9 Day Sadhana",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Alipta Sabharwal",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "8132",
       "courseId": "1791",
       "date": "2026-10-11",
@@ -34404,51 +35130,20 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Smita Venkatesh",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-11",
-      "time": "19:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Durga Saptashati",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Nattasha Kapoor",
-      "target": null,
+      "target": 12,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 8388,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-11",
       "time": "20:00",
-      "campaign": "Do Not Market",
+      "campaign": "Hindi",
       "leaderTagging": "",
       "language": "Hindi",
       "topic": "Maa Durga Within You: Chakra Healing and Devi Art",
@@ -34458,28 +35153,90 @@
         "d7": 0,
         "d6": 0,
         "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 4,
+        "d0": 4
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Shreya Singh",
+      "target": 8,
+      "price": 1699,
+      "revenueTarget": 13592,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-11",
+      "time": "09:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Navratri 9 Day Sadhana",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 1,
+        "d2": 1,
+        "d1": 3,
+        "d0": 2
+      },
+      "totalRegistrations": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Smita Venkatesh",
+      "target": 75,
+      "price": 850,
+      "revenueTarget": 63750,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-11",
+      "time": "19:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Durga Saptashati",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 8,
+        "d3": 8,
+        "d2": 15,
+        "d1": 23,
+        "d0": 23
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Akanksha Walia",
-      "target": null,
+      "target": 8,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 6160,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-12",
       "time": "19:00",
-      "campaign": "Do Not Market",
+      "campaign": "Hindi",
       "leaderTagging": "",
       "language": "Hindi",
       "topic": "Maa Baglamukhi Mantra Sadhana",
@@ -34489,23 +35246,23 @@
         "d7": 0,
         "d6": 0,
         "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Punita Kadam",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-12",
@@ -34528,117 +35285,55 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dr. Jiggnna Desai",
+      "target": null,
+      "price": 815,
+      "revenueTarget": 0,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-12",
+      "time": "16:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Maa Kamla or Maa Matangi OR nav durga TBC",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
       "pctVsTarget": null,
       "revenueAchieved": null,
       "pctRevenueVsTarget": null
     },
     {
-      "leader": "Gunjan Nautiyall",
+      "leader": "Deepa Shetty",
       "target": null,
-      "price": 750,
+      "price": 699,
       "revenueTarget": 0,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-13",
-      "time": "10:00",
+      "date": "2026-10-12",
+      "time": "22:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
-      "language": "Hindi",
+      "language": "English",
       "topic": "TBC",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Damini Grover",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-13",
-      "time": "12:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Imposter Syndrome",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Meheck Mukherjee",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-13",
-      "time": "12:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Money Magic Mnaifestation",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Priyanka Agarwal",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-13",
-      "time": "11:30",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Navratri special Devi sadhana",
-      "timeBucket": "B4 12PM",
+      "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
@@ -34688,18 +35383,49 @@
       "pctRevenueVsTarget": null
     },
     {
-      "leader": "Sonika Vickraman",
-      "target": null,
+      "leader": "Damini Grover",
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-14",
-      "time": "10:00",
+      "date": "2026-10-13",
+      "time": "12:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "Breath of Release: A Lung Healing Retreat",
+      "topic": "Imposter Syndrome",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Gunjan Nautiyall",
+      "target": null,
+      "price": 750,
+      "revenueTarget": 0,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-13",
+      "time": "10:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Swadishtan chakra healing",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -34719,10 +35445,134 @@
       "pctRevenueVsTarget": null
     },
     {
-      "leader": "Anupama Chatterjee",
+      "leader": "Meheck Mukherjee",
+      "target": 9,
+      "price": 850,
+      "revenueTarget": 7650,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-13",
+      "time": "12:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Money Magic Mnaifestation",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 1,
+        "d2": 1,
+        "d1": 4,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Priyanka Agarwal",
+      "target": 10,
+      "price": 850,
+      "revenueTarget": 8500,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-13",
+      "time": "11:30",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Navratri special Devi sadhana",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 3,
+        "d1": 3,
+        "d0": 2
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Taniyaa Gupta",
+      "target": 1,
+      "price": 770,
+      "revenueTarget": 770,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-13",
+      "time": "17:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "What If Your Emotional Blocks Are Blocking Your Manifestation?",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Sanyaas In The City",
       "target": null,
       "price": 770,
       "revenueTarget": 0,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-13",
+      "time": "19:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "The S.H.I.F.T  (TM) Experience from material consciousness to conscious materiality",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": null,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": null
+    },
+    {
+      "leader": "Anupama Chatterjee",
+      "target": 1,
+      "price": 770,
+      "revenueTarget": 770,
       "courseInstanceId": "8133",
       "courseId": "1894",
       "date": "2026-10-14",
@@ -34745,20 +35595,20 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Hiral Pawar",
-      "target": null,
+      "target": 10,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 7700,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-14",
       "time": "12:00",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Womb Healing with Maa Kaali",
@@ -34769,53 +35619,22 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Lovina Gidwani",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "8153",
-      "courseId": "1807",
-      "date": "2026-10-14",
-      "time": "16:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "A.G.E.L.E.S.S.™ Vitality Ageing Is Inevitable. Vitality Is Intentional.",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Jyotismita Das",
-      "target": null,
+      "target": 1,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 699,
       "courseInstanceId": "8134",
       "courseId": "1797",
       "date": "2026-10-14",
@@ -34838,55 +35657,24 @@
       },
       "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 100.0,
       "revenueAchieved": 825,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 118.0
     },
     {
-      "leader": "Swati Ahluwalia",
-      "target": null,
-      "price": 1020,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
+      "leader": "Lovina Gidwani",
+      "target": 1,
+      "price": 699,
+      "revenueTarget": 699,
+      "courseInstanceId": "8153",
+      "courseId": "1807",
       "date": "2026-10-14",
-      "time": "00:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Sadhana - TBC",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Shalini Chugh",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-15",
-      "time": "11:00",
+      "time": "16:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "7 Chakra Healing for Anxiety",
-      "timeBucket": "B4 12PM",
+      "topic": "A.G.E.L.E.S.S.™ Vitality Ageing Is Inevitable. Vitality Is Intentional.",
+      "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
@@ -34898,11 +35686,104 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Sonika Vickraman",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-14",
+      "time": "10:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Breath of Release: A Lung Healing Retreat",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Loveena Bahl",
+      "target": 8,
+      "price": 1699,
+      "revenueTarget": 13592,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-14",
+      "time": "19:30",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "9 Devis. 9 Healings. 3 Sacred Days",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Swati Ahluwalia",
+      "target": 8,
+      "price": 1020,
+      "revenueTarget": 8160,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-14",
+      "time": "17:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Sadhana - TBC",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Bansari Nagda",
@@ -34916,38 +35797,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "TBC",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Krishnleela M Patel",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-15",
-      "time": "12:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "The Seat of Your Soul™ A Meditation Journey",
+      "topic": "Chant The Shreem Mantra For Abundance",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -34968,9 +35818,9 @@
     },
     {
       "leader": "Dr. Devanshi",
-      "target": null,
+      "target": 10,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 6990,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-15",
@@ -34978,30 +35828,61 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "TBC",
+      "topic": "Panchmukhi Hanuman or Hanuman Guidance TBC",
       "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Krishnleela M Patel",
+      "target": 10,
+      "price": 770,
+      "revenueTarget": 7700,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-15",
+      "time": "12:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "The Seat of Your Soul™ A Meditation Journey",
+      "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Pallavi Kambo",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-15",
@@ -35024,51 +35905,20 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Sidanta Goggate",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "8154",
-      "courseId": "1793",
-      "date": "2026-10-15",
-      "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Womb healing for Conscious conception",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Seemaa Dhingra",
-      "target": null,
+      "target": 8,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 5592,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-15",
       "time": "19:00",
-      "campaign": "Do Not Market",
+      "campaign": "Hindi",
       "leaderTagging": "",
       "language": "Hindi",
       "topic": "Sai Baba Wisdom Workshop",
@@ -35078,31 +35928,31 @@
         "d7": 0,
         "d6": 0,
         "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Chaittali",
-      "target": null,
+      "leader": "Shalini Chugh",
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-16",
-      "time": "12:00",
+      "date": "2026-10-15",
+      "time": "11:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Warding Off the Evil Eye",
+      "language": "English",
+      "topic": "7 Chakra Healing for Anxiety",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -35117,15 +35967,201 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Sidanta Goggate",
+      "target": 8,
+      "price": 770,
+      "revenueTarget": 6160,
+      "courseInstanceId": "8154",
+      "courseId": "1793",
+      "date": "2026-10-15",
+      "time": "17:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Womb healing for Conscious conception",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
+      },
+      "totalRegistrations": 0,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dr. Mitali Jaiswal",
+      "target": 1,
+      "price": 770,
+      "revenueTarget": 770,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-15",
+      "time": "16:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Cord Cutting & Boundary Setting",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dr. Neelam Parwani",
+      "target": 1,
+      "price": 850,
+      "revenueTarget": 850,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-15",
+      "time": "19:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Mudras",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Vidhi Agarwal",
+      "target": 75,
+      "price": 592,
+      "revenueTarget": 44400,
+      "courseInstanceId": "8193",
+      "courseId": "701",
+      "date": "2026-10-15",
+      "time": "21:00",
+      "campaign": "Biz Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Hanuman Sadhana",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 5,
+        "d5": 5,
+        "d4": 5,
+        "d3": 10,
+        "d2": 10,
+        "d1": 15,
+        "d0": 25
+      },
+      "totalRegistrations": 3,
+      "phasingDays": 3,
+      "pctVsTarget": 4.0,
+      "revenueAchieved": 2097,
+      "pctRevenueVsTarget": 5.0
+    },
+    {
+      "leader": "Chaittali",
+      "target": 7,
+      "price": 770,
+      "revenueTarget": 5390,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-16",
+      "time": "12:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Warding Off the Evil Eye",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 1
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Immersive Sound Experience",
+      "target": 50,
+      "price": 1699,
+      "revenueTarget": 84950,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-17",
+      "time": "17:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 50,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Meher Gehi",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "7474",
       "courseId": "1727",
       "date": "2026-10-17",
@@ -35148,15 +36184,15 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Vanita Keswani",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-17",
@@ -35179,46 +36215,15 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Immersive Sound Experience",
-      "target": null,
-      "price": 1699,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-17",
-      "time": "17:00",
-      "campaign": "OFFLINE",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "OFFLINE",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": 6,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Preety",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "8151",
       "courseId": "1653",
       "date": "2026-10-18",
@@ -35241,20 +36246,20 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Rashika Kaul",
-      "target": null,
+      "target": 10,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 7700,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-20",
       "time": "11:00",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Sai Baba Sadhana",
@@ -35265,53 +36270,22 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Pranjal Katoch",
-      "target": null,
-      "price": 850,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-21",
-      "time": "20:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Deeper exploration + practices of Mahavidya",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Gunjan Adya",
-      "target": null,
+      "target": 1,
       "price": 850,
-      "revenueTarget": 0,
+      "revenueTarget": 850,
       "courseInstanceId": "8172",
       "courseId": "1811",
       "date": "2026-10-21",
@@ -35334,15 +36308,46 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Pranjal Katoch",
+      "target": 10,
+      "price": 850,
+      "revenueTarget": 8500,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Deeper exploration + practices of Mahavidya",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Aditi Grover",
-      "target": null,
+      "target": 1,
       "price": 475,
-      "revenueTarget": 0,
+      "revenueTarget": 475,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-22",
@@ -35365,51 +36370,51 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Ruchika Uppal",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
+      "leader": "Bhairavi Mehta",
+      "target": 10,
+      "price": 850,
+      "revenueTarget": 8500,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-23",
-      "time": "16:00",
-      "campaign": "Do Not Market",
+      "date": "2026-10-22",
+      "time": "11:00",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Fixing Intergenerational Wealth Traumas",
-      "timeBucket": "After 12PM",
+      "language": "English",
+      "topic": "Ancestral Healing",
+      "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Akanksha Walia",
-      "target": null,
+      "target": 8,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 6160,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-23",
       "time": "16:00",
-      "campaign": "Do Not Market",
+      "campaign": "Hindi",
       "leaderTagging": "",
       "language": "Hindi",
       "topic": "Sharad Purnima",
@@ -35419,54 +36424,54 @@
         "d7": 0,
         "d6": 0,
         "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 2,
+        "d0": 2
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Krishnna",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "8129",
-      "courseId": "1885",
+      "leader": "Dr. Rashmi N Muthalkar",
+      "target": 500,
+      "price": 899,
+      "revenueTarget": 449500,
+      "courseInstanceId": "",
+      "courseId": "",
       "date": "2026-10-23",
       "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
+      "campaign": "ASC Course",
+      "leaderTagging": "ASC Course Hero",
       "language": "English",
-      "topic": "Connect with Shiva Within You!",
+      "topic": "New (Devi Based) TBC",
       "timeBucket": "After 12PM",
       "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "before7": 72,
+        "d7": 36,
+        "d6": 36,
+        "d5": 36,
+        "d4": 36,
+        "d3": 36,
+        "d2": 83,
+        "d1": 83,
+        "d0": 83
       },
-      "totalRegistrations": 0,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "totalRegistrations": null,
+      "phasingDays": 10,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Jyotismita Das",
-      "target": null,
+      "target": 1,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 699,
       "courseInstanceId": "8135",
       "courseId": "1901",
       "date": "2026-10-23",
@@ -35489,23 +36494,54 @@
       },
       "totalRegistrations": 0,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Dr. Rashmi N Muthalkar",
-      "target": null,
-      "price": 899,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
+      "leader": "Krishnna",
+      "target": 1,
+      "price": 699,
+      "revenueTarget": 699,
+      "courseInstanceId": "8129",
+      "courseId": "1885",
       "date": "2026-10-23",
       "time": "17:00",
       "campaign": "Do Not Market",
-      "leaderTagging": "ASC Course Hero",
+      "leaderTagging": "",
       "language": "English",
-      "topic": "New (Devi Based) TBC",
+      "topic": "Connect with Shiva Within You!",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 0,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Ruchika Uppal",
+      "target": 1,
+      "price": 770,
+      "revenueTarget": 770,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-23",
+      "time": "16:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Fixing Intergenerational Wealth Traumas",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
@@ -35520,20 +36556,20 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Shweta Chatterjee",
-      "target": null,
+      "target": 10,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 7700,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-23",
       "time": "20:00",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Ancestral Healing",
@@ -35541,61 +36577,61 @@
       "phasing": {
         "before7": 0,
         "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 1,
+        "d2": 1,
+        "d1": 2,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Susitha Pappiah",
-      "target": null,
-      "price": 699,
-      "revenueTarget": 0,
+      "leader": "Smita Venkatesh",
+      "target": 30,
+      "price": 850,
+      "revenueTarget": 25500,
       "courseInstanceId": "",
       "courseId": "",
-      "date": "2026-10-24",
-      "time": "11:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "ASC Course Bets",
-      "language": "English",
-      "topic": "Sai Baba Chanting",
-      "timeBucket": "B4 12PM",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Kaal Bhairav Ashtakam",
+      "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
         "d6": 0,
         "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d4": 3,
+        "d3": 3,
+        "d2": 6,
+        "d1": 9,
+        "d0": 9
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Binita Aamol Rege",
-      "target": null,
+      "target": 10,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 7700,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-24",
       "time": "11:30",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Womb healing guided by sacred energies of Maa Durga and Maa Kali",
@@ -35606,22 +36642,53 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Rooppreet Caur",
+      "target": 10,
+      "price": 699,
+      "revenueTarget": 6990,
+      "courseInstanceId": "8152",
+      "courseId": "1178",
+      "date": "2026-10-24",
+      "time": "16:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Releasing Generational Blocks",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": 1,
+      "phasingDays": null,
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 825,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Supriya Chhabra",
-      "target": null,
+      "target": 1,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 770,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-24",
@@ -35644,51 +36711,51 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Rooppreet Caur",
-      "target": null,
+      "leader": "Susitha Pappiah",
+      "target": 30,
       "price": 699,
-      "revenueTarget": 0,
-      "courseInstanceId": "8152",
-      "courseId": "1178",
+      "revenueTarget": 20970,
+      "courseInstanceId": "",
+      "courseId": "",
       "date": "2026-10-24",
-      "time": "16:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
+      "time": "11:00",
+      "campaign": "Biz Boost",
+      "leaderTagging": "ASC Course Bets",
       "language": "English",
-      "topic": "Releasing Generational Blocks",
-      "timeBucket": "After 12PM",
+      "topic": "Sai Baba Chanting",
+      "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 5,
+        "d2": 5,
+        "d1": 12,
+        "d0": 9
       },
-      "totalRegistrations": 1,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": 825,
-      "pctRevenueVsTarget": null
+      "totalRegistrations": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Swapnil Gawde",
-      "target": null,
+      "target": 20,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 15400,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-24",
       "time": "21:00",
-      "campaign": "Do Not Market",
+      "campaign": "Biz Boost",
       "leaderTagging": "ASC Course Bets",
       "language": "English",
       "topic": "Online Sound Bath",
@@ -35696,30 +36763,61 @@
       "phasing": {
         "before7": 0,
         "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 3,
+        "d2": 3,
+        "d1": 4,
+        "d0": 7
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Devi Nidhi Saraswat",
+      "target": 10,
+      "price": 592,
+      "revenueTarget": 5920,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-25",
+      "time": "17:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "TBC",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 1,
+        "d3": 1,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": 5,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Mystic Grace",
-      "target": null,
+      "target": 11,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 7689,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-25",
       "time": "12:00",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Somatic Healing for Grief & Loss",
@@ -35730,61 +36828,30 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Devi Nidhi Saraswat",
-      "target": null,
-      "price": 592,
-      "revenueTarget": 0,
+      "leader": "Nishi Shah",
+      "target": 1,
+      "price": 699,
+      "revenueTarget": 699,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-25",
-      "time": "17:00",
+      "time": "10:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "TBC",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
-    },
-    {
-      "leader": "Lovish Kandoi",
-      "target": null,
-      "price": 592,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-26",
-      "time": "07:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Shiv Dhyan Sadhana",
+      "topic": "Yoga for Hormonal Issues",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -35799,19 +36866,112 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Lovish Kandoi",
+      "target": 10,
+      "price": 592,
+      "revenueTarget": 5920,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-26",
+      "time": "07:00",
+      "campaign": "Hindi",
+      "leaderTagging": "",
+      "language": "Hindi",
+      "topic": "Shiv Dhyan Sadhana",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 3,
+        "d1": 3,
+        "d0": 2
+      },
+      "totalRegistrations": null,
+      "phasingDays": 6,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Seemaa Dhingra",
+      "target": 1,
+      "price": 850,
+      "revenueTarget": 850,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-26",
+      "time": "19:00",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Past Life Regression Through Hypnosis",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Kajal Thakkar",
-      "target": null,
+      "target": 10,
       "price": 699,
-      "revenueTarget": 0,
+      "revenueTarget": 6990,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-27",
       "time": "19:30",
+      "campaign": "Do Not Market",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "Kajal Thakkar",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 0,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 2,
+        "d1": 3,
+        "d0": 3
+      },
+      "totalRegistrations": null,
+      "phasingDays": null,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dr. Neelam Parwani",
+      "target": 1,
+      "price": 850,
+      "revenueTarget": 850,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-27",
+      "time": "19:00",
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
@@ -35830,20 +36990,20 @@
       },
       "totalRegistrations": null,
       "phasingDays": null,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Sonika Vickraman",
-      "target": null,
+      "target": 10,
       "price": 770,
-      "revenueTarget": 0,
+      "revenueTarget": 7700,
       "courseInstanceId": "",
       "courseId": "",
       "date": "2026-10-28",
       "time": "10:00",
-      "campaign": "Do Not Market",
+      "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
       "topic": "Breath of Release: A Lung Healing Retreat",
@@ -35854,22 +37014,84 @@
         "d6": 0,
         "d5": 0,
         "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
+        "d3": 2,
+        "d2": 2,
+        "d1": 4,
+        "d0": 3
       },
       "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
+      "phasingDays": 4,
+      "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Vidhi Agarwal",
+      "target": 35,
+      "price": 699,
+      "revenueTarget": 24465,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-28",
+      "time": "21:00",
+      "campaign": "Biz Boost",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "3rd Eye Intuition",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 2,
+        "d5": 2,
+        "d4": 2,
+        "d3": 5,
+        "d2": 5,
+        "d1": 7,
+        "d0": 12
+      },
+      "totalRegistrations": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Neha Ranglani",
+      "target": 15,
+      "price": 850,
+      "revenueTarget": 12750,
+      "courseInstanceId": "",
+      "courseId": "",
+      "date": "2026-10-29",
+      "time": "21:00",
+      "campaign": "ROL Boost",
+      "leaderTagging": "ASC Course Bets",
+      "language": "English",
+      "topic": "Heal Your Gut Issues Naturally",
+      "timeBucket": "After 12PM",
+      "phasing": {
+        "before7": 0,
+        "d7": 0,
+        "d6": 1,
+        "d5": 1,
+        "d4": 1,
+        "d3": 2,
+        "d2": 2,
+        "d1": 3,
+        "d0": 5
+      },
+      "totalRegistrations": null,
+      "phasingDays": 3,
+      "pctVsTarget": 0.0,
+      "revenueAchieved": null,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Susitha Pappiah",
-      "target": null,
+      "target": 50,
       "price": 2599,
-      "revenueTarget": 0,
+      "revenueTarget": 129950,
       "courseInstanceId": "8174",
       "courseId": "1671",
       "date": "2026-10-31",
@@ -35880,7 +37102,7 @@
       "topic": "OFFLINE",
       "timeBucket": "After 12PM",
       "phasing": {
-        "before7": 0,
+        "before7": 50,
         "d7": 0,
         "d6": 0,
         "d5": 0,
@@ -35892,9 +37114,40 @@
       },
       "totalRegistrations": 0,
       "phasingDays": 6,
-      "pctVsTarget": null,
+      "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": null
+      "pctRevenueVsTarget": 0.0
+    },
+    {
+      "leader": "Dr. Rashmi N Muthalkar",
+      "target": 378,
+      "price": 2500,
+      "revenueTarget": 945000,
+      "courseInstanceId": "8192",
+      "courseId": "1924",
+      "date": "2026-10-31",
+      "time": "11:00",
+      "campaign": "OFFLINE",
+      "leaderTagging": "",
+      "language": "English",
+      "topic": "OFFLINE",
+      "timeBucket": "B4 12PM",
+      "phasing": {
+        "before7": 378,
+        "d7": 0,
+        "d6": 0,
+        "d5": 0,
+        "d4": 0,
+        "d3": 0,
+        "d2": 0,
+        "d1": 0,
+        "d0": 0
+      },
+      "totalRegistrations": 2,
+      "phasingDays": 6,
+      "pctVsTarget": 1.0,
+      "revenueAchieved": 8850,
+      "pctRevenueVsTarget": 1.0
     }
   ]
 }
