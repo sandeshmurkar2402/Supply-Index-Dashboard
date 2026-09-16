@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T16:30:41Z",
+  "lastUpdated": "2026-09-16T19:55:03Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -12006,19 +12006,19 @@
         "sessions": 4,
         "sessionTarget": 720,
         "sessionAchieved": 279,
-        "phasingTarget": 174,
-        "phasingAchieved": null
+        "phasingTarget": 172,
+        "phasingAchieved": 38
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 0
       },
       "groupLeaderPhasingTargets": [
         {
@@ -12051,10 +12051,6 @@
         },
         {
           "name": "Krishna Jangid",
-          "value": 3
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
           "value": 3
         },
         {
@@ -12188,7 +12184,24 @@
           "value": 5
         }
       ],
-      "groupMissedTargets": [],
+      "groupMissedTargets": [
+        {
+          "name": "Kavyal Sedanni",
+          "missed": 427
+        },
+        {
+          "name": "Chaittali",
+          "missed": 5
+        },
+        {
+          "name": "Pranjal Katoch",
+          "missed": 6
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 3
+        }
+      ],
       "oneOnOneSlots": {
         "leadersWithSlots": 110,
         "leadersAvailableToday": 107,
@@ -12204,11 +12217,11 @@
       "categoryBreakdown": [],
       "topLeaderSlots": [],
       "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 71,
+        "slotsAvailable": 37,
+        "pctSlotsAvailable": 52.0
       }
     },
     {
@@ -12219,7 +12232,7 @@
         "sessions": 10,
         "sessionTarget": 68,
         "sessionAchieved": 24,
-        "phasingTarget": 75,
+        "phasingTarget": 73,
         "phasingAchieved": null
       },
       "offline": {
@@ -12272,10 +12285,6 @@
         },
         {
           "name": "Peyush Bhatia",
-          "value": 3
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
           "value": 3
         },
         {
@@ -12476,7 +12485,7 @@
         "sessions": 8,
         "sessionTarget": 65,
         "sessionAchieved": 129,
-        "phasingTarget": 80,
+        "phasingTarget": 75,
         "phasingAchieved": null
       },
       "offline": {
@@ -12513,10 +12522,6 @@
         },
         {
           "name": "Swapnil Gawde",
-          "value": 5
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
           "value": 5
         },
         {
@@ -12721,7 +12726,7 @@
         "sessions": 6,
         "sessionTarget": 86,
         "sessionAchieved": 7,
-        "phasingTarget": 72,
+        "phasingTarget": 64,
         "phasingAchieved": null
       },
       "offline": {
@@ -12743,10 +12748,6 @@
         {
           "name": "Swapnil Gawde",
           "value": 9
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
-          "value": 8
         },
         {
           "name": "Smita Venkatesh",
@@ -12947,10 +12948,10 @@
       "dayName": "Sunday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 93,
+        "sessions": 5,
+        "sessionTarget": 68,
         "sessionAchieved": 1,
-        "phasingTarget": 78,
+        "phasingTarget": 71,
         "phasingAchieved": null
       },
       "offline": {
@@ -12968,10 +12969,6 @@
         {
           "name": "Smita Venkatesh",
           "value": 15
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
-          "value": 8
         },
         {
           "name": "Rhea Mathew",
@@ -13138,10 +13135,6 @@
         {
           "name": "Nithya Shanti",
           "value": 50
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
-          "value": 25
         },
         {
           "name": "Preety",
@@ -31223,37 +31216,6 @@
       },
       "totalRegistrations": 0,
       "phasingDays": 11,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Devi Nidhi Saraswat",
-      "target": 25,
-      "price": 592,
-      "revenueTarget": 14800,
-      "courseInstanceId": "8176",
-      "courseId": "1916",
-      "date": "2026-09-20",
-      "time": "17:00",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Divine Protection from Bhagavat Katha",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 3,
-        "d3": 3,
-        "d2": 5,
-        "d1": 8,
-        "d0": 8
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 5,
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
