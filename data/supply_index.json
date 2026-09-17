@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T22:46:37Z",
+  "lastUpdated": "2026-09-17T01:12:42Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -12005,7 +12005,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 720,
-        "sessionAchieved": 279,
+        "sessionAchieved": 282,
         "phasingTarget": 172,
         "phasingAchieved": 38
       },
@@ -12187,7 +12187,7 @@
       "groupMissedTargets": [
         {
           "name": "Kavyal Sedanni",
-          "missed": 427
+          "missed": 424
         },
         {
           "name": "Chaittali",
@@ -12231,7 +12231,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 68,
-        "sessionAchieved": 24,
+        "sessionAchieved": 26,
         "phasingTarget": 73,
         "phasingAchieved": null
       },
@@ -12484,7 +12484,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 65,
-        "sessionAchieved": 129,
+        "sessionAchieved": 142,
         "phasingTarget": 75,
         "phasingAchieved": null
       },
@@ -12725,7 +12725,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 86,
-        "sessionAchieved": 7,
+        "sessionAchieved": 10,
         "phasingTarget": 64,
         "phasingAchieved": null
       },
@@ -13416,7 +13416,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 124,
-        "sessionAchieved": 5,
+        "sessionAchieved": 8,
         "phasingTarget": 89,
         "phasingAchieved": null
       },
@@ -14123,7 +14123,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 766,
-        "sessionAchieved": 12,
+        "sessionAchieved": 15,
         "phasingTarget": 91,
         "phasingAchieved": null
       },
@@ -14320,14 +14320,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 76,
-        "sessionAchieved": 165,
+        "sessionAchieved": 166,
         "phasingTarget": 113,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 164,
+        "sessionAchieved": 165,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -15169,7 +15169,7 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 0,
+        "sessionAchieved": 2,
         "phasingTarget": 87,
         "phasingAchieved": null
       },
@@ -30470,11 +30470,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": null,
-      "pctVsTarget": 200.0,
-      "revenueAchieved": 1650,
-      "pctRevenueVsTarget": 236.0
+      "pctVsTarget": 300.0,
+      "revenueAchieved": 2475,
+      "pctRevenueVsTarget": 354.0
     },
     {
       "leader": "Nattasha Kapoor",
