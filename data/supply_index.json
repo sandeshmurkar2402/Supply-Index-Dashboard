@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T22:06:36Z",
+  "lastUpdated": "2026-09-26T01:19:19Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -9,7 +9,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 7,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 111
       },
@@ -29,15 +29,19 @@
       "groupMissedTargets": [
         {
           "name": "Barkha Mahesh",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Simran Jadhwani",
-          "missed": 9
+          "missed": 10
+        },
+        {
+          "name": "Arpita Thakkar",
+          "missed": 2
         },
         {
           "name": "Kajal Thakkar",
-          "missed": 6
+          "missed": 8
         }
       ],
       "oneOnOneSlots": {
@@ -69,7 +73,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 57,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 138
       },
@@ -89,7 +93,15 @@
       "groupMissedTargets": [
         {
           "name": "Amrita Shah",
-          "missed": 1
+          "missed": 30
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 8
+        },
+        {
+          "name": "Prateek Bajaj",
+          "missed": 8
         }
       ],
       "oneOnOneSlots": {
@@ -121,7 +133,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 38,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 154
       },
@@ -141,19 +153,23 @@
       "groupMissedTargets": [
         {
           "name": "Priyanka Agarwal",
-          "missed": 35
+          "missed": 50
         },
         {
           "name": "Siddhi Shah",
-          "missed": 7
+          "missed": 15
         },
         {
           "name": "Shweta Chatterjee",
-          "missed": 5
+          "missed": 8
         },
         {
           "name": "Krupa Shah",
-          "missed": 3
+          "missed": 5
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -185,7 +201,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 55,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 155
       },
@@ -205,19 +221,19 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Sweta Adatia",
-          "missed": 28
+          "missed": 70
         },
         {
           "name": "Nayana Cariappa",
-          "missed": 8
+          "missed": 15
         },
         {
           "name": "Ashwini Kamath",
-          "missed": 4
+          "missed": 8
         },
         {
           "name": "Yashica",
-          "missed": 7
+          "missed": 8
         }
       ],
       "oneOnOneSlots": {
@@ -249,7 +265,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 121,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 179
       },
@@ -269,19 +285,19 @@
       "groupMissedTargets": [
         {
           "name": "Swapnil Gawde",
-          "missed": 40
+          "missed": 150
         },
         {
           "name": "Dr. Neha Racca",
-          "missed": 1
+          "missed": 10
         },
         {
           "name": "Preety",
-          "missed": 1
+          "missed": 2
         },
         {
           "name": "Amritaa Shankar",
-          "missed": 1
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -313,7 +329,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 45,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 248
       },
@@ -333,23 +349,31 @@
       "groupMissedTargets": [
         {
           "name": "Manka Malik",
-          "missed": 16
+          "missed": 30
         },
         {
           "name": "Rhea Mathew",
-          "missed": 6
+          "missed": 15
         },
         {
           "name": "Abhirammi",
-          "missed": 4
+          "missed": 10
         },
         {
           "name": "Navneeth Vallabh",
-          "missed": 3
+          "missed": 5
+        },
+        {
+          "name": "Vanita Keswani",
+          "missed": 2
         },
         {
           "name": "Abhaya Balaji",
-          "missed": 8
+          "missed": 10
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -381,7 +405,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 8,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 287
       },
@@ -401,7 +425,7 @@
       "groupMissedTargets": [
         {
           "name": "Dee Kanjani",
-          "missed": 2
+          "missed": 4
         },
         {
           "name": "Shama Igatpuriwala",
@@ -410,6 +434,10 @@
         {
           "name": "Hiral Pawar",
           "missed": 3
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -441,7 +469,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 928,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 282
       },
@@ -461,11 +489,15 @@
       "groupMissedTargets": [
         {
           "name": "Kavyal Sedanni",
-          "missed": 120
+          "missed": 1000
+        },
+        {
+          "name": "Sonika Vickraman",
+          "missed": 15
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 1
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -497,7 +529,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 36,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 117
       },
@@ -517,11 +549,11 @@
       "groupMissedTargets": [
         {
           "name": "Susitha Pappiah",
-          "missed": 17
+          "missed": 35
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 2
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -553,7 +585,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 123,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 153
       },
@@ -573,10 +605,14 @@
       "groupMissedTargets": [
         {
           "name": "Guru Maa MeeMaa",
-          "missed": 83
+          "missed": 125
         },
         {
           "name": "Priyanka Agarwal",
+          "missed": 15
+        },
+        {
+          "name": "Dr. Ruchi Gulati",
           "missed": 2
         },
         {
@@ -585,15 +621,19 @@
         },
         {
           "name": "Jyotismita Das",
-          "missed": 1
-        },
-        {
-          "name": "Meenakshi Mishra",
           "missed": 2
         },
         {
+          "name": "Meenakshi Mishra",
+          "missed": 5
+        },
+        {
+          "name": "Pranjal Katoch",
+          "missed": 10
+        },
+        {
           "name": "Denzil Oconnell",
-          "missed": 9
+          "missed": 18
         }
       ],
       "oneOnOneSlots": {
@@ -625,14 +665,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 18,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 163
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 7,
+        "sessionAchieved": 0,
         "phasingTarget": 44,
         "phasingAchieved": 9
       },
@@ -645,15 +685,15 @@
       "groupMissedTargets": [
         {
           "name": "Sandy Chana",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Binita Aamol Rege",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 2
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -685,14 +725,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 40,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 174
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 15,
+        "sessionAchieved": 0,
         "phasingTarget": 40,
         "phasingAchieved": 11
       },
@@ -705,15 +745,19 @@
       "groupMissedTargets": [
         {
           "name": "Ellaeenah Niloufer",
-          "missed": 6
+          "missed": 20
         },
         {
-          "name": "Meenakshi Mishra",
+          "name": "Mohini Srishati",
           "missed": 2
         },
         {
+          "name": "Meenakshi Mishra",
+          "missed": 5
+        },
+        {
           "name": "Manka Malik",
-          "missed": 35
+          "missed": 50
         }
       ],
       "oneOnOneSlots": {
@@ -745,7 +789,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 29,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 232
       },
@@ -764,16 +808,24 @@
       "groupLeaderTargets": [],
       "groupMissedTargets": [
         {
+          "name": "Rhea Mathew",
+          "missed": 15
+        },
+        {
+          "name": "Prasiddhi Khare Mishra",
+          "missed": 2
+        },
+        {
           "name": "Taniyaa Gupta",
           "missed": 2
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 2
+          "missed": 5
         },
         {
           "name": "Purvi Bhave",
-          "missed": 7
+          "missed": 10
         }
       ],
       "oneOnOneSlots": {
@@ -805,7 +857,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 301,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 299
       },
@@ -825,11 +877,11 @@
       "groupMissedTargets": [
         {
           "name": "Arjun Aiyar",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Ashwini Bhave",
-          "missed": 6
+          "missed": 8
         },
         {
           "name": "Amritaa Shankar",
@@ -837,15 +889,15 @@
         },
         {
           "name": "Dr. Tamanna C",
-          "missed": 218
+          "missed": 500
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 1
+          "missed": 2
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -877,14 +929,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 159,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 331
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 13,
+        "sessionAchieved": 0,
         "phasingTarget": 48,
         "phasingAchieved": 13
       },
@@ -897,19 +949,23 @@
       "groupMissedTargets": [
         {
           "name": "Vidhi Agarwal",
-          "missed": 63
+          "missed": 200
+        },
+        {
+          "name": "Ashwini Kamath",
+          "missed": 2
         },
         {
           "name": "Seemaa Dhingra",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Janhvi V Singh",
-          "missed": 199
+          "missed": 200
         }
       ],
       "oneOnOneSlots": {
@@ -941,14 +997,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 48,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 270
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 4,
+        "sessionAchieved": 0,
         "phasingTarget": 50,
         "phasingAchieved": 14
       },
@@ -960,12 +1016,24 @@
       "groupLeaderTargets": [],
       "groupMissedTargets": [
         {
+          "name": "Divyaa",
+          "missed": 18
+        },
+        {
           "name": "Siddhi Shah",
-          "missed": 14
+          "missed": 15
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 2
         },
         {
           "name": "Premmayi Gurumaa",
-          "missed": 8
+          "missed": 15
+        },
+        {
+          "name": "Ruchika Uppal",
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -997,7 +1065,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 809,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 216
       },
@@ -1016,8 +1084,16 @@
       "groupLeaderTargets": [],
       "groupMissedTargets": [
         {
+          "name": "Dr. Rashmi N Muthalkar",
+          "missed": 400
+        },
+        {
+          "name": "Chaittali",
+          "missed": 1
+        },
+        {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         },
         {
           "name": "Krishnna",
@@ -1053,7 +1129,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 105,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 100
       },
@@ -1073,19 +1149,27 @@
       "groupMissedTargets": [
         {
           "name": "Swapnil Gawde",
-          "missed": 154
+          "missed": 200
         },
         {
           "name": "Nithya Ji",
-          "missed": 29
+          "missed": 60
         },
         {
           "name": "Manka Malik",
-          "missed": 20
+          "missed": 30
+        },
+        {
+          "name": "Binita Aamol Rege",
+          "missed": 2
+        },
+        {
+          "name": "Debanjan Medhi",
+          "missed": 2
         },
         {
           "name": "Lovish Kandoi",
-          "missed": 15
+          "missed": 20
         }
       ],
       "oneOnOneSlots": {
@@ -1117,14 +1201,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 28,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 90
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 23,
+        "sessionAchieved": 0,
         "phasingTarget": 50,
         "phasingAchieved": 29
       },
@@ -1137,11 +1221,11 @@
       "groupMissedTargets": [
         {
           "name": "Mahima Mor",
-          "missed": 27
+          "missed": 50
         },
         {
           "name": "Gunjan Nautiyall",
-          "missed": 8
+          "missed": 10
         }
       ],
       "oneOnOneSlots": {
@@ -1173,7 +1257,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 27,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 87
       },
@@ -1192,12 +1276,24 @@
       "groupLeaderTargets": [],
       "groupMissedTargets": [
         {
+          "name": "Hiral Pawar",
+          "missed": 10
+        },
+        {
           "name": "Ivy Roy",
-          "missed": 9
+          "missed": 10
+        },
+        {
+          "name": "Setu Gokani",
+          "missed": 2
+        },
+        {
+          "name": "Sanskritii Sethi",
+          "missed": 1
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -1229,7 +1325,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 38,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 95
       },
@@ -1249,23 +1345,23 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Neelam Parwani",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 1
+          "missed": 2
         },
         {
           "name": "Shreya Singh",
-          "missed": 6
+          "missed": 15
         },
         {
           "name": "Nattasha Kapoor",
-          "missed": 5
+          "missed": 25
         },
         {
           "name": "Sukhmani Bajwa",
-          "missed": 6
+          "missed": 12
         }
       ],
       "oneOnOneSlots": {
@@ -1297,7 +1393,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 27,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 132
       },
@@ -1316,20 +1412,28 @@
       "groupLeaderTargets": [],
       "groupMissedTargets": [
         {
+          "name": "Bhupali Deore",
+          "missed": 1
+        },
+        {
           "name": "Sonika Vickraman",
-          "missed": 4
+          "missed": 15
         },
         {
           "name": "Siddhi Shah",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Aditi Grover",
           "missed": 1
         },
         {
+          "name": "Meheck Mukherjee",
+          "missed": 5
+        },
+        {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -1361,7 +1465,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 569,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 193
       },
@@ -1380,8 +1484,12 @@
       "groupLeaderTargets": [],
       "groupMissedTargets": [
         {
+          "name": "Kavyal Sedanni",
+          "missed": 500
+        },
+        {
           "name": "Debanjan Medhi",
-          "missed": 1
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -1413,14 +1521,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 49,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 101
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 24,
+        "sessionAchieved": 0,
         "phasingTarget": 44,
         "phasingAchieved": 34
       },
@@ -1433,19 +1541,19 @@
       "groupMissedTargets": [
         {
           "name": "Jyotismita Das",
-          "missed": 5
+          "missed": 12
         },
         {
           "name": "Shweta Chatterjee",
-          "missed": 3
+          "missed": 10
         },
         {
           "name": "Bijal Sunil Doshi",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Amrita Shah",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Meenakshi Mishra",
@@ -1453,11 +1561,11 @@
         },
         {
           "name": "Praanah",
-          "missed": 26
+          "missed": 50
         },
         {
           "name": "Krupa Shah",
-          "missed": 1
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -1489,14 +1597,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 159,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 103
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 74,
+        "sessionAchieved": 0,
         "phasingTarget": 41,
         "phasingAchieved": 43
       },
@@ -1509,27 +1617,31 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Richa Jindal",
-          "missed": 35
+          "missed": 50
         },
         {
           "name": "Nattasha Kapoor",
-          "missed": 23
+          "missed": 30
         },
         {
           "name": "Krishna Jangid",
-          "missed": 9
+          "missed": 25
         },
         {
           "name": "Sheelaa M Bajaj",
-          "missed": 136
+          "missed": 200
         },
         {
           "name": "Sheelaa M Bajaj",
-          "missed": 36
+          "missed": 100
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 1
+          "missed": 2
+        },
+        {
+          "name": "Dr. Vineet Aggarwal",
+          "missed": 12
         }
       ],
       "oneOnOneSlots": {
@@ -1561,14 +1673,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 165,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 120
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 148,
+        "sessionAchieved": 0,
         "phasingTarget": 25,
         "phasingAchieved": 27
       },
@@ -1581,15 +1693,15 @@
       "groupMissedTargets": [
         {
           "name": "Meghna Siraj",
-          "missed": 34
+          "missed": 150
         },
         {
           "name": "Susitha Pappiah",
-          "missed": 18
+          "missed": 50
         },
         {
           "name": "Bijay J. Anand",
-          "missed": 35
+          "missed": 50
         }
       ],
       "oneOnOneSlots": {
@@ -1621,7 +1733,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 51,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 137
       },
@@ -1645,7 +1757,11 @@
         },
         {
           "name": "Vidhi Agarwal",
-          "missed": 33
+          "missed": 75
+        },
+        {
+          "name": "Meenakshi Mishra",
+          "missed": 5
         },
         {
           "name": "Punita Kadam",
@@ -1681,7 +1797,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 42,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 168
       },
@@ -1701,19 +1817,23 @@
       "groupMissedTargets": [
         {
           "name": "Neha Ranglani",
-          "missed": 28
+          "missed": 50
         },
         {
           "name": "Sujata Dutta",
-          "missed": 5
+          "missed": 8
         },
         {
           "name": "Rashika Kaul",
-          "missed": 3
+          "missed": 10
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 4
+          "missed": 5
+        },
+        {
+          "name": "Supriya Chhabra",
+          "missed": 1
         }
       ],
       "oneOnOneSlots": {
@@ -1745,7 +1865,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 29,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 194
       },
@@ -1765,7 +1885,7 @@
       "groupMissedTargets": [
         {
           "name": "Suraj Raghav Ram",
-          "missed": 1
+          "missed": 2
         },
         {
           "name": "Vaidehi Surotia",
@@ -1773,15 +1893,19 @@
         },
         {
           "name": "Shaan",
-          "missed": 1
+          "missed": 2
         },
         {
           "name": "Susitha Pappiah",
-          "missed": 12
+          "missed": 35
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
+        },
+        {
+          "name": "Peyush Bhatia",
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -1813,7 +1937,7 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 60,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 247
       },
@@ -1833,27 +1957,31 @@
       "groupMissedTargets": [
         {
           "name": "Mahima Mor",
-          "missed": 30
+          "missed": 50
         },
         {
           "name": "Gunjan Adya",
-          "missed": 2
+          "missed": 4
         },
         {
           "name": "Dr. Neha Racca",
-          "missed": 8
+          "missed": 12
         },
         {
           "name": "Dr. Mitali Jaiswal",
-          "missed": 11
+          "missed": 15
+        },
+        {
+          "name": "Ved Prakash",
+          "missed": 6
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 2
+          "missed": 5
         },
         {
           "name": "Sayalee Jadhav",
-          "missed": 4
+          "missed": 7
         }
       ],
       "oneOnOneSlots": {
@@ -1885,14 +2013,14 @@
       "groupOnline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 892,
+        "sessionAchieved": 0,
         "phasingTarget": null,
         "phasingAchieved": 288
       },
       "offline": {
         "sessions": null,
         "sessionTarget": null,
-        "sessionAchieved": 59,
+        "sessionAchieved": 0,
         "phasingTarget": 5,
         "phasingAchieved": 10
       },
@@ -1905,14 +2033,22 @@
       "groupMissedTargets": [
         {
           "name": "Munisha Khatwani",
-          "missed": 250
+          "missed": 300
+        },
+        {
+          "name": "Dr. Rashmi N Muthalkar",
+          "missed": 400
         },
         {
           "name": "Dr. Tamanna C",
-          "missed": 41
+          "missed": 100
         },
         {
           "name": "Meenakshi Mishra",
+          "missed": 5
+        },
+        {
+          "name": "Arpita Thakkar",
           "missed": 2
         }
       ],
@@ -1945,7 +2081,7 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 28,
+        "sessionAchieved": 0,
         "phasingTarget": 130,
         "phasingAchieved": 87
       },
@@ -2102,14 +2238,22 @@
       "groupMissedTargets": [
         {
           "name": "Neha Kumra",
-          "missed": 8
+          "missed": 11
+        },
+        {
+          "name": "Parul Khanna",
+          "missed": 10
         },
         {
           "name": "Shalini Chugh",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Debanjan Medhi",
+          "missed": 5
+        },
+        {
+          "name": "Disha Sharma",
           "missed": 5
         }
       ],
@@ -2142,14 +2286,14 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 26,
-        "sessionAchieved": 27,
+        "sessionAchieved": 0,
         "phasingTarget": 150,
         "phasingAchieved": 99
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 50,
-        "sessionAchieved": 16,
+        "sessionAchieved": 0,
         "phasingTarget": 18,
         "phasingAchieved": 1
       },
@@ -2340,19 +2484,19 @@
       "groupMissedTargets": [
         {
           "name": "Bijay J. Anand",
-          "missed": 34
+          "missed": 50
         },
         {
           "name": "Nayana Cariappa",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Rishi Nanda",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Preety",
-          "missed": 3
+          "missed": 6
         }
       ],
       "oneOnOneSlots": {
@@ -2384,7 +2528,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 75,
-        "sessionAchieved": 35,
+        "sessionAchieved": 0,
         "phasingTarget": 162,
         "phasingAchieved": 169
       },
@@ -2614,11 +2758,11 @@
       "groupMissedTargets": [
         {
           "name": "Rhea Mathew",
-          "missed": 15
+          "missed": 18
         },
         {
           "name": "Arpana Khanna",
-          "missed": 3
+          "missed": 18
         },
         {
           "name": "Binita Aamol Rege",
@@ -2626,18 +2770,26 @@
         },
         {
           "name": "Akanksha Walia",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Navneeth Vallabh",
-          "missed": 3
+          "missed": 8
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Ashwini Kamath",
+          "missed": 4
+        },
+        {
+          "name": "Vanita Keswani",
+          "missed": 1
+        },
+        {
+          "name": "Purvi Bhave",
           "missed": 1
         }
       ],
@@ -2670,7 +2822,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 51,
-        "sessionAchieved": 45,
+        "sessionAchieved": 0,
         "phasingTarget": 322,
         "phasingAchieved": 194
       },
@@ -2868,11 +3020,23 @@
       "groupMissedTargets": [
         {
           "name": "Amrita Shah",
-          "missed": 7
+          "missed": 25
+        },
+        {
+          "name": "Rashika Kaul",
+          "missed": 15
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 4
+          "missed": 5
+        },
+        {
+          "name": "Divyaa",
+          "missed": 5
+        },
+        {
+          "name": "Manika Aggarwal",
+          "missed": 1
         }
       ],
       "oneOnOneSlots": {
@@ -2904,7 +3068,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 74,
-        "sessionAchieved": 28,
+        "sessionAchieved": 0,
         "phasingTarget": 359,
         "phasingAchieved": 252
       },
@@ -3130,35 +3294,35 @@
       "groupMissedTargets": [
         {
           "name": "Sonika Vickraman",
-          "missed": 14
+          "missed": 20
         },
         {
           "name": "Priyanka Agarwal",
-          "missed": 12
+          "missed": 15
         },
         {
           "name": "Abhirammi",
-          "missed": 4
+          "missed": 10
         },
         {
           "name": "Krishnna",
-          "missed": 3
+          "missed": 8
         },
         {
           "name": "Barkha Mahesh",
-          "missed": 6
+          "missed": 8
         },
         {
           "name": "Krupa Shah",
-          "missed": 2
+          "missed": 5
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         },
         {
           "name": "Amritaa Shankar",
-          "missed": 1
+          "missed": 2
         },
         {
           "name": "Shilpa Goel",
@@ -3194,7 +3358,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 1058,
-        "sessionAchieved": 605,
+        "sessionAchieved": 0,
         "phasingTarget": 348,
         "phasingAchieved": 319
       },
@@ -3428,27 +3592,31 @@
       "groupMissedTargets": [
         {
           "name": "Kavyal Sedanni",
-          "missed": 411
+          "missed": 1000
         },
         {
           "name": "Premmayi Gurumaa",
-          "missed": 19
+          "missed": 20
         },
         {
           "name": "Harpreet B Sharma",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Alpa Kapadia Teli",
-          "missed": 6
+          "missed": 9
         },
         {
           "name": "Tamanna Gulati",
-          "missed": 5
+          "missed": 9
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 3
+          "missed": 5
+        },
+        {
+          "name": "Divyaa",
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -3480,7 +3648,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 302,
-        "sessionAchieved": 449,
+        "sessionAchieved": 0,
         "phasingTarget": 197,
         "phasingAchieved": 232
       },
@@ -3717,24 +3885,32 @@
       ],
       "groupMissedTargets": [
         {
+          "name": "Dr. Tamanna C",
+          "missed": 250
+        },
+        {
           "name": "Nattasha Kapoor",
-          "missed": 13
+          "missed": 15
         },
         {
           "name": "Jyoti Soni",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Pranjal Katoch",
-          "missed": 3
+          "missed": 10
         },
         {
           "name": "Dr Kinnari I Gupta",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Meenakshi Mishra",
           "missed": 5
+        },
+        {
+          "name": "Bansari Nagda",
+          "missed": 1
         },
         {
           "name": "Deepa Shetty",
@@ -3770,14 +3946,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 27,
-        "sessionAchieved": 48,
+        "sessionAchieved": 0,
         "phasingTarget": 154,
         "phasingAchieved": 109
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 20,
-        "sessionAchieved": 9,
+        "sessionAchieved": 0,
         "phasingTarget": 11,
         "phasingAchieved": 5
       },
@@ -3996,23 +4172,35 @@
       "groupMissedTargets": [
         {
           "name": "Arjun Aiyar",
-          "missed": 11
+          "missed": 20
         },
         {
           "name": "Dimple Desai",
-          "missed": 9
+          "missed": 10
+        },
+        {
+          "name": "Poonam Dhandania",
+          "missed": 10
+        },
+        {
+          "name": "Gunjan Adya",
+          "missed": 10
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 2
+          "missed": 5
         },
         {
           "name": "Disha Sharma",
-          "missed": 1
+          "missed": 5
         },
         {
           "name": "Rashmi Shahbazker",
           "missed": 2
+        },
+        {
+          "name": "Mansi Mahajan",
+          "missed": 1
         }
       ],
       "oneOnOneSlots": {
@@ -4044,7 +4232,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 168,
-        "sessionAchieved": 77,
+        "sessionAchieved": 0,
         "phasingTarget": 206,
         "phasingAchieved": 117
       },
@@ -4274,22 +4462,30 @@
       "groupMissedTargets": [
         {
           "name": "Swapnil Gawde",
-          "missed": 56
+          "missed": 100
         },
         {
           "name": "Nithya Ji",
-          "missed": 12
+          "missed": 30
         },
         {
           "name": "Nattasha Kapoor",
-          "missed": 21
+          "missed": 25
         },
         {
           "name": "Dr.Jiggnna Desai",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Nishi Shah",
+          "missed": 1
+        },
+        {
+          "name": "Mansi Kothari",
+          "missed": 1
+        },
+        {
+          "name": "Ruchika Uppal",
           "missed": 1
         }
       ],
@@ -4322,7 +4518,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 22,
+        "sessionAchieved": 0,
         "phasingTarget": 193,
         "phasingAchieved": 151
       },
@@ -4552,11 +4748,11 @@
       "groupMissedTargets": [
         {
           "name": "Rooppreet Caur",
-          "missed": 4
+          "missed": 12
         },
         {
           "name": "Shreya Singh",
-          "missed": 4
+          "missed": 10
         },
         {
           "name": "Sujata Dutta",
@@ -4564,15 +4760,15 @@
         },
         {
           "name": "Meheck Mukherjee",
-          "missed": 5
+          "missed": 9
         },
         {
           "name": "Prasiddhi Khare Mishra",
-          "missed": 4
+          "missed": 6
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         },
         {
           "name": "Bhupali Deore",
@@ -4612,7 +4808,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 62,
-        "sessionAchieved": 28,
+        "sessionAchieved": 0,
         "phasingTarget": 282,
         "phasingAchieved": 150
       },
@@ -4838,15 +5034,15 @@
       "groupMissedTargets": [
         {
           "name": "Vidhya K",
-          "missed": 8
+          "missed": 15
         },
         {
           "name": "Mahima Mor",
-          "missed": 10
+          "missed": 15
         },
         {
           "name": "Dr. Ruchi Gulati",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Gunjan Nautiyall",
@@ -4854,14 +5050,22 @@
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 2
+          "missed": 5
+        },
+        {
+          "name": "Divyaa",
+          "missed": 5
         },
         {
           "name": "Lovina Gidwani",
-          "missed": 1
+          "missed": 2
         },
         {
           "name": "Bhairavi Mehta",
+          "missed": 1
+        },
+        {
+          "name": "Damini Grover",
           "missed": 1
         }
       ],
@@ -4894,7 +5098,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 24,
+        "sessionAchieved": 0,
         "phasingTarget": 295,
         "phasingAchieved": 161
       },
@@ -5108,15 +5312,15 @@
         },
         {
           "name": "Jyotismita Das",
-          "missed": 10
+          "missed": 12
         },
         {
           "name": "Amrita Shah",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Seemaa Dhingra",
-          "missed": 3
+          "missed": 9
         },
         {
           "name": "Anupama Chatterjee",
@@ -5124,7 +5328,11 @@
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 4
+          "missed": 5
+        },
+        {
+          "name": "Chaittali",
+          "missed": 1
         },
         {
           "name": "Preethi Balan",
@@ -5160,7 +5368,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 1031,
-        "sessionAchieved": 455,
+        "sessionAchieved": 0,
         "phasingTarget": 297,
         "phasingAchieved": 234
       },
@@ -5362,23 +5570,31 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Rashmi N Muthalkar",
-          "missed": 566
+          "missed": 1000
         },
         {
           "name": "Neera Sareen",
-          "missed": 1
+          "missed": 9
         },
         {
           "name": "Renu Kaushik",
+          "missed": 7
+        },
+        {
+          "name": "Arpita Thakkar",
           "missed": 6
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Ashwini Bhave",
-          "missed": 1
+          "missed": 2
+        },
+        {
+          "name": "Abhaya Balaji",
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -5410,7 +5626,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 231,
-        "sessionAchieved": 90,
+        "sessionAchieved": 0,
         "phasingTarget": 155,
         "phasingAchieved": 112
       },
@@ -5616,19 +5832,27 @@
       "groupMissedTargets": [
         {
           "name": "Vidhi Agarwal",
-          "missed": 128
+          "missed": 200
+        },
+        {
+          "name": "Kajal Thakkar",
+          "missed": 12
         },
         {
           "name": "Nattasha Kapoor",
-          "missed": 10
+          "missed": 11
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 1
+          "missed": 5
         },
         {
           "name": "Dr. Suchitra",
           "missed": 2
+        },
+        {
+          "name": "Krishnna",
+          "missed": 1
         }
       ],
       "oneOnOneSlots": {
@@ -5660,7 +5884,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 45,
-        "sessionAchieved": 42,
+        "sessionAchieved": 0,
         "phasingTarget": 128,
         "phasingAchieved": 89
       },
@@ -5874,15 +6098,19 @@
       "groupMissedTargets": [
         {
           "name": "Susitha Pappiah",
-          "missed": 4
+          "missed": 25
+        },
+        {
+          "name": "Sidanta Goggate",
+          "missed": 7
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 3
+          "missed": 5
         },
         {
           "name": "Aditi Grover",
-          "missed": 2
+          "missed": 5
         },
         {
           "name": "Vanita Keswani",
@@ -5922,7 +6150,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 80,
-        "sessionAchieved": 25,
+        "sessionAchieved": 0,
         "phasingTarget": 215,
         "phasingAchieved": 103
       },
@@ -6124,19 +6352,19 @@
       "groupMissedTargets": [
         {
           "name": "Devi Nidhi Saraswat",
-          "missed": 35
+          "missed": 40
         },
         {
           "name": "Dr. Vineet Aggarwal",
-          "missed": 6
+          "missed": 20
         },
         {
           "name": "Alipta Sabharwal",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Punita Kadam",
-          "missed": 6
+          "missed": 10
         }
       ],
       "oneOnOneSlots": {
@@ -6168,7 +6396,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 82,
-        "sessionAchieved": 34,
+        "sessionAchieved": 0,
         "phasingTarget": 218,
         "phasingAchieved": 156
       },
@@ -6406,23 +6634,27 @@
       "groupMissedTargets": [
         {
           "name": "Arpana Khanna",
-          "missed": 11
+          "missed": 18
         },
         {
           "name": "Rhea Mathew",
-          "missed": 9
+          "missed": 15
         },
         {
           "name": "Sukhmani Bajwa",
-          "missed": 7
+          "missed": 12
         },
         {
           "name": "Ivy Roy",
-          "missed": 8
+          "missed": 10
+        },
+        {
+          "name": "Neha Ranglani",
+          "missed": 10
         },
         {
           "name": "Siddhi Shah",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Meenakshi Mishra",
@@ -6430,7 +6662,7 @@
         },
         {
           "name": "Setu Gokani",
-          "missed": 1
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -6462,7 +6694,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 812,
-        "sessionAchieved": 551,
+        "sessionAchieved": 0,
         "phasingTarget": 212,
         "phasingAchieved": 175
       },
@@ -6680,23 +6912,23 @@
       "groupMissedTargets": [
         {
           "name": "Kavyal Sedanni",
-          "missed": 169
+          "missed": 700
         },
         {
           "name": "Krishna Jangid",
-          "missed": 25
+          "missed": 30
         },
         {
           "name": "Dushyant",
-          "missed": 24
+          "missed": 25
         },
         {
           "name": "Manka Malik",
-          "missed": 11
+          "missed": 20
         },
         {
           "name": "Divyaa",
-          "missed": 16
+          "missed": 18
         },
         {
           "name": "Denzil Oconnell",
@@ -6707,8 +6939,12 @@
           "missed": 5
         },
         {
+          "name": "Shaan",
+          "missed": 2
+        },
+        {
           "name": "Supriya Chhabra",
-          "missed": 1
+          "missed": 2
         }
       ],
       "oneOnOneSlots": {
@@ -6740,7 +6976,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 68,
-        "sessionAchieved": 31,
+        "sessionAchieved": 0,
         "phasingTarget": 129,
         "phasingAchieved": 76
       },
@@ -6930,7 +7166,7 @@
       "groupMissedTargets": [
         {
           "name": "Amrita Shah",
-          "missed": 7
+          "missed": 25
         },
         {
           "name": "Violet Tara",
@@ -6938,19 +7174,19 @@
         },
         {
           "name": "Shalini Chugh",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Pranjal Katoch",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Dr. Nehaa Jain",
-          "missed": 5
+          "missed": 7
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -6982,7 +7218,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 160,
-        "sessionAchieved": 31,
+        "sessionAchieved": 0,
         "phasingTarget": 126,
         "phasingAchieved": 75
       },
@@ -7200,7 +7436,7 @@
       "groupMissedTargets": [
         {
           "name": "Shweta Singh Kirti",
-          "missed": 81
+          "missed": 100
         },
         {
           "name": "Neha Kumra",
@@ -7212,11 +7448,11 @@
         },
         {
           "name": "Ridhhimaa Tandon",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Gunjan Adya",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Bansari Nagda",
@@ -7224,11 +7460,15 @@
         },
         {
           "name": "Divyaa",
-          "missed": 3
+          "missed": 5
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 4
+          "missed": 5
+        },
+        {
+          "name": "Rishita Makhija",
+          "missed": 1
         }
       ],
       "oneOnOneSlots": {
@@ -7260,7 +7500,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 75,
-        "sessionAchieved": 14,
+        "sessionAchieved": 0,
         "phasingTarget": 136,
         "phasingAchieved": 86
       },
@@ -7466,15 +7706,15 @@
       "groupMissedTargets": [
         {
           "name": "Hiral Pawar",
-          "missed": 16
+          "missed": 22
         },
         {
           "name": "Kabir",
-          "missed": 10
+          "missed": 12
         },
         {
           "name": "Nattasha Kapoor",
-          "missed": 9
+          "missed": 11
         },
         {
           "name": "Dr. Jiggnna Desai",
@@ -7486,11 +7726,11 @@
         },
         {
           "name": "Akanksha Walia",
-          "missed": 4
+          "missed": 6
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Bhairavi Mehta",
@@ -7526,14 +7766,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 53,
-        "sessionAchieved": 291,
+        "sessionAchieved": 0,
         "phasingTarget": 126,
         "phasingAchieved": 68
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 310,
-        "sessionAchieved": 218,
+        "sessionAchieved": 0,
         "phasingTarget": 38,
         "phasingAchieved": 16
       },
@@ -7720,19 +7960,23 @@
       "groupMissedTargets": [
         {
           "name": "Kavyal Sedanni",
-          "missed": 92
+          "missed": 250
         },
         {
           "name": "Immersive Sound Experience",
-          "missed": 18
+          "missed": 60
+        },
+        {
+          "name": "Smita Venkatesh",
+          "missed": 25
         },
         {
           "name": "Mariko Hiyama",
-          "missed": 6
+          "missed": 20
         },
         {
           "name": "Disha Sharma",
-          "missed": 3
+          "missed": 5
         },
         {
           "name": "Sweta Gusain",
@@ -7772,14 +8016,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 236,
-        "sessionAchieved": 89,
+        "sessionAchieved": 0,
         "phasingTarget": 154,
         "phasingAchieved": 63
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 24,
         "phasingAchieved": 2
       },
@@ -7966,23 +8210,23 @@
       "groupMissedTargets": [
         {
           "name": "Guru Maa MeeMaa",
-          "missed": 87
+          "missed": 150
         },
         {
           "name": "Nithya Ji",
-          "missed": 30
+          "missed": 50
         },
         {
           "name": "Poonam Dhandania",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Dr. Neha Racca",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Nayana Cariappa",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Sharmila Awasthi",
@@ -8022,7 +8266,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 10,
+        "sessionAchieved": 0,
         "phasingTarget": 133,
         "phasingAchieved": 96
       },
@@ -8196,23 +8440,27 @@
       "groupMissedTargets": [
         {
           "name": "Arpana Khanna",
-          "missed": 17
+          "missed": 18
         },
         {
           "name": "Nattasha Kapoor",
-          "missed": 9
+          "missed": 12
         },
         {
           "name": "Lovish Kandoi",
-          "missed": 11
+          "missed": 12
         },
         {
           "name": "Meher Gehi",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 4
+          "missed": 5
+        },
+        {
+          "name": "Preety",
+          "missed": 1
         }
       ],
       "oneOnOneSlots": {
@@ -8244,7 +8492,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 36,
-        "sessionAchieved": 17,
+        "sessionAchieved": 0,
         "phasingTarget": 138,
         "phasingAchieved": 82
       },
@@ -8414,19 +8662,19 @@
       "groupMissedTargets": [
         {
           "name": "Kajal Thakkar",
-          "missed": 7
+          "missed": 12
         },
         {
           "name": "Rashika Kaul",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Dr. Devanshi",
-          "missed": 8
+          "missed": 9
         },
         {
           "name": "Divyaa",
-          "missed": 2
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -8458,7 +8706,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 68,
-        "sessionAchieved": 39,
+        "sessionAchieved": 0,
         "phasingTarget": 214,
         "phasingAchieved": 113
       },
@@ -8635,20 +8883,28 @@
       ],
       "groupMissedTargets": [
         {
+          "name": "Ved Prakash",
+          "missed": 20
+        },
+        {
           "name": "Denzil Oconnell",
-          "missed": 16
+          "missed": 18
         },
         {
           "name": "Sonika Vickraman",
-          "missed": 14
+          "missed": 15
         },
         {
           "name": "Devina Fogla",
-          "missed": 6
+          "missed": 9
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 4
+          "missed": 5
+        },
+        {
+          "name": "Swati Ahluwalia",
+          "missed": 1
         }
       ],
       "oneOnOneSlots": {
@@ -8680,7 +8936,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 70,
-        "sessionAchieved": 25,
+        "sessionAchieved": 0,
         "phasingTarget": 229,
         "phasingAchieved": 131
       },
@@ -8862,23 +9118,27 @@
       "groupMissedTargets": [
         {
           "name": "Shruti Seth",
-          "missed": 18
+          "missed": 20
         },
         {
           "name": "Kainaz Motivala",
-          "missed": 13
+          "missed": 15
         },
         {
           "name": "Dr. Mitali Jaiswal",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Dr. Neha Racca",
-          "missed": 8
+          "missed": 10
+        },
+        {
+          "name": "Avrril Quadros",
+          "missed": 10
         },
         {
           "name": "Divyaa",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -8910,7 +9170,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 736,
-        "sessionAchieved": 422,
+        "sessionAchieved": 0,
         "phasingTarget": 241,
         "phasingAchieved": 161
       },
@@ -9072,7 +9332,7 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Rashmi N Muthalkar",
-          "missed": 292
+          "missed": 700
         },
         {
           "name": "Jyotismita Das",
@@ -9080,11 +9340,11 @@
         },
         {
           "name": "Shweta Chatterjee",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Arjun Aiyar",
-          "missed": 1
+          "missed": 10
         },
         {
           "name": "Rhea Mathew",
@@ -9120,14 +9380,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 36,
-        "sessionAchieved": 62,
+        "sessionAchieved": 0,
         "phasingTarget": 137,
         "phasingAchieved": 80
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 50,
-        "sessionAchieved": 18,
+        "sessionAchieved": 0,
         "phasingTarget": 5,
         "phasingAchieved": 29
       },
@@ -9286,11 +9546,19 @@
       "groupMissedTargets": [
         {
           "name": "Smita Jayakar",
-          "missed": 36
+          "missed": 50
+        },
+        {
+          "name": "Susitha Pappiah",
+          "missed": 20
         },
         {
           "name": "Ambika Ganesh",
-          "missed": 8
+          "missed": 10
+        },
+        {
+          "name": "Disha Sharma",
+          "missed": 5
         },
         {
           "name": "Supriya Chhabra",
@@ -9326,14 +9594,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 130,
-        "sessionAchieved": 100,
+        "sessionAchieved": 0,
         "phasingTarget": 173,
         "phasingAchieved": 91
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 3,
+        "sessionAchieved": 0,
         "phasingTarget": 5,
         "phasingAchieved": 38
       },
@@ -9504,15 +9772,15 @@
       "groupMissedTargets": [
         {
           "name": "Nithya Shanti",
-          "missed": 12
+          "missed": 60
         },
         {
           "name": "Dr. Sweta Adatia",
-          "missed": 12
+          "missed": 50
         },
         {
           "name": "Dr. Vineet Aggarwal",
-          "missed": 4
+          "missed": 15
         },
         {
           "name": "Sharmila Awasthi",
@@ -9548,7 +9816,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 81,
-        "sessionAchieved": 52,
+        "sessionAchieved": 0,
         "phasingTarget": 193,
         "phasingAchieved": 80
       },
@@ -9746,7 +10014,11 @@
       "groupMissedTargets": [
         {
           "name": "Manka Malik",
-          "missed": 19
+          "missed": 25
+        },
+        {
+          "name": "Vidhi Agarwal",
+          "missed": 20
         },
         {
           "name": "Aditi Grover",
@@ -9754,15 +10026,15 @@
         },
         {
           "name": "Binita Aamol Rege",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Siddhi Shah",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -9794,7 +10066,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 372,
-        "sessionAchieved": 185,
+        "sessionAchieved": 0,
         "phasingTarget": 202,
         "phasingAchieved": 143
       },
@@ -9984,15 +10256,15 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Tamanna C",
-          "missed": 173
+          "missed": 350
         },
         {
           "name": "Sayelee J",
-          "missed": 2
+          "missed": 7
         },
         {
           "name": "Divyaa",
-          "missed": 2
+          "missed": 5
         },
         {
           "name": "Simran Jadhwani",
@@ -10028,7 +10300,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 71,
-        "sessionAchieved": 19,
+        "sessionAchieved": 0,
         "phasingTarget": 202,
         "phasingAchieved": 65
       },
@@ -10234,31 +10506,31 @@
       "groupMissedTargets": [
         {
           "name": "Abhirammi",
-          "missed": 5
-        },
-        {
-          "name": "Dr. Ddevika",
-          "missed": 13
-        },
-        {
-          "name": "Loveena Bahl",
-          "missed": 6
-        },
-        {
-          "name": "Lovina Gidwani",
           "missed": 10
         },
         {
+          "name": "Dr. Ddevika",
+          "missed": 15
+        },
+        {
+          "name": "Loveena Bahl",
+          "missed": 9
+        },
+        {
+          "name": "Lovina Gidwani",
+          "missed": 11
+        },
+        {
           "name": "Poonam Dhandania",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Violet Tara",
-          "missed": 7
+          "missed": 11
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 4
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -10278,8 +10550,8 @@
       "slotsFilledToday": 19,
       "pctSlotsFilledToday": 0.87,
       "pageViews": {
-        "total1on1": 1160,
-        "slotsAvailable": 527,
+        "total1on1": 1159,
+        "slotsAvailable": 526,
         "pctSlotsAvailable": 45.0
       }
     },
@@ -10290,7 +10562,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 51,
-        "sessionAchieved": 13,
+        "sessionAchieved": 0,
         "phasingTarget": 205,
         "phasingAchieved": 72
       },
@@ -10496,19 +10768,19 @@
       "groupMissedTargets": [
         {
           "name": "Akanksha Walia",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Devi Nidhi Saraswat",
-          "missed": 20
+          "missed": 25
         },
         {
           "name": "Seemaa Dhingra",
-          "missed": 5
+          "missed": 9
         },
         {
           "name": "Divyaa",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Meher Gehi",
@@ -10536,8 +10808,8 @@
       "slotsFilledToday": 7,
       "pctSlotsFilledToday": 0.31,
       "pageViews": {
-        "total1on1": 1317,
-        "slotsAvailable": 587,
+        "total1on1": 1316,
+        "slotsAvailable": 586,
         "pctSlotsAvailable": 45.0
       }
     },
@@ -10548,7 +10820,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 53,
-        "sessionAchieved": 29,
+        "sessionAchieved": 0,
         "phasingTarget": 274,
         "phasingAchieved": 92
       },
@@ -10777,20 +11049,24 @@
       ],
       "groupMissedTargets": [
         {
+          "name": "Bansari Nagda",
+          "missed": 1
+        },
+        {
           "name": "Dr. Kinnari I. Gupta",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Nattasha Kapoor",
-          "missed": 6
+          "missed": 15
         },
         {
           "name": "Pranjal Katoch",
-          "missed": 6
+          "missed": 11
         },
         {
           "name": "Sidanta Goggate",
-          "missed": 4
+          "missed": 10
         },
         {
           "name": "Barkha Mahesh",
@@ -10798,7 +11074,7 @@
         },
         {
           "name": "Rhea Mathew",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -10830,14 +11106,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 49,
-        "sessionAchieved": 58,
+        "sessionAchieved": 0,
         "phasingTarget": 269,
         "phasingAchieved": 157
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 75,
-        "sessionAchieved": 48,
+        "sessionAchieved": 0,
         "phasingTarget": 0,
         "phasingAchieved": 48
       },
@@ -11072,15 +11348,15 @@
       "groupMissedTargets": [
         {
           "name": "Immersive Sound Experience",
-          "missed": 27
+          "missed": 75
         },
         {
           "name": "Gunjan Adya",
-          "missed": 7
+          "missed": 9
         },
         {
           "name": "Parul Khanna",
-          "missed": 14
+          "missed": 15
         },
         {
           "name": "Prateek Bajaj",
@@ -11092,6 +11368,10 @@
         },
         {
           "name": "Disha Sharma",
+          "missed": 5
+        },
+        {
+          "name": "Dr. Suchitra",
           "missed": 1
         }
       ],
@@ -11124,14 +11404,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 709,
-        "sessionAchieved": 433,
+        "sessionAchieved": 0,
         "phasingTarget": 243,
         "phasingAchieved": 106
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 300,
-        "sessionAchieved": 146,
+        "sessionAchieved": 0,
         "phasingTarget": 0,
         "phasingAchieved": 42
       },
@@ -11374,22 +11654,34 @@
       "groupMissedTargets": [
         {
           "name": "Megh and Govind",
-          "missed": 116
+          "missed": 250
         },
         {
           "name": "Nithya Ji",
-          "missed": 38
+          "missed": 50
         },
         {
           "name": "Kavyal Sedanni",
-          "missed": 423
+          "missed": 700
+        },
+        {
+          "name": "Rishi Nanda",
+          "missed": 1
+        },
+        {
+          "name": "Ruchika Uppal",
+          "missed": 1
         },
         {
           "name": "Sharmila Awasthi",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Supriya Chhabra",
+          "missed": 1
+        },
+        {
+          "name": "Bijal Sunil Doshi",
           "missed": 1
         }
       ],
@@ -11422,7 +11714,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 73,
-        "sessionAchieved": 23,
+        "sessionAchieved": 0,
         "phasingTarget": 221,
         "phasingAchieved": 128
       },
@@ -11664,26 +11956,30 @@
       "groupMissedTargets": [
         {
           "name": "Ashwini Kamath",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Rhea Mathew",
-          "missed": 14
-        },
-        {
-          "name": "Rooppreet Caur",
-          "missed": 8
-        },
-        {
-          "name": "Susitha Pappiah",
           "missed": 15
         },
         {
+          "name": "Rooppreet Caur",
+          "missed": 11
+        },
+        {
+          "name": "Susitha Pappiah",
+          "missed": 30
+        },
+        {
           "name": "Meenakshi Mishra",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Navneeth Vallabh",
+          "missed": 1
+        },
+        {
+          "name": "Punita Kadam",
           "missed": 1
         }
       ],
@@ -11716,7 +12012,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 47,
-        "sessionAchieved": 10,
+        "sessionAchieved": 0,
         "phasingTarget": 275,
         "phasingAchieved": 148
       },
@@ -11958,7 +12254,7 @@
       "groupMissedTargets": [
         {
           "name": "Amrita Shah",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Bhupali Deore",
@@ -11966,7 +12262,7 @@
         },
         {
           "name": "Harpreet B Sharma",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Nishi Shah",
@@ -11974,10 +12270,14 @@
         },
         {
           "name": "Priyanka Agarwal",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Jyoti Soni",
+          "missed": 1
+        },
+        {
+          "name": "Damini Grover",
           "missed": 1
         },
         {
@@ -12018,7 +12318,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 109,
-        "sessionAchieved": 45,
+        "sessionAchieved": 0,
         "phasingTarget": 348,
         "phasingAchieved": 171
       },
@@ -12252,15 +12552,15 @@
       "groupMissedTargets": [
         {
           "name": "Anupama Chatterjee",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Jyotismita Das",
-          "missed": 9
+          "missed": 11
         },
         {
           "name": "Smita Venkatesh",
-          "missed": 19
+          "missed": 50
         },
         {
           "name": "Sonika Vickraman",
@@ -12268,7 +12568,7 @@
         },
         {
           "name": "Ved Prakash",
-          "missed": 12
+          "missed": 20
         },
         {
           "name": "Debanjan Medhi",
@@ -12280,6 +12580,10 @@
         },
         {
           "name": "Vaidehi Surotia",
+          "missed": 1
+        },
+        {
+          "name": "Ambika Ganesh",
           "missed": 1
         }
       ],
@@ -12312,7 +12616,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 628,
-        "sessionAchieved": 337,
+        "sessionAchieved": 0,
         "phasingTarget": 307,
         "phasingAchieved": 237
       },
@@ -12538,19 +12842,19 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Tamanna C",
-          "missed": 238
+          "missed": 500
         },
         {
           "name": "Vidhi Agarwal",
-          "missed": 32
+          "missed": 100
         },
         {
           "name": "Arpita Thakkar",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Dr. Neha Racca",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Ashima Sood Patil",
@@ -12558,7 +12862,7 @@
         },
         {
           "name": "Divyaa",
-          "missed": 3
+          "missed": 4
         },
         {
           "name": "Renu Kaushik",
@@ -12602,7 +12906,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 830,
-        "sessionAchieved": 454,
+        "sessionAchieved": 0,
         "phasingTarget": 247,
         "phasingAchieved": 207
       },
@@ -12800,15 +13104,23 @@
       "groupMissedTargets": [
         {
           "name": "Dr. Rashmi N Muthalkar",
-          "missed": 370
+          "missed": 800
         },
         {
           "name": "Aditi Grover",
-          "missed": 8
+          "missed": 11
+        },
+        {
+          "name": "Kajal Thakkar",
+          "missed": 12
+        },
+        {
+          "name": "Deepa Shetty",
+          "missed": 1
         },
         {
           "name": "Rhea Mathew",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Amritaa Shankar",
@@ -12844,7 +13156,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 88,
-        "sessionAchieved": 70,
+        "sessionAchieved": 0,
         "phasingTarget": 122,
         "phasingAchieved": 88
       },
@@ -13053,8 +13365,12 @@
       ],
       "groupMissedTargets": [
         {
+          "name": "Nithya Ji",
+          "missed": 50
+        },
+        {
           "name": "Ellaeenah Niloufer",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Mohini Srishati",
@@ -13062,11 +13378,19 @@
         },
         {
           "name": "Rashi Gaur",
-          "missed": 9
+          "missed": 10
+        },
+        {
+          "name": "Denzil Oconnell",
+          "missed": 1
         },
         {
           "name": "Disha Sharma",
-          "missed": 2
+          "missed": 5
+        },
+        {
+          "name": "Jaya Mandhian",
+          "missed": 1
         },
         {
           "name": "Krishnna",
@@ -13102,7 +13426,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 120,
-        "sessionAchieved": 49,
+        "sessionAchieved": 0,
         "phasingTarget": 123,
         "phasingAchieved": 71
       },
@@ -13308,11 +13632,11 @@
       "groupMissedTargets": [
         {
           "name": "Swapnil Gawde",
-          "missed": 41
+          "missed": 85
         },
         {
           "name": "Alipta Sabharwal",
-          "missed": 8
+          "missed": 10
         },
         {
           "name": "Dr. Neelam Parwani",
@@ -13320,7 +13644,7 @@
         },
         {
           "name": "Ivy Roy",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Sweta Gusain",
@@ -13328,7 +13652,7 @@
         },
         {
           "name": "Sharmila Awasthi",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -13360,7 +13684,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 56,
-        "sessionAchieved": 10,
+        "sessionAchieved": 0,
         "phasingTarget": 184,
         "phasingAchieved": 71
       },
@@ -13562,19 +13886,19 @@
       "groupMissedTargets": [
         {
           "name": "Pallavi Kambo",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Shalini Chugh",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Shreya Singh",
-          "missed": 5
+          "missed": 10
         },
         {
           "name": "Shweta Chatterjee",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Siddhi Shah",
@@ -13586,7 +13910,7 @@
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 4
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -13618,7 +13942,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 113,
-        "sessionAchieved": 67,
+        "sessionAchieved": 0,
         "phasingTarget": 182,
         "phasingAchieved": 143
       },
@@ -13815,16 +14139,24 @@
       ],
       "groupMissedTargets": [
         {
+          "name": "Amrita Shah",
+          "missed": 10
+        },
+        {
           "name": "Janhvi V Singh",
-          "missed": 39
+          "missed": 80
         },
         {
           "name": "Rashika Kaul",
-          "missed": 4
+          "missed": 15
         },
         {
           "name": "Divyaa",
-          "missed": 4
+          "missed": 5
+        },
+        {
+          "name": "Preethi Balan",
+          "missed": 1
         },
         {
           "name": "Setu Gokani",
@@ -13864,7 +14196,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 720,
-        "sessionAchieved": 282,
+        "sessionAchieved": 0,
         "phasingTarget": 170,
         "phasingAchieved": 165
       },
@@ -14038,19 +14370,19 @@
       "groupMissedTargets": [
         {
           "name": "Kavyal Sedanni",
-          "missed": 424
+          "missed": 700
         },
         {
           "name": "Chaittali",
-          "missed": 5
+          "missed": 7
         },
         {
           "name": "Pranjal Katoch",
-          "missed": 6
+          "missed": 8
         },
         {
           "name": "Debanjan Medhi",
-          "missed": 3
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -14082,7 +14414,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 67,
-        "sessionAchieved": 36,
+        "sessionAchieved": 0,
         "phasingTarget": 71,
         "phasingAchieved": 90
       },
@@ -14295,24 +14627,36 @@
       ],
       "groupMissedTargets": [
         {
-          "name": "Nattasha Kapoor",
-          "missed": 11
+          "name": "Bansari Nagda",
+          "missed": 1
         },
         {
-          "name": "Neha Ranglani",
+          "name": "Nattasha Kapoor",
           "missed": 12
         },
         {
+          "name": "Neha Ranglani",
+          "missed": 20
+        },
+        {
+          "name": "Premmayi Gurumaa",
+          "missed": 8
+        },
+        {
           "name": "Ridhhimaa Tandon",
-          "missed": 3
+          "missed": 7
         },
         {
           "name": "Manka Malik",
-          "missed": 9
+          "missed": 12
         },
         {
           "name": "Divyaa",
-          "missed": 3
+          "missed": 5
+        },
+        {
+          "name": "Meheck Mukherjee",
+          "missed": 1
         },
         {
           "name": "Rishita Makhija",
@@ -14336,8 +14680,8 @@
       "slotsFilledToday": 18,
       "pctSlotsFilledToday": 1.05,
       "pageViews": {
-        "total1on1": 2067,
-        "slotsAvailable": 1142,
+        "total1on1": 2066,
+        "slotsAvailable": 1141,
         "pctSlotsAvailable": 55.0
       }
     },
@@ -14348,7 +14692,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 75,
-        "sessionAchieved": 207,
+        "sessionAchieved": 0,
         "phasingTarget": 71,
         "phasingAchieved": 88
       },
@@ -14549,8 +14893,12 @@
       ],
       "groupMissedTargets": [
         {
+          "name": "Avrril Quadros",
+          "missed": 15
+        },
+        {
           "name": "Peyush Bhatia",
-          "missed": 9
+          "missed": 10
         },
         {
           "name": "Vanita Keswani",
@@ -14558,7 +14906,7 @@
         },
         {
           "name": "Nayana Cariappa",
-          "missed": 6
+          "missed": 10
         },
         {
           "name": "Binita Aamol Rege",
@@ -14566,15 +14914,15 @@
         },
         {
           "name": "Rhea Mathew",
-          "missed": 1
+          "missed": 5
         },
         {
           "name": "Siddhi Shah",
-          "missed": 6
+          "missed": 8
         },
         {
           "name": "Neha Kumra",
-          "missed": 10
+          "missed": 11
         }
       ],
       "oneOnOneSlots": {
@@ -14594,8 +14942,8 @@
       "slotsFilledToday": 14,
       "pctSlotsFilledToday": 0.81,
       "pageViews": {
-        "total1on1": 1395,
-        "slotsAvailable": 652,
+        "total1on1": 1394,
+        "slotsAvailable": 651,
         "pctSlotsAvailable": 47.0
       }
     },
@@ -14606,7 +14954,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 66,
-        "sessionAchieved": 25,
+        "sessionAchieved": 0,
         "phasingTarget": 65,
         "phasingAchieved": 72
       },
@@ -14804,15 +15152,19 @@
         },
         {
           "name": "Swapnil Gawde",
-          "missed": 17
+          "missed": 25
         },
         {
           "name": "Mahima Mor",
-          "missed": 14
+          "missed": 25
+        },
+        {
+          "name": "Ruchika Uppal",
+          "missed": 1
         },
         {
           "name": "Disha Sharma",
-          "missed": 4
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -14844,7 +15196,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 39,
-        "sessionAchieved": 6,
+        "sessionAchieved": 0,
         "phasingTarget": 70,
         "phasingAchieved": 75
       },
@@ -15058,15 +15410,19 @@
         },
         {
           "name": "Mystic Grace",
-          "missed": 10
+          "missed": 11
         },
         {
           "name": "Sharmila Awasthi",
-          "missed": 4
+          "missed": 5
         },
         {
           "name": "Krishna Jangid",
-          "missed": 18
+          "missed": 20
+        },
+        {
+          "name": "Supriya Chhabra",
+          "missed": 1
         },
         {
           "name": "Rishi Nanda",
@@ -15090,8 +15446,8 @@
       "slotsFilledToday": 13,
       "pctSlotsFilledToday": 0.88,
       "pageViews": {
-        "total1on1": 1241,
-        "slotsAvailable": 700,
+        "total1on1": 1240,
+        "slotsAvailable": 699,
         "pctSlotsAvailable": 56.0
       }
     },
@@ -15102,7 +15458,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 64,
-        "sessionAchieved": 43,
+        "sessionAchieved": 0,
         "phasingTarget": 92,
         "phasingAchieved": 106
       },
@@ -15299,8 +15655,12 @@
       ],
       "groupMissedTargets": [
         {
+          "name": "Amrita Shah",
+          "missed": 18
+        },
+        {
           "name": "Arpana Khanna",
-          "missed": 7
+          "missed": 10
         },
         {
           "name": "Dushyant Dharma",
@@ -15308,15 +15668,15 @@
         },
         {
           "name": "Rhea Mathew",
-          "missed": 14
+          "missed": 15
         },
         {
           "name": "Akanksha Walia",
-          "missed": 6
+          "missed": 8
         },
         {
           "name": "Meenakshi Mishra",
-          "missed": 2
+          "missed": 5
         }
       ],
       "oneOnOneSlots": {
@@ -15348,7 +15708,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 127,
-        "sessionAchieved": 137,
+        "sessionAchieved": 0,
         "phasingTarget": 138,
         "phasingAchieved": 125
       },
@@ -15557,7 +15917,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 66,
-        "sessionAchieved": 8,
+        "sessionAchieved": 0,
         "phasingTarget": 128,
         "phasingAchieved": 117
       },
@@ -15795,7 +16155,7 @@
       "pctSlotsFilledToday": 0.67,
       "pageViews": {
         "total1on1": 741,
-        "slotsAvailable": 638,
+        "slotsAvailable": 639,
         "pctSlotsAvailable": 86.0
       }
     },
@@ -15806,7 +16166,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 61,
-        "sessionAchieved": 17,
+        "sessionAchieved": 0,
         "phasingTarget": 125,
         "phasingAchieved": 145
       },
@@ -16043,8 +16403,8 @@
       "slotsFilledToday": 6,
       "pctSlotsFilledToday": 0.33,
       "pageViews": {
-        "total1on1": 966,
-        "slotsAvailable": 653,
+        "total1on1": 965,
+        "slotsAvailable": 652,
         "pctSlotsAvailable": 68.0
       }
     },
@@ -16055,7 +16415,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 765,
-        "sessionAchieved": 303,
+        "sessionAchieved": 0,
         "phasingTarget": 125,
         "phasingAchieved": 35
       },
@@ -16233,12 +16593,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": 1,
-      "pctSlotsFilledToday": 0.06,
+      "slotsFilledToday": 12,
+      "pctSlotsFilledToday": 0.69,
       "pageViews": {
-        "total1on1": 65,
-        "slotsAvailable": 46,
-        "pctSlotsAvailable": 71.0
+        "total1on1": 868,
+        "slotsAvailable": 643,
+        "pctSlotsAvailable": 74.0
       }
     },
     {
@@ -16248,14 +16608,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 74,
-        "sessionAchieved": 255,
+        "sessionAchieved": 0,
         "phasingTarget": 122,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 570,
-        "sessionAchieved": 245,
+        "sessionAchieved": 0,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -16449,16 +16809,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 634,
-        "t1": 564,
-        "t2": 200,
-        "t3": 205,
-        "t4": 176,
-        "t5": 97,
-        "t6": 90,
-        "t7": null
+        "leadersWithSlots": 115,
+        "leadersAvailableToday": 102,
+        "today": 1672,
+        "t1": 583,
+        "t2": 609,
+        "t3": 639,
+        "t4": 591,
+        "t5": 521,
+        "t6": 525,
+        "t7": 431
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -16477,7 +16837,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 135,
-        "sessionAchieved": 74,
+        "sessionAchieved": 0,
         "phasingTarget": 137,
         "phasingAchieved": null
       },
@@ -16668,13 +17028,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 564,
-        "t1": 200,
-        "t2": 205,
-        "t3": 176,
-        "t4": 97,
-        "t5": 90,
-        "t6": null,
+        "today": 583,
+        "t1": 609,
+        "t2": 639,
+        "t3": 591,
+        "t4": 521,
+        "t5": 525,
+        "t6": 431,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -16694,7 +17054,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 79,
-        "sessionAchieved": 32,
+        "sessionAchieved": 0,
         "phasingTarget": 126,
         "phasingAchieved": null
       },
@@ -16869,12 +17229,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 200,
-        "t1": 205,
-        "t2": 176,
-        "t3": 97,
-        "t4": 90,
-        "t5": null,
+        "today": 609,
+        "t1": 639,
+        "t2": 591,
+        "t3": 521,
+        "t4": 525,
+        "t5": 431,
         "t6": null,
         "t7": null
       },
@@ -16895,7 +17255,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 96,
-        "sessionAchieved": 12,
+        "sessionAchieved": 0,
         "phasingTarget": 174,
         "phasingAchieved": null
       },
@@ -17094,11 +17454,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 205,
-        "t1": 176,
-        "t2": 97,
-        "t3": 90,
-        "t4": null,
+        "today": 639,
+        "t1": 591,
+        "t2": 521,
+        "t3": 525,
+        "t4": 431,
         "t5": null,
         "t6": null,
         "t7": null
@@ -17120,7 +17480,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 67,
-        "sessionAchieved": 2,
+        "sessionAchieved": 0,
         "phasingTarget": 205,
         "phasingAchieved": null
       },
@@ -17307,10 +17667,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 176,
-        "t1": 97,
-        "t2": 90,
-        "t3": null,
+        "today": 591,
+        "t1": 521,
+        "t2": 525,
+        "t3": 431,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -17333,7 +17693,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 704,
-        "sessionAchieved": 87,
+        "sessionAchieved": 0,
         "phasingTarget": 193,
         "phasingAchieved": null
       },
@@ -17508,9 +17868,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 97,
-        "t1": 90,
-        "t2": null,
+        "today": 521,
+        "t1": 525,
+        "t2": 431,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -17721,8 +18081,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 90,
-        "t1": null,
+        "today": 525,
+        "t1": 431,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -17747,7 +18107,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 88,
-        "sessionAchieved": 5,
+        "sessionAchieved": 0,
         "phasingTarget": 93,
         "phasingAchieved": null
       },
@@ -17926,7 +18286,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 431,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -18394,7 +18754,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 63,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 124,
         "phasingAchieved": null
       },
@@ -18607,7 +18967,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 60,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 203,
         "phasingAchieved": null
       },
@@ -18840,7 +19200,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 72,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 203,
         "phasingAchieved": null
       },
@@ -19065,7 +19425,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 612,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 217,
         "phasingAchieved": null
       },
@@ -19290,14 +19650,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 65,
-        "sessionAchieved": 156,
+        "sessionAchieved": 0,
         "phasingTarget": 154,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 412,
-        "sessionAchieved": 156,
+        "sessionAchieved": 0,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -19547,7 +19907,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 288,
-        "sessionAchieved": 4,
+        "sessionAchieved": 0,
         "phasingTarget": 163,
         "phasingAchieved": null
       },
@@ -19768,7 +20128,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 34,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 143,
         "phasingAchieved": null
       },
@@ -19993,7 +20353,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 251,
-        "sessionAchieved": 4,
+        "sessionAchieved": 0,
         "phasingTarget": 166,
         "phasingAchieved": null
       },
@@ -20214,7 +20574,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 107,
-        "sessionAchieved": 3,
+        "sessionAchieved": 0,
         "phasingTarget": 186,
         "phasingAchieved": null
       },
@@ -20411,7 +20771,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 124,
-        "sessionAchieved": 4,
+        "sessionAchieved": 0,
         "phasingTarget": 158,
         "phasingAchieved": null
       },
@@ -20697,7 +21057,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 12,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 103,
         "phasingAchieved": null
       },
@@ -21285,7 +21645,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 721,
-        "sessionAchieved": 3,
+        "sessionAchieved": 0,
         "phasingTarget": 264,
         "phasingAchieved": null
       },
@@ -21474,7 +21834,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 83,
-        "sessionAchieved": 2,
+        "sessionAchieved": 0,
         "phasingTarget": 161,
         "phasingAchieved": null
       },
@@ -21671,7 +22031,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 622,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 154,
         "phasingAchieved": null
       },
@@ -21856,7 +22216,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 90,
-        "sessionAchieved": 1,
+        "sessionAchieved": 0,
         "phasingTarget": 62,
         "phasingAchieved": null
       },
@@ -22538,14 +22898,14 @@
       "groupOnline": {
         "sessions": 1,
         "sessionTarget": 15,
-        "sessionAchieved": 3,
+        "sessionAchieved": 0,
         "phasingTarget": 5,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 428,
-        "sessionAchieved": 3,
+        "sessionAchieved": 0,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
