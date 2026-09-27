@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T22:33:01Z",
+  "lastUpdated": "2026-09-27T01:13:14Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -15545,8 +15545,8 @@
       "slotsFilledToday": 24,
       "pctSlotsFilledToday": 1.38,
       "pageViews": {
-        "total1on1": 977,
-        "slotsAvailable": 684,
+        "total1on1": 976,
+        "slotsAvailable": 683,
         "pctSlotsAvailable": 70.0
       }
     },
@@ -15794,8 +15794,8 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 0.67,
       "pageViews": {
-        "total1on1": 741,
-        "slotsAvailable": 639,
+        "total1on1": 740,
+        "slotsAvailable": 638,
         "pctSlotsAvailable": 86.0
       }
     },
@@ -16236,8 +16236,8 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 0.69,
       "pageViews": {
-        "total1on1": 868,
-        "slotsAvailable": 643,
+        "total1on1": 871,
+        "slotsAvailable": 646,
         "pctSlotsAvailable": 74.0
       }
     },
@@ -16462,12 +16462,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": 0.0,
+      "slotsFilledToday": 11,
+      "pctSlotsFilledToday": 0.66,
       "pageViews": {
-        "total1on1": 79,
-        "slotsAvailable": 64,
-        "pctSlotsAvailable": 81.0
+        "total1on1": 723,
+        "slotsAvailable": 620,
+        "pctSlotsAvailable": 86.0
       }
     },
     {
@@ -16666,16 +16666,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 583,
-        "t1": 609,
-        "t2": 639,
-        "t3": 591,
-        "t4": 521,
-        "t5": 525,
-        "t6": 431,
-        "t7": null
+        "leadersWithSlots": 115,
+        "leadersAvailableToday": 100,
+        "today": 1596,
+        "t1": 674,
+        "t2": 709,
+        "t3": 666,
+        "t4": 601,
+        "t5": 598,
+        "t6": 508,
+        "t7": 416
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -16869,13 +16869,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 609,
-        "t1": 639,
-        "t2": 591,
-        "t3": 521,
-        "t4": 525,
-        "t5": 431,
-        "t6": null,
+        "today": 674,
+        "t1": 709,
+        "t2": 666,
+        "t3": 601,
+        "t4": 598,
+        "t5": 508,
+        "t6": 416,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -17094,12 +17094,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 639,
-        "t1": 591,
-        "t2": 521,
-        "t3": 525,
-        "t4": 431,
-        "t5": null,
+        "today": 709,
+        "t1": 666,
+        "t2": 601,
+        "t3": 598,
+        "t4": 508,
+        "t5": 416,
         "t6": null,
         "t7": null
       },
@@ -17307,11 +17307,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 591,
-        "t1": 521,
-        "t2": 525,
-        "t3": 431,
-        "t4": null,
+        "today": 666,
+        "t1": 601,
+        "t2": 598,
+        "t3": 508,
+        "t4": 416,
         "t5": null,
         "t6": null,
         "t7": null
@@ -17508,10 +17508,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 521,
-        "t1": 525,
-        "t2": 431,
-        "t3": null,
+        "today": 601,
+        "t1": 598,
+        "t2": 508,
+        "t3": 416,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -17721,9 +17721,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 525,
-        "t1": 431,
-        "t2": null,
+        "today": 598,
+        "t1": 508,
+        "t2": 416,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -17926,8 +17926,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 431,
-        "t1": null,
+        "today": 508,
+        "t1": 416,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -18143,7 +18143,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 416,
         "t1": null,
         "t2": null,
         "t3": null,
