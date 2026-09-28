@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T15:09:06Z",
+  "lastUpdated": "2026-09-28T21:43:02Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -16676,18 +16676,18 @@
         "sessionTarget": 79,
         "sessionAchieved": 53,
         "phasingTarget": 126,
-        "phasingAchieved": null
+        "phasingAchieved": 6
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 14
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "groupLeaderPhasingTargets": [
         {
@@ -16864,12 +16864,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 1,
+      "pctSlotsFilledToday": 0.06,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 129,
+        "slotsAvailable": 70,
+        "pctSlotsAvailable": 54.0
       }
     },
     {
@@ -34795,11 +34795,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 5,
       "phasingDays": 5,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 2097,
-      "pctRevenueVsTarget": 35.0
+      "pctVsTarget": 50.0,
+      "revenueAchieved": 3495,
+      "pctRevenueVsTarget": 59.0
     },
     {
       "leader": "Vidhi Agarwal",
@@ -34829,7 +34829,7 @@
       "totalRegistrations": 36,
       "phasingDays": 3,
       "pctVsTarget": 72.0,
-      "revenueAchieved": 29471,
+      "revenueAchieved": 29477,
       "pctRevenueVsTarget": 84.0
     },
     {
@@ -34857,11 +34857,11 @@
         "d1": 1,
         "d0": 1
       },
-      "totalRegistrations": 4,
+      "totalRegistrations": 6,
       "phasingDays": 5,
-      "pctVsTarget": 100.0,
-      "revenueAchieved": 6020,
-      "pctRevenueVsTarget": 118.0
+      "pctVsTarget": 150.0,
+      "revenueAchieved": 9030,
+      "pctRevenueVsTarget": 177.0
     },
     {
       "leader": "Meenakshi Mishra",
@@ -35012,11 +35012,11 @@
         "d1": 6,
         "d0": 10
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 9,
       "phasingDays": 3,
-      "pctVsTarget": 23.0,
-      "revenueAchieved": 8428,
-      "pctRevenueVsTarget": 28.0
+      "pctVsTarget": 30.0,
+      "revenueAchieved": 10836,
+      "pctRevenueVsTarget": 35.0
     },
     {
       "leader": "Mrridula Bali",
@@ -35136,10 +35136,10 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 8,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -35198,11 +35198,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 3,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 2727,
-      "pctRevenueVsTarget": 35.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 3636,
+      "pctRevenueVsTarget": 47.0
     },
     {
       "leader": "Ambika Ganesh",
@@ -35291,11 +35291,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 2,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 4010,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Bhairavi Mehta",
@@ -35446,11 +35446,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 178,
+      "totalRegistrations": 199,
       "phasingDays": 10,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 239410,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 28.0,
+      "revenueAchieved": 267655,
+      "pctRevenueVsTarget": 34.0
     },
     {
       "leader": "Renu Kaushik",
@@ -35849,11 +35849,11 @@
         "d1": 20,
         "d0": 15
       },
-      "totalRegistrations": 21,
+      "totalRegistrations": 25,
       "phasingDays": 4,
-      "pctVsTarget": 42.0,
-      "revenueAchieved": 18560,
-      "pctRevenueVsTarget": 48.0
+      "pctVsTarget": 50.0,
+      "revenueAchieved": 22200,
+      "pctRevenueVsTarget": 58.0
     },
     {
       "leader": "Rashika Kaul",
@@ -36407,11 +36407,11 @@
         "d1": 10,
         "d0": 17
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 8,
       "phasingDays": 3,
-      "pctVsTarget": 12.0,
-      "revenueAchieved": 6018,
-      "pctRevenueVsTarget": 14.0
+      "pctVsTarget": 16.0,
+      "revenueAchieved": 8024,
+      "pctRevenueVsTarget": 19.0
     },
     {
       "leader": "Preethi Balan",
@@ -36965,11 +36965,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 173,
+      "totalRegistrations": 177,
       "phasingDays": 6,
-      "pctVsTarget": 42.0,
-      "revenueAchieved": 1106710,
-      "pctRevenueVsTarget": 107.0
+      "pctVsTarget": 43.0,
+      "revenueAchieved": 1126763,
+      "pctRevenueVsTarget": 109.0
     },
     {
       "leader": "Gunjan Adya",
@@ -38298,11 +38298,11 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 10,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 3915,
-      "pctRevenueVsTarget": 7.0
+      "pctVsTarget": 8.0,
+      "revenueAchieved": 4824,
+      "pctRevenueVsTarget": 8.0
     },
     {
       "leader": "Seemaa Dhingra",
