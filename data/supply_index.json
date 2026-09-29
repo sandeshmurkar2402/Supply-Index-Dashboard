@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T21:43:02Z",
+  "lastUpdated": "2026-09-29T01:38:09Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -13603,8 +13603,8 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": 13,
-      "pctSlotsFilledToday": 0.86,
+      "slotsFilledToday": 12,
+      "pctSlotsFilledToday": 0.79,
       "pageViews": {
         "total1on1": 716,
         "slotsAvailable": 453,
@@ -14829,8 +14829,8 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": 19,
-      "pctSlotsFilledToday": 1.26,
+      "slotsFilledToday": 18,
+      "pctSlotsFilledToday": 1.2,
       "pageViews": {
         "total1on1": 980,
         "slotsAvailable": 508,
@@ -15786,8 +15786,8 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 0.67,
       "pageViews": {
-        "total1on1": 740,
-        "slotsAvailable": 638,
+        "total1on1": 739,
+        "slotsAvailable": 637,
         "pctSlotsAvailable": 86.0
       }
     },
@@ -16220,8 +16220,8 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 0.69,
       "pageViews": {
-        "total1on1": 872,
-        "slotsAvailable": 647,
+        "total1on1": 874,
+        "slotsAvailable": 649,
         "pctSlotsAvailable": 74.0
       }
     },
@@ -16662,8 +16662,8 @@
       "slotsFilledToday": 14,
       "pctSlotsFilledToday": 0.88,
       "pageViews": {
-        "total1on1": 1487,
-        "slotsAvailable": 656,
+        "total1on1": 1489,
+        "slotsAvailable": 658,
         "pctSlotsAvailable": 44.0
       }
     },
@@ -16674,7 +16674,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 79,
-        "sessionAchieved": 53,
+        "sessionAchieved": 57,
         "phasingTarget": 126,
         "phasingAchieved": 6
       },
@@ -16864,12 +16864,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": 1,
-      "pctSlotsFilledToday": 0.06,
+      "slotsFilledToday": 16,
+      "pctSlotsFilledToday": 0.91,
       "pageViews": {
-        "total1on1": 129,
-        "slotsAvailable": 70,
-        "pctSlotsAvailable": 54.0
+        "total1on1": 1222,
+        "slotsAvailable": 672,
+        "pctSlotsAvailable": 55.0
       }
     },
     {
@@ -16879,7 +16879,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 96,
-        "sessionAchieved": 18,
+        "sessionAchieved": 22,
         "phasingTarget": 175,
         "phasingAchieved": null
       },
@@ -17084,16 +17084,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 754,
-        "t1": 711,
-        "t2": 646,
-        "t3": 638,
-        "t4": 553,
-        "t5": 443,
-        "t6": 88,
-        "t7": null
+        "leadersWithSlots": 113,
+        "leadersAvailableToday": 109,
+        "today": 1898,
+        "t1": 736,
+        "t2": 674,
+        "t3": 662,
+        "t4": 590,
+        "t5": 475,
+        "t6": 126,
+        "t7": 99
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -17112,7 +17112,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 67,
-        "sessionAchieved": 2,
+        "sessionAchieved": 4,
         "phasingTarget": 208,
         "phasingAchieved": null
       },
@@ -17303,13 +17303,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 711,
-        "t1": 646,
-        "t2": 638,
-        "t3": 553,
-        "t4": 443,
-        "t5": 88,
-        "t6": null,
+        "today": 736,
+        "t1": 674,
+        "t2": 662,
+        "t3": 590,
+        "t4": 475,
+        "t5": 126,
+        "t6": 99,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -17329,7 +17329,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 704,
-        "sessionAchieved": 185,
+        "sessionAchieved": 207,
         "phasingTarget": 200,
         "phasingAchieved": null
       },
@@ -17508,12 +17508,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 646,
-        "t1": 638,
-        "t2": 553,
-        "t3": 443,
-        "t4": 88,
-        "t5": null,
+        "today": 674,
+        "t1": 662,
+        "t2": 590,
+        "t3": 475,
+        "t4": 126,
+        "t5": 99,
         "t6": null,
         "t7": null
       },
@@ -17534,7 +17534,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 56,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 99,
         "phasingAchieved": null
       },
@@ -17733,11 +17733,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 638,
-        "t1": 553,
-        "t2": 443,
-        "t3": 88,
-        "t4": null,
+        "today": 662,
+        "t1": 590,
+        "t2": 475,
+        "t3": 126,
+        "t4": 99,
         "t5": null,
         "t6": null,
         "t7": null
@@ -17759,7 +17759,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 78,
-        "sessionAchieved": 22,
+        "sessionAchieved": 26,
         "phasingTarget": 91,
         "phasingAchieved": null
       },
@@ -17926,10 +17926,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 553,
-        "t1": 443,
-        "t2": 88,
-        "t3": null,
+        "today": 590,
+        "t1": 475,
+        "t2": 126,
+        "t3": 99,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -18139,9 +18139,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 443,
-        "t1": 88,
-        "t2": null,
+        "today": 475,
+        "t1": 126,
+        "t2": 99,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -18360,8 +18360,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 88,
-        "t1": null,
+        "today": 126,
+        "t1": 99,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -18386,7 +18386,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 63,
-        "sessionAchieved": 6,
+        "sessionAchieved": 8,
         "phasingTarget": 130,
         "phasingAchieved": null
       },
@@ -18573,7 +18573,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 99,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -19298,14 +19298,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 65,
-        "sessionAchieved": 173,
+        "sessionAchieved": 177,
         "phasingTarget": 164,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 173,
+        "sessionAchieved": 177,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -20439,7 +20439,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 114,
-        "sessionAchieved": 5,
+        "sessionAchieved": 6,
         "phasingTarget": 145,
         "phasingAchieved": null
       },
@@ -35446,10 +35446,10 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 199,
+      "totalRegistrations": 200,
       "phasingDays": 10,
-      "pctVsTarget": 28.0,
-      "revenueAchieved": 267655,
+      "pctVsTarget": 29.0,
+      "revenueAchieved": 269000,
       "pctRevenueVsTarget": 34.0
     },
     {
