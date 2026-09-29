@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T08:09:16Z",
+  "lastUpdated": "2026-09-29T15:32:45Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -15642,10 +15642,6 @@
           "value": 2
         },
         {
-          "name": "Hanuman Dass",
-          "value": 2
-        },
-        {
           "name": "Ved Prakash",
           "value": 2
         },
@@ -15868,10 +15864,6 @@
         },
         {
           "name": "Krishnleela M. Patel",
-          "value": 2
-        },
-        {
-          "name": "Hanuman Dass",
           "value": 2
         },
         {
@@ -16112,10 +16104,6 @@
           "value": 2
         },
         {
-          "name": "Hanuman Dass",
-          "value": 2
-        },
-        {
           "name": "Shreya Singh",
           "value": 2
         },
@@ -16271,10 +16259,6 @@
         {
           "name": "Nattasha Kapoor",
           "value": 5
-        },
-        {
-          "name": "Hanuman Dass",
-          "value": 4
         },
         {
           "name": "Shweta Chatterjee",
@@ -16462,7 +16446,7 @@
         "sessions": 4,
         "sessionTarget": 130,
         "sessionAchieved": 138,
-        "phasingTarget": 136,
+        "phasingTarget": 127,
         "phasingAchieved": 106
       },
       "offline": {
@@ -16495,10 +16479,6 @@
         },
         {
           "name": "Nattasha Kapoor",
-          "value": 4
-        },
-        {
-          "name": "Hanuman Dass",
           "value": 4
         },
         {
@@ -16675,7 +16655,7 @@
         "sessions": 5,
         "sessionTarget": 79,
         "sessionAchieved": 57,
-        "phasingTarget": 126,
+        "phasingTarget": 114,
         "phasingAchieved": 115
       },
       "offline": {
@@ -16697,10 +16677,6 @@
         {
           "name": "Vidhi Agarwal",
           "value": 17
-        },
-        {
-          "name": "Hanuman Dass",
-          "value": 6
         },
         {
           "name": "Mrridula Bali",
@@ -16877,10 +16853,10 @@
       "dayName": "Tuesday",
       "month": "Sep-26",
       "groupOnline": {
-        "sessions": 9,
-        "sessionTarget": 96,
+        "sessions": 8,
+        "sessionTarget": 66,
         "sessionAchieved": 27,
-        "phasingTarget": 175,
+        "phasingTarget": 166,
         "phasingAchieved": null
       },
       "offline": {
@@ -16898,10 +16874,6 @@
         {
           "name": "Kavyal Sedanni",
           "value": 117
-        },
-        {
-          "name": "Hanuman Dass",
-          "value": 10
         },
         {
           "name": "Mrridula Bali",
@@ -17052,10 +17024,6 @@
         {
           "name": "Dr. Ruchi Gulati",
           "value": 1
-        },
-        {
-          "name": "Hanuman Dass",
-          "value": 30
         },
         {
           "name": "Mrridula Bali",
@@ -17329,7 +17297,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 704,
-        "sessionAchieved": 229,
+        "sessionAchieved": 262,
         "phasingTarget": 200,
         "phasingAchieved": null
       },
@@ -17759,7 +17727,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 78,
-        "sessionAchieved": 28,
+        "sessionAchieved": 34,
         "phasingTarget": 91,
         "phasingAchieved": null
       },
@@ -17952,7 +17920,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 30,
-        "sessionAchieved": 1,
+        "sessionAchieved": 2,
         "phasingTarget": 105,
         "phasingAchieved": null
       },
@@ -18386,7 +18354,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 63,
-        "sessionAchieved": 10,
+        "sessionAchieved": 12,
         "phasingTarget": 130,
         "phasingAchieved": null
       },
@@ -19298,14 +19266,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 65,
-        "sessionAchieved": 180,
+        "sessionAchieved": 181,
         "phasingTarget": 164,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 179,
+        "sessionAchieved": 180,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -19792,7 +19760,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 70,
-        "sessionAchieved": 1,
+        "sessionAchieved": 2,
         "phasingTarget": 151,
         "phasingAchieved": null
       },
@@ -21309,7 +21277,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 721,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 264,
         "phasingAchieved": null
       },
@@ -34988,37 +34956,6 @@
       "pctRevenueVsTarget": 454.0
     },
     {
-      "leader": "Hanuman Dass",
-      "target": 30,
-      "price": 1020,
-      "revenueTarget": 30600,
-      "courseInstanceId": "7265",
-      "courseId": "1398",
-      "date": "2026-09-29",
-      "time": "20:00",
-      "campaign": "Biz Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Hanuman Chalisa Upasana",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 2,
-        "d5": 2,
-        "d4": 2,
-        "d3": 4,
-        "d2": 4,
-        "d1": 6,
-        "d0": 10
-      },
-      "totalRegistrations": 12,
-      "phasingDays": 3,
-      "pctVsTarget": 40.0,
-      "revenueAchieved": 14448,
-      "pctRevenueVsTarget": 47.0
-    },
-    {
       "leader": "Mrridula Bali",
       "target": 20,
       "price": 770,
@@ -35446,11 +35383,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 222,
+      "totalRegistrations": 255,
       "phasingDays": 10,
-      "pctVsTarget": 32.0,
-      "revenueAchieved": 298590,
-      "pctRevenueVsTarget": 37.0
+      "pctVsTarget": 36.0,
+      "revenueAchieved": 342652,
+      "pctRevenueVsTarget": 43.0
     },
     {
       "leader": "Renu Kaushik",
@@ -35849,11 +35786,11 @@
         "d1": 20,
         "d0": 15
       },
-      "totalRegistrations": 27,
+      "totalRegistrations": 33,
       "phasingDays": 4,
-      "pctVsTarget": 54.0,
-      "revenueAchieved": 24028,
-      "pctRevenueVsTarget": 62.0
+      "pctVsTarget": 66.0,
+      "revenueAchieved": 29477,
+      "pctRevenueVsTarget": 77.0
     },
     {
       "leader": "Rashika Kaul",
@@ -35973,11 +35910,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 6,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 15.0
     },
     {
       "leader": "Jyoti Soni",
@@ -36407,11 +36344,11 @@
         "d1": 10,
         "d0": 17
       },
-      "totalRegistrations": 10,
+      "totalRegistrations": 12,
       "phasingDays": 3,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 10030,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 24.0,
+      "revenueAchieved": 12036,
+      "pctRevenueVsTarget": 28.0
     },
     {
       "leader": "Preethi Balan",
@@ -36965,11 +36902,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 179,
+      "totalRegistrations": 180,
       "phasingDays": 6,
-      "pctVsTarget": 43.0,
-      "revenueAchieved": 1150950,
-      "pctRevenueVsTarget": 112.0
+      "pctVsTarget": 44.0,
+      "revenueAchieved": 1161568,
+      "pctRevenueVsTarget": 113.0
     },
     {
       "leader": "Gunjan Adya",
@@ -37386,7 +37323,7 @@
       "campaign": "Hindi",
       "leaderTagging": "",
       "language": "Hindi",
-      "topic": "From Shailputri to Siddhidatri — Every Woman Has Lived All Nine",
+      "topic": "Meet the Navdurga Form That Explains Your Life",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -37554,11 +37491,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 15.0
     },
     {
       "leader": "Punita Kadam",
@@ -39042,10 +38979,10 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 10,
       "pctVsTarget": 1.0,
-      "revenueAchieved": 9133,
+      "revenueAchieved": 10478,
       "pctRevenueVsTarget": 1.0
     },
     {
@@ -40176,7 +40113,7 @@
       "campaign": "ASC Course",
       "leaderTagging": "ASC Course Bets",
       "language": "English",
-      "topic": "TBC",
+      "topic": "Face Reflexology Masterclass: The 3-Pillar Reset for Stress, Digestion & Sleep",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 3,
