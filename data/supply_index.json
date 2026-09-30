@@ -1,1943 +1,7 @@
 {
-  "lastUpdated": "2026-09-30T13:28:41Z",
+  "lastUpdated": "2026-09-30T18:58:05Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
-    {
-      "date": "2026-07-01",
-      "dayName": "Wednesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 7,
-        "phasingTarget": null,
-        "phasingAchieved": 111
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 4,
-        "phasingAchieved": 0
-      },
-      "oneOnOne": {
-        "phasingTarget": 25,
-        "phasingAchieved": 20
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Barkha Mahesh",
-          "missed": 9
-        },
-        {
-          "name": "Simran Jadhwani",
-          "missed": 9
-        },
-        {
-          "name": "Kajal Thakkar",
-          "missed": 6
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 53,
-        "leadersAvailableToday": 43,
-        "today": 134,
-        "t1": 154,
-        "t2": 161,
-        "t3": 21,
-        "t4": 9,
-        "t5": 3,
-        "t6": 3,
-        "t7": 6
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 5,
-      "pctSlotsFilledToday": 3.73,
-      "pageViews": {
-        "total1on1": 1415,
-        "slotsAvailable": 691,
-        "pctSlotsAvailable": 49.0
-      }
-    },
-    {
-      "date": "2026-07-02",
-      "dayName": "Thursday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 57,
-        "phasingTarget": null,
-        "phasingAchieved": 138
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 4,
-        "phasingAchieved": 0
-      },
-      "oneOnOne": {
-        "phasingTarget": 25,
-        "phasingAchieved": 31
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Amrita Shah",
-          "missed": 1
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 53,
-        "leadersAvailableToday": 43,
-        "today": 132,
-        "t1": 158,
-        "t2": 20,
-        "t3": 9,
-        "t4": 2,
-        "t5": 3,
-        "t6": 6,
-        "t7": 6
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 3,
-      "pctSlotsFilledToday": 2.27,
-      "pageViews": {
-        "total1on1": 1323,
-        "slotsAvailable": 534,
-        "pctSlotsAvailable": 40.0
-      }
-    },
-    {
-      "date": "2026-07-03",
-      "dayName": "Friday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 38,
-        "phasingTarget": null,
-        "phasingAchieved": 154
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 6,
-        "phasingAchieved": 3
-      },
-      "oneOnOne": {
-        "phasingTarget": 25,
-        "phasingAchieved": 20
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Priyanka Agarwal",
-          "missed": 35
-        },
-        {
-          "name": "Siddhi Shah",
-          "missed": 7
-        },
-        {
-          "name": "Shweta Chatterjee",
-          "missed": 5
-        },
-        {
-          "name": "Krupa Shah",
-          "missed": 3
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 48,
-        "leadersAvailableToday": 42,
-        "today": 133,
-        "t1": 17,
-        "t2": 21,
-        "t3": 9,
-        "t4": 5,
-        "t5": 8,
-        "t6": 8,
-        "t7": 7
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 1,
-      "pctSlotsFilledToday": 0.75,
-      "pageViews": {
-        "total1on1": 1409,
-        "slotsAvailable": 623,
-        "pctSlotsAvailable": 44.0
-      }
-    },
-    {
-      "date": "2026-07-04",
-      "dayName": "Saturday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 55,
-        "phasingTarget": null,
-        "phasingAchieved": 155
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 10,
-        "phasingAchieved": 7
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 14
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Dr. Sweta Adatia",
-          "missed": 28
-        },
-        {
-          "name": "Nayana Cariappa",
-          "missed": 8
-        },
-        {
-          "name": "Ashwini Kamath",
-          "missed": 4
-        },
-        {
-          "name": "Yashica",
-          "missed": 7
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 54,
-        "leadersAvailableToday": 5,
-        "today": 15,
-        "t1": 21,
-        "t2": 144,
-        "t3": 150,
-        "t4": 177,
-        "t5": 178,
-        "t6": 176,
-        "t7": 70
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 13.33,
-      "pageViews": {
-        "total1on1": 915,
-        "slotsAvailable": 420,
-        "pctSlotsAvailable": 46.0
-      }
-    },
-    {
-      "date": "2026-07-05",
-      "dayName": "Sunday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 121,
-        "phasingTarget": null,
-        "phasingAchieved": 179
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 10,
-        "phasingAchieved": 2
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 12
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Swapnil Gawde",
-          "missed": 40
-        },
-        {
-          "name": "Dr. Neha Racca",
-          "missed": 1
-        },
-        {
-          "name": "Preety",
-          "missed": 1
-        },
-        {
-          "name": "Amritaa Shankar",
-          "missed": 1
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 54,
-        "leadersAvailableToday": 7,
-        "today": 19,
-        "t1": 142,
-        "t2": 149,
-        "t3": 175,
-        "t4": 177,
-        "t5": 176,
-        "t6": 70,
-        "t7": 60
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 3,
-      "pctSlotsFilledToday": 15.79,
-      "pageViews": {
-        "total1on1": 828,
-        "slotsAvailable": 526,
-        "pctSlotsAvailable": 64.0
-      }
-    },
-    {
-      "date": "2026-07-06",
-      "dayName": "Monday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 45,
-        "phasingTarget": null,
-        "phasingAchieved": 248
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 11,
-        "phasingAchieved": 1
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 17
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Manka Malik",
-          "missed": 16
-        },
-        {
-          "name": "Rhea Mathew",
-          "missed": 6
-        },
-        {
-          "name": "Abhirammi",
-          "missed": 4
-        },
-        {
-          "name": "Navneeth Vallabh",
-          "missed": 3
-        },
-        {
-          "name": "Abhaya Balaji",
-          "missed": 8
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 54,
-        "leadersAvailableToday": 39,
-        "today": 121,
-        "t1": 148,
-        "t2": 173,
-        "t3": 176,
-        "t4": 176,
-        "t5": 70,
-        "t6": 60,
-        "t7": 6
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 1,
-      "pctSlotsFilledToday": 0.83,
-      "pageViews": {
-        "total1on1": 1223,
-        "slotsAvailable": 822,
-        "pctSlotsAvailable": 67.0
-      }
-    },
-    {
-      "date": "2026-07-07",
-      "dayName": "Tuesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 8,
-        "phasingTarget": null,
-        "phasingAchieved": 287
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 21,
-        "phasingAchieved": 3
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 16
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Dee Kanjani",
-          "missed": 2
-        },
-        {
-          "name": "Shama Igatpuriwala",
-          "missed": 2
-        },
-        {
-          "name": "Hiral Pawar",
-          "missed": 3
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 55,
-        "leadersAvailableToday": 40,
-        "today": 120,
-        "t1": 171,
-        "t2": 178,
-        "t3": 179,
-        "t4": 70,
-        "t5": 60,
-        "t6": 6,
-        "t7": 7
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 1.67,
-      "pageViews": {
-        "total1on1": 1502,
-        "slotsAvailable": 865,
-        "pctSlotsAvailable": 58.0
-      }
-    },
-    {
-      "date": "2026-07-08",
-      "dayName": "Wednesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 928,
-        "phasingTarget": null,
-        "phasingAchieved": 282
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 26,
-        "phasingAchieved": 12
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 19
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Kavyal Sedanni",
-          "missed": 120
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 1
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 58,
-        "leadersAvailableToday": 45,
-        "today": 155,
-        "t1": 183,
-        "t2": 181,
-        "t3": 68,
-        "t4": 59,
-        "t5": 8,
-        "t6": 9,
-        "t7": 6
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 5,
-      "pctSlotsFilledToday": 3.23,
-      "pageViews": {
-        "total1on1": 1569,
-        "slotsAvailable": 863,
-        "pctSlotsAvailable": 55.0
-      }
-    },
-    {
-      "date": "2026-07-09",
-      "dayName": "Thursday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 36,
-        "phasingTarget": null,
-        "phasingAchieved": 117
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 32,
-        "phasingAchieved": 15
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 19
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Susitha Pappiah",
-          "missed": 17
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 2
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 59,
-        "leadersAvailableToday": 46,
-        "today": 157,
-        "t1": 185,
-        "t2": 67,
-        "t3": 59,
-        "t4": 11,
-        "t5": 29,
-        "t6": 10,
-        "t7": 8
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 1.27,
-      "pageViews": {
-        "total1on1": 1690,
-        "slotsAvailable": 907,
-        "pctSlotsAvailable": 54.0
-      }
-    },
-    {
-      "date": "2026-07-10",
-      "dayName": "Friday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 123,
-        "phasingTarget": null,
-        "phasingAchieved": 153
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 33,
-        "phasingAchieved": 9
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 17
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Guru Maa MeeMaa",
-          "missed": 83
-        },
-        {
-          "name": "Priyanka Agarwal",
-          "missed": 2
-        },
-        {
-          "name": "Jyoti Soni",
-          "missed": 10
-        },
-        {
-          "name": "Jyotismita Das",
-          "missed": 1
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 2
-        },
-        {
-          "name": "Denzil Oconnell",
-          "missed": 9
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 55,
-        "leadersAvailableToday": 47,
-        "today": 150,
-        "t1": 67,
-        "t2": 59,
-        "t3": 6,
-        "t4": 31,
-        "t5": 3,
-        "t6": 6,
-        "t7": 6
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 1.33,
-      "pageViews": {
-        "total1on1": 2344,
-        "slotsAvailable": 1911,
-        "pctSlotsAvailable": 82.0
-      }
-    },
-    {
-      "date": "2026-07-11",
-      "dayName": "Saturday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 18,
-        "phasingTarget": null,
-        "phasingAchieved": 163
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 7,
-        "phasingTarget": 44,
-        "phasingAchieved": 9
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 20
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Sandy Chana",
-          "missed": 5
-        },
-        {
-          "name": "Binita Aamol Rege",
-          "missed": 5
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 2
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 118,
-        "leadersAvailableToday": 13,
-        "today": 46,
-        "t1": 59,
-        "t2": 346,
-        "t3": 419,
-        "t4": 383,
-        "t5": 381,
-        "t6": 371,
-        "t7": 42
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 3,
-      "pctSlotsFilledToday": 6.52,
-      "pageViews": {
-        "total1on1": 2432,
-        "slotsAvailable": 2183,
-        "pctSlotsAvailable": 90.0
-      }
-    },
-    {
-      "date": "2026-07-12",
-      "dayName": "Sunday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 40,
-        "phasingTarget": null,
-        "phasingAchieved": 174
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 15,
-        "phasingTarget": 40,
-        "phasingAchieved": 11
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 19
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Ellaeenah Niloufer",
-          "missed": 6
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 2
-        },
-        {
-          "name": "Manka Malik",
-          "missed": 35
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 117,
-        "leadersAvailableToday": 10,
-        "today": 40,
-        "t1": 343,
-        "t2": 415,
-        "t3": 382,
-        "t4": 379,
-        "t5": 370,
-        "t6": 42,
-        "t7": 43
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 5.0,
-      "pageViews": {
-        "total1on1": 2681,
-        "slotsAvailable": 2398,
-        "pctSlotsAvailable": 89.0
-      }
-    },
-    {
-      "date": "2026-07-13",
-      "dayName": "Monday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 29,
-        "phasingTarget": null,
-        "phasingAchieved": 232
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 40,
-        "phasingAchieved": 14
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 17
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Taniyaa Gupta",
-          "missed": 2
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 2
-        },
-        {
-          "name": "Purvi Bhave",
-          "missed": 7
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 117,
-        "leadersAvailableToday": 93,
-        "today": 310,
-        "t1": 414,
-        "t2": 382,
-        "t3": 379,
-        "t4": 369,
-        "t5": 42,
-        "t6": 43,
-        "t7": 2
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 5,
-      "pctSlotsFilledToday": 1.61,
-      "pageViews": {
-        "total1on1": 3073,
-        "slotsAvailable": 2549,
-        "pctSlotsAvailable": 83.0
-      }
-    },
-    {
-      "date": "2026-07-14",
-      "dayName": "Tuesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 301,
-        "phasingTarget": null,
-        "phasingAchieved": 299
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 44,
-        "phasingAchieved": 18
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 17
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Arjun Aiyar",
-          "missed": 5
-        },
-        {
-          "name": "Ashwini Bhave",
-          "missed": 6
-        },
-        {
-          "name": "Amritaa Shankar",
-          "missed": 9
-        },
-        {
-          "name": "Dr. Tamanna C",
-          "missed": 218
-        },
-        {
-          "name": "Debanjan Medhi",
-          "missed": 1
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 3
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 117,
-        "leadersAvailableToday": 101,
-        "today": 360,
-        "t1": 370,
-        "t2": 375,
-        "t3": 364,
-        "t4": 39,
-        "t5": 43,
-        "t6": 2,
-        "t7": 4
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 6,
-      "pctSlotsFilledToday": 1.67,
-      "pageViews": {
-        "total1on1": 3136,
-        "slotsAvailable": 2509,
-        "pctSlotsAvailable": 80.0
-      }
-    },
-    {
-      "date": "2026-07-15",
-      "dayName": "Wednesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 159,
-        "phasingTarget": null,
-        "phasingAchieved": 331
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 13,
-        "phasingTarget": 48,
-        "phasingAchieved": 13
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 24
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Vidhi Agarwal",
-          "missed": 63
-        },
-        {
-          "name": "Seemaa Dhingra",
-          "missed": 6
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 4
-        },
-        {
-          "name": "Janhvi V Singh",
-          "missed": 199
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 114,
-        "leadersAvailableToday": 98,
-        "today": 340,
-        "t1": 371,
-        "t2": 354,
-        "t3": 40,
-        "t4": 41,
-        "t5": 5,
-        "t6": 7,
-        "t7": 7
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 7,
-      "pctSlotsFilledToday": 2.06,
-      "pageViews": {
-        "total1on1": 3048,
-        "slotsAvailable": 2358,
-        "pctSlotsAvailable": 77.0
-      }
-    },
-    {
-      "date": "2026-07-16",
-      "dayName": "Thursday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 48,
-        "phasingTarget": null,
-        "phasingAchieved": 270
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 4,
-        "phasingTarget": 50,
-        "phasingAchieved": 14
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 18
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Siddhi Shah",
-          "missed": 14
-        },
-        {
-          "name": "Premmayi Gurumaa",
-          "missed": 8
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 111,
-        "leadersAvailableToday": 96,
-        "today": 331,
-        "t1": 344,
-        "t2": 38,
-        "t3": 36,
-        "t4": 5,
-        "t5": 7,
-        "t6": 7,
-        "t7": 7
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 6,
-      "pctSlotsFilledToday": 1.81,
-      "pageViews": {
-        "total1on1": 3231,
-        "slotsAvailable": 2658,
-        "pctSlotsAvailable": 82.0
-      }
-    },
-    {
-      "date": "2026-07-17",
-      "dayName": "Friday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 809,
-        "phasingTarget": null,
-        "phasingAchieved": 216
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 52,
-        "phasingAchieved": 14
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 20
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 3
-        },
-        {
-          "name": "Krishnna",
-          "missed": 2
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 128,
-        "leadersAvailableToday": 95,
-        "today": 313,
-        "t1": 49,
-        "t2": 49,
-        "t3": 480,
-        "t4": 517,
-        "t5": 510,
-        "t6": 483,
-        "t7": 487
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 6,
-      "pctSlotsFilledToday": 1.92,
-      "pageViews": {
-        "total1on1": 2760,
-        "slotsAvailable": 2125,
-        "pctSlotsAvailable": 77.0
-      }
-    },
-    {
-      "date": "2026-07-18",
-      "dayName": "Saturday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 105,
-        "phasingTarget": null,
-        "phasingAchieved": 100
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 51,
-        "phasingAchieved": 35
-      },
-      "oneOnOne": {
-        "phasingTarget": 21,
-        "phasingAchieved": 16
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Swapnil Gawde",
-          "missed": 154
-        },
-        {
-          "name": "Nithya Ji",
-          "missed": 29
-        },
-        {
-          "name": "Manka Malik",
-          "missed": 20
-        },
-        {
-          "name": "Lovish Kandoi",
-          "missed": 15
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 115,
-        "leadersAvailableToday": 15,
-        "today": 43,
-        "t1": 47,
-        "t2": 456,
-        "t3": 496,
-        "t4": 489,
-        "t5": 459,
-        "t6": 467,
-        "t7": 39
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 4,
-      "pctSlotsFilledToday": 9.3,
-      "pageViews": {
-        "total1on1": 1850,
-        "slotsAvailable": 1237,
-        "pctSlotsAvailable": 67.0
-      }
-    },
-    {
-      "date": "2026-07-19",
-      "dayName": "Sunday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 28,
-        "phasingTarget": null,
-        "phasingAchieved": 90
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 23,
-        "phasingTarget": 50,
-        "phasingAchieved": 29
-      },
-      "oneOnOne": {
-        "phasingTarget": 21,
-        "phasingAchieved": 12
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Mahima Mor",
-          "missed": 27
-        },
-        {
-          "name": "Gunjan Nautiyall",
-          "missed": 8
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 115,
-        "leadersAvailableToday": 15,
-        "today": 38,
-        "t1": 456,
-        "t2": 495,
-        "t3": 488,
-        "t4": 459,
-        "t5": 467,
-        "t6": 38,
-        "t7": 36
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 1,
-      "pctSlotsFilledToday": 2.63,
-      "pageViews": {
-        "total1on1": 2121,
-        "slotsAvailable": 981,
-        "pctSlotsAvailable": 46.0
-      }
-    },
-    {
-      "date": "2026-07-20",
-      "dayName": "Monday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 27,
-        "phasingTarget": null,
-        "phasingAchieved": 87
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 35,
-        "phasingAchieved": 26
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 25
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Ivy Roy",
-          "missed": 9
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 3
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 114,
-        "leadersAvailableToday": 97,
-        "today": 418,
-        "t1": 492,
-        "t2": 487,
-        "t3": 458,
-        "t4": 465,
-        "t5": 38,
-        "t6": 35,
-        "t7": 3
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 3,
-      "pctSlotsFilledToday": 0.72,
-      "pageViews": {
-        "total1on1": 2258,
-        "slotsAvailable": 1240,
-        "pctSlotsAvailable": 55.0
-      }
-    },
-    {
-      "date": "2026-07-21",
-      "dayName": "Tuesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 38,
-        "phasingTarget": null,
-        "phasingAchieved": 95
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 37,
-        "phasingAchieved": 41
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 12
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Dr. Neelam Parwani",
-          "missed": 8
-        },
-        {
-          "name": "Debanjan Medhi",
-          "missed": 1
-        },
-        {
-          "name": "Shreya Singh",
-          "missed": 6
-        },
-        {
-          "name": "Nattasha Kapoor",
-          "missed": 5
-        },
-        {
-          "name": "Sukhmani Bajwa",
-          "missed": 6
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 113,
-        "leadersAvailableToday": 101,
-        "today": 442,
-        "t1": 475,
-        "t2": 451,
-        "t3": 455,
-        "t4": 35,
-        "t5": 35,
-        "t6": 3,
-        "t7": 3
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 4,
-      "pctSlotsFilledToday": 0.9,
-      "pageViews": {
-        "total1on1": 2406,
-        "slotsAvailable": 1380,
-        "pctSlotsAvailable": 57.0
-      }
-    },
-    {
-      "date": "2026-07-22",
-      "dayName": "Wednesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 27,
-        "phasingTarget": null,
-        "phasingAchieved": 132
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 37,
-        "phasingAchieved": 39
-      },
-      "oneOnOne": {
-        "phasingTarget": 23,
-        "phasingAchieved": 19
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Sonika Vickraman",
-          "missed": 4
-        },
-        {
-          "name": "Siddhi Shah",
-          "missed": 6
-        },
-        {
-          "name": "Aditi Grover",
-          "missed": 1
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 3
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 110,
-        "leadersAvailableToday": 101,
-        "today": 442,
-        "t1": 450,
-        "t2": 454,
-        "t3": 35,
-        "t4": 33,
-        "t5": 3,
-        "t6": 3,
-        "t7": 0
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 0.45,
-      "pageViews": {
-        "total1on1": 2228,
-        "slotsAvailable": 1164,
-        "pctSlotsAvailable": 52.0
-      }
-    },
-    {
-      "date": "2026-07-23",
-      "dayName": "Thursday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 569,
-        "phasingTarget": null,
-        "phasingAchieved": 193
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 38,
-        "phasingAchieved": 38
-      },
-      "oneOnOne": {
-        "phasingTarget": 23,
-        "phasingAchieved": 22
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Debanjan Medhi",
-          "missed": 1
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 106,
-        "leadersAvailableToday": 101,
-        "today": 421,
-        "t1": 441,
-        "t2": 31,
-        "t3": 33,
-        "t4": 3,
-        "t5": 3,
-        "t6": 0,
-        "t7": 0
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 6,
-      "pctSlotsFilledToday": 1.43,
-      "pageViews": {
-        "total1on1": 1263,
-        "slotsAvailable": 1024,
-        "pctSlotsAvailable": 81.0
-      }
-    },
-    {
-      "date": "2026-07-24",
-      "dayName": "Friday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 49,
-        "phasingTarget": null,
-        "phasingAchieved": 101
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 24,
-        "phasingTarget": 44,
-        "phasingAchieved": 34
-      },
-      "oneOnOne": {
-        "phasingTarget": 23,
-        "phasingAchieved": 28
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Jyotismita Das",
-          "missed": 5
-        },
-        {
-          "name": "Shweta Chatterjee",
-          "missed": 3
-        },
-        {
-          "name": "Bijal Sunil Doshi",
-          "missed": 6
-        },
-        {
-          "name": "Amrita Shah",
-          "missed": 8
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 5
-        },
-        {
-          "name": "Praanah",
-          "missed": 26
-        },
-        {
-          "name": "Krupa Shah",
-          "missed": 1
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 103,
-        "leadersAvailableToday": 102,
-        "today": 429,
-        "t1": 34,
-        "t2": 35,
-        "t3": 3,
-        "t4": 3,
-        "t5": 0,
-        "t6": 0,
-        "t7": 0
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 10,
-      "pctSlotsFilledToday": 2.33,
-      "pageViews": {
-        "total1on1": 2484,
-        "slotsAvailable": 1224,
-        "pctSlotsAvailable": 49.0
-      }
-    },
-    {
-      "date": "2026-07-25",
-      "dayName": "Saturday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 159,
-        "phasingTarget": null,
-        "phasingAchieved": 103
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 74,
-        "phasingTarget": 41,
-        "phasingAchieved": 43
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 14
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Dr. Richa Jindal",
-          "missed": 35
-        },
-        {
-          "name": "Nattasha Kapoor",
-          "missed": 23
-        },
-        {
-          "name": "Krishna Jangid",
-          "missed": 9
-        },
-        {
-          "name": "Sheelaa M Bajaj",
-          "missed": 136
-        },
-        {
-          "name": "Sheelaa M Bajaj",
-          "missed": 36
-        },
-        {
-          "name": "Debanjan Medhi",
-          "missed": 1
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 117,
-        "leadersAvailableToday": 11,
-        "today": 32,
-        "t1": 34,
-        "t2": 392,
-        "t3": 395,
-        "t4": 390,
-        "t5": 393,
-        "t6": 400,
-        "t7": 65
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 6.25,
-      "pageViews": {
-        "total1on1": 1903,
-        "slotsAvailable": 1731,
-        "pctSlotsAvailable": 91.0
-      }
-    },
-    {
-      "date": "2026-07-26",
-      "dayName": "Sunday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 165,
-        "phasingTarget": null,
-        "phasingAchieved": 120
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 148,
-        "phasingTarget": 25,
-        "phasingAchieved": 27
-      },
-      "oneOnOne": {
-        "phasingTarget": 20,
-        "phasingAchieved": 9
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Meghna Siraj",
-          "missed": 34
-        },
-        {
-          "name": "Susitha Pappiah",
-          "missed": 18
-        },
-        {
-          "name": "Bijay J. Anand",
-          "missed": 35
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 117,
-        "leadersAvailableToday": 9,
-        "today": 29,
-        "t1": 390,
-        "t2": 393,
-        "t3": 389,
-        "t4": 393,
-        "t5": 400,
-        "t6": 65,
-        "t7": 49
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 6.9,
-      "pageViews": {
-        "total1on1": 2038,
-        "slotsAvailable": 1827,
-        "pctSlotsAvailable": 90.0
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "dayName": "Monday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 51,
-        "phasingTarget": null,
-        "phasingAchieved": 137
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 5,
-        "phasingAchieved": 8
-      },
-      "oneOnOne": {
-        "phasingTarget": 23,
-        "phasingAchieved": 39
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Denzil Oconnell",
-          "missed": 2
-        },
-        {
-          "name": "Vidhi Agarwal",
-          "missed": 33
-        },
-        {
-          "name": "Punita Kadam",
-          "missed": 4
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 115,
-        "leadersAvailableToday": 111,
-        "today": 384,
-        "t1": 393,
-        "t2": 388,
-        "t3": 393,
-        "t4": 400,
-        "t5": 65,
-        "t6": 49,
-        "t7": 0
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 9,
-      "pctSlotsFilledToday": 2.34,
-      "pageViews": {
-        "total1on1": 2114,
-        "slotsAvailable": 1733,
-        "pctSlotsAvailable": 82.0
-      }
-    },
-    {
-      "date": "2026-07-28",
-      "dayName": "Tuesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 42,
-        "phasingTarget": null,
-        "phasingAchieved": 168
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 5,
-        "phasingAchieved": 12
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 35
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Neha Ranglani",
-          "missed": 28
-        },
-        {
-          "name": "Sujata Dutta",
-          "missed": 5
-        },
-        {
-          "name": "Rashika Kaul",
-          "missed": 3
-        },
-        {
-          "name": "Debanjan Medhi",
-          "missed": 4
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 118,
-        "leadersAvailableToday": 113,
-        "today": 398,
-        "t1": 405,
-        "t2": 412,
-        "t3": 413,
-        "t4": 84,
-        "t5": 68,
-        "t6": 0,
-        "t7": 2
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 7,
-      "pctSlotsFilledToday": 1.76,
-      "pageViews": {
-        "total1on1": 2822,
-        "slotsAvailable": 2348,
-        "pctSlotsAvailable": 83.0
-      }
-    },
-    {
-      "date": "2026-07-29",
-      "dayName": "Wednesday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 29,
-        "phasingTarget": null,
-        "phasingAchieved": 194
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 5,
-        "phasingAchieved": 9
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 36
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Suraj Raghav Ram",
-          "missed": 1
-        },
-        {
-          "name": "Vaidehi Surotia",
-          "missed": 2
-        },
-        {
-          "name": "Shaan",
-          "missed": 1
-        },
-        {
-          "name": "Susitha Pappiah",
-          "missed": 12
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 3
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 116,
-        "leadersAvailableToday": 111,
-        "today": 395,
-        "t1": 411,
-        "t2": 406,
-        "t3": 83,
-        "t4": 68,
-        "t5": 0,
-        "t6": 1,
-        "t7": 3
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 9,
-      "pctSlotsFilledToday": 2.28,
-      "pageViews": {
-        "total1on1": 2570,
-        "slotsAvailable": 2033,
-        "pctSlotsAvailable": 79.0
-      }
-    },
-    {
-      "date": "2026-07-30",
-      "dayName": "Thursday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 60,
-        "phasingTarget": null,
-        "phasingAchieved": 247
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 0,
-        "phasingTarget": 5,
-        "phasingAchieved": 9
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 32
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Mahima Mor",
-          "missed": 30
-        },
-        {
-          "name": "Gunjan Adya",
-          "missed": 2
-        },
-        {
-          "name": "Dr. Neha Racca",
-          "missed": 8
-        },
-        {
-          "name": "Dr. Mitali Jaiswal",
-          "missed": 11
-        },
-        {
-          "name": "Debanjan Medhi",
-          "missed": 2
-        },
-        {
-          "name": "Sayalee Jadhav",
-          "missed": 4
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 116,
-        "leadersAvailableToday": 112,
-        "today": 408,
-        "t1": 401,
-        "t2": 81,
-        "t3": 68,
-        "t4": 2,
-        "t5": 2,
-        "t6": 5,
-        "t7": 6
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 3,
-      "pctSlotsFilledToday": 0.74,
-      "pageViews": {
-        "total1on1": 2344,
-        "slotsAvailable": 1808,
-        "pctSlotsAvailable": 77.0
-      }
-    },
-    {
-      "date": "2026-07-31",
-      "dayName": "Friday",
-      "month": "Jul-26",
-      "groupOnline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 892,
-        "phasingTarget": null,
-        "phasingAchieved": 288
-      },
-      "offline": {
-        "sessions": null,
-        "sessionTarget": null,
-        "sessionAchieved": 59,
-        "phasingTarget": 5,
-        "phasingAchieved": 10
-      },
-      "oneOnOne": {
-        "phasingTarget": 24,
-        "phasingAchieved": 30
-      },
-      "groupLeaderPhasingTargets": [],
-      "groupLeaderTargets": [],
-      "groupMissedTargets": [
-        {
-          "name": "Munisha Khatwani",
-          "missed": 250
-        },
-        {
-          "name": "Dr. Tamanna C",
-          "missed": 41
-        },
-        {
-          "name": "Meenakshi Mishra",
-          "missed": 2
-        }
-      ],
-      "oneOnOneSlots": {
-        "leadersWithSlots": 117,
-        "leadersAvailableToday": 112,
-        "today": 409,
-        "t1": 90,
-        "t2": 70,
-        "t3": 2,
-        "t4": 2,
-        "t5": 5,
-        "t6": 6,
-        "t7": 6
-      },
-      "categoryBreakdown": [],
-      "topLeaderSlots": [],
-      "slotsFilledToday": 8,
-      "pctSlotsFilledToday": 1.96,
-      "pageViews": {
-        "total1on1": 2676,
-        "slotsAvailable": 1886,
-        "pctSlotsAvailable": 70.0
-      }
-    },
     {
       "date": "2026-08-01",
       "dayName": "Saturday",
@@ -17088,20 +15152,20 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 57,
-        "sessionAchieved": 10,
+        "sessionAchieved": 11,
         "phasingTarget": 213,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 21
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 5
       },
       "groupLeaderPhasingTargets": [
         {
@@ -17290,12 +15354,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 62,
+        "slotsAvailable": 55,
+        "pctSlotsAvailable": 89.0
       }
     },
     {
@@ -17305,7 +15369,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 704,
-        "sessionAchieved": 349,
+        "sessionAchieved": 366,
         "phasingTarget": 210,
         "phasingAchieved": null
       },
@@ -17755,7 +15819,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 78,
-        "sessionAchieved": 40,
+        "sessionAchieved": 41,
         "phasingTarget": 94,
         "phasingAchieved": null
       },
@@ -19081,7 +17145,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 602,
-        "sessionAchieved": 8,
+        "sessionAchieved": 10,
         "phasingTarget": 221,
         "phasingAchieved": null
       },
@@ -19306,14 +17370,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 65,
-        "sessionAchieved": 193,
+        "sessionAchieved": 195,
         "phasingTarget": 162,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 192,
+        "sessionAchieved": 194,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -19576,7 +17640,7 @@
         "sessions": 4,
         "sessionTarget": 280,
         "sessionAchieved": 7,
-        "phasingTarget": 174,
+        "phasingTarget": 173,
         "phasingAchieved": null
       },
       "offline": {
@@ -19677,10 +17741,6 @@
         },
         {
           "name": "Loveena Bahl",
-          "value": 1
-        },
-        {
-          "name": "Seemaa Dhingra",
           "value": 1
         },
         {
@@ -19797,7 +17857,7 @@
         "sessions": 10,
         "sessionTarget": 70,
         "sessionAchieved": 2,
-        "phasingTarget": 155,
+        "phasingTarget": 154,
         "phasingAchieved": null
       },
       "offline": {
@@ -19890,10 +17950,6 @@
         },
         {
           "name": "Nattasha Kapoor",
-          "value": 1
-        },
-        {
-          "name": "Seemaa Dhingra",
           "value": 1
         },
         {
@@ -20041,8 +18097,8 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 236,
-        "sessionAchieved": 4,
-        "phasingTarget": 152,
+        "sessionAchieved": 5,
+        "phasingTarget": 151,
         "phasingAchieved": null
       },
       "offline": {
@@ -20107,10 +18163,6 @@
         },
         {
           "name": "Nattasha Kapoor",
-          "value": 2
-        },
-        {
-          "name": "Seemaa Dhingra",
           "value": 2
         },
         {
@@ -20263,7 +18315,7 @@
         "sessions": 8,
         "sessionTarget": 107,
         "sessionAchieved": 4,
-        "phasingTarget": 170,
+        "phasingTarget": 167,
         "phasingAchieved": null
       },
       "offline": {
@@ -20320,10 +18372,6 @@
         },
         {
           "name": "Loveena Bahl",
-          "value": 3
-        },
-        {
-          "name": "Seemaa Dhingra",
           "value": 3
         },
         {
@@ -20457,10 +18505,10 @@
       "dayName": "Thursday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 8,
-        "sessionTarget": 126,
+        "sessions": 7,
+        "sessionTarget": 118,
         "sessionAchieved": 6,
-        "phasingTarget": 150,
+        "phasingTarget": 147,
         "phasingAchieved": null
       },
       "offline": {
@@ -20501,10 +18549,6 @@
         },
         {
           "name": "Nattasha Kapoor",
-          "value": 3
-        },
-        {
-          "name": "Seemaa Dhingra",
           "value": 3
         },
         {
@@ -20564,10 +18608,6 @@
         {
           "name": "Vidhi Agarwal",
           "value": 75
-        },
-        {
-          "name": "Seemaa Dhingra",
-          "value": 8
         },
         {
           "name": "Pallavi Kambo",
@@ -22965,6 +21005,1463 @@
       "date": "2026-11-04",
       "dayName": "Wednesday",
       "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "dayName": "Thursday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "dayName": "Friday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "dayName": "Saturday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "dayName": "Sunday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "dayName": "Monday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "dayName": "Tuesday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "dayName": "Wednesday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "dayName": "Thursday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "dayName": "Friday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "dayName": "Saturday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 21,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 21,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "dayName": "Sunday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "dayName": "Monday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "dayName": "Tuesday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "dayName": "Wednesday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "dayName": "Thursday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "dayName": "Friday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "dayName": "Saturday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "dayName": "Sunday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "dayName": "Monday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "dayName": "Tuesday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "dayName": "Wednesday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "dayName": "Thursday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "dayName": "Friday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "dayName": "Saturday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 10,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 10,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-29",
+      "dayName": "Sunday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "dayName": "Monday",
+      "month": "Nov-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "dayName": "Tuesday",
+      "month": "Dec-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-12-02",
+      "dayName": "Wednesday",
+      "month": "Dec-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "dayName": "Thursday",
+      "month": "Dec-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-12-04",
+      "dayName": "Friday",
+      "month": "Dec-26",
+      "groupOnline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "offline": {
+        "sessions": 0,
+        "sessionTarget": 0,
+        "sessionAchieved": 0,
+        "phasingTarget": 0,
+        "phasingAchieved": null
+      },
+      "oneOnOne": {
+        "phasingTarget": null,
+        "phasingAchieved": null
+      },
+      "groupLeaderPhasingTargets": [],
+      "groupLeaderTargets": [],
+      "groupMissedTargets": [],
+      "oneOnOneSlots": {
+        "leadersWithSlots": null,
+        "leadersAvailableToday": null,
+        "today": null,
+        "t1": null,
+        "t2": null,
+        "t3": null,
+        "t4": null,
+        "t5": null,
+        "t6": null,
+        "t7": null
+      },
+      "categoryBreakdown": [],
+      "topLeaderSlots": [],
+      "slotsFilledToday": null,
+      "pctSlotsFilledToday": null,
+      "pageViews": {
+        "total1on1": null,
+        "slotsAvailable": null,
+        "pctSlotsAvailable": null
+      }
+    },
+    {
+      "date": "2026-12-05",
+      "dayName": "Saturday",
+      "month": "Dec-26",
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
