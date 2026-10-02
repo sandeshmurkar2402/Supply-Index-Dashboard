@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T21:41:43Z",
+  "lastUpdated": "2026-10-02T01:26:54Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -15349,7 +15349,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 704,
-        "sessionAchieved": 574,
+        "sessionAchieved": 596,
         "phasingTarget": 210,
         "phasingAchieved": 30
       },
@@ -15358,7 +15358,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": 16
+        "phasingAchieved": 20
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -15807,7 +15807,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 78,
-        "sessionAchieved": 51,
+        "sessionAchieved": 60,
         "phasingTarget": 100,
         "phasingAchieved": null
       },
@@ -16470,7 +16470,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 73,
-        "sessionAchieved": 20,
+        "sessionAchieved": 28,
         "phasingTarget": 132,
         "phasingAchieved": null
       },
@@ -17165,7 +17165,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 603,
-        "sessionAchieved": 14,
+        "sessionAchieved": 20,
         "phasingTarget": 223,
         "phasingAchieved": null
       },
@@ -17398,14 +17398,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 64,
-        "sessionAchieved": 203,
+        "sessionAchieved": 210,
         "phasingTarget": 165,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 201,
+        "sessionAchieved": 207,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -18346,7 +18346,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 97,
-        "sessionAchieved": 4,
+        "sessionAchieved": 2,
         "phasingTarget": 166,
         "phasingAchieved": null
       },
@@ -18539,7 +18539,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 118,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 149,
         "phasingAchieved": null
       },
@@ -19171,7 +19171,7 @@
       "groupOnline": {
         "sessions": 2,
         "sessionTarget": 21,
-        "sessionAchieved": 0,
+        "sessionAchieved": 2,
         "phasingTarget": 193,
         "phasingAchieved": null
       },
@@ -19505,7 +19505,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 721,
-        "sessionAchieved": 8,
+        "sessionAchieved": 11,
         "phasingTarget": 279,
         "phasingAchieved": null
       },
@@ -19927,7 +19927,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 622,
-        "sessionAchieved": 4,
+        "sessionAchieved": 5,
         "phasingTarget": 187,
         "phasingAchieved": null
       },
@@ -20313,7 +20313,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 172,
-        "sessionAchieved": 1,
+        "sessionAchieved": 2,
         "phasingTarget": 91,
         "phasingAchieved": null
       },
@@ -21615,14 +21615,14 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 22,
+        "sessionAchieved": 26,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 22,
+        "sessionAchieved": 26,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -35441,11 +35441,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 6,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 1650,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 38.0,
+      "revenueAchieved": 2475,
+      "pctRevenueVsTarget": 44.0
     },
     {
       "leader": "Dr. Kinnari I. Gupta",
@@ -39750,11 +39750,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 10,
       "pctVsTarget": 2.0,
-      "revenueAchieved": 4010,
-      "pctRevenueVsTarget": 2.0
+      "revenueAchieved": 6015,
+      "pctRevenueVsTarget": 3.0
     },
     {
       "leader": "Jyoti Soni",
