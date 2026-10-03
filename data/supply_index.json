@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T20:50:27Z",
+  "lastUpdated": "2026-10-03T23:37:44Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -1532,8 +1532,8 @@
       "slotsFilledToday": 5,
       "pctSlotsFilledToday": 1.11,
       "pageViews": {
-        "total1on1": 1215,
-        "slotsAvailable": 908,
+        "total1on1": 1214,
+        "slotsAvailable": 907,
         "pctSlotsAvailable": 75.0
       }
     },
@@ -12650,8 +12650,8 @@
       "slotsFilledToday": 14,
       "pctSlotsFilledToday": 0.81,
       "pageViews": {
-        "total1on1": 1394,
-        "slotsAvailable": 651,
+        "total1on1": 1393,
+        "slotsAvailable": 650,
         "pctSlotsAvailable": 47.0
       }
     },
@@ -13814,8 +13814,8 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 0.67,
       "pageViews": {
-        "total1on1": 739,
-        "slotsAvailable": 637,
+        "total1on1": 738,
+        "slotsAvailable": 636,
         "pctSlotsAvailable": 86.0
       }
     },
@@ -14465,8 +14465,8 @@
       "slotsFilledToday": 11,
       "pctSlotsFilledToday": 0.66,
       "pageViews": {
-        "total1on1": 729,
-        "slotsAvailable": 626,
+        "total1on1": 728,
+        "slotsAvailable": 625,
         "pctSlotsAvailable": 86.0
       }
     },
@@ -15313,8 +15313,8 @@
       "slotsFilledToday": 13,
       "pctSlotsFilledToday": 0.72,
       "pageViews": {
-        "total1on1": 1112,
-        "slotsAvailable": 1011,
+        "total1on1": 1113,
+        "slotsAvailable": 1012,
         "pctSlotsAvailable": 91.0
       }
     },
@@ -15522,8 +15522,8 @@
       "slotsFilledToday": 24,
       "pctSlotsFilledToday": 1.34,
       "pageViews": {
-        "total1on1": 1101,
-        "slotsAvailable": 972,
+        "total1on1": 1108,
+        "slotsAvailable": 979,
         "pctSlotsAvailable": 88.0
       }
     },
@@ -15647,10 +15647,6 @@
           "value": 1
         },
         {
-          "name": "Rashi Gaur",
-          "value": 1
-        },
-        {
           "name": "Harpreet B Sharma",
           "value": 1
         },
@@ -15751,9 +15747,9 @@
       "slotsFilledToday": 23,
       "pctSlotsFilledToday": 1.32,
       "pageViews": {
-        "total1on1": 68,
-        "slotsAvailable": 58,
-        "pctSlotsAvailable": 85.0
+        "total1on1": 703,
+        "slotsAvailable": 545,
+        "pctSlotsAvailable": 78.0
       }
     },
     {
@@ -15763,7 +15759,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 78,
-        "sessionAchieved": 98,
+        "sessionAchieved": 100,
         "phasingTarget": 97,
         "phasingAchieved": 25
       },
@@ -15772,7 +15768,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": 21
+        "phasingAchieved": 22
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -15872,10 +15868,6 @@
           "value": 1
         },
         {
-          "name": "Rashi Gaur",
-          "value": 1
-        },
-        {
           "name": "Shreya Singh",
           "value": 1
         },
@@ -15945,12 +15937,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": 2,
-      "pctSlotsFilledToday": 0.12,
+      "slotsFilledToday": 9,
+      "pctSlotsFilledToday": 0.53,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 805,
+        "slotsAvailable": 615,
+        "pctSlotsAvailable": 76.0
       }
     },
     {
@@ -15960,7 +15952,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 31,
-        "sessionAchieved": 13,
+        "sessionAchieved": 15,
         "phasingTarget": 113,
         "phasingAchieved": null
       },
@@ -16077,10 +16069,6 @@
           "value": 1
         },
         {
-          "name": "Rashi Gaur",
-          "value": 1
-        },
-        {
           "name": "Ashwini Kamath",
           "value": 1
         },
@@ -16153,16 +16141,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 546,
-        "t1": 559,
-        "t2": 525,
-        "t3": 481,
-        "t4": 462,
-        "t5": 429,
-        "t6": 372,
-        "t7": null
+        "leadersWithSlots": 103,
+        "leadersAvailableToday": 96,
+        "today": 1509,
+        "t1": 593,
+        "t2": 559,
+        "t3": 512,
+        "t4": 496,
+        "t5": 463,
+        "t6": 399,
+        "t7": 362
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -16282,10 +16270,6 @@
           "value": 2
         },
         {
-          "name": "Rashi Gaur",
-          "value": 2
-        },
-        {
           "name": "Arjun Aiyar",
           "value": 1
         },
@@ -16388,13 +16372,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 559,
-        "t1": 525,
-        "t2": 481,
-        "t3": 462,
-        "t4": 429,
-        "t5": 372,
-        "t6": null,
+        "today": 593,
+        "t1": 559,
+        "t2": 512,
+        "t3": 496,
+        "t4": 463,
+        "t5": 399,
+        "t6": 362,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -16414,8 +16398,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 73,
-        "sessionAchieved": 49,
-        "phasingTarget": 132,
+        "sessionAchieved": 58,
+        "phasingTarget": 129,
         "phasingAchieved": null
       },
       "offline": {
@@ -16496,10 +16480,6 @@
         },
         {
           "name": "Sandy Chana",
-          "value": 2
-        },
-        {
-          "name": "Rashi Gaur",
           "value": 2
         },
         {
@@ -16605,12 +16585,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 525,
-        "t1": 481,
-        "t2": 462,
-        "t3": 429,
-        "t4": 372,
-        "t5": null,
+        "today": 559,
+        "t1": 512,
+        "t2": 496,
+        "t3": 463,
+        "t4": 399,
+        "t5": 362,
         "t6": null,
         "t7": null
       },
@@ -16632,7 +16612,7 @@
         "sessions": 8,
         "sessionTarget": 60,
         "sessionAchieved": 3,
-        "phasingTarget": 205,
+        "phasingTarget": 202,
         "phasingAchieved": null
       },
       "offline": {
@@ -16717,10 +16697,6 @@
         },
         {
           "name": "Dr. Vineet Aggarwal",
-          "value": 2
-        },
-        {
-          "name": "Rashi Gaur",
           "value": 2
         },
         {
@@ -16846,11 +16822,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 481,
-        "t1": 462,
-        "t2": 429,
-        "t3": 372,
-        "t4": null,
+        "today": 512,
+        "t1": 496,
+        "t2": 463,
+        "t3": 399,
+        "t4": 362,
         "t5": null,
         "t6": null,
         "t7": null
@@ -16870,10 +16846,10 @@
       "dayName": "Thursday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 72,
+        "sessions": 5,
+        "sessionTarget": 64,
         "sessionAchieved": 11,
-        "phasingTarget": 207,
+        "phasingTarget": 205,
         "phasingAchieved": null
       },
       "offline": {
@@ -16930,10 +16906,6 @@
         },
         {
           "name": "Dr. Vineet Aggarwal",
-          "value": 3
-        },
-        {
-          "name": "Rashi Gaur",
           "value": 3
         },
         {
@@ -17063,10 +17035,6 @@
           "value": 10
         },
         {
-          "name": "Rashi Gaur",
-          "value": 8
-        },
-        {
           "name": "Shreya Singh",
           "value": 8
         },
@@ -17083,10 +17051,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 462,
-        "t1": 429,
-        "t2": 372,
-        "t3": null,
+        "today": 496,
+        "t1": 463,
+        "t2": 399,
+        "t3": 362,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -17109,7 +17077,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 603,
-        "sessionAchieved": 35,
+        "sessionAchieved": 39,
         "phasingTarget": 223,
         "phasingAchieved": null
       },
@@ -17316,9 +17284,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 429,
-        "t1": 372,
-        "t2": null,
+        "today": 463,
+        "t1": 399,
+        "t2": 362,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -17342,14 +17310,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 64,
-        "sessionAchieved": 239,
+        "sessionAchieved": 241,
         "phasingTarget": 165,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 236,
+        "sessionAchieved": 238,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -17581,8 +17549,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 372,
-        "t1": null,
+        "today": 399,
+        "t1": 362,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -17802,7 +17770,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 362,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -17828,7 +17796,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 70,
-        "sessionAchieved": 3,
+        "sessionAchieved": 4,
         "phasingTarget": 153,
         "phasingAchieved": null
       },
@@ -21559,14 +21527,14 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 32,
+        "sessionAchieved": 34,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 32,
+        "sessionAchieved": 34,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -35540,11 +35508,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 5,
       "phasingDays": 3,
-      "pctVsTarget": 30.0,
-      "revenueAchieved": 3009,
-      "pctRevenueVsTarget": 35.0
+      "pctVsTarget": 50.0,
+      "revenueAchieved": 5015,
+      "pctRevenueVsTarget": 59.0
     },
     {
       "leader": "Akanksha Walia",
@@ -35571,11 +35539,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 9,
       "phasingDays": 6,
-      "pctVsTarget": 88.0,
-      "revenueAchieved": 6226,
-      "pctRevenueVsTarget": 101.0
+      "pctVsTarget": 113.0,
+      "revenueAchieved": 8044,
+      "pctRevenueVsTarget": 131.0
     },
     {
       "leader": "Jyoti Soni",
@@ -36067,11 +36035,11 @@
         "d1": 10,
         "d0": 17
       },
-      "totalRegistrations": 49,
+      "totalRegistrations": 58,
       "phasingDays": 3,
-      "pctVsTarget": 98.0,
-      "revenueAchieved": 49026,
-      "pctRevenueVsTarget": 115.0
+      "pctVsTarget": 116.0,
+      "revenueAchieved": 58054,
+      "pctRevenueVsTarget": 137.0
     },
     {
       "leader": "Preethi Balan",
@@ -36501,11 +36469,11 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 35,
+      "totalRegistrations": 39,
       "phasingDays": 10,
-      "pctVsTarget": 6.0,
-      "revenueAchieved": 36876,
-      "pctRevenueVsTarget": 7.0
+      "pctVsTarget": 7.0,
+      "revenueAchieved": 41115,
+      "pctRevenueVsTarget": 8.0
     },
     {
       "leader": "Ruchika Uppal",
@@ -37152,11 +37120,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 1003,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Akanksha Walia",
