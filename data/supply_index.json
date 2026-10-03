@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T12:21:46Z",
+  "lastUpdated": "2026-10-03T17:06:38Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -15113,7 +15113,7 @@
         "sessions": 6,
         "sessionTarget": 57,
         "sessionAchieved": 11,
-        "phasingTarget": 205,
+        "phasingTarget": 204,
         "phasingAchieved": 191
       },
       "offline": {
@@ -15194,10 +15194,6 @@
         },
         {
           "name": "Debanjan Medhi",
-          "value": 1
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
           "value": 1
         },
         {
@@ -15330,7 +15326,7 @@
         "sessions": 5,
         "sessionTarget": 704,
         "sessionAchieved": 596,
-        "phasingTarget": 200,
+        "phasingTarget": 199,
         "phasingAchieved": 253
       },
       "offline": {
@@ -15400,10 +15396,6 @@
         {
           "name": "Akanksha Walia",
           "value": 2
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
-          "value": 1
         },
         {
           "name": "Arpana Khanna",
@@ -15543,7 +15535,7 @@
         "sessions": 8,
         "sessionTarget": 56,
         "sessionAchieved": 35,
-        "phasingTarget": 103,
+        "phasingTarget": 101,
         "phasingAchieved": 98
       },
       "offline": {
@@ -15596,10 +15588,6 @@
         },
         {
           "name": "Devina Fogla",
-          "value": 2
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
           "value": 2
         },
         {
@@ -15776,7 +15764,7 @@
         "sessions": 3,
         "sessionTarget": 78,
         "sessionAchieved": 98,
-        "phasingTarget": 100,
+        "phasingTarget": 97,
         "phasingAchieved": null
       },
       "offline": {
@@ -15810,10 +15798,6 @@
         {
           "name": "Devina Fogla",
           "value": 4
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
-          "value": 3
         },
         {
           "name": "Jyoti Soni",
@@ -15974,10 +15958,10 @@
       "dayName": "Sunday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 41,
-        "sessionAchieved": 12,
-        "phasingTarget": 116,
+        "sessions": 5,
+        "sessionTarget": 31,
+        "sessionAchieved": 13,
+        "phasingTarget": 113,
         "phasingAchieved": null
       },
       "offline": {
@@ -16007,10 +15991,6 @@
         {
           "name": "Disha Sharma",
           "value": 4
-        },
-        {
-          "name": "Devi Nidhi Saraswat",
-          "value": 3
         },
         {
           "name": "Arpana Khanna",
@@ -16151,10 +16131,6 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Devi Nidhi Saraswat",
-          "value": 10
-        },
-        {
           "name": "Akanksha Walia",
           "value": 8
         },
@@ -16205,7 +16181,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 53,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 124,
         "phasingAchieved": null
       },
@@ -17133,7 +17109,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 603,
-        "sessionAchieved": 34,
+        "sessionAchieved": 35,
         "phasingTarget": 223,
         "phasingAchieved": null
       },
@@ -17366,14 +17342,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 64,
-        "sessionAchieved": 238,
+        "sessionAchieved": 239,
         "phasingTarget": 165,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 235,
+        "sessionAchieved": 236,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -17631,7 +17607,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 288,
-        "sessionAchieved": 10,
+        "sessionAchieved": 11,
         "phasingTarget": 174,
         "phasingAchieved": null
       },
@@ -18507,7 +18483,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 118,
-        "sessionAchieved": 8,
+        "sessionAchieved": 9,
         "phasingTarget": 149,
         "phasingAchieved": null
       },
@@ -19473,7 +19449,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 721,
-        "sessionAchieved": 15,
+        "sessionAchieved": 16,
         "phasingTarget": 279,
         "phasingAchieved": null
       },
@@ -21583,14 +21559,14 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 31,
+        "sessionAchieved": 32,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 31,
+        "sessionAchieved": 32,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -35571,37 +35547,6 @@
       "pctRevenueVsTarget": 35.0
     },
     {
-      "leader": "Devi Nidhi Saraswat",
-      "target": 10,
-      "price": 592,
-      "revenueTarget": 5920,
-      "courseInstanceId": "8176",
-      "courseId": "1916",
-      "date": "2026-10-04",
-      "time": "17:00",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Divine Protection from Bhagavat Katha",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 2,
-        "d1": 3,
-        "d0": 3
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Akanksha Walia",
       "target": 8,
       "price": 770,
@@ -35626,11 +35571,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 7,
       "phasingDays": 6,
-      "pctVsTarget": 75.0,
-      "revenueAchieved": 5317,
-      "pctRevenueVsTarget": 86.0
+      "pctVsTarget": 88.0,
+      "revenueAchieved": 6226,
+      "pctRevenueVsTarget": 101.0
     },
     {
       "leader": "Jyoti Soni",
@@ -35781,11 +35726,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 3,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 909,
-      "pctRevenueVsTarget": 12.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 1818,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Arpana Khanna",
@@ -36587,10 +36532,10 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 34,
+      "totalRegistrations": 35,
       "phasingDays": 10,
       "pctVsTarget": 6.0,
-      "revenueAchieved": 35817,
+      "revenueAchieved": 36876,
       "pctRevenueVsTarget": 7.0
     },
     {
@@ -37052,11 +36997,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 5,
       "pctVsTarget": 5.0,
-      "revenueAchieved": 9027,
-      "pctRevenueVsTarget": 5.0
+      "revenueAchieved": 10030,
+      "pctRevenueVsTarget": 6.0
     },
     {
       "leader": "Amrita Shah",
@@ -38044,11 +37989,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 100.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Bansari Nagda",
@@ -38850,11 +38795,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 15,
+      "totalRegistrations": 16,
       "phasingDays": 10,
       "pctVsTarget": 2.0,
-      "revenueAchieved": 19893,
-      "pctRevenueVsTarget": 2.0
+      "revenueAchieved": 21238,
+      "pctRevenueVsTarget": 3.0
     },
     {
       "leader": "Smita Venkatesh",
