@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T17:06:38Z",
+  "lastUpdated": "2026-10-03T20:50:27Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -15765,18 +15765,18 @@
         "sessionTarget": 78,
         "sessionAchieved": 98,
         "phasingTarget": 97,
-        "phasingAchieved": null
+        "phasingAchieved": 25
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 21
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 5
       },
       "groupLeaderPhasingTargets": [
         {
@@ -15945,8 +15945,8 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 2,
+      "pctSlotsFilledToday": 0.12,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -36382,37 +36382,6 @@
       "pctVsTarget": 10.0,
       "revenueAchieved": 909,
       "pctRevenueVsTarget": 12.0
-    },
-    {
-      "leader": "Rashi Gaur",
-      "target": 8,
-      "price": 1020,
-      "revenueTarget": 8160,
-      "courseInstanceId": "8215",
-      "courseId": "1655",
-      "date": "2026-10-08",
-      "time": "19:30",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Master Your Numerology",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 1,
-        "d5": 1,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 2,
-        "d0": 3
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Shreya Singh",
