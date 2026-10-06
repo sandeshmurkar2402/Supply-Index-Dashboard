@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T09:55:50Z",
+  "lastUpdated": "2026-10-06T16:37:33Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -15687,10 +15687,6 @@
           "value": 1
         },
         {
-          "name": "Preethi Balan",
-          "value": 1
-        },
-        {
           "name": "Shilpa Goel",
           "value": 1
         }
@@ -15892,10 +15888,6 @@
           "value": 1
         },
         {
-          "name": "Preethi Balan",
-          "value": 1
-        },
-        {
           "name": "Shilpa Goel",
           "value": 1
         },
@@ -16082,10 +16074,6 @@
         },
         {
           "name": "Bhupali Deore",
-          "value": 1
-        },
-        {
-          "name": "Preethi Balan",
           "value": 1
         },
         {
@@ -16290,10 +16278,6 @@
           "value": 1
         },
         {
-          "name": "Preethi Balan",
-          "value": 1
-        },
-        {
           "name": "Shilpa Goel",
           "value": 1
         },
@@ -16386,7 +16370,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 73,
-        "sessionAchieved": 102,
+        "sessionAchieved": 113,
         "phasingTarget": 127,
         "phasingAchieved": null
       },
@@ -16503,10 +16487,6 @@
           "value": 1
         },
         {
-          "name": "Preethi Balan",
-          "value": 1
-        },
-        {
           "name": "Shilpa Goel",
           "value": 1
         },
@@ -16593,9 +16573,9 @@
       "dayName": "Wednesday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 52,
-        "sessionAchieved": 11,
+        "sessions": 6,
+        "sessionTarget": 51,
+        "sessionAchieved": 10,
         "phasingTarget": 200,
         "phasingAchieved": null
       },
@@ -16708,10 +16688,6 @@
           "value": 1
         },
         {
-          "name": "Preethi Balan",
-          "value": 1
-        },
-        {
           "name": "Shilpa Goel",
           "value": 1
         },
@@ -16765,10 +16741,6 @@
         }
       ],
       "groupLeaderTargets": [
-        {
-          "name": "Preethi Balan",
-          "value": 1
-        },
         {
           "name": "Shilpa Goel",
           "value": 1
@@ -17535,7 +17507,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 288,
-        "sessionAchieved": 29,
+        "sessionAchieved": 32,
         "phasingTarget": 172,
         "phasingAchieved": null
       },
@@ -18198,7 +18170,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 97,
-        "sessionAchieved": 2,
+        "sessionAchieved": 3,
         "phasingTarget": 170,
         "phasingAchieved": null
       },
@@ -19758,7 +19730,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 622,
-        "sessionAchieved": 10,
+        "sessionAchieved": 11,
         "phasingTarget": 183,
         "phasingAchieved": null
       },
@@ -35986,42 +35958,11 @@
         "d1": 10,
         "d0": 17
       },
-      "totalRegistrations": 101,
+      "totalRegistrations": 112,
       "phasingDays": 3,
-      "pctVsTarget": 202.0,
-      "revenueAchieved": 100296,
-      "pctRevenueVsTarget": 236.0
-    },
-    {
-      "leader": "Preethi Balan",
-      "target": 1,
-      "price": 770,
-      "revenueTarget": 770,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-10-07",
-      "time": "17:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Mindful eating",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 224.0,
+      "revenueAchieved": 111321,
+      "pctRevenueVsTarget": 262.0
     },
     {
       "leader": "Shilpa Goel",
@@ -36854,11 +36795,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 27,
+      "totalRegistrations": 30,
       "phasingDays": 5,
-      "pctVsTarget": 14.0,
-      "revenueAchieved": 27081,
-      "pctRevenueVsTarget": 16.0
+      "pctVsTarget": 15.0,
+      "revenueAchieved": 30090,
+      "pctRevenueVsTarget": 18.0
     },
     {
       "leader": "Amrita Shah",
@@ -38776,10 +38717,10 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 10,
       "pctVsTarget": 2.0,
-      "revenueAchieved": 8497,
+      "revenueAchieved": 9558,
       "pctRevenueVsTarget": 2.0
     },
     {
@@ -38997,37 +38938,6 @@
       "phasingDays": 4,
       "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Swapnil Gawde",
-      "target": 20,
-      "price": 770,
-      "revenueTarget": 15400,
-      "courseInstanceId": "8255",
-      "courseId": "1886",
-      "date": "2026-10-24",
-      "time": "21:00",
-      "campaign": "Biz Boost",
-      "leaderTagging": "ASC Course Bets",
-      "language": "English",
-      "topic": "Online Sound Bath",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 1,
-        "d5": 1,
-        "d4": 1,
-        "d3": 3,
-        "d2": 3,
-        "d1": 4,
-        "d0": 7
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39569,7 +39479,7 @@
       "campaign": "Do Not Market",
       "leaderTagging": "",
       "language": "English",
-      "topic": "TBC",
+      "topic": "Mudras",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
