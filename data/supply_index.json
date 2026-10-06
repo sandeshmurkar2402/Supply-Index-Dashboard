@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T16:37:33Z",
+  "lastUpdated": "2026-10-06T21:29:56Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -16372,18 +16372,18 @@
         "sessionTarget": 73,
         "sessionAchieved": 113,
         "phasingTarget": 127,
-        "phasingAchieved": null
+        "phasingAchieved": 8
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 31
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "groupLeaderPhasingTargets": [
         {
@@ -16561,11 +16561,11 @@
       "categoryBreakdown": [],
       "topLeaderSlots": [],
       "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 55,
+        "slotsAvailable": 32,
+        "pctSlotsAvailable": 58.0
       }
     },
     {
@@ -18899,10 +18899,6 @@
           "value": 2
         },
         {
-          "name": "Swapnil Gawde",
-          "value": 2
-        },
-        {
           "name": "Ved Prakash",
           "value": 2
         },
@@ -19072,10 +19068,6 @@
           "value": 2
         },
         {
-          "name": "Swapnil Gawde",
-          "value": 2
-        },
-        {
           "name": "Ved Prakash",
           "value": 2
         },
@@ -19237,10 +19229,6 @@
           "value": 2
         },
         {
-          "name": "Swapnil Gawde",
-          "value": 2
-        },
-        {
           "name": "Akanksha Walia",
           "value": 1
         },
@@ -19374,10 +19362,6 @@
         },
         {
           "name": "Sukhmani Bajwa",
-          "value": 3
-        },
-        {
-          "name": "Swapnil Gawde",
           "value": 3
         },
         {
@@ -19518,7 +19502,7 @@
         "sessions": 7,
         "sessionTarget": 94,
         "sessionAchieved": 3,
-        "phasingTarget": 173,
+        "phasingTarget": 167,
         "phasingAchieved": null
       },
       "offline": {
@@ -19567,10 +19551,6 @@
         },
         {
           "name": "Bhairavi Mehta",
-          "value": 3
-        },
-        {
-          "name": "Swapnil Gawde",
           "value": 3
         },
         {
@@ -19731,7 +19711,7 @@
         "sessions": 7,
         "sessionTarget": 622,
         "sessionAchieved": 11,
-        "phasingTarget": 183,
+        "phasingTarget": 175,
         "phasingAchieved": null
       },
       "offline": {
@@ -19765,10 +19745,6 @@
         {
           "name": "Amrita Shah",
           "value": 7
-        },
-        {
-          "name": "Swapnil Gawde",
-          "value": 4
         },
         {
           "name": "Shweta Chatterjee",
@@ -19929,10 +19905,10 @@
       "dayName": "Saturday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 80,
+        "sessions": 5,
+        "sessionTarget": 60,
         "sessionAchieved": 4,
-        "phasingTarget": 94,
+        "phasingTarget": 88,
         "phasingAchieved": null
       },
       "offline": {
@@ -19958,10 +19934,6 @@
         {
           "name": "Susitha Pappiah",
           "value": 9
-        },
-        {
-          "name": "Swapnil Gawde",
-          "value": 7
         },
         {
           "name": "Amrita Shah",
@@ -20056,10 +20028,6 @@
         {
           "name": "Susitha Pappiah",
           "value": 30
-        },
-        {
-          "name": "Swapnil Gawde",
-          "value": 20
         },
         {
           "name": "Rooppreet Caur",
