@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T08:43:08Z",
+  "lastUpdated": "2026-10-09T15:58:21Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -17025,8 +17025,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 604,
-        "sessionAchieved": 163,
-        "phasingTarget": 222,
+        "sessionAchieved": 181,
+        "phasingTarget": 220,
         "phasingAchieved": null
       },
       "offline": {
@@ -17095,10 +17095,6 @@
         },
         {
           "name": "Shweta Chatterjee",
-          "value": 2
-        },
-        {
-          "name": "Rhea Mathew",
           "value": 2
         },
         {
@@ -17254,14 +17250,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 62,
-        "sessionAchieved": 351,
-        "phasingTarget": 163,
+        "sessionAchieved": 360,
+        "phasingTarget": 161,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 345,
+        "sessionAchieved": 351,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -17328,10 +17324,6 @@
         },
         {
           "name": "Dr. Mitali Jaiswal",
-          "value": 2
-        },
-        {
-          "name": "Rhea Mathew",
           "value": 2
         },
         {
@@ -17507,8 +17499,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 288,
-        "sessionAchieved": 61,
-        "phasingTarget": 171,
+        "sessionAchieved": 65,
+        "phasingTarget": 166,
         "phasingAchieved": null
       },
       "offline": {
@@ -17550,10 +17542,6 @@
         {
           "name": "Vidhi Agarwal",
           "value": 6
-        },
-        {
-          "name": "Rhea Mathew",
-          "value": 5
         },
         {
           "name": "Dr. Vineet Aggarwal",
@@ -17718,10 +17706,10 @@
       "dayName": "Monday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 10,
-        "sessionTarget": 70,
-        "sessionAchieved": 15,
-        "phasingTarget": 149,
+        "sessions": 9,
+        "sessionTarget": 58,
+        "sessionAchieved": 17,
+        "phasingTarget": 145,
         "phasingAchieved": null
       },
       "offline": {
@@ -17759,10 +17747,6 @@
         {
           "name": "Vidhi Agarwal",
           "value": 6
-        },
-        {
-          "name": "Rhea Mathew",
-          "value": 4
         },
         {
           "name": "Meheck Mukherjee",
@@ -17919,10 +17903,6 @@
           "value": 10
         },
         {
-          "name": "Rhea Mathew",
-          "value": 12
-        },
-        {
           "name": "Ved Prakash",
           "value": 25
         }
@@ -17957,7 +17937,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 225,
-        "sessionAchieved": 139,
+        "sessionAchieved": 152,
         "phasingTarget": 142,
         "phasingAchieved": null
       },
@@ -18162,7 +18142,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 97,
-        "sessionAchieved": 17,
+        "sessionAchieved": 20,
         "phasingTarget": 167,
         "phasingAchieved": null
       },
@@ -18536,7 +18516,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 152,
-        "sessionAchieved": 20,
+        "sessionAchieved": 22,
         "phasingTarget": 144,
         "phasingAchieved": null
       },
@@ -18702,8 +18682,8 @@
         "phasingAchieved": null
       },
       "offline": {
-        "sessions": 2,
-        "sessionTarget": 100,
+        "sessions": 1,
+        "sessionTarget": 50,
         "sessionAchieved": 2,
         "phasingTarget": 0,
         "phasingAchieved": null
@@ -18825,10 +18805,6 @@
         },
         {
           "name": "Ritika & Mrinal",
-          "value": 50
-        },
-        {
-          "name": "Immersive Sound Experience",
           "value": 50
         },
         {
@@ -21719,14 +21695,14 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 46,
+        "sessionAchieved": 47,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 46,
+        "sessionAchieved": 47,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -36723,11 +36699,11 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 158,
+      "totalRegistrations": 176,
       "phasingDays": 10,
-      "pctVsTarget": 26.0,
-      "revenueAchieved": 167281,
-      "pctRevenueVsTarget": 31.0
+      "pctVsTarget": 29.0,
+      "revenueAchieved": 186377,
+      "pctRevenueVsTarget": 35.0
     },
     {
       "leader": "Kajal Thakkar",
@@ -36971,11 +36947,11 @@
         "d1": 6,
         "d0": 5
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 4,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 909,
-      "pctRevenueVsTarget": 8.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 1818,
+      "pctRevenueVsTarget": 16.0
     },
     {
       "leader": "Amairaah Kishnani",
@@ -37033,11 +37009,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 6,
       "phasingDays": 6,
-      "pctVsTarget": 2.0,
-      "revenueAchieved": 45655,
-      "pctRevenueVsTarget": 4.0
+      "pctVsTarget": 1.0,
+      "revenueAchieved": 24417,
+      "pctRevenueVsTarget": 2.0
     },
     {
       "leader": "Arpita Thakkar",
@@ -37064,11 +37040,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 3,
       "phasingDays": 5,
-      "pctVsTarget": 11.0,
-      "revenueAchieved": 9,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 33.0,
+      "revenueAchieved": 2015,
+      "pctRevenueVsTarget": 26.0
     },
     {
       "leader": "Shreya Singh",
@@ -37219,11 +37195,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 48,
+      "totalRegistrations": 52,
       "phasingDays": 5,
-      "pctVsTarget": 24.0,
-      "revenueAchieved": 48144,
-      "pctRevenueVsTarget": 28.0
+      "pctVsTarget": 26.0,
+      "revenueAchieved": 52156,
+      "pctRevenueVsTarget": 31.0
     },
     {
       "leader": "Deepa Shetty",
@@ -37405,11 +37381,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 5,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 1818,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 38.0,
+      "revenueAchieved": 2727,
+      "pctRevenueVsTarget": 44.0
     },
     {
       "leader": "Dr. Mitali Jaiswal",
@@ -37474,37 +37450,6 @@
       "pctRevenueVsTarget": 12.0
     },
     {
-      "leader": "Rhea Mathew",
-      "target": 12,
-      "price": 592,
-      "revenueTarget": 7104,
-      "courseInstanceId": "8286",
-      "courseId": "984",
-      "date": "2026-10-12",
-      "time": "08:30",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Gut health Breathwork",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 2,
-        "d2": 2,
-        "d1": 5,
-        "d0": 4
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Ved Prakash",
       "target": 25,
       "price": 677,
@@ -37529,11 +37474,11 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 8,
+      "totalRegistrations": 9,
       "phasingDays": 5,
-      "pctVsTarget": 32.0,
-      "revenueAchieved": 6392,
-      "pctRevenueVsTarget": 38.0
+      "pctVsTarget": 36.0,
+      "revenueAchieved": 7191,
+      "pctRevenueVsTarget": 42.0
     },
     {
       "leader": "Ashwini Bhave",
@@ -37715,11 +37660,11 @@
         "d1": 33,
         "d0": 33
       },
-      "totalRegistrations": 137,
+      "totalRegistrations": 150,
       "phasingDays": 10,
-      "pctVsTarget": 69.0,
-      "revenueAchieved": 124426,
-      "pctRevenueVsTarget": 81.0
+      "pctVsTarget": 75.0,
+      "revenueAchieved": 136243,
+      "pctRevenueVsTarget": 88.0
     },
     {
       "leader": "Jyotismita Das",
@@ -37932,11 +37877,11 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": 15,
+      "totalRegistrations": 18,
       "phasingDays": 10,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 22575,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 24.0,
+      "revenueAchieved": 27090,
+      "pctRevenueVsTarget": 28.0
     },
     {
       "leader": "Bansari Nagda",
@@ -38242,11 +38187,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 20,
+      "totalRegistrations": 22,
       "phasingDays": 10,
-      "pctVsTarget": 16.0,
-      "revenueAchieved": 20060,
-      "pctRevenueVsTarget": 19.0
+      "pctVsTarget": 18.0,
+      "revenueAchieved": 22066,
+      "pctRevenueVsTarget": 21.0
     },
     {
       "leader": "Meher Gehi",
@@ -38402,37 +38347,6 @@
       "pctVsTarget": 2.0,
       "revenueAchieved": 2005,
       "pctRevenueVsTarget": 2.0
-    },
-    {
-      "leader": "Immersive Sound Experience",
-      "target": 50,
-      "price": 2150,
-      "revenueTarget": 107500,
-      "courseInstanceId": "8430",
-      "courseId": "1950",
-      "date": "2026-10-17",
-      "time": "17:00",
-      "campaign": "OFFLINE",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "OFFLINE",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 50,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": 1,
-      "phasingDays": 6,
-      "pctVsTarget": 2.0,
-      "revenueAchieved": 19,
-      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Damini Grover",
