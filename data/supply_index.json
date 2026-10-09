@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T21:53:33Z",
+  "lastUpdated": "2026-10-09T01:52:02Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -16812,7 +16812,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 64,
-        "sessionAchieved": 39,
+        "sessionAchieved": 41,
         "phasingTarget": 205,
         "phasingAchieved": 15
       },
@@ -16821,7 +16821,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": 27
+        "phasingAchieved": 28
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -17041,7 +17041,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 604,
-        "sessionAchieved": 135,
+        "sessionAchieved": 149,
         "phasingTarget": 222,
         "phasingAchieved": null
       },
@@ -17274,14 +17274,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 63,
-        "sessionAchieved": 335,
+        "sessionAchieved": 341,
         "phasingTarget": 163,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 330,
+        "sessionAchieved": 335,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -17535,7 +17535,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 288,
-        "sessionAchieved": 57,
+        "sessionAchieved": 58,
         "phasingTarget": 172,
         "phasingAchieved": null
       },
@@ -17752,7 +17752,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 70,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 150,
         "phasingAchieved": null
       },
@@ -17993,7 +17993,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 225,
-        "sessionAchieved": 102,
+        "sessionAchieved": 114,
         "phasingTarget": 144,
         "phasingAchieved": null
       },
@@ -18202,7 +18202,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 97,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 170,
         "phasingAchieved": null
       },
@@ -18588,7 +18588,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 152,
-        "sessionAchieved": 18,
+        "sessionAchieved": 20,
         "phasingTarget": 144,
         "phasingAchieved": null
       },
@@ -37116,10 +37116,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 313,
+      "totalRegistrations": 314,
       "phasingDays": 6,
       "pctVsTarget": 76.0,
-      "revenueAchieved": 1945951,
+      "revenueAchieved": 1948310,
       "pctRevenueVsTarget": 189.0
     },
     {
@@ -37798,11 +37798,11 @@
         "d1": 33,
         "d0": 33
       },
-      "totalRegistrations": 112,
+      "totalRegistrations": 114,
       "phasingDays": 10,
-      "pctVsTarget": 56.0,
-      "revenueAchieved": 101701,
-      "pctRevenueVsTarget": 66.0
+      "pctVsTarget": 57.0,
+      "revenueAchieved": 103519,
+      "pctRevenueVsTarget": 67.0
     },
     {
       "leader": "Jyotismita Das",
