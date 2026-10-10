@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T06:50:31Z",
+  "lastUpdated": "2026-10-10T13:26:22Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -17250,14 +17250,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 62,
-        "sessionAchieved": 390,
+        "sessionAchieved": 392,
         "phasingTarget": 161,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 462,
-        "sessionAchieved": 375,
+        "sessionAchieved": 377,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -17937,7 +17937,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 225,
-        "sessionAchieved": 158,
+        "sessionAchieved": 164,
         "phasingTarget": 142,
         "phasingAchieved": null
       },
@@ -18343,7 +18343,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 108,
-        "sessionAchieved": 18,
+        "sessionAchieved": 19,
         "phasingTarget": 154,
         "phasingAchieved": null
       },
@@ -18516,7 +18516,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 152,
-        "sessionAchieved": 25,
+        "sessionAchieved": 26,
         "phasingTarget": 144,
         "phasingAchieved": null
       },
@@ -19767,7 +19767,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 622,
-        "sessionAchieved": 15,
+        "sessionAchieved": 16,
         "phasingTarget": 184,
         "phasingAchieved": null
       },
@@ -21007,14 +21007,14 @@
       "groupOnline": {
         "sessions": 2,
         "sessionTarget": 16,
-        "sessionAchieved": 11,
+        "sessionAchieved": 12,
         "phasingTarget": 5,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 478,
-        "sessionAchieved": 11,
+        "sessionAchieved": 12,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -36892,37 +36892,6 @@
       "pctRevenueVsTarget": 12.0
     },
     {
-      "leader": "Gurprriet Kaur",
-      "target": 10,
-      "price": 850,
-      "revenueTarget": 8500,
-      "courseInstanceId": "8915",
-      "courseId": "1958",
-      "date": "2026-10-10",
-      "time": "18:00",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Navgraha Alignement with Devi’s Blessings",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 2,
-        "d1": 3,
-        "d0": 3
-      },
-      "totalRegistrations": 1,
-      "phasingDays": 5,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 1003,
-      "pctRevenueVsTarget": 12.0
-    },
-    {
       "leader": "Gunjan Adya",
       "target": 15,
       "price": 770,
@@ -37009,11 +36978,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 351,
+      "totalRegistrations": 355,
       "phasingDays": 6,
-      "pctVsTarget": 85.0,
-      "revenueAchieved": 2140153,
-      "pctRevenueVsTarget": 208.0
+      "pctVsTarget": 86.0,
+      "revenueAchieved": 2161389,
+      "pctRevenueVsTarget": 210.0
     },
     {
       "leader": "Arpita Thakkar",
@@ -37195,10 +37164,10 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 62,
+      "totalRegistrations": 63,
       "phasingDays": 5,
-      "pctVsTarget": 31.0,
-      "revenueAchieved": 62186,
+      "pctVsTarget": 32.0,
+      "revenueAchieved": 63189,
       "pctRevenueVsTarget": 37.0
     },
     {
@@ -37660,11 +37629,11 @@
         "d1": 33,
         "d0": 33
       },
-      "totalRegistrations": 156,
+      "totalRegistrations": 165,
       "phasingDays": 10,
-      "pctVsTarget": 78.0,
-      "revenueAchieved": 141708,
-      "pctRevenueVsTarget": 92.0
+      "pctVsTarget": 83.0,
+      "revenueAchieved": 149889,
+      "pctRevenueVsTarget": 97.0
     },
     {
       "leader": "Jyotismita Das",
@@ -38063,11 +38032,11 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": 16,
+      "totalRegistrations": 17,
       "phasingDays": 10,
-      "pctVsTarget": 21.0,
-      "revenueAchieved": 12876,
-      "pctRevenueVsTarget": 22.0
+      "pctVsTarget": 23.0,
+      "revenueAchieved": 13785,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Chaittali",
@@ -38187,11 +38156,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 25,
+      "totalRegistrations": 26,
       "phasingDays": 10,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 25075,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 21.0,
+      "revenueAchieved": 26078,
+      "pctRevenueVsTarget": 25.0
     },
     {
       "leader": "Meher Gehi",
@@ -38717,7 +38686,7 @@
       "totalRegistrations": 20,
       "phasingDays": 10,
       "pctVsTarget": 3.0,
-      "revenueAchieved": 26655,
+      "revenueAchieved": 26665,
       "pctRevenueVsTarget": 3.0
     },
     {
@@ -39179,11 +39148,11 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 13,
+      "totalRegistrations": 14,
       "phasingDays": 10,
       "pctVsTarget": 2.0,
-      "revenueAchieved": 12741,
-      "pctRevenueVsTarget": 2.0
+      "revenueAchieved": 13802,
+      "pctRevenueVsTarget": 3.0
     },
     {
       "leader": "Supriya Chhabra",
@@ -40419,10 +40388,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 11,
+      "totalRegistrations": 13,
       "phasingDays": 6,
       "pctVsTarget": 3.0,
-      "revenueAchieved": 54867,
+      "revenueAchieved": 60767,
       "pctRevenueVsTarget": 6.0
     },
     {
