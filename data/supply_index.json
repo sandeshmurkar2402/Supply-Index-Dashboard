@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T22:20:51Z",
+  "lastUpdated": "2026-10-11T01:42:35Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -16141,7 +16141,7 @@
       "slotsFilledToday": 12,
       "pctSlotsFilledToday": 0.8,
       "pageViews": {
-        "total1on1": 751,
+        "total1on1": 750,
         "slotsAvailable": 580,
         "pctSlotsAvailable": 77.0
       }
@@ -17222,8 +17222,8 @@
       "slotsFilledToday": 18,
       "pctSlotsFilledToday": 1.04,
       "pageViews": {
-        "total1on1": 744,
-        "slotsAvailable": 595,
+        "total1on1": 745,
+        "slotsAvailable": 597,
         "pctSlotsAvailable": 80.0
       }
     },
@@ -17234,7 +17234,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 52,
-        "sessionAchieved": 393,
+        "sessionAchieved": 395,
         "phasingTarget": 158,
         "phasingAchieved": 7
       },
@@ -17460,12 +17460,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": 1,
-      "pctSlotsFilledToday": 0.06,
+      "slotsFilledToday": 13,
+      "pctSlotsFilledToday": 0.79,
       "pageViews": {
-        "total1on1": 62,
-        "slotsAvailable": 47,
-        "pctSlotsAvailable": 76.0
+        "total1on1": 899,
+        "slotsAvailable": 664,
+        "pctSlotsAvailable": 74.0
       }
     },
     {
@@ -17475,7 +17475,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 288,
-        "sessionAchieved": 78,
+        "sessionAchieved": 86,
         "phasingTarget": 166,
         "phasingAchieved": null
       },
@@ -17656,16 +17656,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 592,
-        "t1": 586,
-        "t2": 617,
-        "t3": 614,
-        "t4": 557,
-        "t5": 498,
-        "t6": 469,
-        "t7": null
+        "leadersWithSlots": 118,
+        "leadersAvailableToday": 102,
+        "today": 1590,
+        "t1": 639,
+        "t2": 672,
+        "t3": 675,
+        "t4": 621,
+        "t5": 547,
+        "t6": 513,
+        "t7": 417
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -17684,7 +17684,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 58,
-        "sessionAchieved": 21,
+        "sessionAchieved": 25,
         "phasingTarget": 145,
         "phasingAchieved": null
       },
@@ -17887,13 +17887,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 586,
-        "t1": 617,
-        "t2": 614,
-        "t3": 557,
-        "t4": 498,
-        "t5": 469,
-        "t6": null,
+        "today": 639,
+        "t1": 672,
+        "t2": 675,
+        "t3": 621,
+        "t4": 547,
+        "t5": 513,
+        "t6": 417,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -17913,7 +17913,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 225,
-        "sessionAchieved": 167,
+        "sessionAchieved": 178,
         "phasingTarget": 142,
         "phasingAchieved": null
       },
@@ -18092,12 +18092,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 617,
-        "t1": 614,
-        "t2": 557,
-        "t3": 498,
-        "t4": 469,
-        "t5": null,
+        "today": 672,
+        "t1": 675,
+        "t2": 621,
+        "t3": 547,
+        "t4": 513,
+        "t5": 417,
         "t6": null,
         "t7": null
       },
@@ -18293,11 +18293,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 614,
-        "t1": 557,
-        "t2": 498,
-        "t3": 469,
-        "t4": null,
+        "today": 675,
+        "t1": 621,
+        "t2": 547,
+        "t3": 513,
+        "t4": 417,
         "t5": null,
         "t6": null,
         "t7": null
@@ -18319,7 +18319,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 108,
-        "sessionAchieved": 19,
+        "sessionAchieved": 21,
         "phasingTarget": 154,
         "phasingAchieved": null
       },
@@ -18466,10 +18466,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 557,
-        "t1": 498,
-        "t2": 469,
-        "t3": null,
+        "today": 621,
+        "t1": 547,
+        "t2": 513,
+        "t3": 417,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -18492,7 +18492,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 152,
-        "sessionAchieved": 26,
+        "sessionAchieved": 27,
         "phasingTarget": 144,
         "phasingAchieved": null
       },
@@ -18627,9 +18627,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 498,
-        "t1": 469,
-        "t2": null,
+        "today": 547,
+        "t1": 513,
+        "t2": 417,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -18792,8 +18792,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 469,
-        "t1": null,
+        "today": 513,
+        "t1": 417,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -18961,7 +18961,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 417,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -20983,14 +20983,14 @@
       "groupOnline": {
         "sessions": 2,
         "sessionTarget": 16,
-        "sessionAchieved": 13,
+        "sessionAchieved": 14,
         "phasingTarget": 5,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 478,
-        "sessionAchieved": 13,
+        "sessionAchieved": 14,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -22329,14 +22329,14 @@
       "groupOnline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -37140,11 +37140,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 66,
+      "totalRegistrations": 68,
       "phasingDays": 5,
-      "pctVsTarget": 33.0,
-      "revenueAchieved": 66198,
-      "pctRevenueVsTarget": 39.0
+      "pctVsTarget": 34.0,
+      "revenueAchieved": 68204,
+      "pctRevenueVsTarget": 40.0
     },
     {
       "leader": "Deepa Shetty",
@@ -37388,11 +37388,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 3,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 2006,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 30.0,
+      "revenueAchieved": 3009,
+      "pctRevenueVsTarget": 35.0
     },
     {
       "leader": "Ved Prakash",
