@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T12:45:16Z",
+  "lastUpdated": "2026-10-14T17:52:28Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18,7 +18,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 18,
-        "phasingAchieved": null
+        "phasingAchieved": 10
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -215,7 +215,7 @@
         "sessionTarget": 50,
         "sessionAchieved": 16,
         "phasingTarget": 18,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -457,7 +457,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -743,7 +743,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 6,
-        "phasingAchieved": null
+        "phasingAchieved": 7
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -977,7 +977,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 7,
-        "phasingAchieved": null
+        "phasingAchieved": 6
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -1267,7 +1267,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 7,
-        "phasingAchieved": null
+        "phasingAchieved": 9
       },
       "oneOnOne": {
         "phasingTarget": 20,
@@ -1553,7 +1553,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 7
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -1843,7 +1843,7 @@
         "sessionTarget": 20,
         "sessionAchieved": 9,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 5
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -2117,7 +2117,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 8,
-        "phasingAchieved": null
+        "phasingAchieved": 8
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -2395,7 +2395,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 11,
-        "phasingAchieved": null
+        "phasingAchieved": 17
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -2685,7 +2685,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 12,
-        "phasingAchieved": null
+        "phasingAchieved": 9
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -2967,7 +2967,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 12,
-        "phasingAchieved": null
+        "phasingAchieved": 12
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -3233,7 +3233,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 12,
-        "phasingAchieved": null
+        "phasingAchieved": 10
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -3483,7 +3483,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 19,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -3733,7 +3733,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 26,
-        "phasingAchieved": null
+        "phasingAchieved": 24
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -3995,7 +3995,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 26,
-        "phasingAchieved": null
+        "phasingAchieved": 21
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -4241,7 +4241,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 27,
-        "phasingAchieved": null
+        "phasingAchieved": 17
       },
       "oneOnOne": {
         "phasingTarget": 22,
@@ -4535,7 +4535,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 30,
-        "phasingAchieved": null
+        "phasingAchieved": 28
       },
       "oneOnOne": {
         "phasingTarget": 23,
@@ -4813,7 +4813,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 39,
-        "phasingAchieved": null
+        "phasingAchieved": 23
       },
       "oneOnOne": {
         "phasingTarget": 25,
@@ -5055,7 +5055,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 34,
-        "phasingAchieved": null
+        "phasingAchieved": 28
       },
       "oneOnOne": {
         "phasingTarget": 25,
@@ -5333,7 +5333,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 34,
-        "phasingAchieved": null
+        "phasingAchieved": 44
       },
       "oneOnOne": {
         "phasingTarget": 25,
@@ -5599,7 +5599,7 @@
         "sessionTarget": 310,
         "sessionAchieved": 218,
         "phasingTarget": 38,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": 25,
@@ -5845,7 +5845,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 1,
         "phasingTarget": 24,
-        "phasingAchieved": null
+        "phasingAchieved": 2
       },
       "oneOnOne": {
         "phasingTarget": 25,
@@ -6095,7 +6095,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 24,
-        "phasingAchieved": null
+        "phasingAchieved": 4
       },
       "oneOnOne": {
         "phasingTarget": 25,
@@ -6317,7 +6317,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 24,
-        "phasingAchieved": null
+        "phasingAchieved": 27
       },
       "oneOnOne": {
         "phasingTarget": 25,
@@ -6531,7 +6531,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 4,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": 26,
@@ -6753,7 +6753,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 5,
-        "phasingAchieved": null
+        "phasingAchieved": 20
       },
       "oneOnOne": {
         "phasingTarget": 26,
@@ -6983,7 +6983,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 5,
-        "phasingAchieved": null
+        "phasingAchieved": 24
       },
       "oneOnOne": {
         "phasingTarget": 26,
@@ -7193,7 +7193,7 @@
         "sessionTarget": 50,
         "sessionAchieved": 18,
         "phasingTarget": 5,
-        "phasingAchieved": null
+        "phasingAchieved": 29
       },
       "oneOnOne": {
         "phasingTarget": 29,
@@ -7399,7 +7399,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 3,
         "phasingTarget": 5,
-        "phasingAchieved": null
+        "phasingAchieved": 38
       },
       "oneOnOne": {
         "phasingTarget": 29,
@@ -7621,7 +7621,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 37
       },
       "oneOnOne": {
         "phasingTarget": 31,
@@ -7867,7 +7867,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 36
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -8101,7 +8101,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 32
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -8363,7 +8363,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 55
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -8621,7 +8621,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 41
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -8903,7 +8903,7 @@
         "sessionTarget": 75,
         "sessionAchieved": 48,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 48
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -9197,7 +9197,7 @@
         "sessionTarget": 300,
         "sessionAchieved": 146,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 42
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -9495,7 +9495,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 18
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -9789,7 +9789,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -10091,7 +10091,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -10385,7 +10385,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 29
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -10675,7 +10675,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 28
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -10917,7 +10917,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 27
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -11175,7 +11175,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 19
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -11433,7 +11433,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -11691,7 +11691,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 29
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -11937,7 +11937,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -12155,7 +12155,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 25
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -12417,7 +12417,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 14
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -12671,7 +12671,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -12905,7 +12905,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 31
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -13159,7 +13159,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 25
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -13401,7 +13401,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 32
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -13602,7 +13602,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 34
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -13835,7 +13835,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 18
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -14076,7 +14076,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 29
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -14261,7 +14261,7 @@
         "sessionTarget": 570,
         "sessionAchieved": 251,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 22
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -14486,7 +14486,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 14
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -14691,7 +14691,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 14
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -14892,7 +14892,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 15
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -15121,7 +15121,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 23
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -15338,7 +15338,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 20
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -15551,7 +15551,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 43
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -15776,7 +15776,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 22
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -15965,7 +15965,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 24
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -16182,7 +16182,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 34
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -16399,7 +16399,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 31
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -16592,7 +16592,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 44
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -16801,7 +16801,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 28
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -17018,7 +17018,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 38
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -17231,7 +17231,7 @@
         "sessionTarget": 462,
         "sessionAchieved": 372,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 31
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -17456,7 +17456,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -17661,7 +17661,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 9
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -17894,7 +17894,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 3
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -17967,10 +17967,6 @@
         },
         {
           "name": "Seemaa Dhingra",
-          "value": 1
-        },
-        {
-          "name": "Disha Sharma",
           "value": 1
         },
         {
@@ -18187,10 +18183,6 @@
           "value": 1
         },
         {
-          "name": "Disha Sharma",
-          "value": 1
-        },
-        {
           "name": "Bhairavi Mehta",
           "value": 1
         },
@@ -18396,10 +18388,6 @@
           "value": 1
         },
         {
-          "name": "Disha Sharma",
-          "value": 1
-        },
-        {
           "name": "Gunjan Adya",
           "value": 1
         },
@@ -18585,10 +18573,6 @@
           "value": 2
         },
         {
-          "name": "Disha Sharma",
-          "value": 2
-        },
-        {
           "name": "Bhairavi Mehta",
           "value": 2
         },
@@ -18702,7 +18686,7 @@
         "sessions": 8,
         "sessionTarget": 48,
         "sessionAchieved": 6,
-        "phasingTarget": 145,
+        "phasingTarget": 142,
         "phasingAchieved": null
       },
       "offline": {
@@ -18779,10 +18763,6 @@
         },
         {
           "name": "Krishnleela M. Patel",
-          "value": 2
-        },
-        {
-          "name": "Disha Sharma",
           "value": 2
         },
         {
@@ -18927,7 +18907,7 @@
         "sessions": 6,
         "sessionTarget": 34,
         "sessionAchieved": 1,
-        "phasingTarget": 163,
+        "phasingTarget": 159,
         "phasingAchieved": null
       },
       "offline": {
@@ -18988,10 +18968,6 @@
         },
         {
           "name": "Swati Ahluwalia",
-          "value": 3
-        },
-        {
-          "name": "Disha Sharma",
           "value": 3
         },
         {
@@ -19137,10 +19113,10 @@
       "dayName": "Monday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 6,
-        "sessionTarget": 51,
+        "sessions": 5,
+        "sessionTarget": 40,
         "sessionAchieved": 7,
-        "phasingTarget": 228,
+        "phasingTarget": 225,
         "phasingAchieved": null
       },
       "offline": {
@@ -19177,10 +19153,6 @@
         },
         {
           "name": "Krishnleela M. Patel",
-          "value": 4
-        },
-        {
-          "name": "Disha Sharma",
           "value": 4
         },
         {
@@ -19293,10 +19265,6 @@
         }
       ],
       "groupLeaderTargets": [
-        {
-          "name": "Disha Sharma",
-          "value": 11
-        },
         {
           "name": "Hiral Pawar",
           "value": 10
@@ -39133,37 +39101,6 @@
       "phasingDays": 5,
       "pctVsTarget": 0.0,
       "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Disha Sharma",
-      "target": 11,
-      "price": 699,
-      "revenueTarget": 7689,
-      "courseInstanceId": "8934",
-      "courseId": "1776",
-      "date": "2026-10-19",
-      "time": "18:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Evil Eye - Nazar Removal Session with guidance and remedies",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 1,
-        "d5": 1,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 2,
-        "d0": 4
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
