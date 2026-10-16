@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T13:51:05Z",
+  "lastUpdated": "2026-10-16T17:53:37Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18496,7 +18496,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 332,
-        "sessionAchieved": 230,
+        "sessionAchieved": 239,
         "phasingTarget": 195,
         "phasingAchieved": null
       },
@@ -18697,7 +18697,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 48,
-        "sessionAchieved": 13,
+        "sessionAchieved": 16,
         "phasingTarget": 148,
         "phasingAchieved": null
       },
@@ -19035,10 +19035,6 @@
           "value": 1
         },
         {
-          "name": "Rooppreet Caur",
-          "value": 1
-        },
-        {
           "name": "Dr. Devanshi",
           "value": 1
         },
@@ -19240,10 +19236,6 @@
           "value": 1
         },
         {
-          "name": "Rooppreet Caur",
-          "value": 1
-        },
-        {
           "name": "Dr. Devanshi",
           "value": 1
         },
@@ -19437,10 +19429,6 @@
           "value": 1
         },
         {
-          "name": "Rooppreet Caur",
-          "value": 1
-        },
-        {
           "name": "Dr. Devanshi",
           "value": 1
         },
@@ -19529,7 +19517,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 727,
-        "sessionAchieved": 174,
+        "sessionAchieved": 184,
         "phasingTarget": 285,
         "phasingAchieved": null
       },
@@ -19603,10 +19591,6 @@
         },
         {
           "name": "Jyotismita Das",
-          "value": 2
-        },
-        {
-          "name": "Rooppreet Caur",
           "value": 2
         },
         {
@@ -19726,8 +19710,8 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 62,
-        "sessionAchieved": 11,
-        "phasingTarget": 181,
+        "sessionAchieved": 12,
+        "phasingTarget": 177,
         "phasingAchieved": null
       },
       "offline": {
@@ -19804,10 +19788,6 @@
         },
         {
           "name": "Supriya Chhabra",
-          "value": 2
-        },
-        {
-          "name": "Rooppreet Caur",
           "value": 2
         },
         {
@@ -19928,7 +19908,7 @@
         "sessions": 7,
         "sessionTarget": 632,
         "sessionAchieved": 22,
-        "phasingTarget": 190,
+        "phasingTarget": 185,
         "phasingAchieved": null
       },
       "offline": {
@@ -19993,10 +19973,6 @@
         },
         {
           "name": "Sunaina Rekhi",
-          "value": 3
-        },
-        {
-          "name": "Rooppreet Caur",
           "value": 3
         },
         {
@@ -20142,10 +20118,10 @@
       "dayName": "Saturday",
       "month": "Oct-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 123,
-        "sessionAchieved": 8,
-        "phasingTarget": 104,
+        "sessions": 6,
+        "sessionTarget": 112,
+        "sessionAchieved": 7,
+        "phasingTarget": 101,
         "phasingAchieved": null
       },
       "offline": {
@@ -20187,10 +20163,6 @@
         {
           "name": "Mystic Grace",
           "value": 5
-        },
-        {
-          "name": "Rooppreet Caur",
-          "value": 4
         },
         {
           "name": "Dr. Devanshi",
@@ -20289,10 +20261,6 @@
         {
           "name": "Supriya Chhabra",
           "value": 10
-        },
-        {
-          "name": "Rooppreet Caur",
-          "value": 11
         },
         {
           "name": "Dr. Devanshi",
@@ -21367,7 +21335,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 17,
-        "sessionAchieved": 34,
+        "sessionAchieved": 35,
         "phasingTarget": 37,
         "phasingAchieved": null
       },
@@ -41892,11 +41860,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 142,
+      "totalRegistrations": 151,
       "phasingDays": 10,
-      "pctVsTarget": 114.0,
-      "revenueAchieved": 142426,
-      "pctRevenueVsTarget": 134.0
+      "pctVsTarget": 121.0,
+      "revenueAchieved": 151453,
+      "pctRevenueVsTarget": 143.0
     },
     {
       "leader": "Dr. Vineet Aggarwal",
@@ -42016,11 +41984,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 3,
-      "pctVsTarget": 27.0,
-      "revenueAchieved": 2475,
-      "pctRevenueVsTarget": 32.0
+      "pctVsTarget": 36.0,
+      "revenueAchieved": 3300,
+      "pctRevenueVsTarget": 43.0
     },
     {
       "leader": "Ritika & Mrinal",
@@ -42171,11 +42139,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 2,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 200.0,
+      "revenueAchieved": 1818,
+      "pctRevenueVsTarget": 236.0
     },
     {
       "leader": "Chaittali",
@@ -42853,11 +42821,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 173,
+      "totalRegistrations": 183,
       "phasingDays": 10,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 229455,
-      "pctRevenueVsTarget": 29.0
+      "pctVsTarget": 26.0,
+      "revenueAchieved": 242598,
+      "pctRevenueVsTarget": 30.0
     },
     {
       "leader": "Sayelee J",
@@ -43008,11 +42976,11 @@
         "d1": 15,
         "d0": 15
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 5,
-      "pctVsTarget": 14.0,
-      "revenueAchieved": 7021,
-      "pctRevenueVsTarget": 17.0
+      "pctVsTarget": 16.0,
+      "revenueAchieved": 8024,
+      "pctRevenueVsTarget": 19.0
     },
     {
       "leader": "Jyotismita Das",
@@ -43228,7 +43196,7 @@
       "totalRegistrations": 20,
       "phasingDays": 10,
       "pctVsTarget": 3.0,
-      "revenueAchieved": 20168,
+      "revenueAchieved": 20264,
       "pctRevenueVsTarget": 4.0
     },
     {
@@ -43261,37 +43229,6 @@
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Rooppreet Caur",
-      "target": 11,
-      "price": 699,
-      "revenueTarget": 7689,
-      "courseInstanceId": "8152",
-      "courseId": "1178",
-      "date": "2026-10-24",
-      "time": "16:00",
-      "campaign": "ROL Boost",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "Releasing Generational Blocks",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 1,
-        "d5": 1,
-        "d4": 1,
-        "d3": 1,
-        "d2": 1,
-        "d1": 2,
-        "d0": 4
-      },
-      "totalRegistrations": 1,
-      "phasingDays": 3,
-      "pctVsTarget": 9.0,
-      "revenueAchieved": 825,
-      "pctRevenueVsTarget": 11.0
     },
     {
       "leader": "Dr. Devanshi",
