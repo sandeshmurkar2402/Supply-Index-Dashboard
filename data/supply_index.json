@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:44:35Z",
+  "lastUpdated": "2026-10-16T23:21:41Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -7846,8 +7846,8 @@
       "slotsFilledToday": 13,
       "pctSlotsFilledToday": 1.68,
       "pageViews": {
-        "total1on1": 1831,
-        "slotsAvailable": 754,
+        "total1on1": 1830,
+        "slotsAvailable": 753,
         "pctSlotsAvailable": 41.0
       }
     },
@@ -18485,7 +18485,7 @@
       "pctSlotsFilledToday": 0.78,
       "pageViews": {
         "total1on1": 1113,
-        "slotsAvailable": 893,
+        "slotsAvailable": 894,
         "pctSlotsAvailable": 80.0
       }
     },
@@ -18682,12 +18682,12 @@
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": 0.0,
+      "slotsFilledToday": 16,
+      "pctSlotsFilledToday": 0.64,
       "pageViews": {
-        "total1on1": 38,
-        "slotsAvailable": 32,
-        "pctSlotsAvailable": 84.0
+        "total1on1": 783,
+        "slotsAvailable": 694,
+        "pctSlotsAvailable": 89.0
       }
     },
     {
@@ -18697,7 +18697,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 48,
-        "sessionAchieved": 16,
+        "sessionAchieved": 17,
         "phasingTarget": 148,
         "phasingAchieved": null
       },
@@ -18894,16 +18894,16 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 1071,
-        "t1": 956,
-        "t2": 568,
-        "t3": 649,
-        "t4": 555,
-        "t5": 507,
-        "t6": 390,
-        "t7": null
+        "leadersWithSlots": 118,
+        "leadersAvailableToday": 101,
+        "today": 2565,
+        "t1": 977,
+        "t2": 628,
+        "t3": 727,
+        "t4": 647,
+        "t5": 609,
+        "t6": 473,
+        "t7": 242
       },
       "categoryBreakdown": [],
       "topLeaderSlots": [],
@@ -19101,13 +19101,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 956,
-        "t1": 568,
-        "t2": 649,
-        "t3": 555,
-        "t4": 507,
-        "t5": 390,
-        "t6": null,
+        "today": 977,
+        "t1": 628,
+        "t2": 727,
+        "t3": 647,
+        "t4": 609,
+        "t5": 473,
+        "t6": 242,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -19127,7 +19127,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 51,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 227,
         "phasingAchieved": null
       },
@@ -19302,12 +19302,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 568,
-        "t1": 649,
-        "t2": 555,
-        "t3": 507,
-        "t4": 390,
-        "t5": null,
+        "today": 628,
+        "t1": 727,
+        "t2": 647,
+        "t3": 609,
+        "t4": 473,
+        "t5": 242,
         "t6": null,
         "t7": null
       },
@@ -19491,11 +19491,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 649,
-        "t1": 555,
-        "t2": 507,
-        "t3": 390,
-        "t4": null,
+        "today": 727,
+        "t1": 647,
+        "t2": 609,
+        "t3": 473,
+        "t4": 242,
         "t5": null,
         "t6": null,
         "t7": null
@@ -19517,7 +19517,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 727,
-        "sessionAchieved": 184,
+        "sessionAchieved": 190,
         "phasingTarget": 285,
         "phasingAchieved": null
       },
@@ -19684,10 +19684,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 555,
-        "t1": 507,
-        "t2": 390,
-        "t3": null,
+        "today": 647,
+        "t1": 609,
+        "t2": 473,
+        "t3": 242,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -19881,9 +19881,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 507,
-        "t1": 390,
-        "t2": null,
+        "today": 609,
+        "t1": 473,
+        "t2": 242,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -20094,8 +20094,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 390,
-        "t1": null,
+        "today": 473,
+        "t1": 242,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -20291,7 +20291,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 242,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -20683,7 +20683,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 148,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 82,
         "phasingAchieved": null
       },
@@ -23611,14 +23611,14 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 106,
-        "sessionAchieved": 72,
+        "sessionAchieved": 73,
         "phasingTarget": 90,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 0,
-        "sessionAchieved": 72,
+        "sessionAchieved": 73,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -24069,7 +24069,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 151,
-        "sessionAchieved": 0,
+        "sessionAchieved": 1,
         "phasingTarget": 98,
         "phasingAchieved": null
       },
@@ -42201,11 +42201,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 5,
-      "pctVsTarget": 13.0,
-      "revenueAchieved": 909,
-      "pctRevenueVsTarget": 15.0
+      "pctVsTarget": 25.0,
+      "revenueAchieved": 1818,
+      "pctRevenueVsTarget": 30.0
     },
     {
       "leader": "Preety",
@@ -42511,11 +42511,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 4,
-      "pctVsTarget": 50.0,
-      "revenueAchieved": 5015,
-      "pctRevenueVsTarget": 59.0
+      "pctVsTarget": 60.0,
+      "revenueAchieved": 6018,
+      "pctRevenueVsTarget": 71.0
     },
     {
       "leader": "Vanita Keswani",
@@ -42821,11 +42821,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 183,
+      "totalRegistrations": 189,
       "phasingDays": 10,
-      "pctVsTarget": 26.0,
-      "revenueAchieved": 242598,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 27.0,
+      "revenueAchieved": 250668,
+      "pctRevenueVsTarget": 31.0
     },
     {
       "leader": "Sayelee J",
@@ -43196,7 +43196,7 @@
       "totalRegistrations": 20,
       "phasingDays": 10,
       "pctVsTarget": 3.0,
-      "revenueAchieved": 20264,
+      "revenueAchieved": 20305,
       "pctRevenueVsTarget": 4.0
     },
     {
@@ -43937,11 +43937,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 10,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 1.0,
+      "revenueAchieved": 1003,
+      "pctRevenueVsTarget": 1.0
     },
     {
       "leader": "Sonika Vickraman",
