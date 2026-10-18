@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T22:04:18Z",
+  "lastUpdated": "2026-10-18T00:44:40Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18677,7 +18677,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 47,
-        "sessionAchieved": 20,
+        "sessionAchieved": 22,
         "phasingTarget": 148,
         "phasingAchieved": 30
       },
@@ -19099,7 +19099,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 51,
-        "sessionAchieved": 14,
+        "sessionAchieved": 16,
         "phasingTarget": 227,
         "phasingAchieved": null
       },
@@ -19489,7 +19489,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 727,
-        "sessionAchieved": 230,
+        "sessionAchieved": 243,
         "phasingTarget": 285,
         "phasingAchieved": null
       },
@@ -19682,7 +19682,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 62,
-        "sessionAchieved": 17,
+        "sessionAchieved": 18,
         "phasingTarget": 177,
         "phasingAchieved": null
       },
@@ -19879,7 +19879,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 632,
-        "sessionAchieved": 29,
+        "sessionAchieved": 31,
         "phasingTarget": 185,
         "phasingAchieved": null
       },
@@ -20092,7 +20092,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 112,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 101,
         "phasingAchieved": null
       },
@@ -20470,7 +20470,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 93,
-        "sessionAchieved": 4,
+        "sessionAchieved": 6,
         "phasingTarget": 86,
         "phasingAchieved": null
       },
@@ -26089,14 +26089,14 @@
       "groupOnline": {
         "sessions": 2,
         "sessionTarget": 58,
-        "sessionAchieved": 18,
+        "sessionAchieved": 19,
         "phasingTarget": 40,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 0,
-        "sessionAchieved": 18,
+        "sessionAchieved": 19,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -42758,11 +42758,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 242,
+      "totalRegistrations": 245,
       "phasingDays": 10,
       "pctVsTarget": 35.0,
-      "revenueAchieved": 321957,
-      "pctRevenueVsTarget": 40.0
+      "revenueAchieved": 325992,
+      "pctRevenueVsTarget": 41.0
     },
     {
       "leader": "Sayelee J",
@@ -43130,10 +43130,10 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 29,
+      "totalRegistrations": 30,
       "phasingDays": 10,
       "pctVsTarget": 5.0,
-      "revenueAchieved": 29944,
+      "revenueAchieved": 30999,
       "pctRevenueVsTarget": 6.0
     },
     {
