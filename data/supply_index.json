@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T22:53:48Z",
+  "lastUpdated": "2026-10-19T00:57:54Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -19099,7 +19099,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 51,
-        "sessionAchieved": 19,
+        "sessionAchieved": 22,
         "phasingTarget": 227,
         "phasingAchieved": null
       },
@@ -19300,7 +19300,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 49,
-        "sessionAchieved": 3,
+        "sessionAchieved": 6,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -19489,7 +19489,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 727,
-        "sessionAchieved": 276,
+        "sessionAchieved": 291,
         "phasingTarget": 285,
         "phasingAchieved": null
       },
@@ -19682,7 +19682,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 62,
-        "sessionAchieved": 20,
+        "sessionAchieved": 21,
         "phasingTarget": 177,
         "phasingAchieved": null
       },
@@ -19879,7 +19879,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 632,
-        "sessionAchieved": 39,
+        "sessionAchieved": 40,
         "phasingTarget": 185,
         "phasingAchieved": null
       },
@@ -21307,14 +21307,14 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 17,
-        "sessionAchieved": 38,
+        "sessionAchieved": 40,
         "phasingTarget": 37,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 478,
-        "sessionAchieved": 37,
+        "sessionAchieved": 39,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -23129,7 +23129,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 321,
-        "sessionAchieved": 3,
+        "sessionAchieved": 4,
         "phasingTarget": 131,
         "phasingAchieved": null
       },
@@ -43533,11 +43533,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 8,
       "phasingDays": 10,
       "pctVsTarget": 6.0,
-      "revenueAchieved": 14035,
-      "pctRevenueVsTarget": 7.0
+      "revenueAchieved": 16040,
+      "pctRevenueVsTarget": 8.0
     },
     {
       "leader": "Seemaa Dhingra",
