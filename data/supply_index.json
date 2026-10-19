@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T12:57:30Z",
+  "lastUpdated": "2026-10-19T19:13:46Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -21682,18 +21682,18 @@
         "sessionTarget": 51,
         "sessionAchieved": 28,
         "phasingTarget": 225,
-        "phasingAchieved": null
+        "phasingAchieved": 22
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 16
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 1
       },
       "groupLeaderPhasingTargets": [
         {
@@ -21904,11 +21904,11 @@
         }
       ],
       "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 50,
+        "slotsAvailable": 42,
+        "pctSlotsAvailable": 84.0
       }
     },
     {
@@ -27749,7 +27749,7 @@
       "dayName": "Friday",
       "month": "Nov-26",
       "groupOnline": {
-        "sessions": 7,
+        "sessions": 6,
         "sessionTarget": 34,
         "sessionAchieved": 0,
         "phasingTarget": 141,
@@ -27924,10 +27924,6 @@
         {
           "name": "Bhairavi Mehta",
           "value": 1
-        },
-        {
-          "name": "Dr. Kinnari I. Gupta",
-          "value": 0
         }
       ],
       "groupMissedTargets": [],
@@ -44148,37 +44144,6 @@
       "pctVsTarget": 0.0,
       "revenueAchieved": null,
       "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Dr. Kinnari I. Gupta",
-      "target": null,
-      "price": 770,
-      "revenueTarget": 0,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-11-20",
-      "time": "18:00",
-      "campaign": "Do Not Market",
-      "leaderTagging": "",
-      "language": "English",
-      "topic": "New",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 0,
-        "d2": 0,
-        "d1": 0,
-        "d0": 0
-      },
-      "totalRegistrations": null,
-      "phasingDays": null,
-      "pctVsTarget": null,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": null
     },
     {
       "leader": "Janhvi V Singh",
