@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T23:28:59Z",
+  "lastUpdated": "2026-10-20T04:13:08Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18819,7 +18819,7 @@
         "sessionTarget": 51,
         "sessionAchieved": 29,
         "phasingTarget": 225,
-        "phasingAchieved": 22
+        "phasingAchieved": 133
       },
       "offline": {
         "sessions": 0,
@@ -18830,7 +18830,7 @@
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": 1
+        "phasingAchieved": 29
       },
       "groupLeaderPhasingTargets": [
         {
@@ -19055,7 +19055,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 49,
-        "sessionAchieved": 9,
+        "sessionAchieved": 11,
         "phasingTarget": 220,
         "phasingAchieved": null
       },
@@ -19285,7 +19285,7 @@
       "groupOnline": {
         "sessions": 3,
         "sessionTarget": 717,
-        "sessionAchieved": 350,
+        "sessionAchieved": 362,
         "phasingTarget": 282,
         "phasingAchieved": null
       },
@@ -19667,7 +19667,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 632,
-        "sessionAchieved": 51,
+        "sessionAchieved": 53,
         "phasingTarget": 190,
         "phasingAchieved": null
       },
@@ -19880,7 +19880,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 112,
-        "sessionAchieved": 15,
+        "sessionAchieved": 16,
         "phasingTarget": 141,
         "phasingAchieved": null
       },
@@ -20471,7 +20471,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 148,
-        "sessionAchieved": 4,
+        "sessionAchieved": 7,
         "phasingTarget": 118,
         "phasingAchieved": null
       },
@@ -21163,14 +21163,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 28,
-        "sessionAchieved": 41,
+        "sessionAchieved": 42,
         "phasingTarget": 125,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 478,
-        "sessionAchieved": 40,
+        "sessionAchieved": 41,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -23603,14 +23603,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 121,
-        "sessionAchieved": 85,
+        "sessionAchieved": 86,
         "phasingTarget": 97,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 760,
-        "sessionAchieved": 85,
+        "sessionAchieved": 86,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -28808,8 +28808,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "7534",
-      "courseId": "1647",
+      "courseInstanceId": "8122",
+      "courseId": "1324",
       "date": "2026-09-10",
       "time": "19:00",
       "campaign": "Do Not Market",
@@ -29986,8 +29986,8 @@
       "target": 8,
       "price": 850,
       "revenueTarget": 6800,
-      "courseInstanceId": "8156",
-      "courseId": "1911",
+      "courseInstanceId": "7631",
+      "courseId": "1322",
       "date": "2026-09-16",
       "time": "20:00",
       "campaign": "Hindi",
@@ -30978,7 +30978,7 @@
       "target": 8,
       "price": 770,
       "revenueTarget": 6160,
-      "courseInstanceId": "7339",
+      "courseInstanceId": "8175",
       "courseId": "1802",
       "date": "2026-09-21",
       "time": "19:30",
@@ -31877,8 +31877,8 @@
       "target": 570,
       "price": 2550,
       "revenueTarget": 1453500,
-      "courseInstanceId": "8256",
-      "courseId": "1934",
+      "courseInstanceId": "8232",
+      "courseId": "1926",
       "date": "2026-09-26",
       "time": "16:30",
       "campaign": "OFFLINE",
@@ -31897,10 +31897,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 6,
       "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
+      "revenueAchieved": 5297,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -34822,8 +34822,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "8220",
-      "courseId": "1744",
+      "courseInstanceId": "8410",
+      "courseId": "1949",
       "date": "2026-10-12",
       "time": "20:00",
       "campaign": "Do Not Market",
@@ -36361,11 +36361,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 4,
+      "totalRegistrations": 5,
       "phasingDays": 3,
-      "pctVsTarget": 27.0,
-      "revenueAchieved": 3636,
-      "pctRevenueVsTarget": 31.0
+      "pctVsTarget": 33.0,
+      "revenueAchieved": 4545,
+      "pctRevenueVsTarget": 39.0
     },
     {
       "leader": "Sidanta Goggate",
@@ -36392,11 +36392,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 909,
+      "pctRevenueVsTarget": 15.0
     },
     {
       "leader": "Krishna Jangid",
@@ -36516,11 +36516,11 @@
         "d1": 117,
         "d0": 117
       },
-      "totalRegistrations": 350,
+      "totalRegistrations": 362,
       "phasingDays": 10,
-      "pctVsTarget": 50.0,
-      "revenueAchieved": 467216,
-      "pctRevenueVsTarget": 59.0
+      "pctVsTarget": 52.0,
+      "revenueAchieved": 483355,
+      "pctRevenueVsTarget": 61.0
     },
     {
       "leader": "Sayelee J",
@@ -36888,11 +36888,11 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 49,
+      "totalRegistrations": 51,
       "phasingDays": 10,
-      "pctVsTarget": 8.0,
-      "revenueAchieved": 51171,
-      "pctRevenueVsTarget": 9.0
+      "pctVsTarget": 9.0,
+      "revenueAchieved": 53286,
+      "pctRevenueVsTarget": 10.0
     },
     {
       "leader": "Supriya Chhabra",
@@ -37074,11 +37074,11 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": 8,
+      "totalRegistrations": 9,
       "phasingDays": 10,
-      "pctVsTarget": 16.0,
-      "revenueAchieved": 9632,
-      "pctRevenueVsTarget": 19.0
+      "pctVsTarget": 18.0,
+      "revenueAchieved": 10836,
+      "pctRevenueVsTarget": 21.0
     },
     {
       "leader": "Damini Grover",
@@ -37632,11 +37632,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 4,
+      "totalRegistrations": 7,
       "phasingDays": 10,
-      "pctVsTarget": 3.0,
-      "revenueAchieved": 4012,
-      "pctRevenueVsTarget": 4.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 7021,
+      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Sonika Vickraman",
@@ -38015,8 +38015,8 @@
       "target": 12,
       "price": 592,
       "revenueTarget": 7104,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "8948",
+      "courseId": "1670",
       "date": "2026-10-30",
       "time": "17:00",
       "campaign": "ROL Boost",
@@ -38035,10 +38035,10 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -38097,11 +38097,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 6,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 2.0,
+      "revenueAchieved": 2359,
+      "pctRevenueVsTarget": 2.0
     },
     {
       "leader": "Dr. Rashmi N Muthalkar",
@@ -38263,8 +38263,8 @@
       "target": 65,
       "price": 1275,
       "revenueTarget": 82875,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9117",
+      "courseId": "1999",
       "date": "2026-11-01",
       "time": "19:00",
       "campaign": "ASC Course",
@@ -38283,10 +38283,10 @@
         "d1": 11,
         "d0": 11
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 10,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -38976,8 +38976,8 @@
       "target": 10,
       "price": 755,
       "revenueTarget": 7550,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9120",
+      "courseId": "2000",
       "date": "2026-11-05",
       "time": "12:00",
       "campaign": "Hindi",
@@ -38996,10 +38996,10 @@
         "d1": 3,
         "d0": 2
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 6,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39100,8 +39100,8 @@
       "target": 25,
       "price": 770,
       "revenueTarget": 19250,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9107",
+      "courseId": "1753",
       "date": "2026-11-06",
       "time": "16:00",
       "campaign": "Hindi",
@@ -39120,10 +39120,10 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 5,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39131,8 +39131,8 @@
       "target": 11,
       "price": 699,
       "revenueTarget": 7689,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9102",
+      "courseId": "1997",
       "date": "2026-11-06",
       "time": "12:00",
       "campaign": "ROL Boost",
@@ -39151,10 +39151,10 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 4,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39162,8 +39162,8 @@
       "target": 11,
       "price": 699,
       "revenueTarget": 7689,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9114",
+      "courseId": "1065",
       "date": "2026-11-06",
       "time": "19:00",
       "campaign": "ROL Boost",
@@ -39182,10 +39182,10 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39193,8 +39193,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9112",
+      "courseId": "1089",
       "date": "2026-11-06",
       "time": "11:00",
       "campaign": "Do Not Market",
@@ -39213,10 +39213,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39224,8 +39224,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9113",
+      "courseId": "1395",
       "date": "2026-11-06",
       "time": "11:00",
       "campaign": "Do Not Market",
@@ -39244,10 +39244,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39255,7 +39255,7 @@
       "target": 11,
       "price": 699,
       "revenueTarget": 7689,
-      "courseInstanceId": "8985",
+      "courseInstanceId": "9116",
       "courseId": "1526",
       "date": "2026-11-07",
       "time": "12:00",
@@ -39317,8 +39317,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9115",
+      "courseId": "1961",
       "date": "2026-11-07",
       "time": "11:30",
       "campaign": "Do Not Market",
@@ -39337,10 +39337,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39348,8 +39348,8 @@
       "target": 15,
       "price": 592,
       "revenueTarget": 8880,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9119",
+      "courseId": "1751",
       "date": "2026-11-10",
       "time": "19:00",
       "campaign": "ROL Boost",
@@ -39368,10 +39368,10 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39627,8 +39627,8 @@
       "target": 10,
       "price": 770,
       "revenueTarget": 7700,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9103",
+      "courseId": "1993",
       "date": "2026-11-12",
       "time": "12:00",
       "campaign": "ROL Boost",
@@ -39647,10 +39647,10 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 4,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39658,8 +39658,8 @@
       "target": 10,
       "price": 770,
       "revenueTarget": 7700,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9108",
+      "courseId": "1894",
       "date": "2026-11-12",
       "time": "12:00",
       "campaign": "ROL Boost",
@@ -39678,10 +39678,10 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 4,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -40433,8 +40433,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9118",
+      "courseId": "1748",
       "date": "2026-11-16",
       "time": "12:00",
       "campaign": "Do Not Market",
@@ -40453,10 +40453,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -40805,8 +40805,8 @@
       "target": 75,
       "price": 770,
       "revenueTarget": 57750,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9104",
+      "courseId": "701",
       "date": "2026-11-18",
       "time": "21:00",
       "campaign": "ASC Course",
@@ -40825,10 +40825,10 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 10,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -42045,8 +42045,8 @@
       "target": 50,
       "price": 750,
       "revenueTarget": 37500,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9106",
+      "courseId": "1013",
       "date": "2026-11-25",
       "time": "11:00",
       "campaign": "Biz Boost",
@@ -42065,10 +42065,10 @@
         "d1": 20,
         "d0": 15
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 4,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -42076,8 +42076,8 @@
       "target": 25,
       "price": 750,
       "revenueTarget": 18750,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9105",
+      "courseId": "1976",
       "date": "2026-11-25",
       "time": "16:00",
       "campaign": "Hindi",
@@ -42096,10 +42096,10 @@
         "d1": 8,
         "d0": 8
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 5,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
