@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T14:46:59Z",
+  "lastUpdated": "2026-10-23T18:57:33Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18330,8 +18330,8 @@
         "phasingAchieved": 107
       },
       "offline": {
-        "sessions": 1,
-        "sessionTarget": 50,
+        "sessions": 0,
+        "sessionTarget": 0,
         "sessionAchieved": 3,
         "phasingTarget": 0,
         "phasingAchieved": 10
@@ -18482,10 +18482,6 @@
         {
           "name": "Seemaa Dhingra",
           "value": 11
-        },
-        {
-          "name": "Ritika & Mrinal",
-          "value": 50
         },
         {
           "name": "Divyaa",
@@ -19747,18 +19743,18 @@
         "sessionTarget": 621,
         "sessionAchieved": 157,
         "phasingTarget": 225,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 9
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 2
       },
       "groupLeaderPhasingTargets": [
         {
@@ -19980,12 +19976,12 @@
           "slots": 61
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 168,
+        "slotsAvailable": 64,
+        "pctSlotsAvailable": 38.0
       }
     },
     {
