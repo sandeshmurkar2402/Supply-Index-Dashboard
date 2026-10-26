@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T17:11:28Z",
+  "lastUpdated": "2026-10-26T22:28:13Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -20401,18 +20401,18 @@
         "sessionTarget": 72,
         "sessionAchieved": 56,
         "phasingTarget": 156,
-        "phasingAchieved": null
+        "phasingAchieved": 13
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 8
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 9
       },
       "groupLeaderPhasingTargets": [
         {
@@ -20618,12 +20618,12 @@
           "slots": 97
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 2,
+      "pctSlotsFilledToday": 0.1,
       "pageViews": {
-        "total1on1": null,
-        "slotsAvailable": null,
-        "pctSlotsAvailable": null
+        "total1on1": 188,
+        "slotsAvailable": 122,
+        "pctSlotsAvailable": 65.0
       }
     },
     {
@@ -37880,7 +37880,7 @@
       "totalRegistrations": 43,
       "phasingDays": 3,
       "pctVsTarget": 86.0,
-      "revenueAchieved": 38412,
+      "revenueAchieved": 38425,
       "pctRevenueVsTarget": 102.0
     },
     {
@@ -37970,11 +37970,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 4,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 885,
-      "pctRevenueVsTarget": 12.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 1770,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Sheelaa M Bajaj",
@@ -38001,11 +38001,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 130,
+      "totalRegistrations": 139,
       "phasingDays": 10,
-      "pctVsTarget": 104.0,
-      "revenueAchieved": 130390,
-      "pctRevenueVsTarget": 123.0
+      "pctVsTarget": 111.0,
+      "revenueAchieved": 139417,
+      "pctRevenueVsTarget": 131.0
     },
     {
       "leader": "Susitha Pappiah",
@@ -38218,11 +38218,11 @@
         "d1": 42,
         "d0": 42
       },
-      "totalRegistrations": 20,
+      "totalRegistrations": 21,
       "phasingDays": 10,
       "pctVsTarget": 8.0,
-      "revenueAchieved": 33020,
-      "pctRevenueVsTarget": 9.0
+      "revenueAchieved": 34671,
+      "pctRevenueVsTarget": 10.0
     },
     {
       "leader": "Deepa Shetty",
@@ -38683,11 +38683,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 45,
+      "totalRegistrations": 49,
       "phasingDays": 6,
-      "pctVsTarget": 12.0,
-      "revenueAchieved": 264891,
-      "pctRevenueVsTarget": 28.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 279641,
+      "pctRevenueVsTarget": 30.0
     },
     {
       "leader": "Krupa Sawant",
@@ -38931,11 +38931,11 @@
         "d1": 24,
         "d0": 18
       },
-      "totalRegistrations": 10,
+      "totalRegistrations": 13,
       "phasingDays": 4,
-      "pctVsTarget": 17.0,
-      "revenueAchieved": 9090,
-      "pctRevenueVsTarget": 20.0
+      "pctVsTarget": 22.0,
+      "revenueAchieved": 11817,
+      "pctRevenueVsTarget": 26.0
     },
     {
       "leader": "Kavyal Sedanni",
@@ -38962,10 +38962,10 @@
         "d1": 58,
         "d0": 41
       },
-      "totalRegistrations": 20,
+      "totalRegistrations": 21,
       "phasingDays": 11,
       "pctVsTarget": 6.0,
-      "revenueAchieved": 18180,
+      "revenueAchieved": 19089,
       "pctRevenueVsTarget": 7.0
     },
     {
@@ -39272,11 +39272,11 @@
         "d1": 20,
         "d0": 20
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 2.0,
+      "revenueAchieved": 1505,
+      "pctRevenueVsTarget": 2.0
     },
     {
       "leader": "Abhirammi",
