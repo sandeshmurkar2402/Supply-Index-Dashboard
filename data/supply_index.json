@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T22:28:13Z",
+  "lastUpdated": "2026-10-27T01:54:22Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -20399,7 +20399,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 72,
-        "sessionAchieved": 56,
+        "sessionAchieved": 57,
         "phasingTarget": 156,
         "phasingAchieved": 13
       },
@@ -20408,7 +20408,7 @@
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": 8
+        "phasingAchieved": 11
       },
       "oneOnOne": {
         "phasingTarget": null,
@@ -20633,7 +20633,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 177,
-        "sessionAchieved": 148,
+        "sessionAchieved": 158,
         "phasingTarget": 156,
         "phasingAchieved": null
       },
@@ -20830,7 +20830,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 316,
-        "sessionAchieved": 46,
+        "sessionAchieved": 47,
         "phasingTarget": 142,
         "phasingAchieved": null
       },
@@ -21413,14 +21413,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 54,
-        "sessionAchieved": 79,
+        "sessionAchieved": 83,
         "phasingTarget": 132,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 478,
-        "sessionAchieved": 76,
+        "sessionAchieved": 80,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -21634,7 +21634,7 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 420,
-        "sessionAchieved": 30,
+        "sessionAchieved": 34,
         "phasingTarget": 112,
         "phasingAchieved": null
       },
@@ -22028,7 +22028,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 93,
-        "sessionAchieved": 1,
+        "sessionAchieved": 2,
         "phasingTarget": 113,
         "phasingAchieved": null
       },
@@ -38063,11 +38063,11 @@
         "d1": 3,
         "d0": 2
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 6,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 885,
-      "pctRevenueVsTarget": 12.0
+      "pctVsTarget": 20.0,
+      "revenueAchieved": 1770,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Sonika Vickraman",
@@ -38156,11 +38156,11 @@
         "d1": 7,
         "d0": 12
       },
-      "totalRegistrations": 16,
+      "totalRegistrations": 17,
       "phasingDays": 3,
-      "pctVsTarget": 46.0,
-      "revenueAchieved": 13200,
-      "pctRevenueVsTarget": 54.0
+      "pctVsTarget": 49.0,
+      "revenueAchieved": 14025,
+      "pctRevenueVsTarget": 57.0
     },
     {
       "leader": "Binita Aamol Rege",
@@ -38218,10 +38218,10 @@
         "d1": 42,
         "d0": 42
       },
-      "totalRegistrations": 21,
+      "totalRegistrations": 22,
       "phasingDays": 10,
-      "pctVsTarget": 8.0,
-      "revenueAchieved": 34671,
+      "pctVsTarget": 9.0,
+      "revenueAchieved": 36322,
       "pctRevenueVsTarget": 10.0
     },
     {
