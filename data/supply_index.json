@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T12:27:44Z",
+  "lastUpdated": "2026-10-30T18:28:52Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -21367,7 +21367,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 140,
-        "sessionAchieved": 17,
+        "sessionAchieved": 19,
         "phasingTarget": 123,
         "phasingAchieved": null
       },
@@ -21613,14 +21613,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 53,
-        "sessionAchieved": 137,
+        "sessionAchieved": 140,
         "phasingTarget": 104,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 478,
-        "sessionAchieved": 113,
+        "sessionAchieved": 114,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -21846,7 +21846,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 72,
-        "sessionAchieved": 34,
+        "sessionAchieved": 35,
         "phasingTarget": 111,
         "phasingAchieved": null
       },
@@ -22915,7 +22915,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 408,
-        "sessionAchieved": 74,
+        "sessionAchieved": 77,
         "phasingTarget": 158,
         "phasingAchieved": null
       },
@@ -24402,7 +24402,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 502,
-        "sessionAchieved": 28,
+        "sessionAchieved": 29,
         "phasingTarget": 192,
         "phasingAchieved": null
       },
@@ -24647,14 +24647,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 50,
-        "sessionAchieved": 135,
+        "sessionAchieved": 136,
         "phasingTarget": 178,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 760,
-        "sessionAchieved": 131,
+        "sessionAchieved": 132,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -25137,7 +25137,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 324,
-        "sessionAchieved": 6,
+        "sessionAchieved": 7,
         "phasingTarget": 206,
         "phasingAchieved": null
       },
@@ -39278,11 +39278,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 5,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 1650,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 38.0,
+      "revenueAchieved": 2475,
+      "pctRevenueVsTarget": 44.0
     },
     {
       "leader": "Janhvi V Singh",
@@ -39309,11 +39309,11 @@
         "d1": 30,
         "d0": 30
       },
-      "totalRegistrations": 12,
+      "totalRegistrations": 13,
       "phasingDays": 5,
-      "pctVsTarget": 12.0,
-      "revenueAchieved": 12036,
-      "pctRevenueVsTarget": 14.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 13039,
+      "pctRevenueVsTarget": 15.0
     },
     {
       "leader": "Meenakshi Mishra",
@@ -39402,11 +39402,11 @@
         "d1": 5,
         "d0": 5
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 5,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 2475,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 27.0,
+      "revenueAchieved": 3300,
+      "pctRevenueVsTarget": 31.0
     },
     {
       "leader": "Kajal Thakkar",
@@ -39495,10 +39495,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 71,
+      "totalRegistrations": 72,
       "phasingDays": 6,
       "pctVsTarget": 19.0,
-      "revenueAchieved": 351618,
+      "revenueAchieved": 353388,
       "pctRevenueVsTarget": 62.0
     },
     {
@@ -39619,11 +39619,11 @@
         "d1": 6,
         "d0": 5
       },
-      "totalRegistrations": 11,
+      "totalRegistrations": 12,
       "phasingDays": 4,
-      "pctVsTarget": 73.0,
-      "revenueAchieved": 13244,
-      "pctRevenueVsTarget": 87.0
+      "pctVsTarget": 80.0,
+      "revenueAchieved": 14448,
+      "pctRevenueVsTarget": 94.0
     },
     {
       "leader": "Swapnil Gawde",
@@ -39650,11 +39650,11 @@
         "d1": 24,
         "d0": 18
       },
-      "totalRegistrations": 34,
+      "totalRegistrations": 35,
       "phasingDays": 4,
-      "pctVsTarget": 57.0,
-      "revenueAchieved": 30800,
-      "pctRevenueVsTarget": 67.0
+      "pctVsTarget": 58.0,
+      "revenueAchieved": 31708,
+      "pctRevenueVsTarget": 69.0
     },
     {
       "leader": "Preety",
@@ -41882,11 +41882,11 @@
         "d1": 25,
         "d0": 25
       },
-      "totalRegistrations": 28,
+      "totalRegistrations": 29,
       "phasingDays": 10,
       "pctVsTarget": 19.0,
-      "revenueAchieved": 46228,
-      "pctRevenueVsTarget": 22.0
+      "revenueAchieved": 47879,
+      "pctRevenueVsTarget": 23.0
     },
     {
       "leader": "Binita Aamol Rege",
@@ -42471,10 +42471,10 @@
         "d1": 50,
         "d0": 50
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 10,
       "pctVsTarget": 2.0,
-      "revenueAchieved": 5015,
+      "revenueAchieved": 6018,
       "pctRevenueVsTarget": 2.0
     },
     {
