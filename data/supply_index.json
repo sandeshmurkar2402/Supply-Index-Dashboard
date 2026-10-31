@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T22:51:56Z",
+  "lastUpdated": "2026-10-31T02:08:33Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -19915,7 +19915,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 83,
-        "sessionAchieved": 60,
+        "sessionAchieved": 61,
         "phasingTarget": 84,
         "phasingAchieved": 89
       },
@@ -21613,14 +21613,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 53,
-        "sessionAchieved": 140,
+        "sessionAchieved": 150,
         "phasingTarget": 104,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 478,
-        "sessionAchieved": 114,
+        "sessionAchieved": 120,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -21846,7 +21846,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 72,
-        "sessionAchieved": 35,
+        "sessionAchieved": 37,
         "phasingTarget": 111,
         "phasingAchieved": null
       },
@@ -22276,7 +22276,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 114,
-        "sessionAchieved": 3,
+        "sessionAchieved": 5,
         "phasingTarget": 154,
         "phasingAchieved": null
       },
@@ -22710,7 +22710,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 272,
-        "sessionAchieved": 22,
+        "sessionAchieved": 25,
         "phasingTarget": 208,
         "phasingAchieved": null
       },
@@ -22915,7 +22915,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 408,
-        "sessionAchieved": 77,
+        "sessionAchieved": 85,
         "phasingTarget": 158,
         "phasingAchieved": null
       },
@@ -23723,7 +23723,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 61,
-        "sessionAchieved": 3,
+        "sessionAchieved": 4,
         "phasingTarget": 183,
         "phasingAchieved": null
       },
@@ -24402,7 +24402,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 502,
-        "sessionAchieved": 29,
+        "sessionAchieved": 30,
         "phasingTarget": 192,
         "phasingAchieved": null
       },
@@ -24647,14 +24647,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 50,
-        "sessionAchieved": 136,
+        "sessionAchieved": 139,
         "phasingTarget": 178,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 760,
-        "sessionAchieved": 132,
+        "sessionAchieved": 135,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -27629,14 +27629,14 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 103,
-        "sessionAchieved": 30,
+        "sessionAchieved": 32,
         "phasingTarget": 84,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 875,
-        "sessionAchieved": 28,
+        "sessionAchieved": 30,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -39433,11 +39433,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 3,
-      "pctVsTarget": 82.0,
-      "revenueAchieved": 7425,
-      "pctRevenueVsTarget": 97.0
+      "pctVsTarget": 91.0,
+      "revenueAchieved": 8250,
+      "pctRevenueVsTarget": 107.0
     },
     {
       "leader": "Susitha Pappiah",
