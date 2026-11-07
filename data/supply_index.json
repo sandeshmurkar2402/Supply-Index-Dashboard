@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T06:55:00Z",
+  "lastUpdated": "2026-11-07T13:49:40Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18912,7 +18912,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 5,
+        "sessionAchieved": 6,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -19145,7 +19145,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 422,
-        "sessionAchieved": 104,
+        "sessionAchieved": 109,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -19623,14 +19623,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 275,
+        "sessionAchieved": 281,
         "phasingTarget": 179,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 760,
-        "sessionAchieved": 271,
+        "sessionAchieved": 277,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -20113,7 +20113,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 313,
-        "sessionAchieved": 13,
+        "sessionAchieved": 14,
         "phasingTarget": 194,
         "phasingAchieved": null
       },
@@ -23049,14 +23049,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 147,
-        "sessionAchieved": 44,
+        "sessionAchieved": 45,
         "phasingTarget": 96,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 875,
-        "sessionAchieved": 42,
+        "sessionAchieved": 43,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -37707,11 +37707,11 @@
         "d1": 4,
         "d0": 4
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 5,
-      "pctVsTarget": 75.0,
-      "revenueAchieved": 8133,
-      "pctRevenueVsTarget": 85.0
+      "pctVsTarget": 83.0,
+      "revenueAchieved": 9076,
+      "pctRevenueVsTarget": 95.0
     },
     {
       "leader": "Krishna Jangid",
@@ -38141,11 +38141,11 @@
         "d1": 7,
         "d0": 12
       },
-      "totalRegistrations": 10,
+      "totalRegistrations": 12,
       "phasingDays": 3,
-      "pctVsTarget": 29.0,
-      "revenueAchieved": 9076,
-      "pctRevenueVsTarget": 32.0
+      "pctVsTarget": 34.0,
+      "revenueAchieved": 10962,
+      "pctRevenueVsTarget": 39.0
     },
     {
       "leader": "Rashika Kaul",
@@ -38389,11 +38389,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 4,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 1886,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 30.0,
+      "revenueAchieved": 2829,
+      "pctRevenueVsTarget": 35.0
     },
     {
       "leader": "#N/A",
@@ -38513,11 +38513,11 @@
         "d1": 67,
         "d0": 67
       },
-      "totalRegistrations": 102,
+      "totalRegistrations": 113,
       "phasingDays": 10,
-      "pctVsTarget": 26.0,
-      "revenueAchieved": 121787,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 28.0,
+      "revenueAchieved": 135034,
+      "pctRevenueVsTarget": 33.0
     },
     {
       "leader": "Anupama Chatterjee",
@@ -38671,8 +38671,8 @@
       "totalRegistrations": 20,
       "phasingDays": 10,
       "pctVsTarget": 7.0,
-      "revenueAchieved": 20168,
-      "pctRevenueVsTarget": 7.0
+      "revenueAchieved": 20305,
+      "pctRevenueVsTarget": 8.0
     },
     {
       "leader": "Dr. Tamanna C",
@@ -38702,7 +38702,7 @@
       "totalRegistrations": 53,
       "phasingDays": 10,
       "pctVsTarget": 35.0,
-      "revenueAchieved": 87315,
+      "revenueAchieved": 87318,
       "pctRevenueVsTarget": 42.0
     },
     {
@@ -39443,11 +39443,11 @@
         "d1": 50,
         "d0": 50
       },
-      "totalRegistrations": 12,
+      "totalRegistrations": 14,
       "phasingDays": 10,
-      "pctVsTarget": 4.0,
-      "revenueAchieved": 12036,
-      "pctRevenueVsTarget": 5.0
+      "pctVsTarget": 5.0,
+      "revenueAchieved": 14042,
+      "pctRevenueVsTarget": 6.0
     },
     {
       "leader": "Ruchika Uppal",
@@ -42140,10 +42140,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 28,
+      "totalRegistrations": 29,
       "phasingDays": 6,
       "pctVsTarget": 5.0,
-      "revenueAchieved": 166936,
+      "revenueAchieved": 172834,
       "pctRevenueVsTarget": 12.0
     },
     {
@@ -42171,11 +42171,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 13,
+      "totalRegistrations": 15,
       "phasingDays": 5,
-      "pctVsTarget": 5.0,
-      "revenueAchieved": 66666,
-      "pctRevenueVsTarget": 10.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 77875,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Nithya Shanti",
