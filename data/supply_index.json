@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:49:40Z",
+  "lastUpdated": "2026-11-07T18:32:51Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18051,20 +18051,20 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 68,
-        "sessionAchieved": 25,
+        "sessionAchieved": 26,
         "phasingTarget": 133,
-        "phasingAchieved": null
+        "phasingAchieved": 11
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 42
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 6
       },
       "groupLeaderPhasingTargets": [
         {
@@ -18278,8 +18278,8 @@
           "slots": 47
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 1,
+      "pctSlotsFilledToday": 0.06,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -18691,7 +18691,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 61,
-        "sessionAchieved": 12,
+        "sessionAchieved": 14,
         "phasingTarget": 183,
         "phasingAchieved": null
       },
@@ -19145,7 +19145,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 422,
-        "sessionAchieved": 109,
+        "sessionAchieved": 115,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -19623,14 +19623,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 281,
+        "sessionAchieved": 285,
         "phasingTarget": 179,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 760,
-        "sessionAchieved": 277,
+        "sessionAchieved": 281,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -20113,7 +20113,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 313,
-        "sessionAchieved": 14,
+        "sessionAchieved": 15,
         "phasingTarget": 194,
         "phasingAchieved": null
       },
@@ -23049,14 +23049,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 147,
-        "sessionAchieved": 45,
+        "sessionAchieved": 47,
         "phasingTarget": 96,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 875,
-        "sessionAchieved": 43,
+        "sessionAchieved": 45,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
