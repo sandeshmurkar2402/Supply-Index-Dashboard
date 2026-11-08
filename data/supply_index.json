@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T09:59:26Z",
+  "lastUpdated": "2026-11-08T16:37:24Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18720,7 +18720,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 61,
-        "sessionAchieved": 18,
+        "sessionAchieved": 22,
         "phasingTarget": 183,
         "phasingAchieved": null
       },
@@ -18941,7 +18941,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 58,
-        "sessionAchieved": 7,
+        "sessionAchieved": 8,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -19174,7 +19174,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 422,
-        "sessionAchieved": 133,
+        "sessionAchieved": 135,
         "phasingTarget": 224,
         "phasingAchieved": null
       },
@@ -19407,7 +19407,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 502,
-        "sessionAchieved": 86,
+        "sessionAchieved": 89,
         "phasingTarget": 195,
         "phasingAchieved": null
       },
@@ -19652,14 +19652,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 303,
+        "sessionAchieved": 308,
         "phasingTarget": 179,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 760,
-        "sessionAchieved": 299,
+        "sessionAchieved": 304,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -19901,14 +19901,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 156,
-        "sessionAchieved": 5,
+        "sessionAchieved": 6,
         "phasingTarget": 184,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 50,
-        "sessionAchieved": 2,
+        "sessionAchieved": 3,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -38170,11 +38170,11 @@
         "d1": 7,
         "d0": 12
       },
-      "totalRegistrations": 16,
+      "totalRegistrations": 19,
       "phasingDays": 3,
-      "pctVsTarget": 46.0,
-      "revenueAchieved": 14734,
-      "pctRevenueVsTarget": 53.0
+      "pctVsTarget": 54.0,
+      "revenueAchieved": 17563,
+      "pctRevenueVsTarget": 63.0
     },
     {
       "leader": "Rashika Kaul",
@@ -38232,11 +38232,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 5,
-      "pctVsTarget": 11.0,
-      "revenueAchieved": 701,
-      "pctRevenueVsTarget": 10.0
+      "pctVsTarget": 22.0,
+      "revenueAchieved": 1644,
+      "pctRevenueVsTarget": 23.0
     },
     {
       "leader": "Rishita Makhija",
@@ -38542,11 +38542,11 @@
         "d1": 67,
         "d0": 67
       },
-      "totalRegistrations": 131,
+      "totalRegistrations": 133,
       "phasingDays": 10,
       "pctVsTarget": 33.0,
-      "revenueAchieved": 156699,
-      "pctRevenueVsTarget": 38.0
+      "revenueAchieved": 159109,
+      "pctRevenueVsTarget": 39.0
     },
     {
       "leader": "Anupama Chatterjee",
@@ -38697,11 +38697,11 @@
         "d1": 50,
         "d0": 50
       },
-      "totalRegistrations": 29,
+      "totalRegistrations": 30,
       "phasingDays": 10,
       "pctVsTarget": 10.0,
-      "revenueAchieved": 29987,
-      "pctRevenueVsTarget": 11.0
+      "revenueAchieved": 31041,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Dr. Tamanna C",
@@ -38728,11 +38728,11 @@
         "d1": 25,
         "d0": 25
       },
-      "totalRegistrations": 57,
+      "totalRegistrations": 59,
       "phasingDays": 10,
-      "pctVsTarget": 38.0,
-      "revenueAchieved": 93921,
-      "pctRevenueVsTarget": 45.0
+      "pctVsTarget": 39.0,
+      "revenueAchieved": 97221,
+      "pctRevenueVsTarget": 46.0
     },
     {
       "leader": "Shweta Chatterjee",
@@ -39224,11 +39224,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 6,
-      "pctVsTarget": 4.0,
-      "revenueAchieved": 4010,
-      "pctRevenueVsTarget": 5.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 6015,
+      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Dr. Kinnari I. Gupta",
