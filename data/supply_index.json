@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:37:24Z",
+  "lastUpdated": "2026-11-08T20:59:53Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -18295,18 +18295,18 @@
         "sessionTarget": 43,
         "sessionAchieved": 4,
         "phasingTarget": 135,
-        "phasingAchieved": null
+        "phasingAchieved": 14
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 44
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 7
       },
       "groupLeaderPhasingTargets": [
         {
@@ -18508,8 +18508,8 @@
           "slots": 8
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
