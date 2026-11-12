@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T10:47:45Z",
+  "lastUpdated": "2026-11-12T18:45:03Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -19277,20 +19277,20 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 422,
-        "sessionAchieved": 270,
+        "sessionAchieved": 279,
         "phasingTarget": 215,
-        "phasingAchieved": null
+        "phasingAchieved": 30
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 10
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 6
       },
       "groupLeaderPhasingTargets": [
         {
@@ -19536,8 +19536,8 @@
           "slots": 55
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 2,
+      "pctSlotsFilledToday": 0.09,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -19551,7 +19551,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 502,
-        "sessionAchieved": 217,
+        "sessionAchieved": 223,
         "phasingTarget": 174,
         "phasingAchieved": null
       },
@@ -20266,7 +20266,7 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 313,
-        "sessionAchieved": 20,
+        "sessionAchieved": 21,
         "phasingTarget": 194,
         "phasingAchieved": null
       },
@@ -20950,7 +20950,7 @@
         "sessions": 8,
         "sessionTarget": 76,
         "sessionAchieved": 4,
-        "phasingTarget": 137,
+        "phasingTarget": 133,
         "phasingAchieved": null
       },
       "offline": {
@@ -21003,10 +21003,6 @@
         },
         {
           "name": "Rashika Kaul",
-          "value": 4
-        },
-        {
-          "name": "Mahima Mor",
           "value": 4
         },
         {
@@ -21215,7 +21211,7 @@
         "sessions": 8,
         "sessionTarget": 57,
         "sessionAchieved": 1,
-        "phasingTarget": 135,
+        "phasingTarget": 132,
         "phasingAchieved": null
       },
       "offline": {
@@ -21264,10 +21260,6 @@
         },
         {
           "name": "Pranjal Katoch",
-          "value": 4
-        },
-        {
-          "name": "Mahima Mor",
           "value": 4
         },
         {
@@ -21488,7 +21480,7 @@
         "sessions": 6,
         "sessionTarget": 123,
         "sessionAchieved": 6,
-        "phasingTarget": 197,
+        "phasingTarget": 187,
         "phasingAchieved": null
       },
       "offline": {
@@ -21518,10 +21510,6 @@
         {
           "name": "Susitha Pappiah",
           "value": 11
-        },
-        {
-          "name": "Mahima Mor",
-          "value": 10
         },
         {
           "name": "Pranjal Katoch",
@@ -21754,10 +21742,10 @@
       "dayName": "Sunday",
       "month": "Nov-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 78,
-        "sessionAchieved": 13,
-        "phasingTarget": 199,
+        "sessions": 6,
+        "sessionTarget": 53,
+        "sessionAchieved": 14,
+        "phasingTarget": 191,
         "phasingAchieved": null
       },
       "offline": {
@@ -21783,10 +21771,6 @@
         {
           "name": "Vaishnavi Jairam",
           "value": 10
-        },
-        {
-          "name": "Mahima Mor",
-          "value": 8
         },
         {
           "name": "Amrita Shah",
@@ -21993,10 +21977,6 @@
         {
           "name": "Arpana Khanna",
           "value": 10
-        },
-        {
-          "name": "Mahima Mor",
-          "value": 25
         }
       ],
       "groupMissedTargets": [],
@@ -23230,14 +23210,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 147,
-        "sessionAchieved": 64,
+        "sessionAchieved": 65,
         "phasingTarget": 96,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 875,
-        "sessionAchieved": 62,
+        "sessionAchieved": 63,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -36976,7 +36956,7 @@
       "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
-      "topic": "Gut health Breathwork",
+      "topic": "Breathwork For Gut And Digestion",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -38694,11 +38674,11 @@
         "d1": 67,
         "d0": 67
       },
-      "totalRegistrations": 258,
+      "totalRegistrations": 266,
       "phasingDays": 10,
-      "pctVsTarget": 65.0,
-      "revenueAchieved": 309654,
-      "pctRevenueVsTarget": 76.0
+      "pctVsTarget": 67.0,
+      "revenueAchieved": 319286,
+      "pctRevenueVsTarget": 78.0
     },
     {
       "leader": "Anupama Chatterjee",
@@ -38756,11 +38736,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 10,
       "phasingDays": 5,
-      "pctVsTarget": 90.0,
-      "revenueAchieved": 9027,
-      "pctRevenueVsTarget": 106.0
+      "pctVsTarget": 100.0,
+      "revenueAchieved": 10030,
+      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Supriya Chhabra",
@@ -38849,11 +38829,11 @@
         "d1": 50,
         "d0": 50
       },
-      "totalRegistrations": 119,
+      "totalRegistrations": 122,
       "phasingDays": 10,
-      "pctVsTarget": 40.0,
-      "revenueAchieved": 125353,
-      "pctRevenueVsTarget": 46.0
+      "pctVsTarget": 41.0,
+      "revenueAchieved": 128536,
+      "pctRevenueVsTarget": 48.0
     },
     {
       "leader": "Dr. Tamanna C",
@@ -38880,11 +38860,11 @@
         "d1": 25,
         "d0": 25
       },
-      "totalRegistrations": 95,
+      "totalRegistrations": 97,
       "phasingDays": 10,
-      "pctVsTarget": 63.0,
-      "revenueAchieved": 156659,
-      "pctRevenueVsTarget": 75.0
+      "pctVsTarget": 65.0,
+      "revenueAchieved": 159961,
+      "pctRevenueVsTarget": 76.0
     },
     {
       "leader": "Shweta Chatterjee",
@@ -39593,11 +39573,11 @@
         "d1": 50,
         "d0": 50
       },
-      "totalRegistrations": 19,
+      "totalRegistrations": 20,
       "phasingDays": 10,
-      "pctVsTarget": 6.0,
-      "revenueAchieved": 19057,
-      "pctRevenueVsTarget": 7.0
+      "pctVsTarget": 7.0,
+      "revenueAchieved": 20060,
+      "pctRevenueVsTarget": 8.0
     },
     {
       "leader": "Ruchika Uppal",
@@ -39906,7 +39886,7 @@
       "totalRegistrations": 20,
       "phasingDays": 10,
       "pctVsTarget": 27.0,
-      "revenueAchieved": 18792,
+      "revenueAchieved": 18798,
       "pctRevenueVsTarget": 31.0
     },
     {
@@ -40386,7 +40366,7 @@
       "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
-      "topic": "Gut health Breathwork",
+      "topic": "Breathwork For Gut And Digestion",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
@@ -41023,37 +41003,6 @@
       "phasingDays": 5,
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Mahima Mor",
-      "target": 25,
-      "price": 770,
-      "revenueTarget": 19250,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-11-22",
-      "time": "11:00",
-      "campaign": "Biz Boost",
-      "leaderTagging": "Hindi Hero",
-      "language": "English",
-      "topic": "Ram Sharanam Sadhana",
-      "timeBucket": "B4 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 0,
-        "d3": 4,
-        "d2": 4,
-        "d1": 10,
-        "d0": 8
-      },
-      "totalRegistrations": null,
-      "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -42352,11 +42301,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 24,
+      "totalRegistrations": 25,
       "phasingDays": 5,
       "pctVsTarget": 10.0,
-      "revenueAchieved": 119170,
-      "pctRevenueVsTarget": 19.0
+      "revenueAchieved": 125070,
+      "pctRevenueVsTarget": 20.0
     },
     {
       "leader": "Nithya Shanti",
