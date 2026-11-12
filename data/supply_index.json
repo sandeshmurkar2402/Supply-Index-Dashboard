@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T02:45:38Z",
+  "lastUpdated": "2026-11-12T10:47:45Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -453,7 +453,7 @@
       "groupMissedTargets": [
         {
           "name": "Abhirammi",
-          "missed": 10
+          "missed": 5
         },
         {
           "name": "Dr. Ddevika",
@@ -4979,7 +4979,7 @@
         },
         {
           "name": "Pranjal Katoch",
-          "missed": 8
+          "missed": 6
         },
         {
           "name": "Debanjan Medhi",
@@ -17810,7 +17810,7 @@
         "sessions": 6,
         "sessionTarget": 432,
         "sessionAchieved": 326,
-        "phasingTarget": 181,
+        "phasingTarget": 173,
         "phasingAchieved": 123
       },
       "offline": {
@@ -17844,10 +17844,6 @@
         {
           "name": "Mahima Mor",
           "value": 10
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 9
         },
         {
           "name": "Dr. Mitali Jaiswal",
@@ -18056,7 +18052,7 @@
         "sessions": 5,
         "sessionTarget": 68,
         "sessionAchieved": 28,
-        "phasingTarget": 133,
+        "phasingTarget": 124,
         "phasingAchieved": 77
       },
       "offline": {
@@ -18086,10 +18082,6 @@
         {
           "name": "Dr. Tamanna C",
           "value": 11
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 9
         },
         {
           "name": "Dr. Mitali Jaiswal",
@@ -18302,7 +18294,7 @@
         "sessions": 5,
         "sessionTarget": 43,
         "sessionAchieved": 4,
-        "phasingTarget": 135,
+        "phasingTarget": 126,
         "phasingAchieved": 59
       },
       "offline": {
@@ -18332,10 +18324,6 @@
         {
           "name": "Dr. Tamanna C",
           "value": 11
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 9
         },
         {
           "name": "Susitha Pappiah",
@@ -18536,7 +18524,7 @@
         "sessions": 4,
         "sessionTarget": 22,
         "sessionAchieved": 3,
-        "phasingTarget": 142,
+        "phasingTarget": 133,
         "phasingAchieved": 104
       },
       "offline": {
@@ -18566,10 +18554,6 @@
         {
           "name": "Dr. Tamanna C",
           "value": 11
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 9
         },
         {
           "name": "Susitha Pappiah",
@@ -18770,7 +18754,7 @@
         "sessions": 5,
         "sessionTarget": 61,
         "sessionAchieved": 35,
-        "phasingTarget": 183,
+        "phasingTarget": 174,
         "phasingAchieved": 110
       },
       "offline": {
@@ -18804,10 +18788,6 @@
         {
           "name": "Dr. Tamanna C",
           "value": 11
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 9
         },
         {
           "name": "Vidhi Agarwal",
@@ -19028,8 +19008,8 @@
         "sessions": 7,
         "sessionTarget": 59,
         "sessionAchieved": 13,
-        "phasingTarget": 224,
-        "phasingAchieved": 23
+        "phasingTarget": 215,
+        "phasingAchieved": 136
       },
       "offline": {
         "sessions": 0,
@@ -19040,7 +19020,7 @@
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": 7
+        "phasingAchieved": 63
       },
       "groupLeaderPhasingTargets": [
         {
@@ -19058,10 +19038,6 @@
         {
           "name": "Sheelaa M Bajaj",
           "value": 22
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 9
         },
         {
           "name": "Vidhi Agarwal",
@@ -19301,8 +19277,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 422,
-        "sessionAchieved": 243,
-        "phasingTarget": 224,
+        "sessionAchieved": 270,
+        "phasingTarget": 215,
         "phasingAchieved": null
       },
       "offline": {
@@ -19332,10 +19308,6 @@
         {
           "name": "Sheelaa M Bajaj",
           "value": 22
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 9
         },
         {
           "name": "Vidhi Agarwal",
@@ -19579,8 +19551,8 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 502,
-        "sessionAchieved": 195,
-        "phasingTarget": 195,
+        "sessionAchieved": 217,
+        "phasingTarget": 174,
         "phasingAchieved": null
       },
       "offline": {
@@ -19606,10 +19578,6 @@
         {
           "name": "Sheelaa M Bajaj",
           "value": 22
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 21
         },
         {
           "name": "Smita Venkatesh",
@@ -19824,14 +19792,14 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 57,
-        "sessionAchieved": 382,
-        "phasingTarget": 179,
+        "sessionAchieved": 384,
+        "phasingTarget": 158,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 760,
-        "sessionAchieved": 375,
+        "sessionAchieved": 376,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -19847,10 +19815,6 @@
         {
           "name": "Kavyal Sedanni",
           "value": 43
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 21
         },
         {
           "name": "Smita Venkatesh",
@@ -20071,10 +20035,10 @@
       "dayName": "Sunday",
       "month": "Nov-26",
       "groupOnline": {
-        "sessions": 8,
-        "sessionTarget": 156,
-        "sessionAchieved": 17,
-        "phasingTarget": 184,
+        "sessions": 7,
+        "sessionTarget": 31,
+        "sessionAchieved": 8,
+        "phasingTarget": 163,
         "phasingAchieved": null
       },
       "offline": {
@@ -20100,10 +20064,6 @@
         {
           "name": "Smita Venkatesh",
           "value": 40
-        },
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 21
         },
         {
           "name": "Vidhi Agarwal",
@@ -20243,10 +20203,6 @@
         }
       ],
       "groupLeaderTargets": [
-        {
-          "name": "Dr. Sweta Adatia",
-          "value": 125
-        },
         {
           "name": "Immersive Sound Experience",
           "value": 50
@@ -20523,8 +20479,8 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 204,
-        "sessionAchieved": 20,
-        "phasingTarget": 164,
+        "sessionAchieved": 25,
+        "phasingTarget": 163,
         "phasingAchieved": null
       },
       "offline": {
@@ -20601,10 +20557,6 @@
         },
         {
           "name": "Jyotismita Das",
-          "value": 2
-        },
-        {
-          "name": "Mahima Mor",
           "value": 2
         },
         {
@@ -20748,8 +20700,8 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 119,
-        "sessionAchieved": 13,
-        "phasingTarget": 156,
+        "sessionAchieved": 21,
+        "phasingTarget": 136,
         "phasingAchieved": null
       },
       "offline": {
@@ -20767,10 +20719,6 @@
         {
           "name": "Kavyal Sedanni",
           "value": 43
-        },
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 18
         },
         {
           "name": "Vidhi Agarwal",
@@ -20818,10 +20766,6 @@
         },
         {
           "name": "Nazneen Mistry",
-          "value": 3
-        },
-        {
-          "name": "Mahima Mor",
           "value": 3
         },
         {
@@ -21006,7 +20950,7 @@
         "sessions": 8,
         "sessionTarget": 76,
         "sessionAchieved": 4,
-        "phasingTarget": 155,
+        "phasingTarget": 137,
         "phasingAchieved": null
       },
       "offline": {
@@ -21024,10 +20968,6 @@
         {
           "name": "Kavyal Sedanni",
           "value": 43
-        },
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 18
         },
         {
           "name": "Nithya Ji",
@@ -21275,7 +21215,7 @@
         "sessions": 8,
         "sessionTarget": 57,
         "sessionAchieved": 1,
-        "phasingTarget": 156,
+        "phasingTarget": 135,
         "phasingAchieved": null
       },
       "offline": {
@@ -21295,10 +21235,6 @@
           "value": 43
         },
         {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 18
-        },
-        {
           "name": "Susitha Pappiah",
           "value": 14
         },
@@ -21309,10 +21245,6 @@
         {
           "name": "Sheelaa M Bajaj",
           "value": 11
-        },
-        {
-          "name": "Mahima Mor",
-          "value": 7
         },
         {
           "name": "Hiral Pawar",
@@ -21332,6 +21264,10 @@
         },
         {
           "name": "Pranjal Katoch",
+          "value": 4
+        },
+        {
+          "name": "Mahima Mor",
           "value": 4
         },
         {
@@ -21551,14 +21487,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 123,
-        "sessionAchieved": 5,
-        "phasingTarget": 211,
+        "sessionAchieved": 6,
+        "phasingTarget": 197,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 150,
-        "sessionAchieved": 4,
+        "sessionAchieved": 5,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -21570,10 +21506,6 @@
         {
           "name": "Kavyal Sedanni",
           "value": 100
-        },
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 18
         },
         {
           "name": "Nithya Ji",
@@ -21589,7 +21521,7 @@
         },
         {
           "name": "Mahima Mor",
-          "value": 7
+          "value": 10
         },
         {
           "name": "Pranjal Katoch",
@@ -21824,8 +21756,8 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 78,
-        "sessionAchieved": 2,
-        "phasingTarget": 214,
+        "sessionAchieved": 13,
+        "phasingTarget": 199,
         "phasingAchieved": null
       },
       "offline": {
@@ -21845,16 +21777,16 @@
           "value": 101
         },
         {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 18
-        },
-        {
           "name": "Sheelaa M Bajaj",
           "value": 11
         },
         {
           "name": "Vaishnavi Jairam",
           "value": 10
+        },
+        {
+          "name": "Mahima Mor",
+          "value": 8
         },
         {
           "name": "Amrita Shah",
@@ -21871,10 +21803,6 @@
         {
           "name": "Vidhi Agarwal",
           "value": 6
-        },
-        {
-          "name": "Mahima Mor",
-          "value": 5
         },
         {
           "name": "Manka Malik",
@@ -22102,7 +22030,7 @@
         "sessions": 7,
         "sessionTarget": 648,
         "sessionAchieved": 12,
-        "phasingTarget": 218,
+        "phasingTarget": 200,
         "phasingAchieved": null
       },
       "offline": {
@@ -22120,10 +22048,6 @@
         {
           "name": "Kavyal Sedanni",
           "value": 101
-        },
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 18
         },
         {
           "name": "Vaishnavi Jairam",
@@ -22375,7 +22299,7 @@
         "sessions": 8,
         "sessionTarget": 92,
         "sessionAchieved": 0,
-        "phasingTarget": 148,
+        "phasingTarget": 130,
         "phasingAchieved": null
       },
       "offline": {
@@ -22393,10 +22317,6 @@
         {
           "name": "Amrita Shah",
           "value": 20
-        },
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 18
         },
         {
           "name": "Vaishnavi Jairam",
@@ -22652,7 +22572,7 @@
         "sessions": 10,
         "sessionTarget": 144,
         "sessionAchieved": 2,
-        "phasingTarget": 165,
+        "phasingTarget": 123,
         "phasingAchieved": null
       },
       "offline": {
@@ -22667,10 +22587,6 @@
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 42
-        },
         {
           "name": "Sheelaa M Bajaj",
           "value": 25
@@ -22909,7 +22825,7 @@
         "sessions": 9,
         "sessionTarget": 80,
         "sessionAchieved": 0,
-        "phasingTarget": 154,
+        "phasingTarget": 112,
         "phasingAchieved": null
       },
       "offline": {
@@ -22924,10 +22840,6 @@
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 42
-        },
         {
           "name": "Sheelaa M Bajaj",
           "value": 26
@@ -23135,10 +23047,10 @@
       "dayName": "Friday",
       "month": "Nov-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 432,
+        "sessions": 6,
+        "sessionTarget": 182,
         "sessionAchieved": 1,
-        "phasingTarget": 138,
+        "phasingTarget": 97,
         "phasingAchieved": null
       },
       "offline": {
@@ -23153,10 +23065,6 @@
         "phasingAchieved": null
       },
       "groupLeaderPhasingTargets": [
-        {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 42
-        },
         {
           "name": "Sheelaa M Bajaj",
           "value": 26
@@ -23268,10 +23176,6 @@
       ],
       "groupLeaderTargets": [
         {
-          "name": "Dr. Rashmi N Muthalkar",
-          "value": 250
-        },
-        {
           "name": "Sheelaa M Bajaj",
           "value": 150
         },
@@ -23326,14 +23230,14 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 147,
-        "sessionAchieved": 63,
+        "sessionAchieved": 64,
         "phasingTarget": 96,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 3,
         "sessionTarget": 875,
-        "sessionAchieved": 61,
+        "sessionAchieved": 62,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -25409,8 +25313,8 @@
       "target": 10,
       "price": 770,
       "revenueTarget": 7700,
-      "courseInstanceId": "7642",
-      "courseId": "1884",
+      "courseInstanceId": "7816",
+      "courseId": "1556",
       "date": "2026-09-02",
       "time": "19:00",
       "campaign": "ROL Boost",
@@ -25429,11 +25333,11 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 5,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 50.0,
+      "revenueAchieved": 4545,
+      "pctRevenueVsTarget": 59.0
     },
     {
       "leader": "Dr. Ddevika",
@@ -28664,7 +28568,7 @@
       "target": 8,
       "price": 850,
       "revenueTarget": 6800,
-      "courseInstanceId": "7631",
+      "courseInstanceId": "8186",
       "courseId": "1322",
       "date": "2026-09-16",
       "time": "20:00",
@@ -28684,11 +28588,11 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 2,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 25.0,
+      "revenueAchieved": 2006,
+      "pctRevenueVsTarget": 30.0
     },
     {
       "leader": "Debanjan Medhi",
@@ -30555,8 +30459,8 @@
       "target": 570,
       "price": 2550,
       "revenueTarget": 1453500,
-      "courseInstanceId": "8256",
-      "courseId": "1934",
+      "courseInstanceId": "8232",
+      "courseId": "1926",
       "date": "2026-09-26",
       "time": "16:30",
       "campaign": "OFFLINE",
@@ -30575,10 +30479,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 6,
       "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
+      "revenueAchieved": 5297,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -33500,8 +33404,8 @@
       "target": 1,
       "price": 770,
       "revenueTarget": 770,
-      "courseInstanceId": "8220",
-      "courseId": "1744",
+      "courseInstanceId": "8410",
+      "courseId": "1949",
       "date": "2026-10-12",
       "time": "20:00",
       "campaign": "Do Not Market",
@@ -38708,8 +38612,8 @@
       "target": 1,
       "price": 850,
       "revenueTarget": 850,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9557",
+      "courseId": "1959",
       "date": "2026-11-11",
       "time": "16:00",
       "campaign": "Do Not Market",
@@ -38728,11 +38632,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 1,
       "phasingDays": null,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 100.0,
+      "revenueAchieved": 1003,
+      "pctRevenueVsTarget": 118.0
     },
     {
       "leader": "Sidanta Goggate",
@@ -38790,11 +38694,11 @@
         "d1": 67,
         "d0": 67
       },
-      "totalRegistrations": 234,
+      "totalRegistrations": 258,
       "phasingDays": 10,
-      "pctVsTarget": 59.0,
-      "revenueAchieved": 280756,
-      "pctRevenueVsTarget": 69.0
+      "pctVsTarget": 65.0,
+      "revenueAchieved": 309654,
+      "pctRevenueVsTarget": 76.0
     },
     {
       "leader": "Anupama Chatterjee",
@@ -38821,11 +38725,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 943,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Akanksha Walia",
@@ -38852,11 +38756,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 7,
+      "totalRegistrations": 9,
       "phasingDays": 5,
-      "pctVsTarget": 70.0,
-      "revenueAchieved": 7021,
-      "pctRevenueVsTarget": 83.0
+      "pctVsTarget": 90.0,
+      "revenueAchieved": 9027,
+      "pctRevenueVsTarget": 106.0
     },
     {
       "leader": "Supriya Chhabra",
@@ -38945,11 +38849,11 @@
         "d1": 50,
         "d0": 50
       },
-      "totalRegistrations": 100,
+      "totalRegistrations": 119,
       "phasingDays": 10,
-      "pctVsTarget": 33.0,
-      "revenueAchieved": 105189,
-      "pctRevenueVsTarget": 39.0
+      "pctVsTarget": 40.0,
+      "revenueAchieved": 125353,
+      "pctRevenueVsTarget": 46.0
     },
     {
       "leader": "Dr. Tamanna C",
@@ -38976,11 +38880,11 @@
         "d1": 25,
         "d0": 25
       },
-      "totalRegistrations": 92,
+      "totalRegistrations": 95,
       "phasingDays": 10,
-      "pctVsTarget": 61.0,
-      "revenueAchieved": 151707,
-      "pctRevenueVsTarget": 72.0
+      "pctVsTarget": 63.0,
+      "revenueAchieved": 156659,
+      "pctRevenueVsTarget": 75.0
     },
     {
       "leader": "Shweta Chatterjee",
@@ -39255,11 +39159,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 943,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Parul Khanna",
@@ -39415,37 +39319,6 @@
       "pctVsTarget": 0.0,
       "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
-    },
-    {
-      "leader": "Dr. Sweta Adatia",
-      "target": 125,
-      "price": 1699,
-      "revenueTarget": 212375,
-      "courseInstanceId": "9096",
-      "courseId": "1654",
-      "date": "2026-11-15",
-      "time": "18:30",
-      "campaign": "ASC Course",
-      "leaderTagging": "ASC Course Hero",
-      "language": "English",
-      "topic": "Neuro quantum healing for chronic illnesses",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 18,
-        "d7": 9,
-        "d6": 9,
-        "d5": 9,
-        "d4": 9,
-        "d3": 9,
-        "d2": 21,
-        "d1": 21,
-        "d0": 21
-      },
-      "totalRegistrations": 9,
-      "phasingDays": 10,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 17744,
-      "pctRevenueVsTarget": 8.0
     },
     {
       "leader": "Immersive Sound Experience",
@@ -39875,11 +39748,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 20,
+      "totalRegistrations": 25,
       "phasingDays": 5,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 20060,
-      "pctRevenueVsTarget": 12.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 25075,
+      "pctRevenueVsTarget": 15.0
     },
     {
       "leader": "Bansari Nagda",
@@ -40030,11 +39903,11 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": 12,
+      "totalRegistrations": 20,
       "phasingDays": 10,
-      "pctVsTarget": 16.0,
-      "revenueAchieved": 11248,
-      "pctRevenueVsTarget": 19.0
+      "pctVsTarget": 27.0,
+      "revenueAchieved": 18792,
+      "pctRevenueVsTarget": 31.0
     },
     {
       "leader": "Shreya Singh",
@@ -40743,11 +40616,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 5,
-      "pctVsTarget": 3.0,
-      "revenueAchieved": 7611,
-      "pctRevenueVsTarget": 4.0
+      "pctVsTarget": 4.0,
+      "revenueAchieved": 10148,
+      "pctRevenueVsTarget": 5.0
     },
     {
       "leader": "Nithya Ji",
@@ -40940,7 +40813,7 @@
       "target": 1,
       "price": 799,
       "revenueTarget": 799,
-      "courseInstanceId": "9535",
+      "courseInstanceId": "9556",
       "courseId": "1776",
       "date": "2026-11-21",
       "time": "18:00",
@@ -41161,24 +41034,24 @@
       "courseId": "",
       "date": "2026-11-22",
       "time": "11:00",
-      "campaign": "Hindi",
+      "campaign": "Biz Boost",
       "leaderTagging": "Hindi Hero",
-      "language": "Hindi",
+      "language": "English",
       "topic": "Ram Sharanam Sadhana",
       "timeBucket": "B4 12PM",
       "phasing": {
         "before7": 0,
         "d7": 0,
         "d6": 0,
-        "d5": 1,
-        "d4": 3,
+        "d5": 0,
+        "d4": 0,
         "d3": 4,
-        "d2": 6,
-        "d1": 6,
-        "d0": 5
+        "d2": 4,
+        "d1": 10,
+        "d0": 8
       },
       "totalRegistrations": null,
-      "phasingDays": 6,
+      "phasingDays": 4,
       "pctVsTarget": 0.0,
       "revenueAchieved": null,
       "pctRevenueVsTarget": 0.0
@@ -41529,8 +41402,8 @@
       "target": 8,
       "price": 799,
       "revenueTarget": 6392,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9810",
+      "courseId": "2033",
       "date": "2026-11-24",
       "time": "16:00",
       "campaign": "Hindi",
@@ -41549,10 +41422,10 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 5,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -41932,8 +41805,8 @@
       "target": 10,
       "price": 850,
       "revenueTarget": 8500,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9123",
+      "courseId": "1947",
       "date": "2026-11-25",
       "time": "18:00",
       "campaign": "Hindi",
@@ -41952,11 +41825,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 1,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 1003,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Neha Ranglani",
@@ -42238,37 +42111,6 @@
       "pctRevenueVsTarget": 0.0
     },
     {
-      "leader": "Dr. Rashmi N Muthalkar",
-      "target": 250,
-      "price": 899,
-      "revenueTarget": 224750,
-      "courseInstanceId": "",
-      "courseId": "",
-      "date": "2026-11-27",
-      "time": "17:00",
-      "campaign": "ASC Course",
-      "leaderTagging": "ASC Course Hero",
-      "language": "English",
-      "topic": "Naga Sadhana",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 36,
-        "d7": 18,
-        "d6": 18,
-        "d5": 18,
-        "d4": 18,
-        "d3": 18,
-        "d2": 42,
-        "d1": 42,
-        "d0": 42
-      },
-      "totalRegistrations": null,
-      "phasingDays": 10,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": null,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Sheelaa M Bajaj",
       "target": 150,
       "price": 850,
@@ -42479,10 +42321,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 35,
+      "totalRegistrations": 36,
       "phasingDays": 6,
       "pctVsTarget": 6.0,
-      "revenueAchieved": 211766,
+      "revenueAchieved": 217075,
       "pctRevenueVsTarget": 15.0
     },
     {
@@ -42645,8 +42487,8 @@
       "target": 10,
       "price": 799,
       "revenueTarget": 7990,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "9811",
+      "courseId": "2034",
       "date": "2026-11-28",
       "time": "19:00",
       "campaign": "ROL Boost",
@@ -42665,10 +42507,10 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
