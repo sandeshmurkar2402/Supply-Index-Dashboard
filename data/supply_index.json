@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T12:55:31Z",
+  "lastUpdated": "2026-11-17T21:37:32Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -20088,18 +20088,18 @@
         "sessionTarget": 4,
         "sessionAchieved": 4,
         "phasingTarget": 114,
-        "phasingAchieved": null
+        "phasingAchieved": 20
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 23
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 7
       },
       "groupLeaderPhasingTargets": [
         {
@@ -20357,8 +20357,8 @@
           "slots": 62
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 2,
+      "pctSlotsFilledToday": 0.08,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -43339,11 +43339,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": null,
-      "pctVsTarget": 200.0,
-      "revenueAchieved": 1744,
-      "pctRevenueVsTarget": 218.0
+      "pctVsTarget": 300.0,
+      "revenueAchieved": 2687,
+      "pctRevenueVsTarget": 336.0
     },
     {
       "leader": "Vidhi Agarwal",
@@ -43370,11 +43370,11 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": 117,
+      "totalRegistrations": 133,
       "phasingDays": 10,
-      "pctVsTarget": 156.0,
-      "revenueAchieved": 110159,
-      "pctRevenueVsTarget": 184.0
+      "pctVsTarget": 177.0,
+      "revenueAchieved": 125247,
+      "pctRevenueVsTarget": 209.0
     },
     {
       "leader": "Shreya Singh",
@@ -43432,11 +43432,11 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 3,
       "phasingDays": 5,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 8,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 30.0,
+      "revenueAchieved": 1894,
+      "pctRevenueVsTarget": 24.0
     },
     {
       "leader": "Abhirammi",
@@ -43618,11 +43618,11 @@
         "d1": 4,
         "d0": 7
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 7,
       "phasingDays": 3,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 4715,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 35.0,
+      "revenueAchieved": 6601,
+      "pctRevenueVsTarget": 41.0
     },
     {
       "leader": "Sunaina Rekhi",
@@ -43680,11 +43680,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 5,
       "phasingDays": 3,
-      "pctVsTarget": 25.0,
-      "revenueAchieved": 2829,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 42.0,
+      "revenueAchieved": 4715,
+      "pctRevenueVsTarget": 49.0
     },
     {
       "leader": "Nazneen Mistry",
@@ -44145,11 +44145,11 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 9,
       "phasingDays": 10,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 7525,
-      "pctRevenueVsTarget": 8.0
+      "pctVsTarget": 12.0,
+      "revenueAchieved": 13545,
+      "pctRevenueVsTarget": 14.0
     },
     {
       "leader": "Amairaah Kishnani",
@@ -44176,11 +44176,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 6,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 10025,
-      "pctRevenueVsTarget": 12.0
+      "pctVsTarget": 12.0,
+      "revenueAchieved": 16039,
+      "pctRevenueVsTarget": 19.0
     },
     {
       "leader": "Susitha Pappiah",
@@ -44362,11 +44362,11 @@
         "d1": 5,
         "d0": 4
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 6,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 5.0,
+      "revenueAchieved": 943,
+      "pctRevenueVsTarget": 6.0
     },
     {
       "leader": "Tamanna Gulati",
@@ -44517,11 +44517,11 @@
         "d1": 21,
         "d0": 21
       },
-      "totalRegistrations": 32,
+      "totalRegistrations": 34,
       "phasingDays": 10,
-      "pctVsTarget": 26.0,
-      "revenueAchieved": 63913,
-      "pctRevenueVsTarget": 30.0
+      "pctVsTarget": 27.0,
+      "revenueAchieved": 67920,
+      "pctRevenueVsTarget": 32.0
     },
     {
       "leader": "Pranjal Katoch",
@@ -44579,11 +44579,11 @@
         "d1": 100,
         "d0": 100
       },
-      "totalRegistrations": 121,
+      "totalRegistrations": 140,
       "phasingDays": 10,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 162593,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 23.0,
+      "revenueAchieved": 188148,
+      "pctRevenueVsTarget": 28.0
     },
     {
       "leader": "Nattasha Kapoor",
@@ -44827,11 +44827,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 101,
+      "totalRegistrations": 107,
       "phasingDays": 5,
-      "pctVsTarget": 51.0,
-      "revenueAchieved": 101075,
-      "pctRevenueVsTarget": 59.0
+      "pctVsTarget": 54.0,
+      "revenueAchieved": 107093,
+      "pctRevenueVsTarget": 63.0
     },
     {
       "leader": "Vaishnavi Jairam",
@@ -45974,10 +45974,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 49,
+      "totalRegistrations": 50,
       "phasingDays": 6,
-      "pctVsTarget": 8.0,
-      "revenueAchieved": 290810,
+      "pctVsTarget": 9.0,
+      "revenueAchieved": 296708,
       "pctRevenueVsTarget": 20.0
     },
     {
@@ -46005,11 +46005,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 33,
+      "totalRegistrations": 36,
       "phasingDays": 5,
-      "pctVsTarget": 13.0,
-      "revenueAchieved": 169316,
-      "pctRevenueVsTarget": 27.0
+      "pctVsTarget": 15.0,
+      "revenueAchieved": 178166,
+      "pctRevenueVsTarget": 28.0
     },
     {
       "leader": "Nithya Shanti",
@@ -47728,7 +47728,7 @@
       "campaign": "ASC Course",
       "leaderTagging": "ASC Course Hero",
       "language": "English",
-      "topic": "TBC - will confirm once i know",
+      "topic": "Manifest Like A Millionare",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 14,
@@ -48795,10 +48795,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 6,
       "pctVsTarget": null,
-      "revenueAchieved": 23862,
+      "revenueAchieved": 35793,
       "pctRevenueVsTarget": null
     },
     {
