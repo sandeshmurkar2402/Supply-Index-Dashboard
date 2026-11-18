@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T12:49:00Z",
+  "lastUpdated": "2026-11-18T21:12:55Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -20346,18 +20346,18 @@
         "sessionTarget": 116,
         "sessionAchieved": 171,
         "phasingTarget": 154,
-        "phasingAchieved": null
+        "phasingAchieved": 17
       },
       "offline": {
         "sessions": 0,
         "sessionTarget": 0,
         "sessionAchieved": 0,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 24
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 3
       },
       "groupLeaderPhasingTargets": [
         {
@@ -20639,8 +20639,8 @@
           "slots": 31
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 0,
+      "pctSlotsFilledToday": 0.0,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -49174,7 +49174,7 @@
       "campaign": "ASC Course",
       "leaderTagging": "",
       "language": "English",
-      "topic": "TBD",
+      "topic": "Bio Hack Your Biological Age",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 29,
