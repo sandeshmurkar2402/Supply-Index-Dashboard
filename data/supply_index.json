@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T17:13:40Z",
+  "lastUpdated": "2026-11-21T22:55:48Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -21250,20 +21250,20 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 143,
-        "sessionAchieved": 90,
+        "sessionAchieved": 96,
         "phasingTarget": 250,
-        "phasingAchieved": null
+        "phasingAchieved": 20
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 150,
         "sessionAchieved": 38,
         "phasingTarget": 0,
-        "phasingAchieved": null
+        "phasingAchieved": 25
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": null
+        "phasingAchieved": 3
       },
       "groupLeaderPhasingTargets": [
         {
@@ -21561,8 +21561,8 @@
           "slots": 82
         }
       ],
-      "slotsFilledToday": null,
-      "pctSlotsFilledToday": null,
+      "slotsFilledToday": 1,
+      "pctSlotsFilledToday": 0.05,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -21576,7 +21576,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 178,
-        "sessionAchieved": 68,
+        "sessionAchieved": 73,
         "phasingTarget": 268,
         "phasingAchieved": null
       },
@@ -21865,7 +21865,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 658,
-        "sessionAchieved": 383,
+        "sessionAchieved": 416,
         "phasingTarget": 272,
         "phasingAchieved": null
       },
@@ -22150,7 +22150,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 243,
-        "sessionAchieved": 153,
+        "sessionAchieved": 157,
         "phasingTarget": 201,
         "phasingAchieved": null
       },
@@ -22435,7 +22435,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 162,
-        "sessionAchieved": 29,
+        "sessionAchieved": 31,
         "phasingTarget": 184,
         "phasingAchieved": null
       },
@@ -23206,14 +23206,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 155,
-        "sessionAchieved": 139,
+        "sessionAchieved": 143,
         "phasingTarget": 127,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 295,
-        "sessionAchieved": 134,
+        "sessionAchieved": 138,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -26384,14 +26384,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 97,
-        "sessionAchieved": 10,
+        "sessionAchieved": 11,
         "phasingTarget": 119,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 0,
-        "sessionAchieved": 10,
+        "sessionAchieved": 11,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -26601,14 +26601,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 146,
-        "sessionAchieved": 99,
+        "sessionAchieved": 100,
         "phasingTarget": 163,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 0,
-        "sessionAchieved": 99,
+        "sessionAchieved": 100,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
