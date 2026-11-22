@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T22:55:48Z",
+  "lastUpdated": "2026-11-22T02:55:27Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -21252,7 +21252,7 @@
         "sessionTarget": 143,
         "sessionAchieved": 96,
         "phasingTarget": 250,
-        "phasingAchieved": 20
+        "phasingAchieved": 166
       },
       "offline": {
         "sessions": 2,
@@ -21263,7 +21263,7 @@
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": 3
+        "phasingAchieved": 47
       },
       "groupLeaderPhasingTargets": [
         {
@@ -21561,8 +21561,8 @@
           "slots": 82
         }
       ],
-      "slotsFilledToday": 1,
-      "pctSlotsFilledToday": 0.05,
+      "slotsFilledToday": 25,
+      "pctSlotsFilledToday": 1.26,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -21837,19 +21837,52 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 828,
-        "t1": 944,
-        "t2": 907,
-        "t3": 774,
-        "t4": 778,
-        "t5": 705,
-        "t6": 426,
-        "t7": null
+        "leadersWithSlots": 70,
+        "leadersAvailableToday": 41,
+        "today": 2319,
+        "t1": 1218,
+        "t2": 1206,
+        "t3": 1035,
+        "t4": 1113,
+        "t5": 1032,
+        "t6": 532,
+        "t7": 390
       },
       "categoryBreakdown": [],
-      "topLeaderSlots": [],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 112
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 24
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 19
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 99
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 86
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 51
+        },
+        {
+          "name": "Shwetha Gururaj",
+          "slots": 45
+        },
+        {
+          "name": "Tamanna Gulati",
+          "slots": 82
+        }
+      ],
       "slotsFilledToday": null,
       "pctSlotsFilledToday": null,
       "pageViews": {
@@ -22124,13 +22157,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 944,
-        "t1": 907,
-        "t2": 774,
-        "t3": 778,
-        "t4": 705,
-        "t5": 426,
-        "t6": null,
+        "today": 1218,
+        "t1": 1206,
+        "t2": 1035,
+        "t3": 1113,
+        "t4": 1032,
+        "t5": 532,
+        "t6": 390,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -22409,12 +22442,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 907,
-        "t1": 774,
-        "t2": 778,
-        "t3": 705,
-        "t4": 426,
-        "t5": null,
+        "today": 1206,
+        "t1": 1035,
+        "t2": 1113,
+        "t3": 1032,
+        "t4": 532,
+        "t5": 390,
         "t6": null,
         "t7": null
       },
@@ -22678,11 +22711,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 774,
-        "t1": 778,
-        "t2": 705,
-        "t3": 426,
-        "t4": null,
+        "today": 1035,
+        "t1": 1113,
+        "t2": 1032,
+        "t3": 532,
+        "t4": 390,
         "t5": null,
         "t6": null,
         "t7": null
@@ -22935,10 +22968,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 778,
-        "t1": 705,
-        "t2": 426,
-        "t3": null,
+        "today": 1113,
+        "t1": 1032,
+        "t2": 532,
+        "t3": 390,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -23180,9 +23213,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 705,
-        "t1": 426,
-        "t2": null,
+        "today": 1032,
+        "t1": 532,
+        "t2": 390,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -23425,8 +23458,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 426,
-        "t1": null,
+        "today": 532,
+        "t1": 390,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -23642,7 +23675,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 390,
         "t1": null,
         "t2": null,
         "t3": null,
