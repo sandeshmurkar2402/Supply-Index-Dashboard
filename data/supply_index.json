@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:00:28Z",
+  "lastUpdated": "2026-11-24T05:46:56Z",
   "sheetName": "Supply_Index_Dashboard",
   "days": [
     {
@@ -14500,8 +14500,8 @@
           "slots": 70
         }
       ],
-      "slotsFilledToday": 22,
-      "pctSlotsFilledToday": 1.55,
+      "slotsFilledToday": 21,
+      "pctSlotsFilledToday": 1.48,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -15548,8 +15548,8 @@
           "slots": 31
         }
       ],
-      "slotsFilledToday": 23,
-      "pctSlotsFilledToday": 0.91,
+      "slotsFilledToday": 21,
+      "pctSlotsFilledToday": 0.83,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -15858,8 +15858,8 @@
           "slots": 83
         }
       ],
-      "slotsFilledToday": 30,
-      "pctSlotsFilledToday": 1.1,
+      "slotsFilledToday": 29,
+      "pctSlotsFilledToday": 1.06,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -16172,8 +16172,8 @@
           "slots": 86
         }
       ],
-      "slotsFilledToday": 33,
-      "pctSlotsFilledToday": 1.27,
+      "slotsFilledToday": 30,
+      "pctSlotsFilledToday": 1.16,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -16494,8 +16494,8 @@
           "slots": 82
         }
       ],
-      "slotsFilledToday": 25,
-      "pctSlotsFilledToday": 1.26,
+      "slotsFilledToday": 22,
+      "pctSlotsFilledToday": 1.11,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -16808,8 +16808,8 @@
           "slots": 82
         }
       ],
-      "slotsFilledToday": 36,
-      "pctSlotsFilledToday": 1.55,
+      "slotsFilledToday": 25,
+      "pctSlotsFilledToday": 1.08,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -16825,7 +16825,7 @@
         "sessionTarget": 658,
         "sessionAchieved": 755,
         "phasingTarget": 268,
-        "phasingAchieved": 52
+        "phasingAchieved": 308
       },
       "offline": {
         "sessions": 0,
@@ -16836,7 +16836,7 @@
       },
       "oneOnOne": {
         "phasingTarget": null,
-        "phasingAchieved": 3
+        "phasingAchieved": 48
       },
       "groupLeaderPhasingTargets": [
         {
@@ -17130,8 +17130,8 @@
           "slots": 82
         }
       ],
-      "slotsFilledToday": 0,
-      "pctSlotsFilledToday": 0.0,
+      "slotsFilledToday": 24,
+      "pctSlotsFilledToday": 0.88,
       "pageViews": {
         "total1on1": null,
         "slotsAvailable": null,
@@ -17145,7 +17145,7 @@
       "groupOnline": {
         "sessions": 7,
         "sessionTarget": 233,
-        "sessionAchieved": 183,
+        "sessionAchieved": 191,
         "phasingTarget": 198,
         "phasingAchieved": null
       },
@@ -17390,19 +17390,72 @@
       ],
       "groupMissedTargets": [],
       "oneOnOneSlots": {
-        "leadersWithSlots": null,
-        "leadersAvailableToday": null,
-        "today": 1237,
-        "t1": 1046,
-        "t2": 1124,
-        "t3": 1043,
-        "t4": 543,
-        "t5": 401,
-        "t6": 522,
-        "t7": null
+        "leadersWithSlots": 72,
+        "leadersAvailableToday": 63,
+        "today": 2758,
+        "t1": 1133,
+        "t2": 1215,
+        "t3": 1130,
+        "t4": 623,
+        "t5": 459,
+        "t6": 592,
+        "t7": 170
       },
       "categoryBreakdown": [],
-      "topLeaderSlots": [],
+      "topLeaderSlots": [
+        {
+          "name": "Abhaya Balaji",
+          "slots": 112
+        },
+        {
+          "name": "Disha Sharma",
+          "slots": 18
+        },
+        {
+          "name": "Geetika G Mahajan",
+          "slots": 4
+        },
+        {
+          "name": "Kajal Lunkad",
+          "slots": 22
+        },
+        {
+          "name": "Moneka Ingley",
+          "slots": 24
+        },
+        {
+          "name": "Parul Khanna",
+          "slots": 22
+        },
+        {
+          "name": "Poonam Dhandania",
+          "slots": 36
+        },
+        {
+          "name": "Priyanka Agarwal",
+          "slots": 99
+        },
+        {
+          "name": "Rooppreet Caur",
+          "slots": 11
+        },
+        {
+          "name": "Roshni Malek",
+          "slots": 51
+        },
+        {
+          "name": "Shaili Netarwala",
+          "slots": 5
+        },
+        {
+          "name": "Shwetha Gururaj",
+          "slots": 45
+        },
+        {
+          "name": "Tamanna Gulati",
+          "slots": 81
+        }
+      ],
       "slotsFilledToday": null,
       "pctSlotsFilledToday": null,
       "pageViews": {
@@ -17418,7 +17471,7 @@
       "groupOnline": {
         "sessions": 10,
         "sessionTarget": 162,
-        "sessionAchieved": 38,
+        "sessionAchieved": 40,
         "phasingTarget": 184,
         "phasingAchieved": null
       },
@@ -17657,13 +17710,13 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 1046,
-        "t1": 1124,
-        "t2": 1043,
-        "t3": 543,
-        "t4": 401,
-        "t5": 522,
-        "t6": null,
+        "today": 1133,
+        "t1": 1215,
+        "t2": 1130,
+        "t3": 623,
+        "t4": 459,
+        "t5": 592,
+        "t6": 170,
         "t7": null
       },
       "categoryBreakdown": [],
@@ -17683,7 +17736,7 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 83,
-        "sessionAchieved": 13,
+        "sessionAchieved": 20,
         "phasingTarget": 171,
         "phasingAchieved": null
       },
@@ -17906,12 +17959,12 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 1124,
-        "t1": 1043,
-        "t2": 543,
-        "t3": 401,
-        "t4": 522,
-        "t5": null,
+        "today": 1215,
+        "t1": 1130,
+        "t2": 623,
+        "t3": 459,
+        "t4": 592,
+        "t5": 170,
         "t6": null,
         "t7": null
       },
@@ -17932,7 +17985,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 451,
-        "sessionAchieved": 32,
+        "sessionAchieved": 39,
         "phasingTarget": 161,
         "phasingAchieved": null
       },
@@ -18139,11 +18192,11 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 1043,
-        "t1": 543,
-        "t2": 401,
-        "t3": 522,
-        "t4": null,
+        "today": 1130,
+        "t1": 623,
+        "t2": 459,
+        "t3": 592,
+        "t4": 170,
         "t5": null,
         "t6": null,
         "t7": null
@@ -18165,14 +18218,14 @@
       "groupOnline": {
         "sessions": 9,
         "sessionTarget": 155,
-        "sessionAchieved": 161,
+        "sessionAchieved": 165,
         "phasingTarget": 119,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 2,
         "sessionTarget": 295,
-        "sessionAchieved": 155,
+        "sessionAchieved": 158,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -18380,10 +18433,10 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 543,
-        "t1": 401,
-        "t2": 522,
-        "t3": null,
+        "today": 623,
+        "t1": 459,
+        "t2": 592,
+        "t3": 170,
         "t4": null,
         "t5": null,
         "t6": null,
@@ -18406,7 +18459,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 104,
-        "sessionAchieved": 6,
+        "sessionAchieved": 8,
         "phasingTarget": 125,
         "phasingAchieved": null
       },
@@ -18581,9 +18634,9 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 401,
-        "t1": 522,
-        "t2": null,
+        "today": 459,
+        "t1": 592,
+        "t2": 170,
         "t3": null,
         "t4": null,
         "t5": null,
@@ -18607,7 +18660,7 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 151,
-        "sessionAchieved": 12,
+        "sessionAchieved": 17,
         "phasingTarget": 112,
         "phasingAchieved": null
       },
@@ -18790,8 +18843,8 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": 522,
-        "t1": null,
+        "today": 592,
+        "t1": 170,
         "t2": null,
         "t3": null,
         "t4": null,
@@ -18987,7 +19040,7 @@
       "oneOnOneSlots": {
         "leadersWithSlots": null,
         "leadersAvailableToday": null,
-        "today": null,
+        "today": 170,
         "t1": null,
         "t2": null,
         "t3": null,
@@ -19419,7 +19472,7 @@
       "groupOnline": {
         "sessions": 8,
         "sessionTarget": 152,
-        "sessionAchieved": 6,
+        "sessionAchieved": 7,
         "phasingTarget": 117,
         "phasingAchieved": null
       },
@@ -19894,7 +19947,7 @@
         "sessions": 6,
         "sessionTarget": 24,
         "sessionAchieved": 0,
-        "phasingTarget": 153,
+        "phasingTarget": 152,
         "phasingAchieved": null
       },
       "offline": {
@@ -19975,10 +20028,6 @@
         },
         {
           "name": "Divyaa",
-          "value": 1
-        },
-        {
-          "name": "Binita Aamol Rege",
           "value": 1
         },
         {
@@ -20118,8 +20167,8 @@
       "groupOnline": {
         "sessions": 4,
         "sessionTarget": 112,
-        "sessionAchieved": 5,
-        "phasingTarget": 167,
+        "sessionAchieved": 6,
+        "phasingTarget": 166,
         "phasingAchieved": null
       },
       "offline": {
@@ -20208,10 +20257,6 @@
         },
         {
           "name": "Priyanka Agarwal",
-          "value": 1
-        },
-        {
-          "name": "Binita Aamol Rege",
           "value": 1
         },
         {
@@ -20336,7 +20381,7 @@
         "sessions": 6,
         "sessionTarget": 314,
         "sessionAchieved": 5,
-        "phasingTarget": 173,
+        "phasingTarget": 171,
         "phasingAchieved": null
       },
       "offline": {
@@ -20405,10 +20450,6 @@
         },
         {
           "name": "Divyaa",
-          "value": 2
-        },
-        {
-          "name": "Binita Aamol Rege",
           "value": 2
         },
         {
@@ -20561,7 +20602,7 @@
         "sessions": 8,
         "sessionTarget": 125,
         "sessionAchieved": 0,
-        "phasingTarget": 162,
+        "phasingTarget": 159,
         "phasingAchieved": null
       },
       "offline": {
@@ -20626,10 +20667,6 @@
         },
         {
           "name": "Sunaina Rekhi",
-          "value": 3
-        },
-        {
-          "name": "Binita Aamol Rege",
           "value": 3
         },
         {
@@ -20799,10 +20836,10 @@
       "dayName": "Thursday",
       "month": "Dec-26",
       "groupOnline": {
-        "sessions": 7,
-        "sessionTarget": 79,
+        "sessions": 6,
+        "sessionTarget": 71,
         "sessionAchieved": 1,
-        "phasingTarget": 150,
+        "phasingTarget": 147,
         "phasingAchieved": null
       },
       "offline": {
@@ -20879,10 +20916,6 @@
         },
         {
           "name": "Sunaina Rekhi",
-          "value": 3
-        },
-        {
-          "name": "Binita Aamol Rege",
           "value": 3
         },
         {
@@ -20990,10 +21023,6 @@
         {
           "name": "Amrita Shah",
           "value": 20
-        },
-        {
-          "name": "Binita Aamol Rege",
-          "value": 8
         },
         {
           "name": "Vidhya K",
@@ -21271,14 +21300,14 @@
       "groupOnline": {
         "sessions": 6,
         "sessionTarget": 97,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 121,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 0,
-        "sessionAchieved": 12,
+        "sessionAchieved": 13,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -21488,14 +21517,14 @@
       "groupOnline": {
         "sessions": 5,
         "sessionTarget": 146,
-        "sessionAchieved": 111,
+        "sessionAchieved": 115,
         "phasingTarget": 165,
         "phasingAchieved": null
       },
       "offline": {
         "sessions": 1,
         "sessionTarget": 0,
-        "sessionAchieved": 111,
+        "sessionAchieved": 115,
         "phasingTarget": 0,
         "phasingAchieved": null
       },
@@ -30132,8 +30161,8 @@
       "target": 7,
       "price": 1122,
       "revenueTarget": 7854,
-      "courseInstanceId": "9253",
-      "courseId": "1534",
+      "courseInstanceId": "9072",
+      "courseId": "1620",
       "date": "2026-11-04",
       "time": "18:00",
       "campaign": "ROL Boost",
@@ -30152,11 +30181,11 @@
         "d1": 1,
         "d0": 2
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 0,
       "phasingDays": 3,
-      "pctVsTarget": 29.0,
-      "revenueAchieved": 2215,
-      "pctRevenueVsTarget": 28.0
+      "pctVsTarget": 0.0,
+      "revenueAchieved": 0,
+      "pctRevenueVsTarget": 0.0
     },
     {
       "leader": "Aditi Grover",
@@ -33872,11 +33901,11 @@
         "d1": 60,
         "d0": 60
       },
-      "totalRegistrations": 171,
+      "totalRegistrations": 178,
       "phasingDays": 5,
-      "pctVsTarget": 86.0,
-      "revenueAchieved": 171196,
-      "pctRevenueVsTarget": 101.0
+      "pctVsTarget": 89.0,
+      "revenueAchieved": 178217,
+      "pctRevenueVsTarget": 105.0
     },
     {
       "leader": "Aditi Grover",
@@ -33903,11 +33932,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 1,
+      "totalRegistrations": 2,
       "phasingDays": 3,
-      "pctVsTarget": 8.0,
-      "revenueAchieved": 943,
-      "pctRevenueVsTarget": 10.0
+      "pctVsTarget": 17.0,
+      "revenueAchieved": 1886,
+      "pctRevenueVsTarget": 20.0
     },
     {
       "leader": "Shweta Chatterjee",
@@ -34089,11 +34118,11 @@
         "d1": 20,
         "d0": 15
       },
-      "totalRegistrations": 29,
+      "totalRegistrations": 30,
       "phasingDays": 4,
-      "pctVsTarget": 58.0,
-      "revenueAchieved": 27347,
-      "pctRevenueVsTarget": 68.0
+      "pctVsTarget": 60.0,
+      "revenueAchieved": 28290,
+      "pctRevenueVsTarget": 71.0
     },
     {
       "leader": "Jyoti Soni",
@@ -34368,11 +34397,11 @@
         "d1": 5,
         "d0": 8
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 4.0,
+      "revenueAchieved": 801,
+      "pctRevenueVsTarget": 4.0
     },
     {
       "leader": "Arpana Khanna",
@@ -34430,11 +34459,11 @@
         "d1": 3,
         "d0": 5
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 11,
       "phasingDays": 3,
-      "pctVsTarget": 40.0,
-      "revenueAchieved": 6018,
-      "pctRevenueVsTarget": 47.0
+      "pctVsTarget": 73.0,
+      "revenueAchieved": 11033,
+      "pctRevenueVsTarget": 87.0
     },
     {
       "leader": "Seemaa Dhingra",
@@ -34461,11 +34490,11 @@
         "d1": 2,
         "d0": 4
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 3,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 9.0,
+      "revenueAchieved": 943,
+      "pctRevenueVsTarget": 11.0
     },
     {
       "leader": "Shalini Chugh",
@@ -34492,11 +34521,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 2,
+      "totalRegistrations": 3,
       "phasingDays": 4,
-      "pctVsTarget": 20.0,
-      "revenueAchieved": 1886,
-      "pctRevenueVsTarget": 24.0
+      "pctVsTarget": 30.0,
+      "revenueAchieved": 2829,
+      "pctRevenueVsTarget": 35.0
     },
     {
       "leader": "Sandy Chana",
@@ -34678,11 +34707,11 @@
         "d1": 25,
         "d0": 25
       },
-      "totalRegistrations": 20,
+      "totalRegistrations": 23,
       "phasingDays": 10,
-      "pctVsTarget": 13.0,
-      "revenueAchieved": 19909,
-      "pctRevenueVsTarget": 16.0
+      "pctVsTarget": 15.0,
+      "revenueAchieved": 22953,
+      "pctRevenueVsTarget": 18.0
     },
     {
       "leader": "Shalini Chugh",
@@ -34864,11 +34893,11 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 4,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 1023,
+      "pctRevenueVsTarget": 10.0
     },
     {
       "leader": "Dr. Rashmi N Muthalkar",
@@ -34895,11 +34924,11 @@
         "d1": 42,
         "d0": 42
       },
-      "totalRegistrations": 12,
+      "totalRegistrations": 15,
       "phasingDays": 10,
-      "pctVsTarget": 5.0,
-      "revenueAchieved": 12732,
-      "pctRevenueVsTarget": 6.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 15915,
+      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Smita Venkatesh",
@@ -34988,11 +35017,11 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 11,
+      "totalRegistrations": 12,
       "phasingDays": 6,
-      "pctVsTarget": 22.0,
-      "revenueAchieved": 48118,
-      "pctRevenueVsTarget": 57.0
+      "pctVsTarget": 24.0,
+      "revenueAchieved": 52128,
+      "pctRevenueVsTarget": 61.0
     },
     {
       "leader": "Mariko Hiyama",
@@ -35019,11 +35048,11 @@
         "d1": 5,
         "d0": 4
       },
-      "totalRegistrations": 3,
+      "totalRegistrations": 4,
       "phasingDays": 11,
-      "pctVsTarget": 10.0,
-      "revenueAchieved": 18054,
-      "pctRevenueVsTarget": 12.0
+      "pctVsTarget": 13.0,
+      "revenueAchieved": 24072,
+      "pctRevenueVsTarget": 16.0
     },
     {
       "leader": "Rhea Mathew",
@@ -35267,11 +35296,11 @@
         "d1": 24,
         "d0": 18
       },
-      "totalRegistrations": 4,
+      "totalRegistrations": 6,
       "phasingDays": 4,
-      "pctVsTarget": 7.0,
-      "revenueAchieved": 3704,
-      "pctRevenueVsTarget": 8.0
+      "pctVsTarget": 10.0,
+      "revenueAchieved": 5590,
+      "pctRevenueVsTarget": 12.0
     },
     {
       "leader": "Ved Prakash",
@@ -35453,11 +35482,11 @@
         "d1": 13,
         "d0": 13
       },
-      "totalRegistrations": 9,
+      "totalRegistrations": 13,
       "phasingDays": 10,
-      "pctVsTarget": 12.0,
-      "revenueAchieved": 8251,
-      "pctRevenueVsTarget": 14.0
+      "pctVsTarget": 17.0,
+      "revenueAchieved": 12023,
+      "pctRevenueVsTarget": 20.0
     },
     {
       "leader": "Nattasha Kapoor",
@@ -35867,8 +35896,8 @@
       "target": 50,
       "price": 850,
       "revenueTarget": 42500,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10169",
+      "courseId": "2054",
       "date": "2026-12-02",
       "time": "06:00",
       "campaign": "Biz Boost",
@@ -35887,10 +35916,10 @@
         "d1": 20,
         "d0": 15
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 4,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -36104,11 +36133,11 @@
         "d1": 17,
         "d0": 17
       },
-      "totalRegistrations": 6,
+      "totalRegistrations": 7,
       "phasingDays": 10,
-      "pctVsTarget": 6.0,
-      "revenueAchieved": 9906,
-      "pctRevenueVsTarget": 7.0
+      "pctVsTarget": 7.0,
+      "revenueAchieved": 11557,
+      "pctRevenueVsTarget": 8.0
     },
     {
       "leader": "Pranjal Katoch",
@@ -36662,11 +36691,11 @@
         "d1": 17,
         "d0": 17
       },
-      "totalRegistrations": 5,
+      "totalRegistrations": 6,
       "phasingDays": 10,
-      "pctVsTarget": 5.0,
-      "revenueAchieved": 6725,
-      "pctRevenueVsTarget": 6.0
+      "pctVsTarget": 6.0,
+      "revenueAchieved": 8070,
+      "pctRevenueVsTarget": 7.0
     },
     {
       "leader": "Punita Kadam",
@@ -37258,37 +37287,6 @@
       "pctRevenueVsTarget": 6.0
     },
     {
-      "leader": "Binita Aamol Rege",
-      "target": 8,
-      "price": 799,
-      "revenueTarget": 6392,
-      "courseInstanceId": "9962",
-      "courseId": "2031",
-      "date": "2026-12-10",
-      "time": "19:30",
-      "campaign": "Hindi",
-      "leaderTagging": "",
-      "language": "Hindi",
-      "topic": "Demystifying Kali",
-      "timeBucket": "After 12PM",
-      "phasing": {
-        "before7": 0,
-        "d7": 0,
-        "d6": 0,
-        "d5": 0,
-        "d4": 1,
-        "d3": 1,
-        "d2": 2,
-        "d1": 2,
-        "d0": 2
-      },
-      "totalRegistrations": 0,
-      "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
-    },
-    {
       "leader": "Vidhya K",
       "target": 10,
       "price": 850,
@@ -37355,8 +37353,8 @@
       "target": 10,
       "price": 850,
       "revenueTarget": 8500,
-      "courseInstanceId": "10020",
-      "courseId": "760",
+      "courseInstanceId": "",
+      "courseId": "",
       "date": "2026-12-10",
       "time": "21:00",
       "campaign": "Hindi",
@@ -37375,10 +37373,10 @@
         "d1": 3,
         "d0": 3
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": null,
       "phasingDays": 5,
       "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
+      "revenueAchieved": null,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37448,8 +37446,8 @@
       "target": 10,
       "price": 799,
       "revenueTarget": 7990,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10171",
+      "courseId": "2056",
       "date": "2026-12-11",
       "time": "12:00",
       "campaign": "ROL Boost",
@@ -37468,10 +37466,10 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 4,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37479,8 +37477,8 @@
       "target": 1,
       "price": 799,
       "revenueTarget": 799,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10176",
+      "courseId": "1727",
       "date": "2026-12-11",
       "time": "11:00",
       "campaign": "Do Not Market",
@@ -37499,10 +37497,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37510,8 +37508,8 @@
       "target": 1,
       "price": 799,
       "revenueTarget": 799,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10177",
+      "courseId": "1875",
       "date": "2026-12-11",
       "time": "20:00",
       "campaign": "Do Not Market",
@@ -37530,10 +37528,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37541,8 +37539,8 @@
       "target": 8,
       "price": 799,
       "revenueTarget": 6392,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10173",
+      "courseId": "1850",
       "date": "2026-12-11",
       "time": "14:00",
       "campaign": "Hindi",
@@ -37561,10 +37559,10 @@
         "d1": 2,
         "d0": 2
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 5,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37603,8 +37601,8 @@
       "target": 15,
       "price": 799,
       "revenueTarget": 11985,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10170",
+      "courseId": "2055",
       "date": "2026-12-12",
       "time": "16:00",
       "campaign": "Hindi",
@@ -37623,10 +37621,10 @@
         "d1": 5,
         "d0": 5
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 5,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37665,8 +37663,8 @@
       "target": 10,
       "price": 799,
       "revenueTarget": 7990,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10181",
+      "courseId": "2026",
       "date": "2026-12-12",
       "time": "12:00",
       "campaign": "ROL Boost",
@@ -37685,10 +37683,10 @@
         "d1": 4,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 4,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37696,8 +37694,8 @@
       "target": 1,
       "price": 850,
       "revenueTarget": 850,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10174",
+      "courseId": "1786",
       "date": "2026-12-12",
       "time": "15:00",
       "campaign": "Do Not Market",
@@ -37716,10 +37714,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37727,8 +37725,8 @@
       "target": 1,
       "price": 799,
       "revenueTarget": 799,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10175",
+      "courseId": "814",
       "date": "2026-12-12",
       "time": "19:00",
       "campaign": "Do Not Market",
@@ -37747,10 +37745,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37778,10 +37776,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 12,
+      "totalRegistrations": 13,
       "phasingDays": 6,
       "pctVsTarget": null,
-      "revenueAchieved": 155103,
+      "revenueAchieved": 167034,
       "pctRevenueVsTarget": null
     },
     {
@@ -37882,8 +37880,8 @@
       "target": 1,
       "price": 850,
       "revenueTarget": 850,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10178",
+      "courseId": "1910",
       "date": "2026-12-13",
       "time": "12:00",
       "campaign": "Do Not Market",
@@ -37902,10 +37900,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37944,8 +37942,8 @@
       "target": 10,
       "price": 1020,
       "revenueTarget": 10200,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10179",
+      "courseId": "237",
       "date": "2026-12-13",
       "time": "17:00",
       "campaign": "ROL Boost",
@@ -37964,10 +37962,10 @@
         "d1": 2,
         "d0": 3
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -37995,10 +37993,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": 111,
+      "totalRegistrations": 115,
       "phasingDays": 6,
       "pctVsTarget": null,
-      "revenueAchieved": 729813,
+      "revenueAchieved": 752227,
       "pctRevenueVsTarget": null
     },
     {
@@ -38006,8 +38004,8 @@
       "target": 1,
       "price": 799,
       "revenueTarget": 799,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10180",
+      "courseId": "1956",
       "date": "2026-12-14",
       "time": "12:00",
       "campaign": "Do Not Market",
@@ -38026,10 +38024,10 @@
         "d1": 0,
         "d0": 0
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": null,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -38099,8 +38097,8 @@
       "target": 20,
       "price": 799,
       "revenueTarget": 15980,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10020",
+      "courseId": "760",
       "date": "2026-12-14",
       "time": "21:00",
       "campaign": "Biz Boost",
@@ -38119,10 +38117,10 @@
         "d1": 4,
         "d0": 7
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -38285,8 +38283,8 @@
       "target": 150,
       "price": 850,
       "revenueTarget": 127500,
-      "courseInstanceId": "9837",
-      "courseId": "1833",
+      "courseInstanceId": "9813",
+      "courseId": "2036",
       "date": "2026-12-15",
       "time": "19:00",
       "campaign": "Hindi",
@@ -38305,11 +38303,11 @@
         "d1": 45,
         "d0": 45
       },
-      "totalRegistrations": 0,
+      "totalRegistrations": 1,
       "phasingDays": 5,
-      "pctVsTarget": 0.0,
-      "revenueAchieved": 0,
-      "pctRevenueVsTarget": 0.0
+      "pctVsTarget": 1.0,
+      "revenueAchieved": 1204,
+      "pctRevenueVsTarget": 1.0
     },
     {
       "leader": "Avrril Quadros",
@@ -38440,8 +38438,8 @@
       "target": 20,
       "price": 799,
       "revenueTarget": 15980,
-      "courseInstanceId": "",
-      "courseId": "",
+      "courseInstanceId": "10172",
+      "courseId": "2057",
       "date": "2026-12-15",
       "time": "21:00",
       "campaign": "Biz Boost",
@@ -38460,10 +38458,10 @@
         "d1": 4,
         "d0": 7
       },
-      "totalRegistrations": null,
+      "totalRegistrations": 0,
       "phasingDays": 3,
       "pctVsTarget": 0.0,
-      "revenueAchieved": null,
+      "revenueAchieved": 0,
       "pctRevenueVsTarget": 0.0
     },
     {
@@ -39501,7 +39499,7 @@
       "campaign": "ROL Boost",
       "leaderTagging": "",
       "language": "English",
-      "topic": "new moon - new year prep",
+      "topic": "Full moon - new year prep",
       "timeBucket": "After 12PM",
       "phasing": {
         "before7": 0,
